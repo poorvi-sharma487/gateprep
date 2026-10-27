@@ -7,6 +7,10 @@
   <title>GATEPrep | Subjects</title>
 
   <style>
+    [hidden] {
+      display: none !important;
+    }
+
     * {
       margin: 0;
       padding: 0;
@@ -135,6 +139,59 @@
       color: #727c92;
     }
 
+    .subject-detail .hero {
+      margin-bottom: 25px;
+      padding: 30px;
+      border-radius: 18px;
+      background: linear-gradient(120deg, #5145cd, #8379f4);
+      color: white;
+    }
+
+    .subject-detail .hero h1 {
+      margin-bottom: 10px;
+    }
+
+    .subject-detail .hero p {
+      line-height: 1.6;
+    }
+
+    .subject-detail h2 {
+      margin: 24px 0 15px;
+    }
+
+    .topic-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .topic-card {
+      padding: 20px;
+      border: 1px solid #e4e8f2;
+      border-radius: 13px;
+      background: white;
+    }
+
+    .topic-card h3 {
+      margin-bottom: 9px;
+      font-size: 17px;
+    }
+
+    .topic-card p {
+      margin-bottom: 12px;
+      color: #727c92;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 18px;
+      color: #5145cd;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
     @media (max-width: 850px) {
       .grid {
         grid-template-columns: repeat(2, 1fr);
@@ -149,6 +206,10 @@
       .heading h1 {
         font-size: 26px;
       }
+
+      .topic-grid {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
@@ -157,11 +218,11 @@
 
   <header>
     <div class="logo">🎓 GATEPrep</div>
-    <a href="/dashboard">← Back to Dashboard</a>
+    <a href="/dashboard.html">← Back to Dashboard</a>
   </header>
 
   <main class="container">
-    <section class="heading">
+    <section class="heading" id="heading">
       <h1>Explore GATE CSE Subjects 📚</h1>
       <p>Choose a subject and start preparing with topic-wise learning,
          video lectures, practice questions and PYQs.</p>
@@ -304,12 +365,93 @@
     </div>
 
     <p id="empty" class="empty">No subjects found. Try another search.</p>
+
+    <section id="subjectDetail" class="subject-detail" hidden>
+      <a class="back-link" href="subjects.html">← All Subjects</a>
+      <section class="hero">
+        <h1 id="subjectTitle"></h1>
+        <p id="subjectDescription"></p>
+      </section>
+      <h2>📚 Topics to Learn</h2>
+      <div class="topic-grid" id="topicGrid"></div>
+      <h2>📝 Study Guide</h2>
+      <article class="card">
+        <p>Understand the concepts, take short notes, solve practice questions, review mistakes, and track your progress.</p>
+      </article>
+    </section>
   </main>
 
   <script>
+    const subjects = {
+      "c-programming": {
+        name: "C Programming",
+        description: "Build your C fundamentals for GATE CSE.",
+        topics: ["Data Types & Operators", "Conditional Statements and Loops", "Functions and Recursion", "Arrays and Strings", "Pointers", "Structures and Unions", "Dynamic Memory Allocation", "Storage Classes", "C Output and Tracing"]
+      },
+      "data-structures": {
+        name: "Data Structures",
+        description: "Learn how data is organised, stored and processed.",
+        topics: ["Time and Space Complexity", "Arrays", "Linked Lists", "Stacks", "Queues", "Trees and Binary Search Trees", "Heaps and Hashing", "Graphs"]
+      },
+      algorithms: {
+        name: "Algorithms",
+        description: "Study important algorithms and problem-solving techniques.",
+        topics: ["Asymptotic Notations", "Searching and Sorting", "Divide and Conquer", "Greedy Algorithms", "Dynamic Programming", "Graph Algorithms", "Minimum Spanning Trees", "Shortest Path Algorithms", "Backtracking", "NP-Completeness"]
+      },
+      "operating-system": {
+        name: "Operating System",
+        description: "Understand processes, memory and operating system concepts.",
+        topics: ["Process and Threads", "CPU Scheduling", "Process Synchronization", "Deadlocks", "Memory Management", "Paging and Segmentation", "Virtual Memory", "File Systems", "Disk Scheduling"]
+      },
+      dbms: {
+        name: "DBMS",
+        description: "Learn databases, SQL and relational database concepts.",
+        topics: ["ER Model", "Relational Model", "SQL Queries", "Relational Algebra", "Functional Dependencies", "Normalization", "Transactions", "Concurrency Control", "Indexing"]
+      },
+      "computer-networks": {
+        name: "Computer Networks",
+        description: "Learn networking concepts and communication protocols.",
+        topics: ["Network Models: OSI and TCP/IP", "Data Link Layer", "Error Detection", "MAC and Ethernet", "IP Addressing and Subnetting", "Routing Algorithms", "TCP and UDP", "Application Layer", "Network Security Basics"]
+      },
+      "engineering-mathematics": {
+        name: "Engineering Mathematics",
+        description: "Practise mathematical concepts important for GATE CSE.",
+        topics: ["Propositional and Predicate Logic", "Sets and Relations", "Combinatorics", "Graph Theory", "Linear Algebra", "Eigenvalues and Eigenvectors", "Probability", "Random Variables"]
+      },
+      "general-aptitude": {
+        name: "General Aptitude",
+        description: "Improve numerical, verbal and reasoning skills.",
+        topics: ["Numerical Calculation", "Percentages and Ratios", "Averages", "Time and Work", "Probability and Counting", "Logical Reasoning", "Verbal Aptitude", "Reading Comprehension"]
+      },
+      "theory-of-computation": {
+        name: "Theory of Computation",
+        description: "Learn automata, formal languages and computability.",
+        topics: ["Finite Automata", "Regular Expressions", "Context Free Grammar", "Pushdown Automata", "Turing Machine", "Decidability", "Undecidability"]
+      },
+      "compiler-design": {
+        name: "Compiler Design",
+        description: "Learn compiler phases and code optimization.",
+        topics: ["Compiler Phases", "Lexical Analysis", "Regular Expressions", "Finite Automata", "Syntax Analysis and Parsing", "Context Free Grammar", "Top Down Parsing", "Bottom Up Parsing", "Syntax Directed Translation", "Intermediate Code Generation", "Code Optimization", "Code Generation"]
+      },
+      "computer-organization-and-architecture": {
+        name: "Computer Organization and Architecture",
+        description: "Learn computer architecture and processor design.",
+        topics: ["Number Systems and Data Representation", "Boolean Algebra and Logic Circuits", "Instruction Set Architecture", "Addressing Modes", "CPU Organization", "Pipelining", "Memory Hierarchy", "Cache Memory", "Virtual Memory", "Input Output Organization", "Interrupts and DMA", "Multiprocessors"]
+      },
+      "digital-logic": {
+        name: "Digital Logic",
+        description: "Learn digital circuits and logical operations.",
+        topics: ["Number Systems and Codes", "Boolean Algebra", "Logic Gates", "K-Maps", "Combinational Circuits", "Adders and Subtractors", "Multiplexers and Demultiplexers", "Encoders and Decoders", "Flip-Flops", "Registers and Counters", "Sequential Circuits", "Finite State Machines"]
+      }
+    };
+
     const search = document.getElementById("search");
     const cards = document.querySelectorAll(".card");
     const empty = document.getElementById("empty");
+    const subjectDetail = document.getElementById("subjectDetail");
+    const subjectTitle = document.getElementById("subjectTitle");
+    const subjectDescription = document.getElementById("subjectDescription");
+    const topicGrid = document.getElementById("topicGrid");
 
     search.addEventListener("input", function () {
       const value = search.value.toLowerCase().trim();
@@ -327,9 +469,63 @@
 
 
     function openSubject(subject) {
-    const slug = subject.toLowerCase().replace(/\s+/g, "-");
-    window.location.href = "/subjects/" + slug;
+      const slug = subject.toLowerCase().replace(/\s+/g, "-");
+      window.location.href = "subjects.html?subject=" + encodeURIComponent(slug);
     }
+
+    function renderSubject(slug) {
+      const subject = subjects[slug];
+      document.getElementById("heading").hidden = true;
+      search.hidden = true;
+      document.getElementById("subjectGrid").hidden = true;
+      empty.hidden = true;
+      subjectDetail.hidden = false;
+
+      if (!subject) {
+        subjectTitle.textContent = "Subject Not Found";
+        subjectDescription.textContent = "Return to all subjects and choose a subject.";
+        return;
+      }
+
+      document.title = "GATEPrep | " + subject.name;
+      subjectTitle.textContent = subject.name;
+      subjectDescription.textContent = subject.description;
+
+      subject.topics.forEach(topic => {
+        const card = document.createElement("article");
+        card.className = "topic-card";
+
+        const title = document.createElement("h3");
+        title.textContent = "📘 " + topic;
+
+        const description = document.createElement("p");
+        description.textContent = "Study this topic with a lecture and your own notes.";
+
+        const videoLink = document.createElement("a");
+        videoLink.className = "btn";
+        videoLink.textContent = "▶ Find Videos";
+        videoLink.target = "_blank";
+        videoLink.rel = "noopener noreferrer";
+        videoLink.href = "https://www.youtube.com/results?search_query=" +
+          encodeURIComponent("GATE CSE " + subject.name + " " + topic);
+
+        const practiceLink = document.createElement("a");
+        practiceLink.className = "btn";
+        practiceLink.textContent = "🎯 Practice Questions";
+        const topicSlug = topic.toLowerCase()
+          .replace(/&/g, "and")
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/^-|-$/g, "");
+        practiceLink.href = "practice.html?subject=" +
+          encodeURIComponent(slug) + "&topic=" + encodeURIComponent(topicSlug);
+
+        card.append(title, description, videoLink, practiceLink);
+        topicGrid.appendChild(card);
+      });
+    }
+
+    const selectedSubject = new URLSearchParams(window.location.search).get("subject");
+    if (selectedSubject) renderSubject(selectedSubject.toLowerCase());
   </script>
 
 </body>

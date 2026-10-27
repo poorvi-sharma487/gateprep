@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#5145cd">
+  <meta name="description" content="Contact GATEPrep with questions or feedback.">
+  <title>GATEPrep | Contact</title>
+  <link rel="stylesheet" href="./assets/css/app.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/#home" aria-label="GATEPrep home">🎓 GATEPrep</a>
+    <nav class="primary-nav" aria-label="Main navigation">
+      <a href="/#home">Home</a>
+      <a href="/#subjects">Subjects</a>
+      <a href="/#dashboard">Dashboard</a>
+      <a href="/#progress">Progress</a>
+      <a href="/contact.html" aria-current="page">Contact</a>
+    </nav>
+  </header>
+
+  <main class="app-main">
+    <section class="view">
+      <div class="page-heading">
+        <p class="eyebrow">WE’RE HERE TO HELP</p>
+        <h1>📩 Contact us</h1>
+        <p>Have a question or feedback about GATEPrep? Send us a message.</p>
+      </div>
+
+      <section class="panel contact-panel">
+        <h2>Get in touch</h2>
+        <form id="contactForm">
+          <label for="contactName">Name</label>
+          <input id="contactName" name="name" autocomplete="name" placeholder="Enter your name" required>
+
+          <label for="contactEmail">Email</label>
+          <input id="contactEmail" name="email" type="email" autocomplete="email" placeholder="Enter your email" required>
+
+          <label for="contactMessage">Message</label>
+          <textarea id="contactMessage" name="message" rows="6" placeholder="Write your message..." required></textarea>
+
+          <button class="button button-primary" type="submit">Send message</button>
+        </form>
+        <p id="contactStatus" class="form-status" role="status" aria-live="polite"></p>
+        <p class="backend-note">Message delivery requires the GATEPrep contact API. This static site cannot store or send messages.</p>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">GATEPrep · GATE CSE preparation</footer>
+
+  <script>
+    document.getElementById("contactForm").addEventListener("submit", async event => {
+      event.preventDefault();
+
+      const form = event.currentTarget;
+      const status = document.getElementById("contactStatus");
+      const button = form.querySelector('button[type="submit"]');
+
+      status.textContent = "Sending your message...";
+      button.disabled = true;
+
+      try {
+        const response = await fetch("/api/contact", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(Object.fromEntries(new FormData(form).entries()))
+        });
+
+        if (!response.ok) {
+          status.textContent = response.status === 404 || response.status === 405 || response.status === 501
+            ? "Your message was not sent. Message delivery requires the GATEPrep contact API."
+            : "The GATEPrep server could not save your message.";
+          return;
+        }
+
+        const result = await response.json();
+        status.textContent = result.message || "Your message was sent.";
+        form.reset();
+      } catch (error) {
+        console.error("Contact request error:", error);
+        status.textContent = "Your message was not sent. A running GATEPrep backend is required.";
+      } finally {
+        button.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,485 +1,258 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>GATEPrep - Login</title>
-
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    body {
-      min-height: 100vh;
-      background: linear-gradient(135deg, #eef2ff, #f8fafc);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .container {
-      width: 900px;
-      max-width: 95%;
-      min-height: 550px;
-      background: white;
-      border-radius: 20px;
-      overflow: hidden;
-      display: flex;
-      box-shadow: 0 15px 40px rgba(0,0,0,0.12);
-    }
-
-    /* LEFT SIDE */
-
-    .left {
-      width: 50%;
-      background: linear-gradient(135deg, #4f46e5, #2563eb);
-      color: white;
-      padding: 55px 45px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    .logo {
-      font-size: 30px;
-      font-weight: bold;
-      margin-bottom: 35px;
-    }
-
-    .left h1 {
-      font-size: 38px;
-      margin-bottom: 20px;
-      line-height: 1.2;
-    }
-
-    .left p {
-      font-size: 17px;
-      line-height: 1.6;
-      opacity: 0.9;
-    }
-
-    .features {
-      margin-top: 30px;
-    }
-
-    .features p {
-      margin: 12px 0;
-    }
-
-    /* RIGHT SIDE */
-
-    .right {
-      width: 50%;
-      padding: 45px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    .right h2 {
-      font-size: 30px;
-      margin-bottom: 10px;
-      color: #111827;
-    }
-
-    .subtitle {
-      color: #6b7280;
-      margin-bottom: 25px;
-    }
-
-    .form {
-      display: none;
-    }
-
-    .form.active {
-      display: block;
-    }
-
-    .input-box {
-      margin-bottom: 16px;
-    }
-
-    .input-box label {
-      display: block;
-      margin-bottom: 7px;
-      color: #374151;
-      font-size: 14px;
-      font-weight: 600;
-    }
-
-    .input-box input {
-      width: 100%;
-      padding: 13px;
-      border: 1px solid #d1d5db;
-      border-radius: 8px;
-      outline: none;
-      font-size: 15px;
-    }
-
-    .input-box input:focus {
-      border-color: #4f46e5;
-      box-shadow: 0 0 0 3px rgba(79,70,229,0.1);
-    }
-
-    .password-box {
-      position: relative;
-    }
-
-    .show-password {
-      position: absolute;
-      right: 12px;
-      bottom: 12px;
-      cursor: pointer;
-      font-size: 13px;
-      color: #4f46e5;
-    }
-
-    .btn {
-      width: 100%;
-      padding: 13px;
-      border: none;
-      border-radius: 8px;
-      background: #4f46e5;
-      color: white;
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
-      margin-top: 8px;
-    }
-
-    .btn:hover {
-      background: #4338ca;
-    }
-
-    .message {
-      margin-top: 15px;
-      text-align: center;
-      color: #16a34a;
-    }
-
-    .switch {
-      text-align: center;
-      margin-top: 20px;
-      color: #6b7280;
-      font-size: 14px;
-    }
-
-    .switch span {
-      color: #4f46e5;
-      font-weight: bold;
-      cursor: pointer;
-    }
-
-    .forgot {
-      text-align: right;
-      margin-top: 8px;
-      font-size: 13px;
-      color: #4f46e5;
-      cursor: pointer;
-    }
-
-    /* MOBILE */
-
-    @media (max-width: 700px) {
-      .container {
-        flex-direction: column;
-      }
-
-      .left,
-      .right {
-        width: 100%;
-      }
-
-      .left {
-        padding: 35px;
-      }
-
-      .left h1 {
-        font-size: 28px;
-      }
-
-      .features {
-        display: none;
-      }
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#5145cd">
+  <meta name="description" content="Prepare smarter for GATE CSE with GATEPrep.">
+  <title>GATEPrep | Prepare Smarter</title>
+  <link rel="stylesheet" href="./assets/css/app.css">
+  <script defer src="./assets/js/app.js"></script>
 </head>
-
 <body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="GATEPrep home">🎓 GATEPrep</a>
+    <nav class="primary-nav" aria-label="Main navigation">
+      <a href="#home" data-nav="home">Home</a>
+      <a href="#subjects" data-nav="subjects">Subjects</a>
+      <a href="#dashboard" data-nav="dashboard">Dashboard</a>
+      <a href="#progress" data-nav="progress">Progress</a>
+      <a href="#contact" data-nav="contact">Contact</a>
+      <a href="#login" data-nav="login">Log in</a>
+      <a href="#signup" data-nav="signup">Sign up</a>
+      <button class="button button-secondary" type="button" data-logout hidden>Log out</button>
+    </nav>
+  </header>
 
-  <div class="container">
+  <main class="app-main">
+    <section class="view home-view" data-view="home">
+      <div class="home-hero">
+        <div class="home-copy">
+          <p class="eyebrow">YOUR GATE CSE STUDY SPACE</p>
+          <h1>Prepare smarter.<br>Achieve more.</h1>
+          <p>Your complete platform for GATE preparation, topic-wise practice and performance tracking.</p>
+          <div class="feature-list">
+            <span>✓ Topic-wise learning</span>
+            <span>✓ Practice questions</span>
+            <span>✓ Track your progress</span>
+          </div>
+          <a class="button button-light" href="#subjects">Explore subjects</a>
+          <div class="home-account-actions">
+            <a class="button button-light" href="#signup">Create account</a>
+            <a class="button button-secondary" href="#login">Log in</a>
+          </div>
+        </div>
 
-    <!-- LEFT SECTION -->
-
-    <div class="left">
-
-      <div class="logo">
-        🎓 GATEPrep
+                <section class="panel home-account-panel">
+          <span class="home-account-icon" aria-hidden="true">🎓</span>
+          <h2>Your GATE study plan starts here</h2>
+          <p class="muted">Create an account to keep your study progress together, or log in to continue.</p>
+          <a class="button button-primary full-width" href="#signup">Create your account</a>
+          <a class="button button-secondary full-width" href="#login">I already have an account</a>
+          <p class="backend-note">Create an account or log in using the GATEPrep server.</p>
+        </section>
       </div>
+    </section>
 
-      <h1>
-        Prepare Smarter.<br>
-        Achieve More.
-      </h1>
-
-      <p>
-        Your complete platform for GATE preparation,
-        practice, mock tests and performance tracking.
-      </p>
-
-      <div class="features">
-        <p>✓ Topic-wise Practice</p>
-        <p>✓ GATE Previous Year Questions</p>
-        <p>✓ Mock Tests</p>
-        <p>✓ Track Your Progress</p>
+    <section class="view auth-view" data-view="auth" hidden>
+      <div class="auth-layout">
+        <div class="auth-intro">
+          <p class="eyebrow">YOUR GATE CSE STUDY SPACE</p>
+          <h1>One account.<br>All your preparation.</h1>
+          <p>Sign in to keep your practice and progress connected, or create an account to get started.</p>
+          <a class="back-link" href="#home">← Back to home</a>
+        </div>
+        <section class="panel auth-panel" aria-labelledby="authHeading">
+          <div class="auth-tabs" role="tablist" aria-label="Account options">
+            <button class="auth-tab is-active" type="button" data-auth-mode="signup" role="tab" aria-selected="true">Create account</button>
+            <button class="auth-tab" type="button" data-auth-mode="login" role="tab" aria-selected="false">Log in</button>
+          </div>
+          <h2 id="authHeading">Create your account</h2>
+          <p class="muted">Use your account to keep your study progress together.</p>
+          <form id="signupForm" class="auth-form">
+            <label for="signupName">Full name</label>
+            <input id="signupName" name="name" autocomplete="name" required>
+            <label for="signupEmail">Email</label>
+            <input id="signupEmail" name="email" type="email" autocomplete="email" required>
+            <label for="signupPassword">Password</label>
+            <div class="password-field">
+              <input id="signupPassword" name="password" type="password" autocomplete="new-password" minlength="8" required>
+              <button class="text-button" type="button" data-toggle-password="signupPassword" aria-label="Show password">Show</button>
+            </div>
+            <button class="button button-primary full-width" type="submit">Create account</button>
+          </form>
+          <form id="loginForm" class="auth-form" hidden>
+            <label for="loginEmail">Email</label>
+            <input id="loginEmail" name="email" type="email" autocomplete="email" required>
+            <label for="loginPassword">Password</label>
+            <div class="password-field">
+              <input id="loginPassword" name="password" type="password" autocomplete="current-password" required>
+              <button class="text-button" type="button" data-toggle-password="loginPassword" aria-label="Show password">Show</button>
+            </div>
+            <button class="button button-primary full-width" type="submit">Log in</button>
+          </form>
+          <p id="authStatus" class="form-status" role="status" aria-live="polite"></p>
+          <p class="backend-note">Account creation and login require the GATEPrep server.</p>
+        </section>
       </div>
+    </section>
 
-    </div>
-
-
-    <!-- RIGHT SECTION -->
-
-    <div class="right">
-
-      <!-- SIGNUP -->
-
-      <div id="signupForm" class="form active">
-
-        <h2>Create Account</h2>
-
-        <p class="subtitle">
-          Start your GATE preparation journey
-        </p>
-
-        <div class="input-box">
-          <label>Full Name</label>
-          <input
-            id="name"
-            type="text"
-            placeholder="Enter your name"
-          >
-        </div>
-
-        <div class="input-box">
-          <label>Email</label>
-          <input
-            id="email"
-            type="email"
-            placeholder="Enter your email"
-            
-          >
-        </div>
-
-        <div class="input-box password-box">
-          <label>Password</label>
-
-          <input
-            id="password"
-            type="password"
-            placeholder="Create a password"
-          >
-
-          <span
-            class="show-password"
-            onclick="togglePassword('password', this)"
-          >
-            Show
-          </span>
-        </div>
-
-        <button class="btn" onclick="signup()">
-          Create Account
-        </button>
-
-        <p id="msg" class="message"></p>
-
-        <div class="switch">
-          Already have an account?
-          <span onclick="showLogin()">Login</span>
-        </div>
-
+    <section class="view" data-view="subjects" hidden>
+      <div class="page-heading">
+        <p class="eyebrow">GATE CSE</p>
+        <h1>Explore subjects 📚</h1>
+        <p>Choose a subject to explore its topics, study guides and practice options.</p>
       </div>
+      <label class="sr-only" for="subjectSearch">Search subjects</label>
+      <input id="subjectSearch" class="search-input" type="search" placeholder="🔍 Search subjects...">
+      <div id="subjectGrid" class="subject-grid"></div>
+      <p id="noSubjects" class="muted" hidden>No subjects found. Try another search.</p>
+    </section>
 
+    <section class="view" data-view="subject" hidden>
+      <a class="back-link" href="#subjects">← All subjects</a>
+      <section id="subjectHero" class="gradient-panel subject-hero"></section>
+      <h2 class="section-title">📚 Topics to learn</h2>
+      <div id="topicGrid" class="topic-grid"></div>
+      <h2 class="section-title">📝 Study guide</h2>
+      <section class="panel study-guide">
+        <h3>How to prepare each topic</h3>
+        <p>Follow this learning sequence for every topic:</p>
+        <ol>
+          <li>Understand the basic concepts.</li>
+          <li>Watch a lecture and make short notes.</li>
+          <li>Solve practice questions without looking at answers.</li>
+          <li>Attempt relevant GATE previous-year questions.</li>
+          <li>Revise mistakes and track your progress.</li>
+        </ol>
+      </section>
+      <p id="subjectStatus" class="form-status" role="status" aria-live="polite"></p>
+    </section>
 
-      <!-- LOGIN -->
-
-      <div id="loginForm" class="form">
-
-        <h2>Welcome Back 👋</h2>
-
-        <p class="subtitle">
-          Login to continue your GATE preparation
-        </p>
-
-        <div class="input-box">
-          <label>Email</label>
-
-          <input
-            id="loginEmail"
-            type="email"
-            placeholder="Enter your email"
-          >
+    <section class="view" data-view="practice" hidden>
+      <a class="back-link" href="#subjects">← All subjects</a>
+      <section class="gradient-panel">
+        <h1 id="practiceTitle">Practice questions</h1>
+        <p>Test your understanding with topic-wise practice questions.</p>
+        <div class="progress-track"><div id="quizProgress" class="progress-fill"></div></div>
+      </section>
+      <section id="quizPanel" class="panel quiz-panel">
+        <div class="quiz-meta"><span id="questionNumber">Questions load when available</span><span id="scoreLabel">Score: 0</span></div>
+        <h2 id="questionText">Question will appear here</h2>
+        <div id="answerOptions"></div>
+        <p id="quizFeedback" class="quiz-feedback" role="status" aria-live="polite"></p>
+        <div class="button-row">
+          <button id="checkAnswer" class="button button-primary" type="button">Check answer</button>
+          <button id="nextQuestion" class="button button-primary" type="button" hidden>Next question →</button>
         </div>
+      </section>
+      <section id="quizResult" class="panel result-panel" hidden>
+        <h2>🎉 Practice completed!</h2>
+        <p id="resultText"></p>
+        <button id="restartQuiz" class="button button-primary" type="button">Try again</button>
+      </section>
+      <p id="practiceStatus" class="backend-note" role="status" aria-live="polite">Practice questions are loaded from the GATEPrep question-bank API. A backend is required to use this feature.</p>
+    </section>
 
-        <div class="input-box password-box">
-          <label>Password</label>
-
-          <input
-            id="loginPassword"
-            type="password"
-            placeholder="Enter your password"
-          >
-
-          <span
-            class="show-password"
-            onclick="togglePassword('loginPassword', this)"
-          >
-            Show
-          </span>
-        </div>
-
-        <div class="forgot">
-          Forgot Password?
-        </div>
-
-        <button class="btn" onclick="login()">
-          Login
-        </button>
-
-        <p id="loginMsg" class="message"></p>
-
-        <div class="switch">
-          Don't have an account?
-          <span onclick="showSignup()">Create Account</span>
-        </div>
-
+    <section class="view" data-view="dashboard" hidden>
+      <div class="page-heading">
+        <p class="eyebrow">YOUR STUDY SPACE</p>
+        <h1>Dashboard</h1>
+        <p>Keep learning, keep practicing and move closer to your GATE goal.</p>
       </div>
+      <section class="gradient-panel welcome-panel">
+        <h2>Welcome to GATEPrep 👋</h2>
+        <p>Explore the GATE CSE subjects and plan your next study session.</p>
+      </section>
+      <div class="stats-grid">
+        <article class="panel stat-card"><span class="stat-icon">📚</span><strong id="dashboardQuestions">—</strong><span>Questions attempted</span></article>
+        <article class="panel stat-card"><span class="stat-icon">⏱️</span><strong>—</strong><span>Mock tests</span></article>
+        <article class="panel stat-card"><span class="stat-icon">🎯</span><strong id="dashboardAccuracy">—</strong><span>Average accuracy</span></article>
+        <article class="panel stat-card"><span class="stat-icon">🔥</span><strong>—</strong><span>Day streak</span></article>
+      </div>
+      <div class="dashboard-columns">
+        <section class="panel">
+          <h2>📚 GATE CSE subjects</h2>
+          <div id="dashboardSubjects" class="dashboard-subjects"></div>
+        </section>
+        <div>
+          <section class="panel">
+            <h2>📊 Preparation progress</h2>
+            <p id="dashboardProgressStatus" class="muted">Progress needs your account and the GATEPrep backend.</p>
+            <a class="button button-secondary" href="#progress">View progress</a>
+          </section>
+          <section class="panel">
+            <h2>⚡ Quick actions</h2>
+            <a class="action-link" href="#subjects">📝 Browse practice topics</a>
+            <button class="action-link" type="button" data-backend-notice="Mock tests are not available yet.">⏱️ Take a mock test</button>
+            <button class="action-link" type="button" data-backend-notice="Previous-year question tracking requires a question-bank backend.">📜 Practice PYQs</button>
+          </section>
+          <section class="panel">
+            <h2>🎯 Today's goal</h2>
+            <p class="muted">Choose a topic and start a focused study session.</p>
+            <a class="button button-primary" href="#subjects">Choose a topic</a>
+          </section>
+        </div>
+      </div>
+      <section class="panel history-panel">
+        <h2>📊 My quiz score history</h2>
+        <p id="dashboardHistoryStatus" class="muted">Quiz history requires login and the GATEPrep backend.</p>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Subject</th><th>Topic</th><th>Score</th><th>Accuracy</th><th>Date</th></tr></thead>
+            <tbody id="dashboardHistory"></tbody>
+          </table>
+        </div>
+      </section>
+    </section>
 
-    </div>
+    <section class="view" data-view="progress" hidden>
+      <div class="page-heading">
+        <p class="eyebrow">YOUR STUDY SPACE</p>
+        <h1>📊 My progress</h1>
+        <p>Review your quiz attempts and accuracy.</p>
+      </div>
+      <div class="stats-grid progress-stats">
+        <article class="panel stat-card"><span>Total quizzes</span><strong id="totalQuizzes">—</strong></article>
+        <article class="panel stat-card"><span>Questions attempted</span><strong id="totalQuestions">—</strong></article>
+        <article class="panel stat-card"><span>Average accuracy</span><strong id="averageAccuracy">—</strong></article>
+      </div>
+      <section class="panel history-panel">
+        <h2>Quiz history</h2>
+        <p id="progressStatus" class="muted">Your progress requires login and the GATEPrep backend.</p>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Subject</th><th>Topic</th><th>Score</th><th>Accuracy</th><th>Date</th></tr></thead>
+            <tbody id="progressHistory"></tbody>
+          </table>
+        </div>
+      </section>
+    </section>
 
-  </div>
+    <section class="view" data-view="contact" hidden>
+      <div class="page-heading">
+        <p class="eyebrow">WE’RE HERE TO HELP</p>
+        <h1>📩 Contact us</h1>
+        <p>Have a question or feedback about GATEPrep? Send us a message.</p>
+      </div>
+      <section class="panel contact-panel">
+        <h2>Get in touch</h2>
+        <form id="contactForm">
+          <label for="contactName">Name</label>
+          <input id="contactName" name="name" autocomplete="name" placeholder="Enter your name" required>
+          <label for="contactEmail">Email</label>
+          <input id="contactEmail" name="email" type="email" autocomplete="email" placeholder="Enter your email" required>
+          <label for="contactMessage">Message</label>
+          <textarea id="contactMessage" name="message" rows="6" placeholder="Write your message..." required></textarea>
+          <button class="button button-primary" type="submit">Send message</button>
+        </form>
+        <p id="contactStatus" class="form-status" role="status" aria-live="polite"></p>
+        <p class="backend-note">Messages are saved by the GATEPrep backend for review.</p>
+      </section>
+    </section>
 
-
-  <script>
-
-    // SIGNUP
-
-    async function signup() {
-
-      const res = await fetch('/signup', {
-
-        method: 'POST',
-
-        headers: {
-          'Content-Type': 'application/json'
-        },
-
-        body: JSON.stringify({
-
-          name: document.getElementById('name').value,
-
-          email: document.getElementById('email').value,
-
-          password: document.getElementById('password').value
-
-        })
-
-      });
-
-      const data = await res.json();
-
-      document.getElementById('msg').innerText =
-        data.message;
-    }
-
-
-    // LOGIN
-
-    async function login() {
-
-      const res = await fetch('/login', {
-
-        method: 'POST',
-
-        headers: {
-          'Content-Type': 'application/json'
-        },
-
-        body: JSON.stringify({
-
-          email:
-            document.getElementById('loginEmail').value,
-
-          password:
-            document.getElementById('loginPassword').value
-
-        })
-
-      });
-
-  const data = await res.json();
-
-  document.getElementById('loginMsg').innerText =
-    data.message;
-
-  if (res.ok && data.redirect) {
-    window.location.href = data.redirect;
-}
-    }
-
-
-    // SHOW LOGIN
-
-    function showLogin() {
-
-      document.getElementById('signupForm')
-        .classList.remove('active');
-
-      document.getElementById('loginForm')
-        .classList.add('active');
-
-    }
-
-
-    // SHOW SIGNUP
-
-    function showSignup() {
-
-      document.getElementById('loginForm')
-        .classList.remove('active');
-
-      document.getElementById('signupForm')
-        .classList.add('active');
-
-    }
-
-
-    // SHOW / HIDE PASSWORD
-
-    function togglePassword(id, element) {
-
-      const input = document.getElementById(id);
-
-      if (input.type === "password") {
-
-        input.type = "text";
-        element.innerText = "Hide";
-
-      } else {
-
-        input.type = "password";
-        element.innerText = "Show";
-
-      }
-
-    }
-
-  </script>
-
+    <p id="globalStatus" class="global-status" role="status" aria-live="polite" hidden></p>
+  </main>
+  <footer class="site-footer">GATEPrep · GATE CSE preparation</footer>
 </body>
 </html>
