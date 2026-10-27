@@ -1,0 +1,389 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GATEPrep | Subject Learning</title>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+
+    body { background: #f5f7fc; color: #202b46; }
+    header {
+      background: white; padding: 18px 6%; display: flex;
+      justify-content: space-between; align-items: center;
+      box-shadow: 0 2px 12px #0000000a;
+    }
+    .logo { color: #5145cd; font-size: 23px; font-weight: bold; }
+    a { text-decoration: none; }
+    header a { color: #5145cd; font-weight: bold; }
+
+    .container { max-width: 1100px; margin: auto; padding: 35px 20px; }
+    .hero {
+      background: linear-gradient(120deg, #5145cd, #8379f4);
+      color: white; padding: 30px; border-radius: 18px; margin-bottom: 25px;
+    }
+    .hero h1 { margin-bottom: 10px; font-size: 30px; }
+    .hero p { line-height: 1.6; opacity: .95; }
+
+    .section-title { margin: 28px 0 16px; font-size: 22px; }
+    .topic-grid {
+      display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px;
+    }
+    .topic-card {
+      background: white; padding: 20px; border: 1px solid #e4e8f2;
+      border-radius: 13px;
+    }
+    .topic-card h3 { margin-bottom: 9px; font-size: 17px; }
+    .topic-card p { color: #727c92; font-size: 14px; line-height: 1.5; margin-bottom: 15px; }
+
+    .btn {
+      display: inline-block; padding: 10px 13px; border-radius: 8px;
+      border: none; cursor: pointer; background: #5145cd; color: white;
+      font-size: 13px; margin: 3px 3px 0 0;
+    }
+    .btn.secondary { background: #eeedff; color: #5145cd; }
+
+    .panel {
+      background: white; border: 1px solid #e4e8f2;
+      padding: 22px; border-radius: 13px; margin-top: 16px; line-height: 1.7;
+    }
+    .panel p { color: #626d83; margin-top: 8px; }
+    .panel ul { padding-left: 22px; margin-top: 10px; }
+
+    @media(max-width: 600px) {
+      .topic-grid { grid-template-columns: 1fr; }
+      .hero h1 { font-size: 24px; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">🎓 GATEPrep</div>
+    <a href="/subjects/">← All Subjects</a>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1 id="subjectTitle">Loading Subject...</h1>
+      <p id="subjectDescription">Learn topic by topic and prepare for GATE.</p>
+    </section>
+
+    <h2 class="section-title">📚 Topics to Learn</h2>
+    <div class="topic-grid" id="topicGrid"></div>
+
+    <h2 class="section-title">📝 Study Guide</h2>
+    <section class="panel">
+      <h3>How to prepare each topic</h3>
+      <p>Follow this learning sequence for every topic:</p>
+      <ul>
+        <li>Understand the basic concepts.</li>
+        <li>Watch a lecture and make short notes.</li>
+        <li>Solve practice questions without looking at answers.</li>
+        <li>Attempt relevant GATE previous-year questions.</li>
+        <li>Revise mistakes and track your progress.</li>
+      </ul>
+    </section>
+
+    <h2 class="section-title">🎯 Practice & Progress</h2>
+    <section class="panel">
+      <h3>Topic-wise Question Bank</h3>
+      <p>
+        The practice questions, explanations, saved bookmarks and progress
+        tracking will be connected in the next development step.
+      </p>
+      
+    <button class="btn" onclick="window.location.href='/practice?subject=' + encodeURIComponent(window.location.pathname.split('/').filter(Boolean).pop())">
+    Practice Questions
+    </button>
+    </section>
+  </main>
+
+  <script>
+    const subjects = {
+      "c-programming": {
+        name: "C Programming",
+        description: "Build your C fundamentals for GATE CSE.",
+       
+        topics: [
+          "Data Types & Operators",
+          "Conditional Statements and Loops",
+          "Functions and Recursion",
+          "Arrays and Strings",
+          "Pointers",
+          "Structures and Unions",
+          "Dynamic Memory Allocation",
+          "Storage Classes",
+          "C Output and Tracing"
+        ]
+      },
+
+      "data-structures": {
+        name: "Data Structures",
+        description: "Learn how data is organised, stored and processed.",
+        topics: [
+          "Time and Space Complexity",
+          "Arrays",
+          "Linked Lists",
+          "Stacks",
+          "Queues",
+          "Trees and Binary Search Trees",
+          "Heaps and Hashing",
+          "Graphs"
+        ]
+      },
+
+      "algorithms": {
+        name: "Algorithms",
+        description: "Study important algorithms and problem-solving techniques.",
+        topics: [
+          "Asymptotic Notations",
+          "Searching and Sorting",
+          "Divide and Conquer",
+          "Greedy Algorithms",
+          "Dynamic Programming",
+          "Graph Algorithms",
+          "Minimum Spanning Trees",
+          "Shortest Path Algorithms",
+          "Backtracking",
+          "NP-Completeness"
+        ]
+      },
+
+      "operating-system": {
+        name: "Operating System",
+        description: "Understand processes, memory and operating system concepts.",
+        topics: [
+          "Process and Threads",
+          "CPU Scheduling",
+          "Process Synchronization",
+          "Deadlocks",
+          "Memory Management",
+          "Paging and Segmentation",
+          "Virtual Memory",
+          "File Systems",
+          "Disk Scheduling"
+        ]
+      },
+
+      "dbms": {
+        name: "DBMS",
+        description: "Learn databases, SQL and relational database concepts.",
+        topics: [
+          "ER Model",
+          "Relational Model",
+          "SQL Queries",
+          "Relational Algebra",
+          "Functional Dependencies",
+          "Normalization",
+          "Transactions",
+          "Concurrency Control",
+          "Indexing"
+        ]
+      },
+
+      "computer-networks": {
+        name: "Computer Networks",
+        description: "Learn networking concepts and communication protocols.",
+        topics: [
+          "Network Models: OSI and TCP/IP",
+          "Data Link Layer",
+          "Error Detection",
+          "MAC and Ethernet",
+          "IP Addressing and Subnetting",
+          "Routing Algorithms",
+          "TCP and UDP",
+          "Application Layer",
+          "Network Security Basics"
+        ]
+      },
+
+      "engineering-mathematics": {
+        name: "Engineering Mathematics",
+        description: "Practise mathematical concepts important for GATE CSE.",
+        topics: [
+          "Propositional and Predicate Logic",
+          "Sets and Relations",
+          "Combinatorics",
+          "Graph Theory",
+          "Linear Algebra",
+          "Eigenvalues and Eigenvectors",
+          "Probability",
+          "Random Variables"
+        ]
+      },
+
+      "general-aptitude": {
+        name: "General Aptitude",
+        description: "Improve numerical, verbal and reasoning skills.",
+        topics: [
+          "Numerical Calculation",
+          "Percentages and Ratios",
+          "Averages",
+          "Time and Work",
+          "Probability and Counting",
+          "Logical Reasoning",
+          "Verbal Aptitude",
+          "Reading Comprehension"
+        ]
+      },
+
+      
+        "theory-of-computation":{
+          name: "theory of computation",
+          description: "Improve numerical, verbal and reasoning skills.",
+          topics: [
+            "Finite Automata",
+            "Regular Expressions",
+            "Context Free Grammar",
+            "Pushdown Automata",
+            "Turing Machine",
+            "Decidability",
+            "Undecidability"
+        ]},
+
+        
+      "compiler-design": {
+        name: "Compiler Design",
+        description: "Learn compiler phases and code optimization.",
+        topics: [
+          "Compiler Phases",
+          "Lexical Analysis",
+          "Regular Expressions",
+          "Finite Automata",
+          "Syntax Analysis and Parsing",
+          "Context Free Grammar",
+          "Top Down Parsing",
+          "Bottom Up Parsing",
+          "Syntax Directed Translation",
+          "Intermediate Code Generation",
+          "Code Optimization",
+          "Code Generation"
+        ]
+      },
+
+
+      
+      "computer-organization-and-architecture": {
+        name: "Computer Organization and Architecture",
+        description: "Learn computer architecture and processor design.",
+        topics: [
+          "Number Systems and Data Representation",
+          "Boolean Algebra and Logic Circuits",
+          "Instruction Set Architecture",
+          "Addressing Modes",
+          "CPU Organization",
+          "Pipelining",
+          "Memory Hierarchy",
+          "Cache Memory",
+          "Virtual Memory",
+          "Input Output Organization",
+          "Interrupts and DMA",
+          "Multiprocessors"
+        ]
+      },
+
+
+      
+      "digital-logic": {
+        name: "Digital Logic",
+        description: "Learn digital circuits and logical operations.",
+        topics: [
+          "Number Systems and Codes",
+          "Boolean Algebra",
+          "Logic Gates",
+          "K-Maps",
+          "Combinational Circuits",
+          "Adders and Subtractors",
+          "Multiplexers and Demultiplexers",
+          "Encoders and Decoders",
+          "Flip-Flops",
+          "Registers and Counters",
+          "Sequential Circuits",
+          "Finite State Machines"
+        ]
+      },
+    };
+
+  
+    const params = new URLSearchParams(window.location.search);
+
+    const slug = (
+    params.get("subject") ||
+    window.location.pathname.split("/").filter(Boolean).pop() ||
+    ""
+    ).toLowerCase();
+
+    const subject = subjects[slug];
+    const title = document.getElementById("subjectTitle");
+    const description = document.getElementById("subjectDescription");
+    const grid = document.getElementById("topicGrid");
+
+    if (!subject) {
+      title.textContent = "Subject Not Found";
+      description.textContent = "Please return to All Subjects and choose a subject.";
+    } else {
+      document.title = "GATEPrep | " + subject.name;
+      title.textContent = subject.name;
+      description.textContent = subject.description;
+
+      subject.topics.forEach(function(topic) {
+        const card = document.createElement("article");
+        card.className = "topic-card";
+
+        const heading = document.createElement("h3");
+        heading.textContent = "📘 " + topic;
+
+        const info = document.createElement("p");
+        info.textContent = "Study this topic with a lecture and your own notes.";
+
+        const videoButton = document.createElement("a");
+        videoButton.className = "btn";
+        videoButton.textContent = "▶ Find Videos";
+        videoButton.target = "_blank";
+        videoButton.rel = "noopener noreferrer";
+        videoButton.href =
+          "https://www.youtube.com/results?search_query=" +
+          encodeURIComponent("GATE CSE " + subject.name + " " + topic);
+
+        const notesButton = document.createElement("button");
+        
+        const practiceButton = document.createElement("button");
+        practiceButton.className = "btn secondary";
+        practiceButton.textContent = "🎯 Practice Questions";
+        practiceButton.addEventListener("click", function () {
+        const subjectSlug = slug;
+
+        const topicSlug = topic
+          .toLowerCase()
+          .replace(/&/g, "and")
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/^-|-$/g, "");
+
+        const url = "/practice?subject=" +
+          encodeURIComponent(subjectSlug) +
+          "&topic=" +
+          encodeURIComponent(topicSlug);
+
+        window.location.assign(url);
+      });
+
+        
+        notesButton.className = "btn secondary";
+        notesButton.textContent = "📝 Study Guide";
+       
+
+    
+        card.appendChild(heading);
+        card.appendChild(info);
+        card.appendChild(videoButton);
+        card.appendChild(notesButton);
+        card.appendChild(practiceButton);
+        grid.appendChild(card);
+      });
+    }
+  </script>
+</body>
+</html>
