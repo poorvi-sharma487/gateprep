@@ -648,22 +648,24 @@ async function submitAccountForm(event) {
       credentials: "same-origin",
       body: JSON.stringify(payload)
     });
-    const result = response.ok ? await response.json() : null;
-    if (!response.ok) {
-      status.textContent = response.status === 404
-          ? "The GATEPrep account API is not available at this address."
-        : "The GATEPrep account service could not complete this request.";
-      return;
-    }
-    status.textContent = result.message || "Account request completed.";
-    if (!isSignup && result.redirect) {
-      await refreshSessionState();
-      navigate("dashboard");
-    }
-  } catch (error) {
-    console.error("Account request error:", error);
-    status.textContent = "Could not reach the GATEPrep account service. Login and signup need a running backend.";
-  }
+    const result = await response.json().catch(() => ({}));
+
+if (!response.ok) {
+  status.textContent = `Error ${response.status}: ${result.message || "Unknown server error"}`;
+  console.error("Account API error:", response.status, result);
+  return;
+}
+
+status.textContent = result.message || "Account request completed.";
+
+if (!isSignup && result.redirect) {
+  await refreshSessionState();
+  navigate("dashboard");
+}
+} catch (error) {
+  console.error("Account request error:", error);
+  status.textContent = "Could not reach the GATEPrep account service. Login and signup need a running backend.";
+}
 }
 
 async function submitContactForm(event) {
