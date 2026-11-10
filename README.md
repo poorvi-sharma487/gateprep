@@ -1,13 +1,19 @@
 # GATEPrep
 
-GATEPrep is a single-page GATE CSE study app served by an Express backend. The backend uses PostgreSQL for accounts, contact messages, questions, quiz history, and persistent login sessions.
+GATEPrep is a single-page GATE CSE preparation platform served by an Express backend. It features an embedded zero-configuration SQLite database by default (with optional PostgreSQL support), high-performance question banks across all 12 GATE CSE subjects, user accounts, quiz scoring, and real-time progress tracking.
 
-## Requirements
+## Highlights
 
-- Node.js 20 or newer
-- PostgreSQL 14 or newer
+- **Embedded SQLite Database**: Ready out of the box with zero external database server setup or installation needed.
+- **100% Emoji-Free Modern UI**: Styled with clean Lucide SVG icons.
+- **Mobile & Desktop Responsive**: Fully optimized for Android touch devices and PC screens without padding or layout bugs.
+- **Authentic Practice Question Bank**: Topic-wise questions with instant answer feedback and conceptual explanations.
+- **1,957 Official GATE CSE PYQs**: Extracted and compiled from the GeeksforGeeks GATE PYQ Archive (775 pages across all 13 subjects).
+- **Interactive Markdown Books**: Complete master book `GATE_CSE_PYQ_Book.md` (2.2 MB) and individual subject markdown notebooks with code blocks and KaTeX math derivations.
+- **Full GATE Exam Simulator**: 65-question timed mock tests (100 marks, 180 mins) with negative marking (+1/+2, -0.33/-0.66) and detailed scorecard.
+- **Secure Authentication**: Hashed passwords (bcrypt) and session management.
 
-## Run locally
+## Quick Start Locally
 
 1. Install dependencies:
 
@@ -15,54 +21,32 @@ GATEPrep is a single-page GATE CSE study app served by an Express backend. The b
    npm install
    ```
 
-2. Create a local `.env` from `.env.example`. Set either `DATABASE_URL` or `DB_HOST`, `DB_USER`, `DB_PASSWORD`, and `DB_NAME` (`DB_PORT` is optional and defaults to `5432`).
-3. Generate a strong session secret and put the generated value in `.env`:
+2. Seed or update questions from the PYQ archive:
 
    ```sh
-   node -e "console.log(require('crypto').randomBytes(48).toString('base64url'))"
+   # To re-convert from PDF if updated:
+   npm run convert:pdf
+
+   # To seed questions into SQLite:
+   npm run seed:pyqs
    ```
 
-   `SESSION_SECRET` must contain at least 32 characters. Do not commit `.env` or share its contents.
-
-4. Create the tables and load the question bank. In PowerShell, run these commands from the repository root after setting `DATABASE_URL` in the shell:
-
-   ```sh
-   psql "$env:DATABASE_URL" --file db/schema.sql
-   psql "$env:DATABASE_URL" --file ques_bank.sql
-   ```
-
-   In Bash, use `psql "$DATABASE_URL" --file db/schema.sql` and `psql "$DATABASE_URL" --file ques_bank.sql`. The schema is safe to run repeatedly; the question seed avoids adding existing questions.
-
-5. Start the app:
+3. Start the server (SQLite is configured automatically):
 
    ```sh
    npm start
    ```
 
-   Open `http://localhost:3000`. The app serves the canonical SPA from `public/index.html`; its hash routes cover subjects, practice, dashboard, progress, contact, and account screens.
+4. Open `http://localhost:3000` in your browser.
 
-## Environment variables
+## Database Configuration
 
-| Variable | Required | Purpose |
-| --- | --- | --- |
-| `SESSION_SECRET` | Yes | Random secret of at least 32 characters used to sign sessions. |
-| `DATABASE_URL` | One database configuration is required | PostgreSQL connection URL; recommended for hosted deployments. |
-| `DB_HOST`, `DB_PORT`, `DB_USER`, `DB_PASSWORD`, `DB_NAME` | Alternative to `DATABASE_URL` | Individual PostgreSQL connection settings. |
-| `DATABASE_SSL` | No | Set to `true` only when the PostgreSQL provider requires TLS. |
-| `PORT` | No | HTTP port; defaults to `3000` and uses the port provided by Render. |
-| `NODE_ENV` | No | Set to `production` on the hosted service to enable secure cookies and proxy handling. |
+- **SQLite (Default & Recommended)**: Zero setup required. The database file is created at `db/gateprep.sqlite`.
+- **PostgreSQL (Optional)**: If you want to use an external PostgreSQL database, set `DATABASE_URL=postgresql://user:password@localhost:5432/gateprep` in your `.env` file.
 
-## Deploy on Render
+## Testing
 
-Create a Render PostgreSQL database and a Node.js web service from this repository's root. Set the build command to `npm ci` and the start command to `npm start`. Configure `DATABASE_URL` with the database's private connection URL, set `NODE_ENV=production`, and add a newly generated `SESSION_SECRET` in Render's environment settings. Do not commit production credentials. If the database requires TLS, set `DATABASE_SSL=true`.
-
-Before using the service, run `db/schema.sql` and then `ques_bank.sql` once against the hosted database. The persistent PostgreSQL session store is configured by the app and uses the `user_sessions` table. The app can be checked at `/api/health`.
-
-GitHub Pages cannot host the Express API or database-backed features. The existing Pages workflow is retained as a CI check only; it does not deploy the site.
-
-## Verification
-
-Run the automated server and route tests with:
+Run the test suite with:
 
 ```sh
 npm test

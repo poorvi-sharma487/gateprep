@@ -1,0 +1,93 @@
+[
+  {
+    "slug": "c-programming",
+    "name": "C Programming",
+    "start_page": 5,
+    "end_page": 50,
+    "page_count": 46
+  },
+  {
+    "slug": "data-structures",
+    "name": "Data Structures",
+    "start_page": 51,
+    "end_page": 94,
+    "page_count": 44
+  },
+  {
+    "slug": "algorithms",
+    "name": "Algorithms",
+    "start_page": 95,
+    "end_page": 150,
+    "page_count": 56
+  },
+  {
+    "slug": "digital-logic",
+    "name": "Digital Logic",
+    "start_page": 151,
+    "end_page": 194,
+    "page_count": 44
+  },
+  {
+    "slug": "theory-of-computation",
+    "name": "Theory of Computation",
+    "start_page": 195,
+    "end_page": 251,
+    "page_count": 57
+  },
+  {
+    "slug": "compiler-design",
+    "name": "Compiler Design",
+    "start_page": 252,
+    "end_page": 292,
+    "page_count": 41
+  },
+  {
+    "slug": "operating-system",
+    "name": "Operating Systems",
+    "start_page": 293,
+    "end_page": 366,
+    "page_count": 74
+  },
+  {
+    "slug": "dbms",
+    "name": "Database Management Systems",
+    "start_page": 367,
+    "end_page": 450,
+    "page_count": 84
+  },
+  {
+    "slug": "computer-organization-and-architecture",
+    "name": "Computer Organization & Architecture",
+    "start_page": 451,
+    "end_page": 528,
+    "page_count": 78
+  },
+  {
+    "slug": "computer-networks",
+    "name": "Computer Networks",
+    "start_page": 529,
+    "end_page": 582,
+    "page_count": 54
+  },
+  {
+    "slug": "discrete-mathematics",
+    "name": "Discrete Mathematics",
+    "start_page": 583,
+    "end_page": 642,
+    "page_count": 60
+  },
+  {
+    "slug": "engineering-mathematics",
+    "name": "Engineering Mathematics",
+    "start_page": 643,
+    "end_page": 684,
+    "page_count": 42
+  },
+  {
+    "slug": "general-aptitude",
+    "name": "General Aptitude",
+    "start_page": 685,
+    "end_page": 775,
+    "page_count": 91
+  }
+]

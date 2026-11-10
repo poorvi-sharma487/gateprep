@@ -2,65 +2,181 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#5145cd">
-  <meta name="description" content="Prepare smarter for GATE CSE with GATEPrep.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#4f46e5">
+  <meta name="description" content="Prepare smarter for GATE CSE with GATEPrep. Topic-wise practice, AI PYQ generator, AI doubt solver, and performance analytics.">
   <title>GATEPrep | Prepare Smarter</title>
+  <link rel="stylesheet" href="./assets/vendor/katex.min.css">
   <link rel="stylesheet" href="./assets/css/app.css">
+  <script src="./assets/vendor/katex.min.js"></script>
+  <script src="./assets/vendor/marked.min.js"></script>
   <script defer src="./assets/js/app.js"></script>
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#home" aria-label="GATEPrep home">🎓 GATEPrep</a>
-    <nav class="primary-nav" aria-label="Main navigation">
-      <a href="#home" data-nav="home">Home</a>
-      <a href="#subjects" data-nav="subjects">Subjects</a>
-      <a href="#dashboard" data-nav="dashboard">Dashboard</a>
-      <a href="#progress" data-nav="progress">Progress</a>
-      <a href="#contact" data-nav="contact">Contact</a>
-      <a href="#login" data-nav="login">Log in</a>
-      <a href="#signup" data-nav="signup">Sign up</a>
-      <button class="button button-secondary" type="button" data-logout hidden>Log out</button>
-    </nav>
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="GATEPrep Home">
+        <span class="brand-icon-wrap">
+          <svg class="lucide lucide-graduation-cap" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21.42 10.922a1 1 0 0 0-.019-.838L12.83 2.18a2 2 0 0 0-1.66 0L2.6 10.084a1 1 0 0 0 0 1.832l8.57 7.908a2 2 0 0 0 1.66 0l8.57-7.908a1 1 0 0 0 .02-.994z"/>
+            <path d="M22 10v6"/>
+            <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/>
+          </svg>
+        </span>
+        <span class="brand-text">GATEPrep</span>
+      </a>
+
+      <button class="mobile-nav-toggle" id="mobileNavToggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+        <svg class="lucide lucide-menu" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/>
+        </svg>
+      </button>
+
+      <nav class="primary-nav" id="primaryNav" aria-label="Main navigation">
+        <div class="nav-links-group">
+          <a href="#home" data-nav="home">
+            <svg class="lucide lucide-home nav-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+            </svg>
+            <span>Home</span>
+          </a>
+          <a href="#subjects" data-nav="subjects">
+            <svg class="lucide lucide-book-open nav-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+            </svg>
+            <span>Subjects</span>
+          </a>
+          <a href="#pyq-tests" data-nav="pyq-tests" class="nav-link-pyq">
+            <svg class="lucide lucide-file-check nav-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/>
+              <polyline points="14 2 14 8 20 8"/>
+              <path d="m9 15 2 2 4-4"/>
+            </svg>
+            <span>Mock Tests & PYQs</span>
+            <span class="nav-badge-ai" style="background:linear-gradient(135deg, #4f46e5, #0284c7); color:#fff;">1.9K+</span>
+          </a>
+          <a href="#ai-pyq" data-nav="ai-pyq" class="nav-link-ai">
+            <svg class="lucide lucide-sparkles nav-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/>
+            </svg>
+            <span>AI PYQs</span>
+            <span class="nav-badge-ai">AI</span>
+          </a>
+          <a href="#doubt-solver" data-nav="doubt-solver" class="nav-link-ai">
+            <svg class="lucide lucide-bot nav-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/>
+            </svg>
+            <span>Doubt Solver</span>
+          </a>
+          <a href="#dashboard" data-nav="dashboard">
+            <svg class="lucide lucide-layout-dashboard nav-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/>
+            </svg>
+            <span>Dashboard</span>
+          </a>
+          <a href="#progress" data-nav="progress">
+            <svg class="lucide lucide-trending-up nav-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/>
+            </svg>
+            <span>Progress</span>
+          </a>
+          <a href="#contact" data-nav="contact">
+            <svg class="lucide lucide-mail nav-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+            </svg>
+            <span>Contact</span>
+          </a>
+        </div>
+
+        <div class="nav-actions-group">
+          <div class="nav-divider" aria-hidden="true"></div>
+          <a href="#login" data-nav="login" class="nav-link-login">
+            <svg class="lucide lucide-log-in nav-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" x2="3" y1="12" y2="12"/>
+            </svg>
+            <span>Log in</span>
+          </a>
+          <a href="#signup" data-nav="signup" class="nav-btn-signup">
+            <svg class="lucide lucide-user-plus nav-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="19" x2="19" y1="8" y2="14"/><line x1="22" x2="16" y1="11" y2="11"/>
+            </svg>
+            <span>Sign up</span>
+          </a>
+          <button class="nav-btn-logout" type="button" data-logout hidden>
+            <svg class="lucide lucide-log-out nav-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" x2="9" y1="12" y2="12"/>
+            </svg>
+            <span>Log out</span>
+          </button>
+        </div>
+      </nav>
+    </div>
   </header>
 
   <main class="app-main">
+    <!-- View: Home -->
     <section class="view home-view" data-view="home">
       <div class="home-hero">
         <div class="home-copy">
           <p class="eyebrow">YOUR GATE CSE STUDY SPACE</p>
           <h1>Prepare smarter.<br>Achieve more.</h1>
-          <p>Your complete platform for GATE preparation, topic-wise practice and performance tracking.</p>
+          <p>Your complete platform for GATE CSE preparation with topic-wise practice, an NVIDIA AI-powered PYQ generator, instant doubt solving, and live performance tracking.</p>
           <div class="feature-list">
-            <span>✓ Topic-wise learning</span>
-            <span>✓ Practice questions</span>
-            <span>✓ Track your progress</span>
+            <span class="feature-item">
+              <svg class="lucide lucide-check-circle-2" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/>
+              </svg>
+              Topic-wise structured curriculum across 12 subjects
+            </span>
+            <span class="feature-item">
+              <svg class="lucide lucide-check-circle-2" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/>
+              </svg>
+              AI PYQ Generator powered by NVIDIA Nemotron
+            </span>
+            <span class="feature-item">
+              <svg class="lucide lucide-check-circle-2" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/>
+              </svg>
+              24/7 AI Doubt Solver for step-by-step guidance
+            </span>
           </div>
-          <a class="button button-light" href="#subjects">Explore subjects</a>
           <div class="home-account-actions">
-            <a class="button button-light" href="#signup">Create account</a>
-            <a class="button button-secondary" href="#login">Log in</a>
+            <a class="button button-light" href="#ai-pyq">Generate AI PYQ</a>
+            <a class="button button-secondary" href="#doubt-solver">Ask Doubt Solver</a>
           </div>
         </div>
 
-                <section class="panel home-account-panel">
-          <span class="home-account-icon" aria-hidden="true">🎓</span>
+        <section class="panel home-account-panel">
+          <div class="home-account-icon-wrap">
+            <svg class="lucide lucide-graduation-cap" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21.42 10.922a1 1 0 0 0-.019-.838L12.83 2.18a2 2 0 0 0-1.66 0L2.6 10.084a1 1 0 0 0 0 1.832l8.57 7.908a2 2 0 0 0 1.66 0l8.57-7.908a1 1 0 0 0 .02-.994z"/>
+              <path d="M22 10v6"/>
+              <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/>
+            </svg>
+          </div>
           <h2>Your GATE study plan starts here</h2>
-          <p class="muted">Create an account to keep your study progress together, or log in to continue.</p>
+          <p class="muted">Create an account to save your quiz scores, generate custom GATE problems, and track your accuracy across all subjects.</p>
           <a class="button button-primary full-width" href="#signup">Create your account</a>
           <a class="button button-secondary full-width" href="#login">I already have an account</a>
-          <p class="backend-note">Create an account or log in using the GATEPrep server.</p>
+          <p class="backend-note">Protected with secure password hashing and persistent session storage.</p>
         </section>
       </div>
     </section>
 
+    <!-- View: Auth (Login / Signup) -->
     <section class="view auth-view" data-view="auth" hidden>
       <div class="auth-layout">
         <div class="auth-intro">
           <p class="eyebrow">YOUR GATE CSE STUDY SPACE</p>
           <h1>One account.<br>All your preparation.</h1>
-          <p>Sign in to keep your practice and progress connected, or create an account to get started.</p>
-          <a class="back-link" href="#home">← Back to home</a>
+          <p>Sign in to keep your practice and progress connected across devices, or create an account to get started in seconds.</p>
+          <a class="back-link" href="#home">
+            <svg class="lucide lucide-arrow-left" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="m12 19-7-7 7-7"/><path d="M19 12H5"/>
+            </svg>
+            Back to home
+          </a>
         </div>
         <section class="panel auth-panel" aria-labelledby="authHeading">
           <div class="auth-tabs" role="tablist" aria-label="Account options">
@@ -68,191 +184,991 @@
             <button class="auth-tab" type="button" data-auth-mode="login" role="tab" aria-selected="false">Log in</button>
           </div>
           <h2 id="authHeading">Create your account</h2>
-          <p class="muted">Use your account to keep your study progress together.</p>
+          <p class="muted" style="margin-bottom:20px;">Use your account to save your study scores and track progress.</p>
           <form id="signupForm" class="auth-form">
-            <label for="signupName">Full name</label>
-            <input id="signupName" name="name" autocomplete="name" required>
-            <label for="signupEmail">Email</label>
-            <input id="signupEmail" name="email" type="email" autocomplete="email" required>
-            <label for="signupPassword">Password</label>
-            <div class="password-field">
-              <input id="signupPassword" name="password" type="password" autocomplete="new-password" minlength="8" required>
-              <button class="text-button" type="button" data-toggle-password="signupPassword" aria-label="Show password">Show</button>
+            <div class="form-group">
+              <label for="signupName">Full name</label>
+              <input id="signupName" name="name" autocomplete="name" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+              <label for="signupEmail">Email address</label>
+              <input id="signupEmail" name="email" type="email" autocomplete="email" placeholder="student@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="signupPassword">Password</label>
+              <div class="password-field">
+                <input id="signupPassword" name="password" type="password" autocomplete="new-password" minlength="8" placeholder="At least 8 characters" required>
+                <button class="password-toggle-btn" type="button" data-toggle-password="signupPassword" aria-label="Show password"></button>
+              </div>
             </div>
             <button class="button button-primary full-width" type="submit">Create account</button>
           </form>
           <form id="loginForm" class="auth-form" hidden>
-            <label for="loginEmail">Email</label>
-            <input id="loginEmail" name="email" type="email" autocomplete="email" required>
-            <label for="loginPassword">Password</label>
-            <div class="password-field">
-              <input id="loginPassword" name="password" type="password" autocomplete="current-password" required>
-              <button class="text-button" type="button" data-toggle-password="loginPassword" aria-label="Show password">Show</button>
+            <div class="form-group">
+              <label for="loginEmail">Email address</label>
+              <input id="loginEmail" name="email" type="email" autocomplete="email" placeholder="student@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="loginPassword">Password</label>
+              <div class="password-field">
+                <input id="loginPassword" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required>
+                <button class="password-toggle-btn" type="button" data-toggle-password="loginPassword" aria-label="Show password"></button>
+              </div>
             </div>
             <button class="button button-primary full-width" type="submit">Log in</button>
           </form>
           <p id="authStatus" class="form-status" role="status" aria-live="polite"></p>
-          <p class="backend-note">Account creation and login require the GATEPrep server.</p>
         </section>
       </div>
     </section>
 
-    <section class="view" data-view="subjects" hidden>
+    <!-- View: AI PYQ Generator -->
+    <section class="view" data-view="ai-pyq" hidden>
       <div class="page-heading">
-        <p class="eyebrow">GATE CSE</p>
-        <h1>Explore subjects 📚</h1>
-        <p>Choose a subject to explore its topics, study guides and practice options.</p>
+        <p class="eyebrow">
+          <svg class="lucide lucide-sparkles" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/>
+          </svg>
+          POWERED BY NVIDIA NEMOTRON AI
+        </p>
+        <h1>AI GATE PYQ Generator</h1>
+        <p>Generate authentic, high-quality GATE CSE previous-year style questions on any topic. Test yourself instantly and save them to your practice bank.</p>
       </div>
-      <label class="sr-only" for="subjectSearch">Search subjects</label>
-      <input id="subjectSearch" class="search-input" type="search" placeholder="🔍 Search subjects...">
-      <div id="subjectGrid" class="subject-grid"></div>
-      <p id="noSubjects" class="muted" hidden>No subjects found. Try another search.</p>
+
+      <section class="panel ai-generator-panel">
+        <div class="ai-generator-grid">
+          <div class="form-group">
+            <label for="aiPyqSubject">Select Subject</label>
+            <select id="aiPyqSubject" class="ai-select"></select>
+          </div>
+          <div class="form-group">
+            <label for="aiPyqTopic">Select Topic</label>
+            <select id="aiPyqTopic" class="ai-select"></select>
+          </div>
+          <div class="form-group">
+            <label>Difficulty Level</label>
+            <div class="ai-difficulty-options" id="aiDiffGroup">
+              <button class="ai-diff-btn is-active" type="button" data-diff="medium">Medium</button>
+              <button class="ai-diff-btn" type="button" data-diff="hard">Hard</button>
+              <button class="ai-diff-btn" type="button" data-diff="easy">Easy</button>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="aiPyqFocus">Specific Concept Focus (Optional)</label>
+            <input id="aiPyqFocus" class="ai-input" placeholder="e.g. Cache miss calculation, B+ tree order, Banker algorithm">
+          </div>
+        </div>
+
+        <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;">
+          <button id="aiGenerateBtn" class="button button-ai" type="button">
+            <svg class="lucide lucide-sparkles" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/>
+            </svg>
+            <span id="aiGenerateBtnText">Generate GATE PYQ</span>
+          </button>
+          <span style="font-size:12.5px;color:var(--text-muted);">Trained on syllabus of IISc &amp; IITs for GATE CSE</span>
+        </div>
+      </section>
+
+      <!-- AI Question Display Card -->
+      <section id="aiGeneratedCard" class="panel ai-generated-card" hidden>
+        <div class="ai-card-meta">
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span id="aiCardYear" class="ai-pill ai-pill-year">GATE 2023</span>
+            <span id="aiCardSubject" class="ai-pill ai-pill-tag">Subject</span>
+            <span id="aiCardDiff" class="accuracy-badge mid">Medium</span>
+          </div>
+          <button id="aiSaveQuestionBtn" class="button button-secondary" type="button" style="min-height:36px;padding:6px 14px;font-size:13px;">
+            <svg class="lucide lucide-bookmark" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/>
+            </svg>
+            Save to Practice Bank
+          </button>
+        </div>
+
+        <div id="aiQuestionText" class="quiz-question-container rich-content"></div>
+        <div id="aiAnswerOptions"></div>
+        <div id="aiQuizFeedback" class="quiz-feedback" role="status" aria-live="polite"></div>
+
+        <div class="button-row" style="margin-top:20px;border-top:1px solid var(--border);padding-top:16px;">
+          <button id="aiCheckAnswerBtn" class="button button-primary" type="button">Check answer</button>
+          <button id="aiAskDoubtBtn" class="button button-secondary" type="button">
+            <svg class="lucide lucide-bot" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/>
+            </svg>
+            Ask Doubt Solver about this question
+          </button>
+        </div>
+      </section>
     </section>
 
+    <!-- View: AI Doubt Solver -->
+    <section class="view" data-view="doubt-solver" hidden>
+      <!-- Sticky Exam-in-Progress Alert Banner (Zero Loss Switch) -->
+      <div id="activeExamBanner" class="active-exam-banner" hidden>
+        <div class="exam-banner-info">
+          <span class="exam-pulse-dot"></span>
+          <div>
+            <strong>Mock Exam in Progress:</strong>
+            <span id="bannerExamTitle">GATE CSE Mock Test</span> &bull;
+            Time Left: <span id="bannerExamTimer" class="font-mono" style="font-weight:700; color:#dc2626;">03:00:00</span> &bull;
+            Question <span id="bannerExamQNum">1</span> of <span id="bannerExamTotal">65</span>
+          </div>
+        </div>
+        <button type="button" id="bannerReturnToExamBtn" class="button button-primary" style="padding:6px 16px; font-weight:700; white-space:nowrap;">
+          ↩️ Return to Exam
+        </button>
+      </div>
+
+      <div class="page-heading" style="margin-bottom:18px;">
+        <p class="eyebrow">
+          <svg class="lucide lucide-bot" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/>
+          </svg>
+          GATE CSE 24/7 AI MENTOR
+        </p>
+        <h1>AI Doubt Solver</h1>
+        <p>Stuck on an algorithm, mathematical proof, or tricky GATE question? Get instant, step-by-step conceptual explanations powered by NVIDIA AI.</p>
+      </div>
+
+      <div class="doubt-solver-layout">
+        <div class="chat-container">
+          <div class="chat-header">
+            <div class="chat-header-info">
+              <div class="chat-bot-avatar">
+                <svg class="lucide lucide-bot" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/>
+                </svg>
+              </div>
+              <div class="chat-header-titles">
+                <h3>GATEPrep AI Mentor</h3>
+                <p>NVIDIA Nemotron 3.5 &middot; Active</p>
+              </div>
+            </div>
+
+            <div style="display:flex;align-items:center;gap:10px;">
+              <select id="chatSubjectSelect" class="ai-select" style="min-height:36px;padding:4px 10px;font-size:13px;width:auto;">
+                <option value="GATE CSE">General GATE CSE</option>
+                <option value="C Programming">C Programming</option>
+                <option value="Data Structures">Data Structures</option>
+                <option value="Algorithms">Algorithms</option>
+                <option value="Operating Systems">Operating Systems</option>
+                <option value="DBMS">DBMS</option>
+                <option value="Computer Networks">Computer Networks</option>
+                <option value="Engineering Mathematics">Engineering Mathematics</option>
+                <option value="Theory of Computation">Theory of Computation</option>
+                <option value="Compiler Design">Compiler Design</option>
+                <option value="COA">Computer Organization (COA)</option>
+                <option value="Digital Logic">Digital Logic</option>
+              </select>
+              <button id="chatClearBtn" class="button button-secondary" type="button" style="min-height:36px;padding:6px 12px;font-size:12px;" title="Clear conversation">
+                <svg class="lucide lucide-rotate-ccw" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/>
+                </svg>
+                Clear
+              </button>
+            </div>
+          </div>
+
+          <div id="chatMessages" class="chat-messages">
+            <div class="chat-msg ai-msg">
+              <div class="chat-avatar-mini">AI</div>
+              <div class="chat-bubble rich-content">
+                <p><strong>Hello! I am your GATE CSE AI Mentor.</strong></p>
+                <p>I can help you break down complex algorithms, solve numerical problems, trace pointer arithmetic, calculate memory hierarchies, or clarify any GATE concept.</p>
+                <p style="margin-top:6px;font-size:13px;color:var(--text-muted);">Choose a subject above or tap any quick question below to get started:</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="chat-quick-prompts">
+            <button class="quick-prompt-chip" type="button" data-prompt="How do I find all candidate keys using functional dependencies? Explain with an example.">Candidate keys from FDs</button>
+            <button class="quick-prompt-chip" type="button" data-prompt="Explain how to calculate Page Faults in LRU vs Optimal Page Replacement with an example reference string.">LRU Page Fault calculation</button>
+            <button class="quick-prompt-chip" type="button" data-prompt="How is the order of B-tree and B+ tree calculated given block size, key size, and pointer size?">B-Tree order formula</button>
+            <button class="quick-prompt-chip" type="button" data-prompt="Explain Master Theorem cases and conditions when it cannot be applied.">Master Theorem rules</button>
+            <button class="quick-prompt-chip" type="button" data-prompt="What is the difference between Conflict Serializability and View Serializability in DBMS?">Conflict vs View Serializability</button>
+          </div>
+
+          <form id="chatForm" class="chat-input-bar">
+            <textarea id="chatInput" placeholder="Ask your GATE CSE doubt here... (e.g. How to solve recurrence T(n) = 2T(n/2) + n?)" rows="1" required></textarea>
+            <button id="chatSendBtn" class="button button-primary" type="submit">
+              <svg class="lucide lucide-send" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/>
+              </svg>
+              <span>Send</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- View: Subjects -->
+    <section class="view" data-view="subjects" hidden>
+      <div class="page-heading">
+        <p class="eyebrow">GATE CSE CURRICULUM</p>
+        <h1>Explore Subjects</h1>
+        <p>Choose a subject to explore its syllabus topics, curated video recommendations, and practice questions.</p>
+      </div>
+      <div class="search-wrap">
+        <span class="search-icon-wrap">
+          <svg class="lucide lucide-search" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+          </svg>
+        </span>
+        <label class="sr-only" for="subjectSearch">Search subjects</label>
+        <input id="subjectSearch" class="search-input" type="search" placeholder="Search subjects by name or keyword...">
+      </div>
+      <div id="subjectGrid" class="subject-grid"></div>
+      <p id="noSubjects" class="muted" style="text-align:center;padding:40px 0;" hidden>No subjects found matching your search.</p>
+    </section>
+
+    <!-- View: Subject Detail -->
     <section class="view" data-view="subject" hidden>
-      <a class="back-link" href="#subjects">← All subjects</a>
+      <a class="back-link" href="#subjects">
+        <svg class="lucide lucide-arrow-left" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="m12 19-7-7 7-7"/><path d="M19 12H5"/>
+        </svg>
+        All subjects
+      </a>
       <section id="subjectHero" class="gradient-panel subject-hero"></section>
-      <h2 class="section-title">📚 Topics to learn</h2>
+      <h2 class="section-title">
+        <svg class="lucide lucide-layers section-title-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/>
+          <path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/>
+          <path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/>
+        </svg>
+        Topics to Learn
+      </h2>
       <div id="topicGrid" class="topic-grid"></div>
-      <h2 class="section-title">📝 Study guide</h2>
+
+      <h2 class="section-title">
+        <svg class="lucide lucide-file-text section-title-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/>
+        </svg>
+        Study Guide
+      </h2>
       <section class="panel study-guide">
-        <h3>How to prepare each topic</h3>
-        <p>Follow this learning sequence for every topic:</p>
+        <h3 style="font-size:17px;font-weight:700;margin-bottom:8px;">How to prepare each topic effectively:</h3>
         <ol>
-          <li>Understand the basic concepts.</li>
-          <li>Watch a lecture and make short notes.</li>
-          <li>Solve practice questions without looking at answers.</li>
-          <li>Attempt relevant GATE previous-year questions.</li>
-          <li>Revise mistakes and track your progress.</li>
+          <li>Read the standard reference definitions and understand core concepts.</li>
+          <li>Watch a video lecture and note down key formulas, time/space complexities, and corner cases.</li>
+          <li>Solve practice questions independently without consulting the solution.</li>
+          <li>Attempt relevant GATE previous-year questions (PYQs) under timed conditions.</li>
+          <li>Analyze mistakes in the explanation, revise weak areas, and monitor your score accuracy.</li>
         </ol>
       </section>
       <p id="subjectStatus" class="form-status" role="status" aria-live="polite"></p>
     </section>
 
+    <!-- View: Practice / Quiz -->
     <section class="view" data-view="practice" hidden>
-      <a class="back-link" href="#subjects">← All subjects</a>
+      <a class="back-link" href="#subjects">
+        <svg class="lucide lucide-arrow-left" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="m12 19-7-7 7-7"/><path d="M19 12H5"/>
+        </svg>
+        All subjects
+      </a>
       <section class="gradient-panel">
-        <h1 id="practiceTitle">Practice questions</h1>
-        <p>Test your understanding with topic-wise practice questions.</p>
+        <h1 id="practiceTitle">Practice Questions</h1>
+        <p>Test your conceptual understanding with topic-wise GATE questions.</p>
         <div class="progress-track"><div id="quizProgress" class="progress-fill"></div></div>
       </section>
       <section id="quizPanel" class="panel quiz-panel">
-        <div class="quiz-meta"><span id="questionNumber">Questions load when available</span><span id="scoreLabel">Score: 0</span></div>
-        <h2 id="questionText">Question will appear here</h2>
+        <div class="quiz-meta">
+          <span id="questionNumber" class="quiz-meta-badge">Loading questions...</span>
+          <span id="scoreLabel" class="quiz-score-badge">Score: 0</span>
+        </div>
+        <!-- Question Quick Jump Palette Bar -->
+        <div id="practicePaletteBar" class="practice-palette-bar" aria-label="Question Navigator"></div>
+        <div id="questionText" class="quiz-question-container rich-content">Question will appear here</div>
         <div id="answerOptions"></div>
-        <p id="quizFeedback" class="quiz-feedback" role="status" aria-live="polite"></p>
-        <div class="button-row">
-          <button id="checkAnswer" class="button button-primary" type="button">Check answer</button>
-          <button id="nextQuestion" class="button button-primary" type="button" hidden>Next question →</button>
+        <div id="quizFeedback" class="quiz-feedback" role="status" aria-live="polite"></div>
+        <div class="practice-action-toolbar">
+          <div class="practice-toolbar-left">
+            <button id="prevQuestion" class="button button-secondary" type="button" disabled>
+              &larr; Previous
+            </button>
+            <button id="clearPracticeAnswer" class="button button-ghost" type="button">
+              Clear Response
+            </button>
+          </div>
+          <div class="practice-toolbar-right">
+            <button id="checkAnswer" class="button button-primary" type="button">Check answer</button>
+            <button id="nextQuestion" class="button button-success" type="button">Next &rarr;</button>
+            <button id="practiceAskDoubtBtn" class="button button-secondary" type="button">
+              <svg class="lucide lucide-bot" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/>
+              </svg>
+              Ask AI Doubt Solver
+            </button>
+          </div>
         </div>
       </section>
       <section id="quizResult" class="panel result-panel" hidden>
-        <h2>🎉 Practice completed!</h2>
+        <div class="result-icon-wrap">
+          <svg class="lucide lucide-trophy" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/>
+          </svg>
+        </div>
+        <h2>Practice Completed!</h2>
         <p id="resultText"></p>
-        <button id="restartQuiz" class="button button-primary" type="button">Try again</button>
+        <div style="display:flex;justify-content:center;gap:12px;flex-wrap:wrap;">
+          <button id="restartQuiz" class="button button-primary" type="button">Try again</button>
+          <a class="button button-secondary" href="#subjects">Explore more topics</a>
+          <a class="button button-ai" href="#ai-pyq">Generate AI PYQ</a>
+        </div>
       </section>
-      <p id="practiceStatus" class="backend-note" role="status" aria-live="polite">Practice questions are loaded from the GATEPrep question-bank API. A backend is required to use this feature.</p>
+      <p id="practiceStatus" class="backend-note" role="status" aria-live="polite"></p>
     </section>
 
+    <!-- View: Dashboard -->
     <section class="view" data-view="dashboard" hidden>
       <div class="page-heading">
         <p class="eyebrow">YOUR STUDY SPACE</p>
         <h1>Dashboard</h1>
-        <p>Keep learning, keep practicing and move closer to your GATE goal.</p>
+        <p>Keep learning, keep practicing, and move systematically towards your GATE goal.</p>
       </div>
       <section class="gradient-panel welcome-panel">
-        <h2>Welcome to GATEPrep 👋</h2>
-        <p>Explore the GATE CSE subjects and plan your next study session.</p>
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:6px;">
+          <svg class="lucide lucide-sparkles" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/>
+          </svg>
+          <h2 style="margin:0;">Welcome to GATEPrep</h2>
+        </div>
+        <p>Explore GATE CSE subjects, generate AI questions, ask doubts, and track your performance.</p>
       </section>
+
       <div class="stats-grid">
-        <article class="panel stat-card"><span class="stat-icon">📚</span><strong id="dashboardQuestions">—</strong><span>Questions attempted</span></article>
-        <article class="panel stat-card"><span class="stat-icon">⏱️</span><strong>—</strong><span>Mock tests</span></article>
-        <article class="panel stat-card"><span class="stat-icon">🎯</span><strong id="dashboardAccuracy">—</strong><span>Average accuracy</span></article>
-        <article class="panel stat-card"><span class="stat-icon">🔥</span><strong>—</strong><span>Day streak</span></article>
+        <article class="stat-card">
+          <div class="stat-icon-wrap">
+            <svg class="lucide lucide-book-open" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+            </svg>
+          </div>
+          <div class="stat-info">
+            <strong id="dashboardQuestions">—</strong>
+            <span>Questions attempted</span>
+          </div>
+        </article>
+        <article class="stat-card">
+          <div class="stat-icon-wrap">
+            <svg class="lucide lucide-clock" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <div class="stat-info">
+            <strong>—</strong>
+            <span>Mock tests</span>
+          </div>
+        </article>
+        <article class="stat-card">
+          <div class="stat-icon-wrap">
+            <svg class="lucide lucide-target" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>
+            </svg>
+          </div>
+          <div class="stat-info">
+            <strong id="dashboardAccuracy">—</strong>
+            <span>Average accuracy</span>
+          </div>
+        </article>
+        <article class="stat-card">
+          <div class="stat-icon-wrap">
+            <svg class="lucide lucide-flame" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/>
+            </svg>
+          </div>
+          <div class="stat-info">
+            <strong>Active</strong>
+            <span>Study streak</span>
+          </div>
+        </article>
       </div>
+
       <div class="dashboard-columns">
         <section class="panel">
-          <h2>📚 GATE CSE subjects</h2>
+          <h2 style="font-size:18px;font-weight:700;">GATE CSE Subjects</h2>
           <div id="dashboardSubjects" class="dashboard-subjects"></div>
         </section>
-        <div>
+        <div class="dashboard-sidebar">
           <section class="panel">
-            <h2>📊 Preparation progress</h2>
-            <p id="dashboardProgressStatus" class="muted">Progress needs your account and the GATEPrep backend.</p>
-            <a class="button button-secondary" href="#progress">View progress</a>
+            <h2 style="font-size:18px;font-weight:700;margin-bottom:6px;">AI Study Suite</h2>
+            <p class="muted" style="margin-bottom:14px;">Instant PYQ generator and 24/7 doubt resolution powered by NVIDIA AI.</p>
+            <a class="action-link ai-highlight" href="#ai-pyq">
+              <svg class="lucide lucide-sparkles" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/>
+              </svg>
+              Generate Custom GATE PYQ
+            </a>
+            <a class="action-link ai-highlight" href="#doubt-solver">
+              <svg class="lucide lucide-bot" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/>
+              </svg>
+              Ask AI Doubt Solver
+            </a>
           </section>
+
           <section class="panel">
-            <h2>⚡ Quick actions</h2>
-            <a class="action-link" href="#subjects">📝 Browse practice topics</a>
-            <button class="action-link" type="button" data-backend-notice="Mock tests are not available yet.">⏱️ Take a mock test</button>
-            <button class="action-link" type="button" data-backend-notice="Previous-year question tracking requires a question-bank backend.">📜 Practice PYQs</button>
+            <h2 style="font-size:18px;font-weight:700;margin-bottom:12px;">Quick Actions</h2>
+            <a class="action-link" href="#subjects">
+              <svg class="lucide lucide-book-open" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+              </svg>
+              Browse practice topics
+            </a>
+            <button class="action-link" type="button" data-backend-notice="Full-length timed mock tests are coming in the next release.">
+              <svg class="lucide lucide-clock" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+              </svg>
+              Take a mock test
+            </button>
           </section>
+
           <section class="panel">
-            <h2>🎯 Today's goal</h2>
-            <p class="muted">Choose a topic and start a focused study session.</p>
-            <a class="button button-primary" href="#subjects">Choose a topic</a>
+            <h2 style="font-size:18px;font-weight:700;margin-bottom:6px;">Preparation Progress</h2>
+            <p id="dashboardProgressStatus" class="muted" style="margin-bottom:16px;">Log in to track your learning journey.</p>
+            <a class="button button-secondary full-width" href="#progress">View detailed progress</a>
           </section>
         </div>
       </div>
+
       <section class="panel history-panel">
-        <h2>📊 My quiz score history</h2>
-        <p id="dashboardHistoryStatus" class="muted">Quiz history requires login and the GATEPrep backend.</p>
+        <h2 style="font-size:18px;font-weight:700;">My Quiz Score History</h2>
+        <p id="dashboardHistoryStatus" class="muted">Quiz history is loaded from your profile.</p>
         <div class="table-wrap">
           <table>
-            <thead><tr><th>Subject</th><th>Topic</th><th>Score</th><th>Accuracy</th><th>Date</th></tr></thead>
+            <thead>
+              <tr><th>Subject</th><th>Topic</th><th>Score</th><th>Accuracy</th><th>Date</th></tr>
+            </thead>
             <tbody id="dashboardHistory"></tbody>
           </table>
         </div>
       </section>
     </section>
 
+    <!-- View: Progress -->
     <section class="view" data-view="progress" hidden>
       <div class="page-heading">
         <p class="eyebrow">YOUR STUDY SPACE</p>
-        <h1>📊 My progress</h1>
-        <p>Review your quiz attempts and accuracy.</p>
+        <h1>My Progress</h1>
+        <p>Review your quiz attempts, accuracy records and learning milestones.</p>
       </div>
       <div class="stats-grid progress-stats">
-        <article class="panel stat-card"><span>Total quizzes</span><strong id="totalQuizzes">—</strong></article>
-        <article class="panel stat-card"><span>Questions attempted</span><strong id="totalQuestions">—</strong></article>
-        <article class="panel stat-card"><span>Average accuracy</span><strong id="averageAccuracy">—</strong></article>
+        <article class="stat-card">
+          <div class="stat-icon-wrap">
+            <svg class="lucide lucide-book-open" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+            </svg>
+          </div>
+          <div class="stat-info">
+            <strong id="totalQuizzes">—</strong>
+            <span>Total quizzes</span>
+          </div>
+        </article>
+        <article class="stat-card">
+          <div class="stat-icon-wrap">
+            <svg class="lucide lucide-file-text" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/>
+            </svg>
+          </div>
+          <div class="stat-info">
+            <strong id="totalQuestions">—</strong>
+            <span>Questions attempted</span>
+          </div>
+        </article>
+        <article class="stat-card">
+          <div class="stat-icon-wrap">
+            <svg class="lucide lucide-target" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>
+            </svg>
+          </div>
+          <div class="stat-info">
+            <strong id="averageAccuracy">—</strong>
+            <span>Average accuracy</span>
+          </div>
+        </article>
       </div>
       <section class="panel history-panel">
-        <h2>Quiz history</h2>
-        <p id="progressStatus" class="muted">Your progress requires login and the GATEPrep backend.</p>
+        <h2 style="font-size:18px;font-weight:700;">Quiz Attempt History</h2>
+        <p id="progressStatus" class="muted">Your score history loads automatically.</p>
         <div class="table-wrap">
           <table>
-            <thead><tr><th>Subject</th><th>Topic</th><th>Score</th><th>Accuracy</th><th>Date</th></tr></thead>
+            <thead>
+              <tr><th>Subject</th><th>Topic</th><th>Score</th><th>Accuracy</th><th>Date</th></tr>
+            </thead>
             <tbody id="progressHistory"></tbody>
           </table>
         </div>
       </section>
     </section>
 
+    <!-- View: Contact -->
     <section class="view" data-view="contact" hidden>
       <div class="page-heading">
-        <p class="eyebrow">WE’RE HERE TO HELP</p>
-        <h1>📩 Contact us</h1>
-        <p>Have a question or feedback about GATEPrep? Send us a message.</p>
+        <p class="eyebrow">WE ARE HERE TO HELP</p>
+        <h1>Contact Us</h1>
+        <p>Have questions, topic suggestions or feedback about GATEPrep? Send us a message.</p>
       </div>
-      <section class="panel contact-panel">
-        <h2>Get in touch</h2>
-        <form id="contactForm">
-          <label for="contactName">Name</label>
-          <input id="contactName" name="name" autocomplete="name" placeholder="Enter your name" required>
-          <label for="contactEmail">Email</label>
-          <input id="contactEmail" name="email" type="email" autocomplete="email" placeholder="Enter your email" required>
-          <label for="contactMessage">Message</label>
-          <textarea id="contactMessage" name="message" rows="6" placeholder="Write your message..." required></textarea>
-          <button class="button button-primary" type="submit">Send message</button>
-        </form>
-        <p id="contactStatus" class="form-status" role="status" aria-live="polite"></p>
-        <p class="backend-note">Messages are saved by the GATEPrep backend for review.</p>
-      </section>
+      <div class="contact-layout">
+        <section class="panel contact-panel">
+          <h2 style="font-size:20px;font-weight:700;margin-bottom:18px;">Send a message</h2>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="contactName">Your name</label>
+              <input id="contactName" name="name" autocomplete="name" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+              <label for="contactEmail">Your email address</label>
+              <input id="contactEmail" name="email" type="email" autocomplete="email" placeholder="student@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="contactMessage">Your message</label>
+              <textarea id="contactMessage" name="message" rows="5" placeholder="Write your inquiry or feedback here..." required></textarea>
+            </div>
+            <button class="button button-primary" type="submit">
+              <svg class="lucide lucide-mail" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+              </svg>
+              Send message
+            </button>
+          </form>
+          <p id="contactStatus" class="form-status" role="status" aria-live="polite"></p>
+        </section>
+
+        <div class="contact-info-cards">
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <svg class="lucide lucide-mail" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+              </svg>
+            </div>
+            <div class="contact-card-content">
+              <h3>Direct Email Support</h3>
+              <p>Reach our support team at <a href="mailto:support@gateprep.com" style="color:var(--brand);font-weight:600;">support@gateprep.com</a> for urgent queries.</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <svg class="lucide lucide-book-open" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+              </svg>
+            </div>
+            <div class="contact-card-content">
+              <h3>Curriculum Feedback</h3>
+              <p>Want new GATE questions added? Let us know the subject, topic, and year and we will incorporate it into the question bank.</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <svg class="lucide lucide-clock" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <div class="contact-card-content">
+              <h3>Response Time</h3>
+              <p>Messages submitted through this portal are saved to our database and typically answered within 24 hours.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- View: Authentic GATE PYQs & Mock Tests -->
+    <section class="view pyq-test-view" data-view="pyq-tests" hidden>
+      <div class="view-header">
+        <p class="eyebrow">OFFICIAL QUESTION ARCHIVE &amp; EXAM SIMULATION</p>
+        <h1 class="page-title">GATE CSE PYQs &amp; Mock Tests</h1>
+        <p class="lead-text">
+          Practice 1,957 authentic GATE CSE questions extracted directly from the official PYQ archive, take full-length 65-question mock tests in an authentic TCS iON CBT exam simulation with negative marking, instant AI doubt solving, and zero data loss.
+        </p>
+
+        <!-- Stats Bar -->
+        <div class="pyq-stats-bar" id="pyqStatsBar">
+          <div class="pyq-stat-item">
+            <span class="pyq-stat-val" id="pyqStatTotal">1,957</span>
+            <span class="pyq-stat-lbl">Authentic Questions</span>
+          </div>
+          <div class="pyq-stat-item">
+            <span class="pyq-stat-val">13</span>
+            <span class="pyq-stat-lbl">Subjects Covered</span>
+          </div>
+          <div class="pyq-stat-item">
+            <span class="pyq-stat-val">775</span>
+            <span class="pyq-stat-lbl">Book Pages Parsed</span>
+          </div>
+          <div class="pyq-stat-item">
+            <span class="pyq-stat-val">TCS iON</span>
+            <span class="pyq-stat-lbl">Real CBT Simulation</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Test Mode Selection & Generator -->
+      <div id="testSetupSection" class="test-setup-panel">
+        <h2 style="margin-bottom:1rem; font-size:1.25rem;">Select Test Mode</h2>
+        <div class="test-mode-cards">
+          <label class="test-mode-card active" data-mode="full_gate">
+            <input type="radio" name="pyqMode" value="full_gate" checked hidden>
+            <div class="mode-icon-box">🏆</div>
+            <div class="mode-info">
+              <h3>Full GATE CSE Mock Test</h3>
+              <p>65 Questions &bull; 100 Marks &bull; 180 Minutes. Exact exam pattern with 10 Aptitude + 55 CS.</p>
+            </div>
+          </label>
+          <label class="test-mode-card" data-mode="subject">
+            <input type="radio" name="pyqMode" value="subject" hidden>
+            <div class="mode-icon-box">🎯</div>
+            <div class="mode-info">
+              <h3>Subject Speed Test</h3>
+              <p>15 Questions &bull; 30 Marks &bull; 30 Minutes. Deep dive into any specific GATE CSE subject.</p>
+            </div>
+          </label>
+          <label class="test-mode-card" data-mode="topic">
+            <input type="radio" name="pyqMode" value="topic" hidden>
+            <div class="mode-icon-box">⚡</div>
+            <div class="mode-info">
+              <h3>Topic Quick Drill</h3>
+              <p>10 Questions &bull; 20 Marks &bull; 20 Minutes. Focused mastery on a single topic.</p>
+            </div>
+          </label>
+        </div>
+
+        <!-- Filters Form -->
+        <div class="pyq-filters-grid" style="margin-top:1.5rem;">
+          <div class="form-group" id="filterSubjectGroup">
+            <label for="pyqSubjectSelect">Subject</label>
+            <select id="pyqSubjectSelect" class="form-control">
+              <option value="c-programming">C Programming (98 Qs)</option>
+              <option value="data-structures">Data Structures (100 Qs)</option>
+              <option value="algorithms">Algorithms (153 Qs)</option>
+              <option value="digital-logic">Digital Logic (112 Qs)</option>
+              <option value="theory-of-computation">Theory of Computation (160 Qs)</option>
+              <option value="compiler-design">Compiler Design (94 Qs)</option>
+              <option value="operating-system">Operating Systems (182 Qs)</option>
+              <option value="dbms">DBMS (192 Qs)</option>
+              <option value="computer-organization-and-architecture">Computer Organization (170 Qs)</option>
+              <option value="computer-networks">Computer Networks (164 Qs)</option>
+              <option value="discrete-mathematics">Discrete Mathematics (171 Qs)</option>
+              <option value="engineering-mathematics">Engineering Mathematics (131 Qs)</option>
+              <option value="general-aptitude">General Aptitude (274 Qs)</option>
+            </select>
+          </div>
+
+          <div class="form-group" id="filterDifficultyGroup">
+            <label for="pyqDifficultySelect">Difficulty</label>
+            <select id="pyqDifficultySelect" class="form-control">
+              <option value="all">All Difficulties</option>
+              <option value="easy">Easy (1 Mark)</option>
+              <option value="medium">Medium</option>
+              <option value="hard">Hard (2 Marks)</option>
+            </select>
+          </div>
+
+          <div class="form-group" style="display:flex; align-items:flex-end;">
+            <button type="button" id="startMockTestBtn" class="button button-primary" style="width:100%; height:42px;">
+              <svg class="lucide lucide-play" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              Start Timed Test
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Live Mock Test Arena (Authentic TCS iON GATE CBT Interface) -->
+      <div id="testArenaSection" class="tcs-cbt-container" hidden>
+        <!-- TCS Topbar: Exam Header & Candidate Profile -->
+        <header class="tcs-cbt-topbar">
+          <div class="tcs-topbar-left">
+            <div class="tcs-exam-badge-group">
+              <span class="tcs-badge-gate">GATE CBT</span>
+              <div>
+                <h2 id="arenaTestTitle" class="tcs-exam-title">GATE 2025 Mock Examination</h2>
+                <span class="tcs-paper-subtitle" id="arenaPaperSubtitle">Computer Science and Information Technology (CS)</span>
+              </div>
+            </div>
+          </div>
+          <div class="tcs-topbar-right">
+            <div class="tcs-candidate-box">
+              <div class="tcs-candidate-avatar">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              </div>
+              <div class="tcs-candidate-details">
+                <span class="tcs-cand-label">Candidate Name:</span>
+                <strong class="tcs-cand-name" id="arenaCandidateName">GATE Aspirant</strong>
+                <span class="tcs-cand-roll">Roll No: <span id="arenaRollNo">CS25S61408091</span></span>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <!-- TCS Subbar: Section Tabs & Digital Countdown Timer -->
+        <div class="tcs-subbar">
+          <div class="tcs-section-tabs" id="arenaSectionTabs" role="tablist">
+            <button type="button" class="tcs-tab-btn active" data-section="ga" id="tabSectionGA">
+              General Aptitude (GA)
+            </button>
+            <button type="button" class="tcs-tab-btn" data-section="cs" id="tabSectionCS">
+              Computer Science &amp; IT (CS)
+            </button>
+          </div>
+          <div class="tcs-subbar-right">
+            <button type="button" id="arenaTogglePaletteBtn" class="tcs-palette-toggle-btn" aria-label="Open Question Palette">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+              <span>Question Palette</span>
+              <span class="tcs-palette-pill" id="paletteQuickCount">1/65</span>
+            </button>
+            <div class="tcs-timer-box" id="testTimerBox">
+              <svg class="lucide lucide-clock" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span class="tcs-timer-label">Time Left:</span>
+              <span id="arenaTimerDisplay" class="tcs-timer-val">03:00:00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- TCS Exam Workspace: Left Question Area + Right Palette Sidebar -->
+        <div class="tcs-workspace-grid">
+          <!-- Question Main Area -->
+          <main class="tcs-question-column">
+            <!-- Question Meta Bar -->
+            <div class="tcs-q-meta-bar">
+              <div class="tcs-q-type-wrap">
+                <span class="tcs-meta-label">Question Type:</span>
+                <span class="tcs-meta-val" id="arenaQType">Multiple Choice Question (MCQ)</span>
+              </div>
+              <div class="tcs-q-marks-wrap">
+                <span class="tcs-marks-chip pos">Marks for correct answer: <strong id="arenaMarksPos">2</strong></span>
+                <span class="tcs-marks-chip neg">Negative marks: <strong id="arenaMarksNeg">0.66</strong></span>
+              </div>
+              <!-- Direct Ask AI Action Button -->
+              <div class="tcs-q-ai-wrap">
+                <button type="button" id="arenaAskAiBtn" class="tcs-ask-ai-btn" title="Send question &amp; options directly to AI Doubt Solver without losing test state">
+                  <svg class="lucide lucide-sparkles" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
+                  <span>Ask AI Solver</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Question & Code Scrollable Area -->
+            <div class="tcs-question-scroll-content">
+              <div class="tcs-q-heading-row">
+                <h3 id="arenaQuestionCounter" class="tcs-q-number-title">Question No. 1</h3>
+                <span class="tcs-q-tag" id="arenaMarksBadge">GATE CSE</span>
+              </div>
+
+              <!-- Question Text with IDE Code Window -->
+              <div id="arenaQuestionText" class="rich-question-content tcs-q-body"></div>
+
+              <!-- Options List -->
+              <div id="arenaOptionsList" class="tcs-options-list"></div>
+            </div>
+
+            <!-- TCS iON Official Bottom Action Toolbar -->
+            <footer class="tcs-bottom-bar">
+              <div class="tcs-bottom-left">
+                <button type="button" id="arenaReviewBtn" class="tcs-action-btn tcs-btn-review">
+                  Mark for Review &amp; Next
+                </button>
+                <button type="button" id="arenaClearBtn" class="tcs-action-btn tcs-btn-clear">
+                  Clear Response
+                </button>
+              </div>
+              <div class="tcs-bottom-right">
+                <button type="button" id="arenaPrevBtn" class="tcs-action-btn tcs-btn-prev">
+                  &larr; Previous
+                </button>
+                <button type="button" id="arenaNextBtn" class="tcs-action-btn tcs-btn-save-next">
+                  Save &amp; Next &rarr;
+                </button>
+              </div>
+            </footer>
+          </main>
+
+          <!-- Palette Mobile Overlay -->
+          <div id="tcsPaletteOverlay" class="tcs-palette-overlay" hidden></div>
+
+          <!-- TCS iON Question Palette Sidebar -->
+          <aside class="tcs-palette-column" id="arenaPaletteColumn">
+            <!-- Mobile Palette Header -->
+            <div class="tcs-palette-mobile-header">
+              <div style="display:flex; align-items:center; gap:8px;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                <strong style="font-size:1rem; color:#1e293b;">Question Palette</strong>
+              </div>
+              <button type="button" id="closeMobilePaletteBtn" class="tcs-palette-close-x" aria-label="Close Question Palette">&times;</button>
+            </div>
+
+            <!-- Candidate Mini Profile in Sidebar -->
+            <div class="tcs-palette-candidate-card">
+              <div class="tcs-palette-cand-avatar">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              </div>
+              <div class="tcs-palette-cand-info">
+                <span class="tcs-cand-name" id="arenaSidebarCandName">GATE Aspirant</span>
+                <span class="tcs-cand-role">Exam Mode: Live Simulation</span>
+              </div>
+            </div>
+
+            <!-- Official TCS iON 5-State Legend & Live Counters -->
+            <div class="tcs-palette-legend-box">
+              <div class="tcs-legend-row">
+                <div class="tcs-legend-badge badge-answered" id="countAnswered">0</div>
+                <span class="tcs-legend-text">Answered</span>
+              </div>
+              <div class="tcs-legend-row">
+                <div class="tcs-legend-badge badge-not-answered" id="countNotAnswered">1</div>
+                <span class="tcs-legend-text">Not Answered</span>
+              </div>
+              <div class="tcs-legend-row">
+                <div class="tcs-legend-badge badge-not-visited" id="countNotVisited">64</div>
+                <span class="tcs-legend-text">Not Visited</span>
+              </div>
+              <div class="tcs-legend-row">
+                <div class="tcs-legend-badge badge-review" id="countReview">0</div>
+                <span class="tcs-legend-text">Marked for Review</span>
+              </div>
+              <div class="tcs-legend-row tcs-legend-full">
+                <div class="tcs-legend-badge badge-review-answered" id="countReviewAnswered">0</div>
+                <span class="tcs-legend-text">Answered &amp; Marked for Review (will be considered for evaluation)</span>
+              </div>
+            </div>
+
+            <!-- Current Section Label in Palette -->
+            <div class="tcs-palette-section-title">
+              <span id="arenaPaletteSectionName">Section: General Aptitude</span>
+            </div>
+
+            <!-- Question Palette Buttons (1 to 65) -->
+            <div id="arenaPaletteGrid" class="tcs-palette-grid"></div>
+
+            <!-- Submit Exam Button -->
+            <div class="tcs-palette-footer">
+              <button type="button" id="submitTestEarlyBtn" class="tcs-btn-submit-exam">
+                Submit Exam
+              </button>
+            </div>
+          </aside>
+        </div>
+      </div>
+
+      <!-- In-Exam Slide-out AI Doubt Drawer (Zero Data Loss) -->
+      <div id="examAiDrawer" class="exam-ai-drawer" aria-hidden="true" hidden>
+        <div class="exam-ai-drawer-overlay" id="examAiDrawerOverlay"></div>
+        <div class="exam-ai-drawer-content">
+          <div class="exam-ai-drawer-header">
+            <div style="display:flex; align-items:center; gap:8px;">
+              <span class="exam-ai-sparkle">✨</span>
+              <h3 style="margin:0; font-size:1.05rem;">AI Doubt Solver</h3>
+              <span class="tcs-marks-chip pos" style="font-size:0.75rem;">Exam Active &bull; Zero Loss</span>
+            </div>
+            <button type="button" id="closeExamAiDrawerBtn" class="exam-ai-close-btn" aria-label="Close AI Drawer">&times;</button>
+          </div>
+          
+          <div class="exam-ai-drawer-body">
+            <!-- Question Snapshot -->
+            <div class="exam-ai-context-box">
+              <div style="font-size:0.78rem; text-transform:uppercase; font-weight:700; color:var(--text-subtle); margin-bottom:4px;">
+                Current Question &amp; Options:
+              </div>
+              <div id="drawerQuestionSnippet" class="rich-question-content" style="font-size:0.9rem; max-height:220px; overflow-y:auto; padding:8px; background:var(--surface-hover); border-radius:6px;"></div>
+            </div>
+
+            <!-- AI Response Area -->
+            <div id="drawerAiResponse" class="drawer-ai-response rich-content" style="margin-top:1rem; font-size:0.92rem; line-height:1.6;">
+              <div class="ai-loading-pulse" style="display:flex; align-items:center; gap:8px; color:var(--text-subtle);">
+                <div class="spinner-dot"></div>
+                <span>NVIDIA AI is analyzing question, code, and derivation...</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="exam-ai-drawer-footer">
+            <form id="drawerChatForm" class="exam-ai-chat-input-bar" onsubmit="return false;">
+              <input type="text" id="drawerFollowupInput" class="drawer-chat-input" placeholder="Ask follow-up doubt or clarification..." autocomplete="off" />
+              <button type="submit" id="drawerFollowupSendBtn" class="drawer-chat-send-btn" title="Send question">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+            </form>
+            <button type="button" id="drawerOpenFullChatBtn" class="button button-secondary" style="font-size:0.82rem; width:100%; margin-top:8px;">
+              Open in Full AI Doubt Solver View &rarr;
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- TCS Official Exam Summary Submission Modal -->
+      <div id="tcsSubmitModal" class="tcs-modal-overlay" hidden>
+        <div class="tcs-modal-card">
+          <div class="tcs-modal-header">
+            <h3>Examination Summary</h3>
+            <button type="button" id="tcsModalCloseX" class="tcs-modal-x">&times;</button>
+          </div>
+          <div class="tcs-modal-body">
+            <div class="table-wrap">
+              <table class="tcs-summary-table">
+                <thead>
+                  <tr>
+                    <th>Section</th>
+                    <th>Total Qs</th>
+                    <th>Answered</th>
+                    <th>Not Answered</th>
+                    <th>Marked for Review</th>
+                    <th>Ans. &amp; Review</th>
+                    <th>Not Visited</th>
+                  </tr>
+                </thead>
+                <tbody id="tcsSummaryTableBody"></tbody>
+              </table>
+            </div>
+            <div class="tcs-submit-confirm-text">
+              Are you sure you want to finish and submit your exam? Once submitted, you cannot change your responses.
+            </div>
+          </div>
+          <div class="tcs-modal-actions">
+            <button type="button" id="tcsModalCancelBtn" class="tcs-action-btn tcs-btn-clear">
+              No, Resume Exam
+            </button>
+            <button type="button" id="tcsModalConfirmBtn" class="tcs-action-btn tcs-btn-save-next" style="background:#2563eb; border-color:#1d4ed8;">
+              Yes, Submit Exam
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Test Scorecard & Detailed Review -->
+      <div id="testResultSection" class="test-result-panel" hidden>
+        <div class="result-score-card">
+          <div class="score-main">
+            <p class="score-label">Total Score Awarded (With Negative Marking)</p>
+            <h2 id="resultScoreDisplay" class="score-value">0.00 / 100</h2>
+            <p id="resultAccuracyDisplay" class="score-sub">Accuracy: 0%</p>
+          </div>
+          <div class="score-stats-grid">
+            <div class="stat-box stat-correct">
+              <span id="statCorrectCount">0</span> Correct (+Marks)
+            </div>
+            <div class="stat-box stat-wrong">
+              <span id="statWrongCount">0</span> Wrong (-1/3 Penalty)
+            </div>
+            <div class="stat-box stat-skipped">
+              <span id="statSkippedCount">0</span> Unattempted
+            </div>
+          </div>
+          <div style="margin-top:1.5rem; display:flex; gap:1rem;">
+            <button type="button" id="retakeTestBtn" class="button button-primary">
+              Take Another Test
+            </button>
+          </div>
+        </div>
+
+        <h3 style="margin:2rem 0 1rem; font-size:1.25rem;">Question-by-Question Detailed Review &amp; Explanations</h3>
+        <div id="resultReviewList" class="review-questions-list"></div>
+      </div>
     </section>
 
     <p id="globalStatus" class="global-status" role="status" aria-live="polite" hidden></p>
   </main>
-  <footer class="site-footer">GATEPrep · GATE CSE preparation</footer>
+
+  <footer class="site-footer">
+    GATEPrep &middot; Comprehensive GATE CSE Preparation Platform &middot; Powered by NVIDIA AI
+  </footer>
 </body>
 </html>
