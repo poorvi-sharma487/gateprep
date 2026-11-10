@@ -332,7 +332,7 @@
       </div>
 
       <div class="doubt-solver-layout">
-        <div class="chat-container">
+        <div id="chatContainer" class="chat-container">
           <div class="chat-header">
             <div class="chat-header-info">
               <div class="chat-bot-avatar">
@@ -346,7 +346,7 @@
               </div>
             </div>
 
-            <div style="display:flex;align-items:center;gap:10px;">
+            <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
               <select id="chatSubjectSelect" class="ai-select" style="min-height:36px;padding:4px 10px;font-size:13px;width:auto;">
                 <option value="GATE CSE">General GATE CSE</option>
                 <option value="C Programming">C Programming</option>
@@ -361,6 +361,12 @@
                 <option value="COA">Computer Organization (COA)</option>
                 <option value="Digital Logic">Digital Logic</option>
               </select>
+              <button id="chatFullscreenBtn" class="button button-secondary" type="button" style="min-height:36px;padding:6px 12px;font-size:12px;display:inline-flex;align-items:center;gap:6px;" title="Toggle Fullscreen">
+                <svg class="lucide lucide-maximize" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
+                </svg>
+                <span id="chatFullscreenLabel">Full Screen</span>
+              </button>
               <button id="chatClearBtn" class="button button-secondary" type="button" style="min-height:36px;padding:6px 12px;font-size:12px;" title="Clear conversation">
                 <svg class="lucide lucide-rotate-ccw" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                   <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/>

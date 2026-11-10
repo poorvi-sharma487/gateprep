@@ -408,6 +408,7 @@ function renderRoute() {
   views.forEach(view => {
     view.hidden = view.dataset.view !== viewName;
   });
+  document.body.dataset.currentView = viewName;
 
   const activeNav = viewName === "subject" || viewName === "practice" ? "subjects" : viewName === "auth" ? route : viewName;
   navLinks.forEach(link => {
@@ -2329,6 +2330,26 @@ if (chatClearBtn) {
         </div>
       `;
       doubtHistory.length = 0;
+    }
+  });
+}
+
+const chatFullscreenBtn = document.getElementById("chatFullscreenBtn");
+const chatContainer = document.getElementById("chatContainer");
+
+if (chatFullscreenBtn && chatContainer) {
+  chatFullscreenBtn.addEventListener("click", () => {
+    const isFull = chatContainer.classList.toggle("is-fullscreen");
+    document.body.classList.toggle("chat-is-fullscreen", isFull);
+
+    chatFullscreenBtn.innerHTML = isFull
+      ? `<svg class="lucide lucide-minimize" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"/></svg> <span id="chatFullscreenLabel">Exit Fullscreen</span>`
+      : `<svg class="lucide lucide-maximize" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg> <span id="chatFullscreenLabel">Full Screen</span>`;
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && chatContainer.classList.contains("is-fullscreen")) {
+      chatFullscreenBtn.click();
     }
   });
 }
