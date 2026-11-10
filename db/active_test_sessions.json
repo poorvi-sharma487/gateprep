@@ -5530,5 +5530,1477 @@
       }
     },
     "questionCount": 3
+  },
+  "d4860b21-0084-4209-8a57-0e7c4161032a": {
+    "testId": "d4860b21-0084-4209-8a57-0e7c4161032a",
+    "testTitle": "GATE CSE Full-Length Authentic Mock Test",
+    "mode": "full_gate",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794329579480,
+    "durationMinutes": 180,
+    "totalMarks": 130,
+    "answerKeyMap": {
+      "general-aptitude-arrays-and-strings-m1-q67": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (8)",
+        "explanation": "To find the value of f(g(h(2, 5, 7, 3), 4, 6, 8)), we \nsolve it from the inside out. \n 1. Evaluate the inner function: h(2, 5, 7, 3) \n The function h calculates the remainder of the larger \nproduct divided by the smaller product of the pairs \n(p, q) and (r, s). \n● First pair (p * q): 2 X 5 = 10 \n● Second pair (r * s): 7 X 3 = 21 \n● Calculate Remainder: 21 / 10 = 2 with a \nremainder of 1. \n● Result: h(2, 5, 7, 3) = 1. \n<!-- PAGE 714 -->\nGENERAL APTITUDE  \n 2. Evaluate the outer function: fg(1, 4, 6, 8) \n Now, substitute the result back into the \nexpression: fg(1, 4, 6, 8). \n The function fg is defined as f(set) X g(set). \n● Find f (Maximum): max(1, 4, 6, 8) = 8 \n● Find g (Minimum): min(1, 4, 6, 8) = 1 \n● Final Calculation: 8 X 1 = 8 \n Final Answer:",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "arrays-and-strings"
+      },
+      "general-aptitude-topic-2-m2-q24": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "- (C)",
+        "explanation": "P = 3   \n R = 27   \n T = 243   \n Step 1: Identify the pattern \n 3 = 3¹   \n 27 = 3³   \n 243 = 3⁵   \n So letters are mapped as powers of 3. \n Step 2: Check positions \n P → 16th letter → exponent = 1   \n R → 18th letter → exponent = 3   \n T → 20th letter → exponent = 5   \n So pattern: \n Exponent = (Position − 15) \n Step 3: Find Q and S \n Q → position 17   \n Exponent = 17 − 15 = 2   \n Q = 3² = 9   \n S → position 19   \n Exponent = 19 − 15 = 4   \n S = 3⁴ = 81   \n Step 4: Final answer \n Q + S = 9 + 81 = 90   \n Final Answer: (C) 90 \n<!-- PAGE 738 -->\nGENERAL APTITUDE",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-2"
+      },
+      "general-aptitude-topic-2-m2-q18": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "- (D)",
+        "explanation": "Since the pool of qualified candidates consists \nentirely of boys and girls: \n Girls Qualified: 60% of the qualified pool \n Boys Qualified: 100% − 60% = 40% of the \nqualified pool \nComparing the two percentages within this same \npopulation: \n𝟒𝟎% (Boys) < 𝟔𝟎% (Girls)  \nTherefore, the number of boys who qualified is \nguaranteed to be less than the number of girls \nwho qualified, regardless of how many total \nstudents appeared or passed. \nWhy other options are incorrect: \n (a) Incorrect because the qualified \npercentages are unequal (40% vs 60%). \n<!-- PAGE 736 -->\nGENERAL APTITUDE  \n (b) & (c) Incorrect because boys made up \n65% of the appeared candidates, meaning \nsignificantly more boys appeared than girls \n(35%).",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-2"
+      },
+      "general-aptitude-topic-2-m2-q22": {
+        "type": "NAT",
+        "correct_option": 2,
+        "answer_key": "- (C)",
+        "explanation": "From the given observations, the relative order of \nheights can be deduced as follows: \n1. Q is the shortest (Q=1st). \n2. U>Q and U is taller than only one student \n(U=2nd). \n3. R must come next (R=3rd), as S>R and S is not \nshorter than U. \n4. S>R (S=4th). \n5. T>S, but T is not the tallest (T=5th). \n6. P must be the tallest (P=6th). \n Thus, the order of heights is: Q<U<R<S<T<P \n So, \n● Students taller than R: S, T, P (3 students). \n● Students shorter than S: Q, U, R (3 students). \n Therefore, the number of students taller than R is \nthe same as the number of students shorter than S.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-2"
+      },
+      "general-aptitude-topic-2-m2-q15": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "According to the given data we have to find the \nvalue of F1 using the recurrence relation \n<!-- PAGE 735 -->\nGENERAL APTITUDE  \n Fn+1=Fn+Fn-1 \n While putting the value of F6 and F7 we will get \nthe value of F5 which is 23 \n Fn+1=Fn+Fn-1 so after this we will look for F4 which \nwill 14 \n And by following F4 and F5 we will calculate the \nvalue of F3 which is 9 \n and so on value of F1 is 4 .",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-2"
+      },
+      "general-aptitude-topic-3-m3-q33": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "The passage states that begging is a symptom caused \nby failure of the state’s social security system. This \nimplies lack of welfare schemes leads to begging.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-3"
+      },
+      "general-aptitude-topic-2-m2-q48": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "The gap between first letters: A, C, F, J, O increases \nby 2, 3, 4, 5. The gap between second letters: D, G, \nK, P, V increases by 3, 4, 5, 6. So the next term is \nOV.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-2"
+      },
+      "general-aptitude-topic-2-m2-q42": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "R + 3 = U \n O + 3 = R \n A + 3 = D \n D + 3 = G \n Applying same logic to SWAN: \n S + 3 = V \n W + 3 = Z \n A + 3 = D \n N + 3 = Q",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-2"
+      },
+      "general-aptitude-topic-3-m3-q8": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "Ramya says, \"Even if I had known you were in the \nhospital, I would not have gone there to see you.\" \n This implies that Ramya did not know Josephine \nwas in the hospital. If she had known, she would \nhave visited, but the statement suggests that she was \nunaware of it at the time.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-3"
+      },
+      "general-aptitude-topic-3-m3-q4": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "\"Myopic\" literally means nearsighted (unable to see \nfar). \n Figuratively, it means shortsighted, lacking \nforesight, or focusing only on immediate results \nrather than considering long-term consequences. \n (A) Visionary \n<!-- PAGE 758 -->\nGENERAL APTITUDE  \n Incorrect. Opposite of myopic. A visionary person \nhas long-term foresight. \n (B) Shortsighted \n Correct. It directly means lacking long-term \nperspective, which fits the meaning of \"myopic.\" \n (C) Progressive \n Incorrect. Progressive means forward-thinking and \nfuture-oriented, which is the opposite of myopic. \n (D) Innovative \n Incorrect. Innovative means creative and \nintroducing new ideas, which does not match the \nmeaning of myopic.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-3"
+      },
+      "algorithms-topic-4-m4-q9": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "B",
+        "explanation": "Do not i nclude a0 in the subsequence: then the \nmaximum possible weight will be equal to \nmaximum possible weight of a subsequence of \n{a1, a2, …..an} which is represented by Y. \nInclude a0: then maximum possible weight will \nbe equal to a0 + (each number picked in Y w ill \nget divided by 2) a0 + Y/2. Here you can note \nthat Y will itself pick optimal subsequence to \n<!-- PAGE 135 -->\nALGORITHMS \nmaximize the weight. Final answer will be \nMax (Case1, Case2) i.e. Max (Y, a 0 + Y/2). \nHence (B) is correct.",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "topic-4"
+      },
+      "theory-of-computation-topic-2-m2-q12": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "(B)",
+        "explanation": "X → am(a+b)bp (m≥0,p≥0) \nAfter replacing X in the first production we get, \nS → aSb / am(a+b)bp. \nFurther reduction we get, \nS → anam(a+b)bpbn \nfurther simplification gives : a∗(a+b)b∗ .",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "topic-2"
+      },
+      "c-programming-topic-3-m3-q13": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (81)",
+        "explanation": "Solution: \nCall pp(3, 4) \narr[20] declared, tot = 1, ex = a = 3. \nlen = tob(4, arr):b = 4 → binary: \n4 % 2 = 0 → arr[0] = 0, b=2 \n2 % 2 = 0 → arr[1] = 0, b=1 \n1 % 2 = 1 → arr[2] = 1, b=0 \nSo arr = [0, 0, 1] (indices 0,1,2), len = 3.Binary of 4 is \n100 (reads arr[2]..arr[0] as MSB..LSB in normal \nwriting, but here arr[0] is LSB). \nLoop i = 0 to len-1: \ni=0: arr[0] = 0 → do not multiply; \nex = ex * ex = 3 * 3 = 9. \ni=1: arr[1] = 0 → do not multiply; \nex = 9 * 9 = 81. \ni=2: arr[2] = 1 → tot = tot * ex = 1 * 81 = 81; \nex = 81 * 81 (not used later). \nReturn tot = 81.",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "computer-networks-topic-3-m3-q65": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- D",
+        "explanation": "TTL changes from one hope to the next. \n checksum changes on each hop due to TTL change. \n Fragement offset may be compurted again. \n TTL, check sum and fragement offset may be \nchanged in the transmission.",
+        "marks": 2,
+        "subject_slug": "computer-networks",
+        "topic_slug": "topic-3"
+      },
+      "computer-organization-and-architecture-topic-2-m2-q22": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "(B)",
+        "explanation": "Instructions: \nI1: R1 ← R2, R3 \nI2: R7 ← R1, R3 \nI3: R4 ← R1, R5 \nI4: R3 ← R2, R4 \nI5: R7 ← R8, R9 \nS1 (I2 and I5): \nBoth write to R7 ⇒ output dependence (WAW), \nnot anti \nS2 (I2 and I4): \nI2 reads R3, I4 writes R3 ⇒ anti-dependence \n(WAR) \nS3: \nAnti-dependence does not always cause stalls (can \nbe removed via register renaming) \nAnswer: \nOnly S2 is true (Option B)",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-2"
+      },
+      "computer-organization-and-architecture-topic-2-m2-q7": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (2.9 to 3.1 )",
+        "explanation": "Non-Pipelined Execution Time \nFrequency (f) = 2 GHz \nCycle Time (T) = 1 / 2 GHz = 0.5 nsec \nCycles per Instruction (CPI) = 6 cycles \nTotal Execution Time (ET_Nonpipe) \n= CPI * Cycle Time = 6 * 0.5 nsec = 3 nsec \nPipelined Execution Time with Stalls \nCycle time remains 0.5 nsec. \nInstruction breakdown based on stalls: \n20% of instructions cause 2 stalls (Data Hazards) \n20% of instructions cause 3 stalls (Control \nHazards) \n60% of instructions execute normally with 0 stalls \nAverage Stalls per Instruction \n= (0.20 * 2) + (0.20 * 3) + (0.60 * 0) \nAverage Stalls = 0.4 + 0.6 = 1 stall per instruction \nAverage Execution Time (ET_Pipe) = \n(1 + Average Stalls) * Cycle Time \nET_Pipe = (1 + 1) * 0.5 nsec = 2 * 0.5 nsec \n= 1 nsec \nSpeedup Calculation \nSpeedup (S) = ET_Nonpipe / ET_Pipe \nS = 3 nsec / 1 nsec = 3",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-2"
+      },
+      "computer-organization-and-architecture-topic-2-m2-q32": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "- (D)",
+        "explanation": "An instruction placed in a branch delay slot always \nexecutes, regardless of whether the branch is taken \nor not. To safely fill it with an instruction from before \nthe branch, that instruction must have no data \ndependencies affecting the branch condition or \nsubsequent logic. \nThe branch condition depends entirely on register 𝑅1 \n( if R1 == 0). \n 𝐼3 cannot be moved: It writes directly to \n𝑅1 ( ADD R1 +R2 + R3 ). Moving it below \nthe branch means the branch would \nevaluate using an old, incorrect value of \n𝑅1.\n 𝐼1 cannot be moved: It computes 𝑅2 \n(ADD R2 + R7 + R8 ), which is \nneeded immediately by 𝐼3 to \ncompute the branch register 𝑅1. \nMoving it would break this critical \ndata chain.\nc. 𝐼2 cannot be moved: It computes 𝑅4 ( SUB R4 + R5 − \nR6 ), which is needed immediately by the memory \nwrite address in 𝐼4. \nd. 𝐼4 can be moved: It is a simple store instruction ( \nSTORE Memory [R4] & R1). It reads 𝑅4 and 𝑅1 \nbut does not alter any registers that the branch relies \non. All of its \nown source operands are fully calculated by the time the \nprogram reaches this block.",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-2"
+      },
+      "computer-organization-and-architecture-topic-2-m2-q5": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "A RAW dependency exists on R₃ between I₁ and I₂. \nA RAW dependency exists on R₅ between I₂ and I₃. \nNo RAW dependency exists on R₃ between I₂ and I₃. \nA WAW dependency exists on R₃ between I₁ and I₃. \nHence, the correct answer is: A RAW dependency \nexists on R₃ between I₁ and I₂.",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-2"
+      },
+      "dbms-topic-5-m5-q2": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "Explanation ➖ \nLogical schema → describes database structure as \nrelations \n⇒ I – N \n Physical schema → storage details like file \norganization and indexes \n⇒ II – M \n External schema → user views of database \n⇒ III – L",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-5"
+      },
+      "computer-organization-and-architecture-topic-2-m2-q29": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "Rearranging to solve for the pipelined \nexecution time per instruction: \nSpeedup = Time without pipelining / Time with \npipelining \nClock cycle time of pipelining \nCPI \npipelined \n6 = = 4 \n1.5",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-2"
+      },
+      "dbms-topic-4-m4-q31": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "B",
+        "explanation": "Explanation:-  \nHere we have to calculate the number of comparisons \nperformed when the above SQL query is optimally \nexecuted. \n from the first inner query: \n select R.did from Cars C, Reserves R where R.cid = \nC.cid and C.colour = 'red' \n C.color = \"Red\", comparisons=4 (Cars has four rows) \n R.cid=C.cid so there are five rows extracted to this \nwhere condition. comparisons=(2 red cars * 10 Reserves \nrows)=20 \n from the second inner query: select R.did from Cars C, \nReserves R where R.cid = C.cid and C.colour = 'green' \n C.color = \"Green\", comparisons=4 (Cars has four rows) \n R.cid=C.cid so there are three rows extracted to this \nwhere condition. comparisons=(1 green car*10 Reserves \nrows)=10 \n R.did = {22, 22, 31,31, 64} for first inner query R.did = \n{22, 31, 74} for second inner query \n Here unique sets are, R.did={22,31,64} and \nR.did={22,31,74} respectively for first and second inner \nqueries. so for intersection, 6 comparisons (for 22, we hit \non the first try and for 31,we hit on the second try,and \nfor 74,we hit on all t hree try, so comaprisons=1+2+3) \nFinally we have to locate the did - 22 and did 31 from \nthe driver table and did is the primary key. As told in the \nquestion, we use linear search and for 22, we hit on the \nfirst try and for 31 we hit on the third try. So, 1 + 3 = 4 \ncomparisons. so total no of comparisons= \n4+20+4+10+6+4=48 therefore B is the answer. \n In short: So, first get 2 red cars by scanning 4 tuples of \nthe cars relation. Now, for each of the two 'red' cars, we \nscan all the 10 tuples of the 'Reserves' rel ation and thus \nwe get 2*10 + 4 = 24 comparisons.Similarly for the 'green' \ncar we get 4+10 = 14 comparisons.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-4"
+      },
+      "computer-organization-and-architecture-topic-3-m3-q20": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 16383",
+        "explanation": "Instruction size = 1 word = 32 bit \n45 Operation = 6 bit \n64 Register = 6 bit \nImmediate field = 32 – (6 + 6 + 6) \n= 14 bit \nImmediate field Range = 0 to 214 –1 = 16383",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-3"
+      },
+      "dbms-topic-4-m4-q35": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- D",
+        "explanation": "Explanation :- \nHere [not unique] in nested query ensures that only for \nthose suppliers it return True which supplies more than 1 \nitem in which case supplier id in inner query will be \nrepeated for that supplier. \n Hence, answer is (D) supply two or more items.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-4"
+      },
+      "computer-organization-and-architecture-topic-3-m3-q11": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 14",
+        "explanation": "Instruction Length: 16 bits \nTo distinguish among 64 registers, we need log₂ (64) \n= 6 bits \nI-type instruction format: \nOpcode | Register | Immediate Value \nR-type instruction format: \nOpcode | Register | Register \nMaximum possible encodings = 2¹⁶ \nIt is given that there are 8 I-type instructions. Let the \nmaximum R-type instructions be x. \nTherefore, \n(8 × 2⁶ × 2⁴) + (x × 2⁶ × 2⁶) = 2¹⁶ \n⇒ x = 16 − 2 = 14 \nAlternate Solution: \nR-type: \n Opcode = 4 bits → Total combinations = 24 = \n16operations \n Given R-type instructions = 𝑥 \n Free opcodes after allocating R-type = (16−𝑥) \nI-type: \n Format includes: \no Opcode = 6 bits \no Immediate field present \n Total operations in I-type = (Free opcodes) × \n(variations due to immediate bits) \nTotal I-type operations = (16 − 𝑥) × 2(6−4) \n= (16 − 𝑥) × 22 \nGiven: \nI-type instructions = 8 \n8 = (16 − 𝑥) × 4 \n2 = 16 − 𝑥 \n𝑥 = 16 − 2 \n𝑥 = 14 \n<!-- PAGE 485 -->\nComputer Organization and Architecture",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-3"
+      },
+      "dbms-arrays-and-strings-m1-q34": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "Explanation :-  \n(A, B), (B, C) — common attribute is B and due to B \n→ C, B is a key for (B, C) and hence ABC can be \nlosslessly decomposed into (A, B) and (B, C). \n(A, B, C), (B, D), common attribute is B and B → D is \na FD (via B → C, C → D), and hence, B is a key for (B, \nD). So, decomposition of (A, B, C, D) into (A, B, C) \nand (B, D) is lossless. \nThus the given decomposition is lossless. \nThe given decomposition is also dependency preserving \nas the dependencies A → B is present in (A, B), B → C \nis present in (B, C), D → B is present in (B, D) and C \n→ D is indirectly present via C → B in (B, C) and B → \nD in (B, D).",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "arrays-and-strings"
+      },
+      "dbms-arrays-and-strings-m1-q25": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- B",
+        "explanation": "Explanation \nHere , we need to find the candidate key of the Relation \nR: \nSo, we take the closure of the attributes and check one by \none for each option. (EF)+ = EFGIJ. So, EF is not a key. \n(EFH)+ = EFHGIJKLMN, EFH is deriving all the \nattributes of R. So, EFH is a key. \nIf EFH is a key, then EFHKL will become the super key. \n(E)+ = E \n<!-- PAGE 381 -->\nDATABASE MANAGEMENT  SYSTEM",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "arrays-and-strings"
+      },
+      "dbms-arrays-and-strings-m1-q13": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "A,B,C",
+        "explanation": "Explanation :- A, B, C \nIn option (D) R → T, we find (R)+.  \nR+ = {R} so in R+ we do not have T so can’t be \ninferred. Hence false.  \nIn option (C) P → R, (P)+ = {PQR} and we find R so \nit can be inferred. Hence True. \nIn option (B) PS → Q, (PS)+ = {PSQRT} so it can be \ninferred. Hence True. \nIn option (A) PS → T, (PS)+ = {PSQRT} so it can be \ninferred. Hence True.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "arrays-and-strings"
+      },
+      "dbms-topic-4-m4-q14": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- D",
+        "explanation": "Explantion :-  SELECT operation in SQL is equal to the \nproject operation in Relational Algebra,while SELECT in \nSQL also retains duplicates. Hence, D is the answer.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-4"
+      },
+      "operating-system-topic-5-m5-q21": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- B",
+        "explanation": "It is given data as the disk block is of size 128B. \n One direct block addressing will be pointing to 8 \ndisk blocks = 8*128 B = 1 KB \n Singly Indirect block addressing will be pointing to \n1 disk block which has 128/8 disc block addresses \n= (128/8)*128 B = 2 KB \n Doubly indirect block addressing will be pointing \nto 1 disk block which has 128/8 addresses to disk  \nblocks which has 128/8 addresses to disk blocks = \n16*16*128 B = 32 KB \n Maximum file size possible = 1 KB + 2 KB + 32 \nKB = 35 KB",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "topic-5"
+      },
+      "operating-system-topic-5-m5-q8": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A,C",
+        "explanation": "Creation requires checking for duplicate name → \nfull scan \nRenaming requires checking new name \nuniqueness → full scan \nDeletion and opening can stop once found",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "topic-5"
+      },
+      "dbms-topic-6-m6-q34": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- B",
+        "explanation": "Explanation :- \nWhen a database system recovers from a crash \nusing a log file, it classifies transactions into \ntwo categories based on their status at the time \nof the crash: \n1. Committed Transactions (REDO): If a \ntransaction has both a <start> and a <commit> \nrecord in the log, its changes must be \npreserved. \n Transaction T1 has a T1 commit (record 4) \nbefore the crash. Thus, T1 must be redone (log \nrecords 2 and 3) to ensure durability. \n2. Uncommitted Transactions (UNDO): If a \ntransaction has a <start> record but lacks a \n<commit> record in the log, its changes must \nbe rolled back to maintain atomicity and \nconsistency. \n Transaction T2 crashes before writing its \ncommit record (record 7). Thus, T2 must be \nundone (log record 6) to revert any partial \nmodifications. \n(a) Incorrect: Log record 6 belongs to T2. \nSince T2 did not commit, its changes cannot \nbe redone. \n(b) Correct: To restore consistency, we roll \nback the uncommitted change from T2 \n(undoing log record 6 to reset B to 10000) and \nre-apply the committed changes from T1 \n(redoing log records 2 and 3). \n(c) Incorrect: Even though T1 committed, \nstandard recovery requires redoing its log \nrecords to ensure those changes are safely \nwritten to the physical disk (durability). \n(d) Incorrect: Redo and undo operations \ncannot be applied in an arbitrary order; they \nmust follow strict ordering (typically, undoing \nactive transactions backward and redoing \ncommitted transactions forward) to avoid \ncorrupting data states. \n<!-- PAGE 448 -->\nDATABASE MANAGEMENT  SYSTEM",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-6"
+      },
+      "computer-organization-and-architecture-topic-5-m5-q9": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- B,C",
+        "explanation": "In Write-Through Cache WTC, data is immediately \nwritten to the main memory on a write, so there are \nno dirty blocks. A read miss only fetches data without \nrequiring a write-back. \n(b) A read miss in WTC never triggers a write back \noperation of a cache block to main memory is TRUE. \nIn WBC, a write hit updates the cache block and sets \n<!-- PAGE 510 -->\nComputer Organization and Architecture \nthe dirty bit if it wasn't already set, indicating the \nblock has been modified. \nHence, (c) A write hit in WBC can modify the value \nof the dirty bit of a cache block is also TRUE.",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-5"
+      },
+      "dbms-arrays-and-strings-m1-q5": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "-C, D",
+        "explanation": "A relation is in 3NF if for every functional dependency \nX→Y, if X is a super key, or Y is a prime attribute. \n R1(ABCDE){D→E, EA→B, EA→C} \n AD is a candidate key. \n D→E (Violation: D is not a super key, E is not prime). \nEA→B (Violation: EA is not a super key, B is not prime). \nEB→C (Violation: EB is not a super key, C is not prime). \n R1 is not in 3NF. \nR2(ABCD) \n {A→D, A→B, C→A} \n C+ ={A,B,C,D} \n C is a candidate key. \n A→D (Violation: A is not a super key, D is not prime). \nA→B (Violation: A is not a super key, B is not prime). \nC→A (No violation: C is a superkey). \nR2 is not in 3NF.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "arrays-and-strings"
+      },
+      "computer-organization-and-architecture-topic-3-m3-q23": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "D",
+        "explanation": "I:RFE is used to return from exception, not \nto generate one ⇒ not a trap instruction \nII:It restores processor state (PC, flags, \nmode) ⇒ must be privileged \nIII:If exception occurs during RFE, state \nrestoration may break ⇒ must be atomic ⇒ \nno exception allowed \nAnswer: \nII and III only (Option D)",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-3"
+      },
+      "computer-organization-and-architecture-topic-3-m3-q30": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "Explanation \nGiven latencies: \n Load → ALU = 1 cycle \n ALU → ALU = 2 cycles \n ALU → Store = 2 cycles \n Load → Store = 0 cycles \nInstruction Sequence: \n1. Load R1, Loc1 \n2. Load R2, Loc2 \n3. Add R1, R2 → R1 \n4. Dec R2 \n5. Dec R1 \n6. Mpy R1, R2 → R3 \n7. Store R3, Loc3 \nCycle-wise Execution: \nCycle Instruction Status Reason \n1 Load R1, \nLoc 1 \nExecute  \n2 Load R2, \nLoc 2 \nExecute  \n3 - Stall Waiting for \nLoad R2 \n(Latency 1) \n4 Add R1, \nR2, R1 \nExecute  \n5 Dec R2 Execute  \n6 - Stall Waiting for \nAdd R1, R2, \nR1 (Latency \n2) \n7 Dec R1 Execute  \n8 - Stall Waiting for \nDec R1 \n(Latency 2) \n9 - Stall Waiting for \nDec R1 \n(Latency 2) \n10 Mpy R1, \nR2, R3 \nExecute  \n11 - Stall Waiting for \nMpy R1, R2, \nR3 (Latency \n2) \n12 - Stall Waiting for \nMpy R1, R2, \nR3 (Latency \n2) \n13 Store R3, \nLoc 3 \nExecuteTotal \nnumber of \ncycles = 13 \nCorrect Answer: C \n<!-- PAGE 489 -->\nComputer Organization and Architecture",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-3"
+      },
+      "dbms-arrays-and-strings-m1-q20": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- B",
+        "explanation": "Explanation \nJournal (V, N, S, E, T, Y, P) \nV – VOLUME \nN – NUMBER \nS – STARTPAGE \nE – ENDPAGE \nT – TITLE \nY – YEAR \nP – PRICE \nPrimary key: (V, N, S, E) \nFD set: \n(V, N, S, E) → T \n(V, N) → Y \n(V, N, S, E) → P \nIn (V, N) → Y \nNow, we check each functional dependency  one by \none. \nIn VN→ Y,  we have V, N as a part of the candidate \nkey and Y is non-prime attribute. \nSo, it is a Violation of 2NF \nNow, the schema “Journal” is in 1NF but not in 2NF. \nSo,2NF is the weakest normal form that the new \ndatabase satisfies, but the old one does not.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "arrays-and-strings"
+      },
+      "dbms-topic-6-m6-q12": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "Explanation :- In strict 2PL, we allow only those \nschedules whose precedence graph is acyclic which \nmeans the Schedule is Conflict Serializable .Also here, a \ntransaction T does not release any of its exclusive (write) \nlocks until after it commits or aborts. \nHence, no other transaction can read or write an item that \nis written by T unless T has committed, leading to a strict \nschedule for recoverability. \n Time stamp ordering schedule with Thomas write rule \ngenerates View Serializable Schedule having Blind write. \nSo, due to the presence of  Blind write, it would not be \nConflict Serial.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-6"
+      },
+      "computer-organization-and-architecture-topic-2-m2-q8": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (3)",
+        "explanation": "The portion of code that cannot be parallelized takes \n10 ns. \nFor each additional core, an overhead of 10 ns is \nadded. \nThus, overhead for n cores = (n − 1) × 10 ns. \nThe parallelizable portion takes 90 ns on one core. \nOn n cores, it takes 90 / n ns. \nLet total execution time be t(n): \nt(n) = 10 + (n − 1) × 10 + 90 / n \n= 10n + 90 / n \nNow evaluating: \nt(1) = 10(1) + 90/1 = 100 ns \nt(2) = 20 + 45 = 65 ns \nt(3) = 30 + 30 = 60 ns \nt(4) = 40 + 22.5 = 62.5 ns \nt(5) = 50 + 18 = 68 ns \nMinimum execution time occurs at n = 3. \nAnswer: 3 cores \nAlternate Solution: \nSingle Core Setup \nTotal execution time on a single core = 100 nsec \nParallelizable portion (90%) = 90 nsec \nNon-parallelizable portion (10%) = 10 nsec \nAdding Cores and Overhead \nLet the total number of cores = n \nNumber of newly added cores = (n - 1) \nOverhead time per new core = 10 nsec \nTotal overhead time for new cores = (n - 1) * 10 nsec \nExecution Time (ET) Equation \nET = (Parallelizable Time / n) + Total Overhead + Non-\nparallelizable Time \nET = [90 / n + (n - 1) * 10] + 10 \nET = 90 / n + 10n - 10 + 10 \nET = 90 / n + 10n \nFinding the Optimal Number of Cores (Minimizing ET) \nTo find the minimum execution time \n(Maxima/Minima), take the derivative of ET with \nrespect to n and set it to 0: \n<!-- PAGE 465 -->\nComputer Organization and Architecture \nd(ET)/dn = 0 \nd(ET)/dn = d/dn [90 / n + 10n] \nd(ET)/dn = -90 / n2 + 10 \nSet the derivative to 0: \n-90 / n2 + 10 = 0 \n10 = 90 / n2 \n10n2 = 90 \nn2 = 9 \nn = 3",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-2"
+      },
+      "computer-organization-and-architecture-logic-gates-m1-q3": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "Address bits needed: \nlog2(231) = 31 \n● Total address lines = 16 → full range = 0000 to \nFFFF \n● From chip select logic (implied), higher bits are \nfixed and lower bits vary \n● So fixed upper bits → 1100 1xxx xxxx xxxx → \ncorresponds to C800–CFFF \nHence, the correct range is C800 to CFFF.",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "logic-gates"
+      },
+      "computer-organization-and-architecture-topic-3-m3-q28": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "B",
+        "explanation": "2 registers only ⇒ minimize loads/stores \nOP m, Ri allows one operand directly from \nmemory ⇒ reduces MOVs \nCompute efficiently: \nt1 = a + b \nMOV a → R1 \nADD b, R1 → t1 in R1 \nt2 = c + d \nMOV c → R2 \nADD d, R2 → t2 in R2 \nt3 = e − t2 \nSUB e, R2 → R2 = e − t2 \nt4 = t1 − t3 \nSUB R2, R1 → R1 = t1 − t3 \nFinal result must be in memory: \nMOV R1 → t4 \nMOV count: \nMOV a → R1 \nMOV c → R2 \nMOV R1 → memory \nTotal = 3 MOVs \nAnswer: \n3 (Option B)",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-3"
+      },
+      "computer-organization-and-architecture-topic-2-m2-q12": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (17160)",
+        "explanation": "For the given pipelined system: \n• Total number of stages (k) = 5 \n• Total number of instructions (n) = 100 \n• Total delay (tₚ) = max(stage delay) + buffer delay \n⇒ tₚ = max(150, 120, 150, 160, 140) + 5 ns \n⇒ tₚ = 160 + 5 ns \n⇒ tₚ = 165 ns \nTotal execution time of pipeline: \nETₚ = (k + n − 1) × tₚ \n⇒ ETₚ = (5 + 100 − 1) × 165 ns \n⇒ ETₚ = (5 + 99) × 165 ns \n⇒ ETₚ = 104 × 165 ns \n⇒ ETₚ = 17160 ns \n∴ Time required to execute 100 instructions in the \ngiven pipeline = 17160 ns.",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-2"
+      },
+      "dbms-topic-5-m5-q13": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "-50",
+        "explanation": "Explanation : - (50 to 50) \n Using t he node structure of B + Tree internal node,we \nhave: \n       p× Bp + (p - 1) × k ≤ B (for non-leaf node) \n       Bp= 8 Bytes, k = 12 Bytes and B = 1024 Bytes. \n    So, p* 8 + (p-1)12 ≤ 1024 \n       ⇒  20p – 12 ≤ 1024 \n      ⇒ 20p ≤ 1036 \n  ⇒  p ≤ 51.8  \n      So, p = 51. \n   Now, maximum number of Keys will be p-1 = 50.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-5"
+      },
+      "computer-organization-and-architecture-topic-2-m2-q24": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- (1.54)",
+        "explanation": "There are five stages: \nInstruction Fetch (IF), \ninstruction decode and register fetch (ID/RF), \nInstruction execution (EX), \nMemory access (MEM), \nand register write back (WB) P \nold design: \nWith stage latencies 1ns, 2.2ns, 2ns, 1ns, \nand 0.75ns \nP = 3.08nsec \nQ new design: \nID/RF stage is split into three stages (ID, RF1, RF2) each \nof latency (2.2)/3 ns \n= 0.73ns. \nThe EX stage is split into two stages (EX1, EX2) each of \nlatency 1ns. \nThe new design has a total of eight pipeline stages. Time \nof stages in new design = {1ns, 0.73ns, 0.73ns, 0.73ns, \n1ns, 1ns, 1ns, and 0.75ns} \nCycle time = MAX (1ns, 0.73ns, 0.73ns, 0.73ns, 1ns, \n1ns, 1ns, and 0.75ns) = 1nsec \nBranch penalty = 6-1 = 5 because the next instruction \npointer at the end of the EX2 stage (which is 6th stage) \nin the new design. \nAVG instruction execution time is \nQ = Tavg = (1 + no. of stalls * branch penalty) \n*cycle time \n= (1 + 0.20 * 5)1 \nQ = 2nsec \nTherefore, P/Q = 3.08/2 = 1.54",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-2"
+      },
+      "computer-organization-and-architecture-topic-2-m2-q23": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "(1.6)",
+        "explanation": "Execution time 𝑇 = \n𝐼𝐶×𝐶𝑃𝐼 \n𝑓 \nSame program ⇒ IC same \nP2 takes 25% less time ⇒ \n𝑇2 = 0.75𝑇1 \nCPI increases by 20% ⇒ \n𝐶𝑃𝐼2 = 1.2 𝐶𝑃𝐼1 \nRatio: \nAns: 13 cycles \n<!-- PAGE 470 -->\nComputer Organization and Architecture \n0.75 = 1.2 𝑓1  \n𝑓2 \nCycle time = MAX (1ns, 2.2ns, 2ns, 1ns, and 0.75ns) \n= 2.2nsec \nGiven 𝑓1 \n1.2 \n𝑓2 = 0.75 𝑓1 = 1.6𝑓1 \n= 1GHz \n𝑓2 = 1.6 GHz \nBranch penalty = 3-1 = 2 because the next instruction \npointer at the end of the EX stage (which is 3rd stage) in \nthe old design \nAVG instruction execution time is \nP = Tavg = (1 + no. of stalls * branch penalty) * \ncycle time \n= (1 + 0.20 * 2)2.2 \nAnswer: \n1.6 GHz \nAlternate Solution: \nTotal Execution Time = Number of Instructions × \nCPI × Cycle time \nNote: In the given question, the Number of \nInstructions is the same for Processor P₁ and P₂. \nProcessor P₁: \n Clock Frequency P₁ = 1 GHz \n Cycle time P₁ = 1 / 1 GHz = 10⁻⁹ sec \n Cycle time P₁ = 1 nsec \n ET_P₁ = CPI × 1 nsec \nProcessor P₂: \n ET_P₂ = 1.2 × CPI × Cycle time₂ (Due to 20% \nmore CPI) \n ET_P₂ = 0.75 × ET_P₁ (Due to 25% less time than \nthat of P₁) \nCalculation: Equating the two expressions for \nET_P₂: \n0.75 × ET_P₁ = 1.2 × CPI × Cycle time₂ \nSubstitute the value of ET_P₁: 0.75 × CPI × 1 nsec = \n1.2 \n× CPI × Cycle time₂ \nCancel out CPI from both sides: 0.75 \n= 1.2 × Cycle time₂ \nSolve for Cycle time₂: Cycle time₂ = 0.75 / 1.2 = \n0.625 nsec \nCalculate the Clock Frequency for P₂: Clock \nFrequency P₂ = 1 / Cycle time₂ Clock Frequency P₂ = \n1 / (0.625 × 10⁻⁹ sec) \nAns: 1.6 GHz",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-2"
+      },
+      "computer-organization-and-architecture-topic-3-m3-q2": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- B",
+        "explanation": "Immediate Am : Constant \nIndirect Am : Pointer \nBase with Index : Element of Array \nBase with Offset/Displacement : Element of a \nRecord",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-3"
+      },
+      "data-structures-topic-4-m4-q19": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- 8",
+        "explanation": "Explanation: \nHere node with integer 1 has to be at root only. Now \nfor maximum depth of the tree the following \narrangement can be taken. Take root as level 1. \nmake node 2 at level 2 as a child node of node 1. \nmake node 3 at level 3 as the child node of node 2. \n.. \n.. and so on for nodes 4,5,6,7 \n.. \nmake node 8 at level 8 as the child node of node 7. \nmake node 9 at level 9 as the child node of node 8. \nPutting other nodes properly, this arrangement of the \ncomplete binary tree will follow the property of min \nheap. \nSo total levels are 9. node 9 is at level 9 and depth of \nnode 9 is 8 from the root.",
+        "marks": 2,
+        "subject_slug": "data-structures",
+        "topic_slug": "topic-4"
+      },
+      "data-structures-topic-3-m3-q9": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "D",
+        "explanation": "Explanation: The recurrence equation for given \nrecurrence function is \nT(n) = 2T(n – 1) + 1 \n= 2 [2T(n – 2) + 1] + 1 \n= 22 T(n – 2) + 2+1 \n⋮ \n= 2k T( n – k) + (2k – 1) \nGiven , n – k = 1 \n= 2n-1 T(1) + (2n-1 – 1) \n= 2n-1 + 2n-1 – 1 \n= 2n – 1 \n≌ O(2n)",
+        "marks": 2,
+        "subject_slug": "data-structures",
+        "topic_slug": "topic-3"
+      },
+      "computer-organization-and-architecture-topic-2-m2-q25": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "- (C)",
+        "explanation": "P1 = tp = max (1ns, 2ns, 2ns, 1ns) = 2 nsec \nP2 = tp = max (1ns, 1.5ns, 1.5ns, 1.5ns ) = 1.5 nsec \nP3 = tp = max (0.5ns, 1ns, 1ns, 0.6ns, 1ns) = 1 nsec \nP4 = tp = max (0.5ns, 0.5ns, 1ns, 1ns, 1.1ns) = 1.1 \nnsec. \nFrequency = 1/tp \nHence p3 has the highest clock frequency.",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-2"
+      },
+      "c-programming-topic-4-m4-q3": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "111",
+        "explanation": "int a, a new integer variable named 'a' created in \nthe run time stack with the garbage value at some \nrandom memory from the available memory.  \nlet assume variable 'a' created at memory location \n100 with the value 876. \nint arr[5], a new integer array variable named 'arr' \ncreated in the run time stack with the sequence of \n30,50,10,0,0 values at some random memory from \nthe available memory.  \n let assume variable 'arr' created at memory \nlocation 200, 204,208,212,216 with the values \n30,50,10,0,0. \nint * ptr , a new integer pointer variable named \n'ptr' created in the run time stack with the garbage \nvalue at some random memory from the available \nmemory.  \n⇒ let assume variable 'ptr' created at memory \nlocation 300 with pointing to some garbage \nmemory location. \nptr = &arr[0] + 1;  \n ptr = ( & ( arr[0] ) ) + 1;  \n\"ptr\" is pointing to arr[1]. \n a = *ptr;  \na = value at arr[1]   \n\"a\" value is 50. \n(*ptr)++;  \nvalue of the variable pointed by \"ptr\" is \nincremented by 1.  \n\"arr[1]\" is modified to 51. \nptr++;  \n\"ptr\" is pointing to next location w.r.to current \npointed element  \n\"ptr\" is pointing to arr[2]. \n<!-- PAGE 46 -->\nC PROGRAMMING \nLine 10: a + (*ptr) + arr[1]  \n50 + 10 + 51 = 111 is printed",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      },
+      "operating-system-topic-4-m4-q18": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- B",
+        "explanation": "Explanation: \nOption A: Again depends on the size of the \nfirst hole. It might happen the very first free \nhole is the worst possible hole. So in that \ncase size of hole decided by worst fit = size of \nhole decided by first fit. Therefore, Option A is \nFalse. \nOption B: Best fit will always the give smallest \npossible hole. So, either the hole picked will \nbe smaller than or equal to the other hole \nsizes. So, this is TRUE. \nOption C: Depends on the size of the first free \nhole. There is a very good chance that the \nsize of the first hole is small than size of the \nsize of the next hole. So, Option C is False. \nOption D: The next free hole might be the worst \npossible hole or it's size may be bigger than the \nhole picked by best fit. So, this is also False.",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "topic-4"
+      },
+      "c-programming-topic-4-m4-q2": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "(A) Static variable declared inside a function → \nstored in data/static segment, not heap. \n(B) Array declared inside a function → stored on \nstack. \n(C) Dynamically allocated array using malloc() → \nstored in heap. \n(D Return address of a function → stored on \nstack. \n Correct answer:   C",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      },
+      "theory-of-computation-topic-2-m2-q10": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(A)",
+        "explanation": "Note that Empty String ϵ is Not accepted by the given PDA, \nSo options B, C, D are eliminated. \nEmpty String ϵ is Not accepted because from initial state, on \nempty tape, we cannot empty our stack since stack bottom \nsymbol ⟂ can be removed only in state q But on empty tape, \nwe can not reach to state q from state s. \nMethod 2: \nNote that to empty our stack, the stack bottom symbol ⟂ can \nbe removed only in state q. To reach state q, from s or from \np, we need symbol A on Top-of-the-stack (TOS). Symbol A \nis pushed in the stack by symbol a in the input string. So, \nour input string must have at least one a. \nIn the initial state s, for every a in the input string, we push \none A in the stack. Now, for every b in the input string, we \npop one A from the stack. When all the b′s are over in the \ninput string, we can move to state q if our TOS is A, so, to \nempty our stack at the end of any input string w, we must \nhave more a′s than b′s in w. In the state q we can empty the \nstack & w is accepted. \nAlso, our PDA accepts a+strings.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "topic-2"
+      },
+      "theory-of-computation-topic-2-m2-q36": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "(C)",
+        "explanation": "h- strings generated by this grammar satisfies the \ndefinition of an even length palindrome string. \nE-R is true because R is the only grammar that checks: \nwhat (w) has occurred earlier is present afterwards. \nThis equals the definition of E",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "topic-2"
+      },
+      "computer-organization-and-architecture-topic-2-m2-q17": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (3.9 to 4.1)",
+        "explanation": "Given: 3-stage pipeline with processor frequency = \n3 GHz \nGiven relation: \ne₁ = (3e₂)/4 = 2e₃ \nAssume, \ne₁ = 6x \nThen, \ne₂ = 8x and e₃ = 3x \nLargest stage time = 8x \nProcessor frequency = 1 / (largest stage time) \n⇒ 1 / 8x = 3 GHz \n⇒ 1 / x = 24 GHz …… (1) \nNow, divide stage e₂ into two equal stages of 4x and \n4x. \nNew pipeline stages become: \n6x, 4x, 4x, 3x (4 stages) \nLargest stage time = 6x \nNew processor frequency = 1 / 6x \n= (1/x) / 6 \n= 24 / 6 = 4 GHz [using (1)] \n<!-- PAGE 468 -->\nComputer Organization and Architecture \nAlternate Solution: \nFinding the Stage Time Ratios \nGiven equations: T1 = (3 * T2) / 4 = 2 * T3 \nFrom T1 = (3 * T2) / 4, we get the ratio: T1 / T2 \n= 3 / 4 (which is equivalent to 6 / 8) \nFrom (3 * T2) / 4 = 2 * T3, we get the ratio: T2 / T3 \n= 8 / 3 \nCombined ratio for the stages: T1 : T2 : T3 = 6 : 8 : \nInitial Pipeline Cycle Time \nLet 'x' be a constant unit of time. \nThe stage times are: T1 = 6x, T2 = 8x, T3 = 3x \nThe pipeline cycle time (tp) is the maximum of the \nstage times. \ntp = max(6x, 8x, 3x) \ntp = 8x \nSolving for Base Frequency \nFrequency = 1 / Cycle Time \nThe given initial frequency is 3 GHz. \n3 GHz = 1 / 8x \nSolving for 1/x: 1 / x = 3 GHz * 8 = 24 GHz \nNew Pipeline Design (Splitting the Bottleneck) \nThe longest stage (8x) is split into two equal sub-\nstages. \n8x becomes -> 4x and 4x \nThe new sequence of stage times is: 6x, 4x, 4x, 3x \nNew pipeline cycle time (tp_new) = max(6x, 4x, 4x, \n3x) \ntp_new = 6x \nCalculating the New Frequency \nNew Frequency (Freq_new) = 1 / tp_new \nFreq_new = 1 / 6x \nWe can rewrite this as: Freq_new = (1 / 6) * (1 / x) \nSubstitute the value of (1 / x) we found earlier (24 \nGHz): \nFreq_new = (1 / 6) * 24 GHz \nNew Frequency = 4 GHz",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-2"
+      },
+      "operating-system-topic-5-m5-q18": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 99.6",
+        "explanation": "Disk block size is 103 \n Number of entries in FAT \n = Total disk size/ disk block size \n = 100 × 106 / 103 \n = 100 × 103 \n ∴ Total overhead = 100 × 103 × 4B \n = 400 × 103 B \n = 0.4 × 106 B \n So, maximum size of file that can be stored in disk is, \n Total disk size - Total overhead \n = 100 × 106 - 0.4 × 106 \n = 99.6 × 106 B",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "topic-5"
+      },
+      "theory-of-computation-topic-3-m3-q11": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "(D)",
+        "explanation": "I.  𝐿3 ∪ 𝐿4 \n𝐿3 is recursive, so 𝐿3 is also recursive (closed under \ncomplement), \nSo, 𝐿3 is recursive enumerable. \n𝐿4 is recursive enumerable, \nso, 𝐿3 ∪ 𝐿4 is also recursive enumerable (closed under union). \nII. 𝐿2 ∪ 𝐿3 \n𝐿2 is Context-free, so 𝐿2, may or may not be Context-free (not \nclosed under complement), but definitely 𝐿2 is Recursive. \n𝐿3 is recursive. \nso 𝐿2 ∪ 𝐿3 is also recursive (closed under union). \nIII. 𝐿1∗ ∩ 𝐿2 \n𝐿1 is Regular, so 𝐿1∗  is also regular (closed under kleene star) \n𝐿2 is Context-free \nso, 𝐿1∗ ∩ 𝐿2 is also context-free (closed under intersection with \nregular). \nIV. 𝐿1 ∪ 𝐿2 \n𝐿1 is regular. \n𝐿2 is context-free, so 𝐿2 may or may not be Context-free \n(not closed under complement). \nso, 𝐿1 ∪ 𝐿2 may or may not be Context-free.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "topic-3"
+      },
+      "computer-organization-and-architecture-topic-4-m4-q7": {
+        "type": "NAT",
+        "correct_option": 1,
+        "answer_key": "(B)",
+        "explanation": "Rn <= Pc+1 \nPc<= M[Pc] \nThe sequence of instruction take place \nI Cycle : PC out , Sin , MARin (MAR can be \nloaded with PCout \nII Cycle: S out , ALU increment , Rn in \nIII Cycle: MDRout , PCin ,MDRout can be \nperformed once MARin has been \nperformed) therefore 3 cycle required",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-4"
+      },
+      "dbms-arrays-and-strings-m1-q28": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "Explanation \nHere, candidate keys are 𝐴𝐷, 𝐵𝐷, 𝐸𝐷 and 𝐹𝐷. \nPartial dependency exists 𝐴 → 𝐵𝐶, 𝐵 → 𝐶𝐹𝐻 \nand 𝐹 → 𝐸𝐺 etc. In the following 𝐹𝐷𝑠. \nFor example partial dependency 𝐴 → 𝐶 exists in \n𝐴 → 𝐵𝐶 and 𝐵 → 𝐶 and 𝐵 → 𝐻 in 𝐵 → 𝐶𝐹𝐻. \netc. \nSo, given relation is in 1NF ,but not in 2NF.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "arrays-and-strings"
+      },
+      "operating-system-topic-5-m5-q27": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- B",
+        "explanation": "Seek time consists of: \n● Acceleration phase (arm starts moving) \n● Constant velocity phase \n● Deceleration phase (arm stops) \n<!-- PAGE 366 -->\nOPERATING SYSTEMS \n Because of inertia, the disk arm must accelerate and \ndecelerate. \n For short seeks → most time is spent accelerating \nand decelerating. \nFor long seeks → arm reaches higher speed and \nstays longer in constant velocity. \n Hence, seek time is non-linear with respect to seek \ndistance. \n Options (A), (C), and (D) do not affect the physical \nseek time mechanism. \n Therefore, the correct answer is (B).",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "topic-5"
+      },
+      "compiler-design-topic-2-m2-q5": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A,D",
+        "explanation": "1.  If a production is of the form 𝐴 →\n𝜖, then 𝐹𝑖𝑟𝑠𝑡(𝐴) = 𝜖. \n2. The end-of-input marker ($) is added \nto 𝐹𝑜𝑙𝑙𝑜𝑤(𝑆), where 𝑆 is the start symbol. \n3.  𝜖 is never added to Follow sets. \n4.  The end marker is not added to First sets.",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "topic-2"
+      },
+      "dbms-topic-4-m4-q7": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 4",
+        "explanation": "Explanation ➖ \n (4 to 4) \n The inner query “select avg(cost) from catalogue where \npno='P4' group by pno;” returns: \nAVG(COST) \n The outer query “select s.sno,s.sname from suppliers s, \ncatalogue c where s.sno=c.sno” returns: \nSNO SNAME \nS1 M/s Royal furniture \nS1 M/s Royal furniture \nS1 M/s Royal furniture \nS2 M/s Balaji furniture \nS2 M/s Balaji furniture \nS3 M/s Premium furniture \nS3 M/s Premium furniture \nS3 M/s Premium furniture \nS3 M/s Premium furniture \nSo, the final result of the query is: \nSN SNAME \nS2 M/s Balaji furniture \nS3 M/s Premium furniture \nS3 M/s Premium furniture \nS3 M/s Premium furniture \n Hence, 4 rows will be returned by the query.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-4"
+      },
+      "computer-organization-and-architecture-topic-3-m3-q19": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "In a three-address instruction format, each address \nfield explicitly specifies an operand location. \nAnalysis: \n S1: A memory operand → Yes, address fields \ncan point to memory locations \n S2: A processor register → Yes, address fields \ncan specify registers \n S3: An implied accumulator register → No, \n“implied” means it is not specified in the \ninstruction field \nConclusion: \nEach address field can specify either memory or \nregister, but not an implied accumulator.",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-3"
+      },
+      "data-structures-topic-5-m5-q12": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "A",
+        "explanation": "Explanation: \nThere are 100 slots and hashing is simple \nuniform, so each insertion independently goes to any \nslot with probability 1/100. \nFor one insertion, the probability that it does not go \ninto the first 3 slots is \n(100 − 3) / 100 = 97 / 100 \nSince insertions are independent, for 3 insertions the \nprobability is \n(97 / 100) × (97 / 100) × (97 / 100) \nSo the required probability is \n(97 × 97 × 97) / 100³ \nCorrect answer is \n(97 × 97 × 97) / 100³",
+        "marks": 2,
+        "subject_slug": "data-structures",
+        "topic_slug": "topic-5"
+      },
+      "dbms-topic-6-m6-q20": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 6",
+        "explanation": "Explanation :-  \n Number of topological orders: 6 \na b c d e f \na b d c e f \na b d e c f \na d b c e f \na d b e c f \na d e b c f",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-6"
+      },
+      "computer-organization-and-architecture-topic-2-m2-q14": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (219)",
+        "explanation": "Total number of instructions = 100 \nNumber of pipeline stages = 5 \nFor an ideal pipeline (with CPI = 1 and no stalls): \nTotal cycles = n + (k − 1) = 100 + (5 − 1)= 104 \ncycles \nNow consider the PO (Perform Operation) stage: \n40 instructions take 3 cycles → each causes 2 \nextra stall cycles \n35 instructions take 2 cycles → each causes 1 \nextra stall cycle \n25 instructions take 1 cycle → no stall cycles \nAll other stages (IF, ID, OF, WB) take 1 cycle each \nand operate ideally. \nExtra cycles due to the multi-cycle PO stage: \n= (40 × 2) + (35 × 1) + (25 × 0) \n= 80 + 35 + 0 = 115 cycles \nTherefore, \nTotal clock cycles \n= 104 + 115 = 219 cycles",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-2"
+      }
+    },
+    "questionCount": 65
+  },
+  "8343f671-04d5-4107-9547-ab0122e050a0": {
+    "testId": "8343f671-04d5-4107-9547-ab0122e050a0",
+    "testTitle": "GATE C PROGRAMMING Practice Test",
+    "mode": "subject",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794329579513,
+    "durationMinutes": 15,
+    "totalMarks": 10,
+    "answerKeyMap": {
+      "c-programming-topic-2-m2-q10": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(10)",
+        "explanation": "Solution:  \nArithmetic Evaluation \nIn C, integer division truncates decimals, and prefix \noperators update variables immediately. \nj calculation: 2 * 3 / 4 (integer) is 1. 2.0 / 5 (float) is \n0.4. 8 / 5 (integer) is 1. The sum is 2.4, which truncates \nto 2 for the integer j. \nk calculation: k -= --j first decrements j to 1. Then k \n= 0 - 1, resulting in k = -1. \n2. Switch Trace with Fall-through \nThe loop runs for i = 0 to 4. Because there are no break \nstatements, once a case matches, every subsequent \nprintf in the block executes. \ni = 0 (i+k = -1): Matches default. (1 execution) \ni = 1 (i+k = 0): Matches default. (1 execution) \ni = 2 (i+k = 1): Matches case 1, falls through case 2, \ncase 3, and default. (3 executions) \ni = 3 (i+k = 2): Matches case 2, falls through case 3, \nand default. (3 executions) \ni = 4 (i+k = 3): Matches case 3, falls through default. \n(2 executions) \nFinal Total \nAdding the executions per iteration: 1 + 1 + 3 + 3 + 2 \n= 10. \nThe total number of times printf is executed is 10. \n<!-- PAGE 16 -->\nC PROGRAMMING",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-2"
+      },
+      "c-programming-topic-4-m4-q5": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "25",
+        "explanation": "1. Variable Initialization: \n• a = 20 \n• b = 25 \n• z is a pointer to an integer, which initially \ndoes not point to any variable. \n2. Pointer Assignment: \n• z = &a; \nThe pointer z is now pointing to the address of \nvariable a. \n3. Function Call: \n• The function foo(z, b) is called. Here, z points \nto a, and b is passed as the second argument \n(which is 25). \n• Inside the function foo(int *p, int x), *p = x; \nassigns the value of x (which is 25) to the \nlocation pointed to by p. \n• Since p is pointing to a, a is updated to 25. \n4. Printing the Value of a: \n• After the function call, a has been updated to \n25. \n• The printf(\"%d\", a); statement prints the \nvalue of a, which is now 25. \nFinal Output: \nThe output of the program is 25.",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      },
+      "c-programming-topic-3-m3-q41": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "- (D)",
+        "explanation": "Solution: \n To print the string in reverse using recursion: \n We must first read a character. \nIf it is not newline, call reverse() again. \nAfter returning from recursion, print the character. \n This way printing happens while unwinding the \nrecursion, giving reverse order. \n So we need: \n ?1 → read character and check for newline \n?2 → print that character \n Correct condition: \n(c = getchar()) != '\\n' \nCorrect print statement: \nputchar(c);",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-4-m4-q12": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "struct Our node p = {'1', '0', 'a'+2}; \nMembers: x = '1', y = '0', z = 'a' + 2 = 'c'. \nq points to p. \n(char*)q treats q as a byte pointer (char pointer). \n*((char*)q+1) → skip 1 byte from start → accesses y \n→ '0' \n*((char*)q+2) → skip 2 bytes → accesses z → 'c' \nOutput: 0, c",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      },
+      "c-programming-topic-3-m3-q27": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "- (D)",
+        "explanation": "Solution: \nStep-by-step: \nfoo(\"ABCD EFGH\") → *a = 'A' → call foo(\"BCD \nEFGH\") \nfoo(\"BCD EFGH\") → *a = 'B' → call foo(\"CD \nEFGH\") \nfoo(\"CD EFGH\") → *a = 'C' → call foo(\"D EFGH\") \nfoo(\"D EFGH\") → *a = 'D' → call foo(\" EFGH\") \nfoo(\" EFGH\") → *a = ' ' → condition fails → return \nNow unwinding: \nStep 4: putchar('D') → prints D \nStep 3: putchar('C') → prints C \nStep 2: putchar('B') → prints B \nStep 1: putchar('A') → prints A \nOutput: DCBA \nAnswer: DCBA",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      }
+    },
+    "questionCount": 5
+  },
+  "7a34adc6-c2b8-4d9e-9381-30ac86171ca5": {
+    "testId": "7a34adc6-c2b8-4d9e-9381-30ac86171ca5",
+    "testTitle": "GATE C PROGRAMMING Practice Test",
+    "mode": "subject",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794329579520,
+    "durationMinutes": 15,
+    "totalMarks": 6,
+    "answerKeyMap": {
+      "c-programming-topic-4-m4-q23": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "Manipulation Block: The  three lines inside the \ninnermost loop: \nTemp = A[i] [j] + C; \nA [i] [j] = A[j] [i]; \nA[j][i] = Temp – C; \nThis sequence performs a swap of A[i][j] and A[j][i]. \nThe constant C=100 is added and then subtracted, \nhaving no net effect on the values themselves. \nLoop Structure: The nested loops iterate over all pairs \nof indices (i,j) from 1 to n. \nNet Effect: \nFor any pair where i!=j (off -diagonal elements), the \nloops process the pair twice: once as (i,j) and once as \n(j,i). \nA swap operation performed twice on the same pair of \nmemory locations returns the elements to their original \npositions and values. \nFor i=j (diagonal elements), the element is swapped \nwith itself, resulting in no change. \nFinal Output: Since the matrix A is restored to its \ninitial state after the first set of loops, the second set of \nloops, which prints A[i][j] in row -major order, prints \nthe original matrix A. \nTherefore, the expected output is The matrix A itself. \nThe correct option is: The matrix A itself",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      },
+      "c-programming-topic-3-m3-q27": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "- (D)",
+        "explanation": "Solution: \nStep-by-step: \nfoo(\"ABCD EFGH\") → *a = 'A' → call foo(\"BCD \nEFGH\") \nfoo(\"BCD EFGH\") → *a = 'B' → call foo(\"CD \nEFGH\") \nfoo(\"CD EFGH\") → *a = 'C' → call foo(\"D EFGH\") \nfoo(\"D EFGH\") → *a = 'D' → call foo(\" EFGH\") \nfoo(\" EFGH\") → *a = ' ' → condition fails → return \nNow unwinding: \nStep 4: putchar('D') → prints D \nStep 3: putchar('C') → prints C \nStep 2: putchar('B') → prints B \nStep 1: putchar('A') → prints A \nOutput: DCBA \nAnswer: DCBA",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-4-m4-q27": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "The declaration is: int (*f)(int *); \n Break it carefully: \n  f is inside parentheses with *, so f is a pointer. \nIt points to something that takes (int *) as argument. \nThat function returns int. \n So it means: \n A pointer to a function that takes an integer pointer as \nargument and returns an integer.",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      }
+    },
+    "questionCount": 3
+  },
+  "wiped-test-uuid-1794329579525": {
+    "testId": "wiped-test-uuid-1794329579525",
+    "testTitle": "GATE C PROGRAMMING Practice Test",
+    "mode": "subject",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794329579531,
+    "durationMinutes": 180,
+    "totalMarks": 6,
+    "answerKeyMap": {
+      "c-programming-topic-4-m4-q23": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "Manipulation Block: The  three lines inside the \ninnermost loop: \nTemp = A[i] [j] + C; \nA [i] [j] = A[j] [i]; \nA[j][i] = Temp – C; \nThis sequence performs a swap of A[i][j] and A[j][i]. \nThe constant C=100 is added and then subtracted, \nhaving no net effect on the values themselves. \nLoop Structure: The nested loops iterate over all pairs \nof indices (i,j) from 1 to n. \nNet Effect: \nFor any pair where i!=j (off -diagonal elements), the \nloops process the pair twice: once as (i,j) and once as \n(j,i). \nA swap operation performed twice on the same pair of \nmemory locations returns the elements to their original \npositions and values. \nFor i=j (diagonal elements), the element is swapped \nwith itself, resulting in no change. \nFinal Output: Since the matrix A is restored to its \ninitial state after the first set of loops, the second set of \nloops, which prints A[i][j] in row -major order, prints \nthe original matrix A. \nTherefore, the expected output is The matrix A itself. \nThe correct option is: The matrix A itself",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      },
+      "c-programming-topic-3-m3-q27": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "- (D)",
+        "explanation": "Solution: \nStep-by-step: \nfoo(\"ABCD EFGH\") → *a = 'A' → call foo(\"BCD \nEFGH\") \nfoo(\"BCD EFGH\") → *a = 'B' → call foo(\"CD \nEFGH\") \nfoo(\"CD EFGH\") → *a = 'C' → call foo(\"D EFGH\") \nfoo(\"D EFGH\") → *a = 'D' → call foo(\" EFGH\") \nfoo(\" EFGH\") → *a = ' ' → condition fails → return \nNow unwinding: \nStep 4: putchar('D') → prints D \nStep 3: putchar('C') → prints C \nStep 2: putchar('B') → prints B \nStep 1: putchar('A') → prints A \nOutput: DCBA \nAnswer: DCBA",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-4-m4-q27": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "The declaration is: int (*f)(int *); \n Break it carefully: \n  f is inside parentheses with *, so f is a pointer. \nIt points to something that takes (int *) as argument. \nThat function returns int. \n So it means: \n A pointer to a function that takes an integer pointer as \nargument and returns an integer.",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      }
+    },
+    "questionCount": 3
+  },
+  "b343f363-b03a-4d35-97f7-4683d63a7aaf": {
+    "testId": "b343f363-b03a-4d35-97f7-4683d63a7aaf",
+    "testTitle": "GATE CSE Full-Length Authentic Mock Test",
+    "mode": "full_gate",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794329836258,
+    "durationMinutes": 180,
+    "totalMarks": 130,
+    "answerKeyMap": {
+      "general-aptitude-topic-3-m3-q43": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "Paraphrase means expressing the same idea in \ndifferent words.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-3"
+      },
+      "general-aptitude-arrays-and-strings-m1-q72": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "Total pairs = 4 x 5 = 20. Pairs that sum to 16: (2,14), \n(3,13), (4,12), (5,11) = 4 pairs. Probability = 4/20 = \n0.2.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "arrays-and-strings"
+      },
+      "general-aptitude-topic-2-m2-q28": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "- (C)",
+        "explanation": "From relations: \n p−x = q−1 → x = r   \n q−y = r−1 → y = r   \n r−z = p−1 → z = r   \n Thus xyz = 1",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-2"
+      },
+      "general-aptitude-topic-2-m2-q1": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "- (C)",
+        "explanation": "'When the teacher is in the room, all students stand \nsilently.' \n Negation of this statement: \n A. 'If any student is not standing silently, then the \nteacher is not in the room'. \n So, A is true. \n B. 'When the teacher is in the room, all students \nare silent.' \n This is true as per given statement. So, B true. \n C. 'If all students are standing, then the teacher is \nin the room.' \n This is not necessarily true as per the given \nstatement when teacher is in the room then only \nall students are standing silently. Also when any \none student is not standing silently then it implies \nthat the teacher is not present in the room. So, C' \ndoesn't directly imply from the given statement \nand not necessarily true. \n D. 'When the teacher is in the room, all students \nare standing' \n This is true as it directly implies from given \nstatement. So, D is true.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-2"
+      },
+      "general-aptitude-topic-2-m2-q5": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "This preposition is a relation of needed : when :: \nneeded : when . \n Here water is needed when thirsty, and food when \nhunger. \n So, the correct answer is A.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-2"
+      },
+      "general-aptitude-arrays-and-strings-m1-q45": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "2 × 6 = 12\n12 × 5 = 60\n60 × 4 = 240\n240 × 3 = 720\n720 × 2 = 1440\n1440 × 1 = 1440\nSo, option B, 1440 is the next term. \n<!-- PAGE 711 -->\nGENERAL APTITUDE",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "arrays-and-strings"
+      },
+      "general-aptitude-topic-2-m2-q24": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "- (C)",
+        "explanation": "P = 3   \n R = 27   \n T = 243   \n Step 1: Identify the pattern \n 3 = 3¹   \n 27 = 3³   \n 243 = 3⁵   \n So letters are mapped as powers of 3. \n Step 2: Check positions \n P → 16th letter → exponent = 1   \n R → 18th letter → exponent = 3   \n T → 20th letter → exponent = 5   \n So pattern: \n Exponent = (Position − 15) \n Step 3: Find Q and S \n Q → position 17   \n Exponent = 17 − 15 = 2   \n Q = 3² = 9   \n S → position 19   \n Exponent = 19 − 15 = 4   \n S = 3⁴ = 81   \n Step 4: Final answer \n Q + S = 9 + 81 = 90   \n Final Answer: (C) 90 \n<!-- PAGE 738 -->\nGENERAL APTITUDE",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-2"
+      },
+      "general-aptitude-arrays-and-strings-m1-q41": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "- (C)",
+        "explanation": "Let total cost be x   \n Original share = x/10   \n New share = x/8   \n x/8 − x/10 = 150   \n (5x − 4x)/40 = 150   \n x/40 = 150   \n x = 6000",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "arrays-and-strings"
+      },
+      "general-aptitude-arrays-and-strings-m1-q81": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "Multiples of 10 from 2 to 198 are 10, 20, 30, ... 190. \nThis is an arithmetic series with first term 10, last \nterm 190. Average = (first + last)/2 = (10 + 190)/2 = \n100.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "arrays-and-strings"
+      },
+      "general-aptitude-arrays-and-strings-m1-q63": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- (2006)",
+        "explanation": "Answer is 2006 \n No need to do any calculations, just observe the \nbar chart. \nHere % increase is asked, so just check for \nprevious year & next year pair, where you can find \nmaximum positive change. \n Consider year 2006. \n Red Bar is above 3 steps than 2005 AND Blue Bar \nis 3 steps more than 2005, total 3+36, it's \nmaximum.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "arrays-and-strings"
+      },
+      "computer-organization-and-architecture-topic-5-m5-q49": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "(D)",
+        "explanation": "Main memory = 1 MB = 2²⁰ bytes \nWord size = 1 byte ⇒ byte-addressable \nBlock size = 128 words = 128 bytes = 2⁷ bytes \nCache size = 8 KB = 2¹³ bytes \nCache type = 4-way set associative \nStep 1: Word (Block Offset) bits \nBlock size = 2⁷ ⇒ \nWord bits = 7 \nStep 2: Number of cache lines \nCache size / Block size = \n2¹³ / 2⁷ = 2⁶ = 64 lines \nStep 3: Number of sets \n4-way set associative ⇒ \nNumber of sets = 64 / 4 = 16 = 2⁴ \n⇒ Set bits = 4 \nStep 4: Tag bits \nTotal address bits = 20 \nTag = Total − (Set + Word) \n= 20 − (4 + 7) \n= 9 bits \n<!-- PAGE 519 -->\nComputer Organization and Architecture",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-5"
+      },
+      "operating-system-topic-5-m5-q21": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- B",
+        "explanation": "It is given data as the disk block is of size 128B. \n One direct block addressing will be pointing to 8 \ndisk blocks = 8*128 B = 1 KB \n Singly Indirect block addressing will be pointing to \n1 disk block which has 128/8 disc block addresses \n= (128/8)*128 B = 2 KB \n Doubly indirect block addressing will be pointing \nto 1 disk block which has 128/8 addresses to disk  \nblocks which has 128/8 addresses to disk blocks = \n16*16*128 B = 32 KB \n Maximum file size possible = 1 KB + 2 KB + 32 \nKB = 35 KB",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "topic-5"
+      },
+      "dbms-topic-4-m4-q19": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- B",
+        "explanation": "Explanation :- \n On executing the Inner Query or query (2), 0 or no rows \nwill be selected because in relation B there is no Name \n‘Arun’. \n And the outer query (1) results in the following output. \n(Because inner query returns 0 rows).  \n       Thus, the number of Tuples will be 3.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-4"
+      },
+      "dbms-arrays-and-strings-m1-q38": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- D",
+        "explanation": "Explanation :- H is not in RHS of any FD ⇒ must be \nin every key. \n E is not in RHS ⇒ must be in every key. \nCheck combinations with E and H: \nAEH⁺ ⇒ all attributes \n BEH⁺ ⇒ all attributes \n DEH⁺ ⇒ all attributes \nSo candidate keys are AEH, BEH, DEH.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "arrays-and-strings"
+      },
+      "operating-system-topic-5-m5-q15": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 10",
+        "explanation": "SCAN \n ∴ Total head movements \n = 5 + 15 + 10 + 10 + 65 + 5 + 10 + 10  \n = 130  \n∴ Additional distance that will be traversed by R/W \nhead is \n= 140 - 130 \n= 10",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "topic-5"
+      },
+      "dbms-arrays-and-strings-m1-q37": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- B",
+        "explanation": "Explanation :- FDs: \nVY → W \n WX → Z \n ZY → V \nCheck (VXY)⁺ \nVY → W \n WX → Z \nNow have V, W, X, Y, Z ⇒ all attributes. \n<!-- PAGE 383 -->\nDATABASE MANAGEMENT  SYSTEM \nRemoving any one of V, X, or Y fails to get all \nattributes. \n So it is minimal.  \nAnswer: b) VXY",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "arrays-and-strings"
+      },
+      "dbms-topic-3-m3-q8": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- 1",
+        "explanation": "Explanation :- σ(P.Y=R.Y ∧ R.V=V2)(P × R) \nΠx(𝜎(QY=R,Y∧Q,P,2)(Q × R)) \nΠx(𝜎(PY−RY𝑌ARY =V2)(P × R)) − Πx(𝜎(QY−RY AQTB:2 (Q × R))\n= XX2 − YX1 = 1",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-3"
+      },
+      "dbms-topic-3-m3-q9": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "C",
+        "explanation": "Explantion :- \n Option C is written as: \n𝑟LOJ(𝜎𝐵<5(𝑠)) \nA Left Outer Join (LOJ) guarantees that all tuples from \nthe left relation ( 𝑟 ) are preserved in the final output, \nregardless of whether they find a match in the right \nrelation. \n For tuples in 𝑟 where 𝐵 < 5, they will successfully \nmatch with the filtered relation 𝑠. \n For tuples in 𝑟 where 𝐵 ≥ 5, they will find no \nmatch in the filtered relation 𝜎𝐵<5(𝑠). \n Instead of being discarded (like in an inner join), \nthese tuples are still retained in the output, padded \nwith NULL for the attribute 𝐶. \nBecause Option C includes tuples where 𝐵 ≥ 5 (filled \nwith NULL s for 𝐶 ), it produces a different result than 𝑄.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-3"
+      },
+      "discrete-mathematics-topic-2-m2-q39": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "Onto function is possible if m ≥ n. So, \n number of onto functions possible is: \n nm  -  n C1 (n-1)m  +  n C2 (n-2)m  + ....... \n According to the Question: \n m = n, n = 2 \n So, number of onto functions: \n = 2n  -  2C1 (2-1)n  +  2C2 (2-2)n \n = 2n  - 2 × 1 + 0 \n = 2n  – 2",
+        "marks": 2,
+        "subject_slug": "discrete-mathematics",
+        "topic_slug": "topic-2"
+      },
+      "dbms-arrays-and-strings-m1-q19": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "A",
+        "explanation": "Explanation \nStep 1: \n  Remove the redundancy in the RHS. \nSo, we get: V → W, VW → X, Y → V, Y → X, Y→ Z \nStep 2: \n<!-- PAGE 380 -->\nDATABASE MANAGEMENT  SYSTEM \nFind the closure of each functional dependency with or \nwithout that functional dependency to check \nredundancy in each rule. \nV → W, VW → X, Y → V, Y → X, Y→ Z \n(V)+ = V × \n(VW)+ = VW × \n(Y)+ = YXZ \n(Y)+ = YVW × \n(Y)+ = YVWX \nWithout Y → X, the closure of Y is deriving ‘X’ from \nthe remaining attributes. \nSo, we can remove Y → X as its redundant. \nStep 3: \n Remove the redundancy in the LHS. \nV → W, VW → X, Y → V, Y → Z \n(V)+ = VW, the closure of V is deriving W from the \nremaining FD’s. \nSo, W is redundant. We can remove it. \nSo, the minimal canonical cover  is \nV→W, V→X, Y→V, Y→Z",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "arrays-and-strings"
+      },
+      "dbms-topic-3-m3-q27": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "D",
+        "explanation": "Explanation: \n Values are uniformly distributed in [0, 500]. \nRange satisfying A ≤ 100 is [0, 100]. \nSelectivity = 100 / 500 = 1/5. \nNumber of tuples = 1000 × (1/5) = 200. \nFinal Answer: D. 200",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-3"
+      },
+      "dbms-arrays-and-strings-m1-q33": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- D",
+        "explanation": "Explantion :- R(A, B, C, D, E, P, G) \nFDs: \nAB → CD \nDE → P \nC → E \nP → C \nB → G \nAB⁺ = {A, B, C, D, E, P, G} \nSo AB is the candidate key. \nPrime attributes: A, B \nNon-prime: C, D, E, P, G \nSince B → G and B is a proper subset of key AB, \npartial dependency exists. \nTherefore, R is not in 2NF.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "arrays-and-strings"
+      },
+      "dbms-topic-3-m3-q28": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "Explanation :- \n For better record processing, We should always do select \nbefore join to avoid unnecessary tuples being considered \nfor join.(For an S QL query this is not strictly required as \nDBMS will rearrange the query to make it efficient) and \nprocessing a smaller table gives more efficiency than the \nlarger one. \n option (A) \n : П c-name (σ bal< 0 (σ b-city = \"Agra\" branch ⋈ account) \n⋈ depositor) here we are doing join between relatively \nsmaller table(branch) and larger one(account) and the \noutput that this inner table gives (which is smaller in \ncomparison to joins that we are doing in B) is used for join \nwith depositor table with the s election condition.(same as \ngiven query). \n option (B) \n : П c-name (σ b-city = \"Agra\" branch ⋈ (σ bal< 0 account \n⋈ depositor)) here we are doing a join between two \nmassive table account and depositor with selection \ncondition(for balance less than zero) and the output that \nthis inner table gives is used for join with branch \ntable(relatively smaller table) with the selection condition \n(for city Agra). (same as given query) so option A and \noption B both are same as given query but there is \ndifference between re cord processing as the record \nprocessing of option A will get reduced by some rate. (as \nfiltered conditions are applied after the join between one \nsmaller and one larger table which will give relatively \nsmaller table than the join of two larger tables). So, overall \noption A is much better than option B. \n option (C) \n : П c-name ((σ b-city = \"Agra\" branch ⋈ σ b-city = \"Agra\" \ndepositor) Incorrect as there is no b -city column in a -\nSchema. \n option (D) \n : П c-name (σ b-city = \"Agra\" branch ⋈ (σ b-city = \"Agra\" \ndepositor)) Incorrect as there is no b -city column in a -\nSchema. ⋀bal< 0 account) ⋈⋀bal< 0 account ⋈ Note: \ndon't miss this sentence \"account and depositor relations \nare much bigger than the branch relation\" because That \nmakes A the best answer.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-3"
+      },
+      "dbms-topic-3-m3-q19": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "Explantion  :-   \n Hashing works well on   \"equal\" queries, while ordered \nindexing works  better on range queries. \n For example, consider B+ tree, on ce we have searched a \nkey in B+; we can find range of values via the block \n*R2 \n<!-- PAGE 397 -->\nDATABASE MANAGEMENT  SYSTEM \npointers pointing to another block of values on the leaf \nnode level.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-3"
+      },
+      "computer-organization-and-architecture-topic-2-m2-q15": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "(1.50 to 1.51)",
+        "explanation": "NP (5-stage): \nStage times = 5, 4, 20, 10, 3 ns \nBuffer delay = 2 ns \nClock cycle = max stage + buffer = 20 + 2 = \n22ns \nTime for 20 instructions = \n(𝑘 + 𝑛 − 1) × 𝑇 = (5 + 20 − 1) × 22 = 24 × \n22 = 528ns \nEP (6-stage): \nStages = 5, 4, 12, 8, 10, 3 \nMax = 12 ns \nClock = 12 + 2 = 14ns \nTime = (6 + 20 − 1) × 14 = 25 × 14 = 350ns \nSpeedup: \n528 ≈ 1.508 \nAnswer: \n1.508",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-2"
+      },
+      "dbms-topic-6-m6-q31": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- D",
+        "explanation": "Explanation:- \n S1: 2RA 2WA 3RC 2WB 3WA 3WC 1RA 1RB \n1WA 1WB \nT1 T2 T3 \n R(A)  \n W(A)  \n  R(C) \n W(R)  \n  W(A) \n  W(C) \nR(A)   \nR(B)   \nW(A)   \nW(B) \n  Precedence graph  \n No cycle conflict serializable  \n < T2 T3 T1 >  \nConflict operations pair \n R₂(A) – W₃(A) \n R₂(A) – W₁(A) \n W₂(A) – W₃(A) \n W₂(A) – R₁(A) \n W₂(A) – W₁(A) \n W₂(B) – R₁(B) \n W₂(B) – W₁(B) \n W₃(A) – R₁(A) \n W₃(A) – W₁(A) \n S2: 3RC 2RA 2WA 2WB 3WA 1RA 1RB 1WA \n1WB 3WC \nT1 T2 T3 \n  R(C) \n R(A)  \n  R(C) \n W(A)  \n W(B)  \n  W(A) \nR(A)   \nR(B)   \nW(A)   \nW(B)   \n  W(C) \n No cycle conflict serializable  \n < T2 T3 T1 >  \nConflict operation pairs \n R₂(A) – W₃(A) \n R₂(A) – W₁(A) \n W₂(A) – W₃(A) \n W₂(A) – R₁(A) \n W₂(A) – W₁(A) \n W₂(B) – R₁(B) \n W₂(B) – W₁(B) \n W₃(A) – R₁(A) \n W₃(A) – W₁(A) \n S3: 2RA 3RC 3WA 2WA 2WB 3WC 1RA 1RB \n1WA  1WB  \nT1 T2 T3 \n<!-- PAGE 447 -->\nDATABASE MANAGEMENT  SYSTEM \n R(A)  \n  R(C) \n  W(A) \n W(A)  \n W(B)  \n  W(C) \nR(A)   \nR(B)   \nW(A)   \nW(B)   \n S3 : cycle; so not conflict serializable  \n R3(A) – W3(A) \n R3(A) – W1(A)",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-6"
+      },
+      "computer-organization-and-architecture-topic-3-m3-q25": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- D",
+        "explanation": "The loop is executed 10 times and there are two \nmemory references in the loop (each MOV is \nloading 1 word, so 1 memory reference for each \nMOV inside the loop). So number of memory \nreferences inside loop is: \n2 (MOV) × 10 (times iteration) × 1 (1-word access \n/ MOV) = 20 memory accesses. \nOne memory access is outside the loop for the first \ninstruction: \nMOV R1, (3000) \nSo, totally 20 + 1 = 21.",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-3"
+      },
+      "computer-organization-and-architecture-topic-2-m2-q35": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "(C)",
+        "explanation": "Non-Pipeline Processor \nFrequency = 100 MHz \nCycle time (tn) = 1 / (100 × 10⁶ Hz) = 10⁻⁸ sec \n10⁻⁸ sec = 10 × 10⁻⁹ sec \nCycle time (tn) = 10 nsec \nPart 2: Pipeline Processor Stages (k) \n= 5 \nStage Delays: 2.5, 1.5, 2, 1.5, 2 nsec Buffer / \nLatch Delay = 0.5 nsec \nPipeline Cycle Time (tp) = Max (Stage Delay) \n+ Buffer Delay \ntp = 2.5 + 0.5 \ntp = 3 nsec \nWhen a very large number of instructions are executed: \nSpeedup (S) = tn / tp S = \n10 nsec / 3 nsec S = 3.33 \nAns: 3.33 \n<!-- PAGE 473 -->\nComputer Organization and Architecture",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-2"
+      },
+      "computer-organization-and-architecture-topic-2-m2-q13": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (2.16)",
+        "explanation": "Given: \nNon-pipelined processor: \nFrequency = 2.5 GHz \nCPI = 5 \nPipelined processor: \nNumber of stages = 5 \nFrequency = 2 GHz \nInstruction mix: \n30% memory instructions \n60% ALU instructions \n10% branch instructions \nAdditional details: \n5% of memory instructions cause 50 cycle stalls \n<!-- PAGE 467 -->\nComputer Organization and Architecture \n50% of branch instructions cause 2 cycle stalls \nNon-Pipelined Processor \nClock cycle time = 1 / 2.5 GHz = 0.4 ns \nExecution time per instruction = CPI × clock cycle \ntime \n= 5 × 0.4 ns= 2 ns \nPipelined Processor \nBase CPI = 1 \nMemory stall contribution: = 0.30 × 0.05 × 50 = 0.75 \nBranch stall contribution: = 0.10 × 0.50 × 2 = 0.10 \nTotal CPI (pipelined) = 1 + 0.75 + 0.10 = 1.85 \nClock cycle time = 1 / 2 GHz = 0.5 ns \nExecution time per instruction = 1.85 × 0.5 ns= \n0.925 ns \nSpeedup = Non-pipelined time / Pipelined time \n= 2 / 0.925 = 2.16",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-2"
+      },
+      "dbms-topic-3-m3-q6": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 820",
+        "explanation": "Explantion :-  \nThe above answer is TRUE for SQL SELECT \nbut not for Relational Algebra as by theory \nrelational algebra operates on a set which \nmeans all the elements must be distinct. Since \nwe have 15 distinct possible values for 𝐴 and \n20 distinct possible values for 𝐵, in strict \nrelational algebra we'll get \nEstimated number of tuples =\n60 × (15 × 20) = 205. \nOfficial Answer: 205 OR 820.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-3"
+      },
+      "computer-organization-and-architecture-topic-2-m2-q29": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "Rearranging to solve for the pipelined \nexecution time per instruction: \nSpeedup = Time without pipelining / Time with \npipelining \nClock cycle time of pipelining \nCPI \npipelined \n6 = = 4 \n1.5",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-2"
+      },
+      "dbms-topic-6-m6-q14": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "Explanation :-  According to the question, it is \nmentioned that ‘unique time stamps’ are assigned to \neach transactions. So, there won’t be  any equal \ntimestamps. \n In case of Lamport’s logical clock: \n Here, timestamps are assigned in increasing order only. \n According to the given algorithm, \n TS(T2) < TS(T1) \n then T1 is killed \n else \n T2 will wait \n So, in both th e cases, the database system will   be \ndeadlock free and there will be no starvation. \n 𝑇1 holds lock on resource 𝑅, \n𝑇2 requires conflict lock on same resource 𝑅 \nWait for graph \n     if 𝑇𝑆(𝑇2) < 𝑇𝑆(𝑇1) \nThen 𝑇1 killed [restart with same 𝑇𝑆 value] else 𝑇2 \nwaits. \nAvoids both deadlock and starvation.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-6"
+      },
+      "computer-organization-and-architecture-topic-3-m3-q13": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "When interrupt occurs, after completion of current \ninstruction, interrupt will be serviced. It push the \nprogram counter (PC) value into stack & control \ntransfer to ISR. \nQ: Process finish the current instruction \nexecution. \nP: Push the PC value into stack. \nT: Interrupt → PC \nR: Service the interrupt \nS: Pop the PC value \nQ P T R S:",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-3"
+      },
+      "dbms-topic-4-m4-q14": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- D",
+        "explanation": "Explantion :-  SELECT operation in SQL is equal to the \nproject operation in Relational Algebra,while SELECT in \nSQL also retains duplicates. Hence, D is the answer.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-4"
+      },
+      "computer-organization-and-architecture-topic-5-m5-q15": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 2",
+        "explanation": "Number of lines in Cache \nCache size / Block Size \nSo number of lines \n211/26 \nNo of sets = Number of lines/ Number of lines in \none set \nTotal bits = Tag bits + Set bits + Offset bits \nSet bits = 32-22-6 = 4 \n24 = 25 / Number of lines in one set \nOn solving we get associativity = 2.",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-5"
+      },
+      "dbms-topic-5-m5-q21": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "-C",
+        "explanation": "Explanation :- \n Record size = 32 bytes, block size = 1024 bytes \n ⇒ Records per block = 1024 / 32 = 32 \n Total records = 16384 \n ⇒ Number of data blocks = 16384 / 32 = 512 \n Secondary index (on key, not ordered file) ⇒ dense \nindex \n So, number of index entries = 16384 \n Each index entry size = key (6 bytes) + pointer (10 \nbytes) = 16 bytes \n ⇒ Entries per index block = 1024 / 16 = 64 \n First-level index blocks: \n 16384 / 64 = 256 \n Second-level index: \n 256 entries (one per first-level block) \n ⇒ Blocks = 256 / 64 = 4 \n Answer: (c) 256 and 4",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-5"
+      },
+      "dbms-topic-6-m6-q7": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- B,C,D",
+        "explanation": "Explanation:-  \n The corresponding polygraph for the given transaction. \nit has three conflict pairs as T3→T2 as \nr3(y)→w2(y),w3(y)→r2(y),w3(y)→w2(y). \nBecause the graph is acyclic it is conflict serializable \nschedule and its corresponding conflict equal schedule \nis based on the topological order of the given graph. \n Therefore, the following are possible serial schedules: \n1. T1,T3,T2 \n2. T3,T1,T2 \n3. T3,T2,T1 \n Option (B,C,D) are correct.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-6"
+      },
+      "computer-organization-and-architecture-topic-5-m5-q18": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 13.3 – 13.5",
+        "explanation": "Block size is 256 Bytes, word size is 64 bits or 8 \nbytes. So block size in words is 32 words. \nNumber of words per block = 32 \nTime to fetch a block from main memory to \ncache: \nThe first word takes 20 ns and the remaining 31 \nwords take 5 ns each. \nTotal time = 20 + (31 × 5) \n= 20 + 155 \n= 175 ns \nSo average memory access time (AMAT) is: \nAMAT = 0.94(3) + 0.06(3 + 175) \n= 2.82 + 10.68 \n= 13.5 ns",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-5"
+      },
+      "dbms-topic-2-m2-q2": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "-D",
+        "explanation": "Explantion :- Option (iv) is correct  \nThere's a relationship b/w : \n Instructors (Teaches) courses \n Students (Registration) courses \n Courses (Allocation) classrooms \n Instructors (Guides) students \n Link them and you'll get a figure like (iv)  \nAlso obviously : Student, Instructor, C ourses and \nClassroom are all entity.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-2"
+      },
+      "computer-organization-and-architecture-topic-2-m2-q23": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "(1.6)",
+        "explanation": "Execution time 𝑇 = \n𝐼𝐶×𝐶𝑃𝐼 \n𝑓 \nSame program ⇒ IC same \nP2 takes 25% less time ⇒ \n𝑇2 = 0.75𝑇1 \nCPI increases by 20% ⇒ \n𝐶𝑃𝐼2 = 1.2 𝐶𝑃𝐼1 \nRatio: \nAns: 13 cycles \n<!-- PAGE 470 -->\nComputer Organization and Architecture \n0.75 = 1.2 𝑓1  \n𝑓2 \nCycle time = MAX (1ns, 2.2ns, 2ns, 1ns, and 0.75ns) \n= 2.2nsec \nGiven 𝑓1 \n1.2 \n𝑓2 = 0.75 𝑓1 = 1.6𝑓1 \n= 1GHz \n𝑓2 = 1.6 GHz \nBranch penalty = 3-1 = 2 because the next instruction \npointer at the end of the EX stage (which is 3rd stage) in \nthe old design \nAVG instruction execution time is \nP = Tavg = (1 + no. of stalls * branch penalty) * \ncycle time \n= (1 + 0.20 * 2)2.2 \nAnswer: \n1.6 GHz \nAlternate Solution: \nTotal Execution Time = Number of Instructions × \nCPI × Cycle time \nNote: In the given question, the Number of \nInstructions is the same for Processor P₁ and P₂. \nProcessor P₁: \n Clock Frequency P₁ = 1 GHz \n Cycle time P₁ = 1 / 1 GHz = 10⁻⁹ sec \n Cycle time P₁ = 1 nsec \n ET_P₁ = CPI × 1 nsec \nProcessor P₂: \n ET_P₂ = 1.2 × CPI × Cycle time₂ (Due to 20% \nmore CPI) \n ET_P₂ = 0.75 × ET_P₁ (Due to 25% less time than \nthat of P₁) \nCalculation: Equating the two expressions for \nET_P₂: \n0.75 × ET_P₁ = 1.2 × CPI × Cycle time₂ \nSubstitute the value of ET_P₁: 0.75 × CPI × 1 nsec = \n1.2 \n× CPI × Cycle time₂ \nCancel out CPI from both sides: 0.75 \n= 1.2 × Cycle time₂ \nSolve for Cycle time₂: Cycle time₂ = 0.75 / 1.2 = \n0.625 nsec \nCalculate the Clock Frequency for P₂: Clock \nFrequency P₂ = 1 / Cycle time₂ Clock Frequency P₂ = \n1 / (0.625 × 10⁻⁹ sec) \nAns: 1.6 GHz",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-2"
+      },
+      "dbms-topic-4-m4-q2": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 26",
+        "explanation": "Explanation :- \nThe subquery finds all pids of players who are in a team \ncoached by a coach named 'Mark'. \n The outer query finds the minimum age among those \nplayers. \n 2. Subquery Execution \n Tables involved in subquery: \n coach C \n team T \n members M \n Conditions: \n C.cname = 'Mark' → cid for Mark? From coach table: \ncid = 102 for Mark. \n T.cid = C.cid → T.cid = 102 → Which team? \nFrom team table: tid = 10 (MI, Mumbai, 102). \n M.tid = T.tid → M.tid = 10 → Which players? \nFrom members table: pid = 1 (Jasprit), pid = 3 (Ishan) \nhave tid = 10. \n So subquery result = {1, 3}. \n 3. Outer Query \n P.pid IN (1, 3) → Players with pid = 1 and pid = 3: \n From player table: \n pid 1 → Jasprit → age 31 \n pid 3 → Ishan → age 26 \n 4. MIN(P.age) \n1. Ages = {31, 26} \nMinimum = 26",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-4"
+      },
+      "operating-system-arrays-and-strings-m1-q15": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "-  A,C",
+        "explanation": "exit eventually invokes a system call to terminate   \n          the process \n          malloc may or may not invoke system call \n          sleep always invokes a system call \n          strlen does not",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "arrays-and-strings"
+      },
+      "dbms-topic-6-m6-q21": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "-B",
+        "explanation": "Explanation :-As T1 fails after instance 9, so T1 \nwould rollback, but as T2 has already committed, so it \ncannot rollback and also T2 has Dirty Read of A from \nT1, i.e , T2 is dependent on T1.So, to ensure \nRecoverability; T1 should commit first and then T2. \n So, option B satisfies as S is non -  recoverable \nand  cannot ensure transaction  atomicity.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-6"
+      },
+      "theory-of-computation-topic-2-m2-q17": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "(C)",
+        "explanation": "L1 is regular. y can be expanded and w can also \nexpanded. \n<!-- PAGE 236 -->\nTHEORY OF COMPUTATION \nTHEORY OF COMPUTATION \nL1 = (0+1)+ 0 (0+1)+ 0 + (0+1)+ 1 (0+1)+ 1 \nL2 is CFL since it is equivalent to complement of \nL={ww where w belongs to (a+b)* } U { set of all odd \nlength strings strings }",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "topic-2"
+      },
+      "dbms-topic-3-m3-q22": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- D",
+        "explanation": "Explanation :- \n Given \n R(P,Q,…) and S(P,Q,…) \n {P,Q} is key for both \n⇒ Natural join R ⋈ S happens on P,Q \n I. πP (R ⋈ S) \nJoin keeps tuples where (P,Q) exist in both relations. \nThen project P. \n⇒ P values whose (P,Q) pair exists in both. \n II. πP(R) ⋈ πP(S) \n πP(R) and πP(S) are single-attribute relations. \n Natural join on P ⇒ intersection of P values. \nBut this ignores Q matching. \n⇒ Not equivalent to I. \n III. πP ( πP,Q(R) ∩ πP,Q(S) ) \n Intersection of (P,Q) pairs \n Then project P \nThis is exactly what join + projection in I gives. \n⇒ Equivalent to I \nIV. πP ( πP,Q(R) − (πP,Q(R) − πP,Q(S)) ) \nUsing identity: \nA − (A − B) = A ∩ B \n⇒ Expression becomes \nπP ( πP,Q(R) ∩ πP,Q(S) ) \n⇒ Same as III ⇒ same as I.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-3"
+      },
+      "dbms-arrays-and-strings-m1-q26": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 19",
+        "explanation": "Explanation \nAs we already have one entry with StudentName as \n“Shankar” and StudentAge as 19, so, X value should \nnot be 19 to make (StudentName,StudentAge) a key.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "arrays-and-strings"
+      },
+      "dbms-topic-3-m3-q15": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "-A",
+        "explanation": "Explantion :- The join relation between r(R) and s(S) \nwhich is using nested loop will be as follows: \n For each tuple r in R do \n For each tuple s in S do \n If r and s satisfy the join condition then \n output the tuple. \n The above algorithm involves (nr*bs+br) \n block transfer and (nr+br) seeks. \n where, \n br → no. of blocks in R \n bs → no. of blocks in S \n hr → no. of tuples in R \n To have less block accesses, nr should be less as in question \nit is given that size(r(R)) < size(s(S)). \nSo, to have fewer no. of disk block accesses the relation \nr(R) should be in outer loop.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-3"
+      },
+      "computer-networks-topic-4-m4-q19": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "HTTP → TCP \nTelnet → TCP \nSMTP → TCP \nDNS → uses UDP (for normal queries)",
+        "marks": 2,
+        "subject_slug": "computer-networks",
+        "topic_slug": "topic-4"
+      },
+      "discrete-mathematics-topic-3-m3-q7": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "S1: ¬p∧(p∨q)→q \n If consequence is false and hypothesis is true, then \nwe will get False in the truth table. \n Lets assume q is false. So consequence is FALSE. \n Can it make Hypothesis TRUE? \n Hypothesis: \n ¬p∧(p∨q)≡¬p∧(p∨FALSE)≡¬p∧(p)≡FALSE. \n Hypothesis can’t be true, So we can’t get False in \nthe Truth Table. \n ∴ S1 is Tautology \n S2 : q → (∼p ∧ (p ∨ q)) \n ∼q ∨ (∼p ∧ (p ∨ q)) \n ∼ q ∨ (() ∨ (∼ p ∧ q)) \n ∼ q ∨ (F ∨ (∼p ∧ q)) \n ∼ q ∨ (∼ p ∧ q) \n (∼q ∨∼ p) ∧ T \n it can be false when q=false and p=false \n S2 is not a tautology",
+        "marks": 2,
+        "subject_slug": "discrete-mathematics",
+        "topic_slug": "topic-3"
+      },
+      "dbms-topic-6-m6-q35": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- D",
+        "explanation": "Explanation :- \nACID properties: \n Atomicity: \nBy this, we mean that either the entire transaction takes \nplace at once or doesn’t happen at all. \n Consistency: \n This means that integrity constraints must be \nmaintained so that the database is consistent before and \nafter the transaction. \n Isolation: \n This property ensures that multiple transactions can \noccur concurrently without leading to inconsistency of \ndatabase state. \n Durability: \n This property ensures that once the transaction has \ncompleted execution, the updates and modifications to \nthe database are stored in and written to disk and they \npersist even if system failure occurs no matter which \ntype of failure. \n<!-- PAGE 449 -->\nCOMPUTER \nORGANIZATION AND \nARCHITECTURE",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-6"
+      },
+      "digital-logic-topic-4-m4-q12": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(A)",
+        "explanation": "Solution: \n Initially Q output of D - FF  = 1 Initially Q output \nof JK - FF  = 0 Now with the help of present state \nand next state table we can see what is happening \nin circuit. \n Toggle: J = K = 1     and     Hold : J = K = 0",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "topic-4"
+      },
+      "engineering-mathematics-arrays-and-strings-m1-q22": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- 0.33",
+        "explanation": "Each round: TH→Y (prob 1/4), HH or HT→N (prob \n2/4), TT→restart (prob 1/4). \n     Let p = P(output Y). \n     p = 1/4 + (1/4)×p  ⟹  (3/4)p = 1/4  ⟹  p = 1/3 ≈ \n0.33.",
+        "marks": 2,
+        "subject_slug": "engineering-mathematics",
+        "topic_slug": "arrays-and-strings"
+      },
+      "dbms-topic-2-m2-q6": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "-4",
+        "explanation": "Explantion :-  \n𝐸1, 𝐸2 and 𝐸3 are strong entity, one table for \neach: 3 Tables \n𝑅12 is m:n hence it requires a separate table: 1 \nTable \n𝑅13 is 1: 𝑛 hence it does not require any \nseparate table. \nTotal: 4 tables",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-2"
+      },
+      "theory-of-computation-theory-of-computation-m1-q26": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "D",
+        "explanation": "According to Pumping lemma, there must be repeation \n(DFA then it repeats some states, and regular grammar \nrepeats its nonterminal in derivation.) for all \nacceptable stings. \nTherefore, minimum Pumping Length should be 1 2. \n12 symbols can be taken as first \ntwelve b’s i.e.b12.  When you repeat  b12 Zero or more \ntimes, the resulted string still belongs to the language., \npumping length for given language should greater than \n12, which is 24. \n27. The set is the set of all bijections from to . In \nmathematics, this is the Symmetric Group . \n The elements of S5 are permutations. \n The operation   is function composition \n(permutation multiplication). \n The identity element is id. \n The size of the group is |S5|=5!=120. \nThe language consists of all sequences of permutations \nwhose product (composition) results in the identity \npermutation. \nAccording to the Myhill-Nerode Theorem, the \nnumber of states in a minimal DFA is equal to the \nnumber of equivalence classes of the prefix relation \n≡ₗ. \nTwo strings 𝑥 and 𝑦 are equivalent (𝑥 ≡𝑙 𝑦)if for \nevery string 𝑧 ∈ Σ∗, \n𝑥𝑧 ∈ 𝐿   ⟺   𝑦𝑧 ∈ 𝐿. \n• 𝑥𝑧 ∈ 𝐿 ⇒ 𝜋(𝑥) ∘ 𝜋(𝑧) = 𝑖𝑑 ⇒ 𝜋(𝑧) = (𝜋(𝑥))−1 \n• 𝑦𝑧 ∈ 𝐿 ⇒ 𝜋(𝑦) ∘ 𝜋(𝑧) = 𝑖𝑑 ⇒ 𝜋(𝑧) = (𝜋(𝑦))−1 \nTherefore, 𝑥 ≡𝑙 𝑦if and only if 𝜋(𝑥) = 𝜋(𝑦). \nEach distinct element in the group 𝑆5represents a \nunique state in the minimal DFA because each \nelement 𝑔 ∈ 𝑆5requires a different suffix \n𝑧(specifically 𝑧 = 𝑔−1) to reach the identity. \nSince every possible permutation in can be reached by \ncomposing elements from the alphabet (which \ncontains all permutations including th e generators), \nevery element of the group corresponds to exactly one \nstate in the minimal DFA. \nNumber of states = Order of the group  \nNumber of states =  5! \nNumber of states =  120",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "theory-of-computation"
+      },
+      "c-programming-topic-4-m4-q6": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "435",
+        "explanation": "The given pseudocode is an implementation of Bubble \nSort, which sorts an array by repeatedly swapping \nadjacent elements if they are in the wrong order. Let's \nanalyze how many swap operations are performed when \nthe function fun() is called with an array of 30 distinct \nintegers initially sorted in descending order. \nSwap Count Calculation: \n• Initially, when i = 0, the inner loop runs n -1 \ntimes. For n = 30, this is 29 iterations. \n• When i = 1, the inner loop runs n-2 times, which \nis 28 iterations. \n• This pattern continues until the outer loop \nreaches i = n -2, at which point the inner loop \nruns only once. \nThe total number of swaps can be computed as the sum \nof the first 29 numbers: \n<!-- PAGE 47 -->\nC PROGRAMMING \nTotal swaps = 29 + 28 + 27 + ... + 1 \nThis is the sum of the first n-1 integers: \nTotal swaps = (n-1) * n / 2 \nFor n = 30: \nTotal swaps = (29 * 30) / 2 = 435",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      },
+      "computer-networks-topic-4-m4-q12": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "UDP, TCP, UDP and TCP \nSuppose u are looking at the video on you tube and \nquality of video is not HD then u are just using \nUDP. When u want to see video in 720HD, 1080HD \nor 2160HD in that case TCP is used. \nFor file transfer we use TCP but for file \ndownloading we use FTP or for small file we use \nTFTP. \nDNS,RIP,OSPF,BOOTP,DHCP,NNP,NAT,TIMES\nTAMP and quote of day all uses UDP. \nSMTP is application layer protocol but it uses TCP \nfor sending mail.",
+        "marks": 2,
+        "subject_slug": "computer-networks",
+        "topic_slug": "topic-4"
+      },
+      "computer-organization-and-architecture-topic-2-m2-q11": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (1.87 to 1.88)",
+        "explanation": "Base Pipeline Execution Time \nInstruction Sequence: ADD, MUL, ADD, MUL, ADD, \nMUL, ADD, MUL \nEX Stage Cycles per instruction: ADD = 1, MUL = 2, \nADD = 1, MUL = 2, ADD = 1, MUL = 2, ADD = 1, \nMUL = 2 \nNumber of Pipeline Stages (k) = 5 Stages \nNumber of Instructions (n) = 8 Instructions \nIdeal Execution Time (ET_PIPE) = [k + (n - 1)] cycles \n<!-- PAGE 466 -->\nComputer Organization and Architecture \nIdeal ET_PIPE = [5 + (8 - 1)] = 12 cycles \nExecution Time WITH Operand Forwarding \nEach ADD instruction takes 1 cycle in the EX stage. \nEach MUL instruction takes 2 cycles in the EX \nstage. \nOut of 8 instructions, 4 are MUL instructions. \nThese 4 MUL instructions take 1 extra cycle each in \nthe EX stage. \nExtra cycles = 4 instructions * 1 extra cycle = 4 \ncycles \nTotal ET (With Forwarding) = 12 (Base) + 4 (Extra \nEX cycles) = 16 cycles \nExecution Time WITHOUT Operand Forwarding \nEvery instruction depends on the result of the \nprevious instruction (Data dependency: ADD -> \nMUL -> ADD -> MUL ...). \nWithout forwarding, each data dependency \nintroduces a 2-cycle stall penalty. \nOut of 8 instructions, 7 instructions depend on the \nprevious one, thus incurring the 2-cycle stall penalty. \nTotal Stalls = 7 instructions * 2 stall cycles = 14 \ncycles \nTotal ET (Without Forwarding) = Total ET (With \nForwarding) + Stall Cycles \nTotal ET = 16 + 14 = 30 cycles \nSpeedup Calculation \nSpeedup = Total ET (Without Forwarding) / Total \nET (With Forwarding) \nSpeedup = 30 / 16 = 1.875 \nAlternate Solution: \nSpeedup (defined in question) = \n𝑇𝑖𝑚𝑒 𝑤𝑖𝑡ℎ𝑜𝑢𝑡 𝑂𝑝𝑒𝑟𝑎𝑛𝑑 𝐹𝑜𝑟𝑤𝑎𝑟𝑑𝑖𝑛𝑔 \n𝑇𝑖𝑚𝑒 𝑤𝑖𝑡ℎ 𝑂𝑝𝑒𝑟𝑎𝑛𝑑 𝐹𝑜𝑟𝑚𝑤𝑎𝑟𝑑𝑖𝑛𝑔 \nSpeedup = 𝑇𝑖𝑚𝑒 𝑤𝑖𝑡ℎ𝑜𝑢𝑡 𝑂𝑝𝑒𝑟𝑎𝑛𝑑 𝐹𝑜𝑟𝑤𝑎𝑟𝑑𝑖𝑛𝑔 = 30 = 1.875 𝑇𝑖𝑚𝑒 𝑤𝑖𝑡ℎ 𝑂𝑝𝑒𝑟𝑎𝑛𝑑 𝐹𝑜𝑟𝑤𝑎𝑟𝑑𝑖𝑛𝑔 16",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-2"
+      },
+      "theory-of-computation-theory-of-computation-m1-q12": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(B,C)",
+        "explanation": "When we try to minimize the DFA give n we can notice \nthat states 3 and 4 have same inward and outward \ntransitions and are indistinguishable, same for the states \n2, 5.  \nStates 2 and 4 are distinguishable, because they have \ndifferent transitions from state 1.  \nIn the final minimised DFA, we can clearly see that there \nare three states 1 , 2 , 4. For any given string with equal \nnumber of 1s and 0s, it will be accepted by the DFA:",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "theory-of-computation"
+      },
+      "discrete-mathematics-arrays-and-strings-m1-q10": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 36",
+        "explanation": "Let N = 2100 \n =22 x 3 × 52 × 7 (i.e., the product of primes) \n Then, the number of divisors of 2100 is: \n (2+1)∙(1+1)∙(2+1)∙(1+1) \n i.e., (3)(2)(3)(2) \n i.e., 36.",
+        "marks": 2,
+        "subject_slug": "discrete-mathematics",
+        "topic_slug": "arrays-and-strings"
+      },
+      "algorithms-topic-7-m7-q1": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "An",
+        "explanation": "",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "topic-7"
+      },
+      "c-programming-topic-3-m3-q33": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "(D)",
+        "explanation": "Solution: \nFunction: \nunsigned int foo(unsigned int n, unsigned int r) \n { \n if (n > 0) \n return (n % r) + foo(n / r, r); \n else \n return 0; \n } \nThis computes the sum of digits of n in base r. \nGiven: \n  foo(513, 2) \nSo it computes the sum of binary digits (number of \n1s in binary form of 513). \nConvert 513 to binary: \n513 = 512 + 1 \n  512 = 2⁹ \nSo binary representation: \nThere are two 1s. \nTherefore sum of digits = 2(Option D)",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "discrete-mathematics-topic-2-m2-q54": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "Method 1:  \nIf we draw venn diagram, both X and Y is \nequal to the shaded region as follows \nMethod 2: \nX = (𝐴 − 𝐵) − 𝐶 \n     = (𝐴 ∩ 𝐵′) − 𝐶 \n     = (𝐴 ∩ 𝐵′) ∩ 𝐶′ \n𝑌 = (𝐴 − 𝐶) − (𝐵 − 𝐶) \n    = (𝐴 ∩ 𝐶′) − (𝐵 ∩ 𝐶′) \n    = (𝐴 ∩ 𝐶′) ∩ (𝐵 ∩ 𝐶′)′  \n    = (𝐴 ∩ 𝐶′) ∩ (𝐵′ + 𝐶) \n    = (𝐴 ∩ 𝐶′) ∩ 𝐵′ + (𝐴 ∩ 𝐶′) ∩ 𝐶 \n    = 𝐴 ∩ (𝐶′ ∩ 𝐵′) + 𝐴 ∩ (𝐶′ ∩ 𝐶) \n    = 𝐴 ∩ (𝐵′ ∩ 𝐶′) + 𝐴 ∩ ϕ \n    = (𝐴 ∩ 𝐵′) ∩ 𝐶′ +  ϕ \n    = (𝐴 ∩ 𝐵′) ∩ 𝐶′ \nHence 𝑋 = 𝑌",
+        "marks": 2,
+        "subject_slug": "discrete-mathematics",
+        "topic_slug": "topic-2"
+      },
+      "c-programming-topic-3-m3-q39": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "Solution: \n Initial values: \nc = 4 \n  b = &c \n a = &b \n Function call: \nf(c, b, a) \n So inside function: \nx = 4 \npy = b → points to c \n**ppz = a → points to b \n Step 1: \n**ppz += 1 \n **ppz means value of b (which is &c). \nSo b = b + 1. \nNow b points to the next integer location after c. \n z = **ppz \nSo z is the new value of b (address after c). \n Step 2: \n*py += 2 \n py still holds original b, which points to c. \nSo c = 4 + 2 = 6 \n y = *py → y = 6 \n Step 3: \nx += 3 → x = 4 + 3 = 7 \n Return value = x + y + z \n x = 7 \ny = 6 \nz = 5 (effectively c was incremented through pointer \narithmetic impact)",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "computer-networks-topic-3-m3-q53": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 158",
+        "explanation": "144 in binary = 10010000 \n out of this 3 bits in left are subnet bits. (27 bits are \nused for subnet, which means top 3 bytes and leftmost \n3 bits from the last byte) \n So, the 4th octet in the last IP address of the network \nwhich can be assigned to a host is 10011110. (its not \n10011111 because its network broadcast address) \n So, 10011110 is 158 in decimal.",
+        "marks": 2,
+        "subject_slug": "computer-networks",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-3-m3-q38": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "(C)",
+        "explanation": "Solution: \nY[i] = 2X[i] \n Z[i] = 3X[i] \nSo \nX[i] = Y[i−1] + Z[i−2] \n= 2X[i−1] + 3X[i−2] \nThis is the same recurrence as f1. \nBase values: \nX[0] = 0 \nX[1] = 1 \nSo both functions compute the same sequence. \nCompute step by step: \n f(0)=0 \n f(1)=1 \n f(2)=2 \n f(3)=7 \n f(4)=20 \n f(5)=61 \n f(6)=182 \n f(7)=547 \n f(8)=1640 \n So both return 1640.",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      }
+    },
+    "questionCount": 65
+  },
+  "6282b76e-d950-4e2f-903a-48b95190bed4": {
+    "testId": "6282b76e-d950-4e2f-903a-48b95190bed4",
+    "testTitle": "GATE C PROGRAMMING Practice Test",
+    "mode": "subject",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794329836277,
+    "durationMinutes": 15,
+    "totalMarks": 10,
+    "answerKeyMap": {
+      "c-programming-topic-3-m3-q37": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "Running time \n f1(n) makes two recursive calls: f1(n−1) and f1(n−2). \n This is similar to Fibonacci recursion, which grows \nexponentially. \n So running time of f1(n) is Θ(2ⁿ). \n f2(n) uses a single loop from 2 to n. \n Each iteration does constant work. \n So running time of f2(n) is Θ(n). \n Correct answer for running time: \n(B) Θ(2ⁿ) and Θ(n)",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-2-m2-q14": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "- (C)",
+        "explanation": "Solution: \nThe switch case has no break statements. \ninchar = 'A' → matches case 'A', prints \"choice A \". \nThen it falls through to case 'B', prints \"choice B \". \nThen it falls through to case 'C', case 'D', case 'E' (no \ncode, so no print), then default, prints \"No Choice\".",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-2"
+      },
+      "c-programming-topic-3-m3-q6": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(A)",
+        "explanation": "Explanation: \nGiven that function arguments are evaluated from \nright to left: \nStep 1: Function Call \nf(g(10), h(20)); \nFirst evaluated → h(20) → prints 20, returns 20 \nThen evaluated → g(10) → prints 10, returns 10 \nSo far output: 2010 \nStep 2: Inside function f(x, y) \ng(x); \nh(y); \ng(x) → g(10) → prints 10 \nh(y) → h(20) → prints 20 \nFinal Output: \n20 10 10 20 \n<!-- PAGE 30 -->\nC PROGRAMMING",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-3-m3-q26": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (51)",
+        "explanation": "Solution: \nfun(1) \n= 1 \nfun(2) \nk = 1 to 1: \nx = 1 + fun(1) * fun(1) \n= 1 + 1*1 = 2 \nfun(3) \nx = 1 \nk=1: x += fun(1)*fun(2) = 1*2 = 2 → x=3 \nk=2: x += fun(2)*fun(1) = 2*1 = 2 → x=5 \nfun(3) = 5 \nfun(4) \nx = 1 \nk=1: x += fun(1)*fun(3) = 1*5 = 5 → x=6 \nk=2: x += fun(2)*fun(2) = 2*2 = 4 → x=10 \nk=3: x += fun(3)*fun(1) = 5*1 = 5 → x=15 \nfun(4) = 15 \nfun(5) \nx = 1 \nk=1: x += fun(1)*fun(4) = 1*15 = 15 → x=16 \nk=2: x += fun(2)*fun(3) = 2*5 = 10 → x=26 \nk=3: x += fun(3)*fun(2) = 5*2 = 10 → x=36 \nk=4: x += fun(4)*fun(1) = 15*1 = 15 → x=51 \nfun(5) = 51 \nAnswer: 51 \n<!-- PAGE 35 -->\nC PROGRAMMING",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-c-programming-m1-q3": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "(b)",
+        "explanation": "Solution: \n We need to set 𝑝 = 𝑛𝐶3 where 𝑛𝐶3 = 𝑛(𝑛 − 1) ( \n𝑛 − 2)/6. \n𝑛 and 𝑝 are unsigned int. If 𝑛 is large, overflow can \nhappen during multiplication before division. \n Check options: \n(a) 𝑝 = 𝑛∗(𝑛 − 1)(𝑛 − 2)/6; \n Here multiplication happens first. For large 𝑛, 𝑛(𝑛 −\n1)∗(𝑛 − 2) becomes very large and may overflow \nbefore dividing by 6 . So result may be wrong. \n(b) 𝑝 = 𝑛∗(𝑛 − 1)/2∗(𝑛 − 2)/3; \n Here division is done early. Since 6 = 2 × 3, we \ndivide step by step. This reduces intermediate values \nand avoids overflow. This is most safe and correct. \n (c) 𝑝 = 𝑛∗(𝑛 − 1)/3∗(𝑛 − 2)/2; \n Division by 3 first may not divide exactly at that \nstage, so integer truncation can happen. This may \ngive wrong result. \n(d) 𝑝 = 𝑛∗(𝑛 − 1)∗(𝑛 − 2)/6.0; \n6.0 is double. Expression becomes floating point, \nthen converted back to unsigned int. This is not safe \nand may lose precision. \n<!-- PAGE 9 -->\nC PROGRAMMING",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "c-programming"
+      }
+    },
+    "questionCount": 5
+  },
+  "e9edcb12-b7f8-4cbc-b5c2-a9ae130274df": {
+    "testId": "e9edcb12-b7f8-4cbc-b5c2-a9ae130274df",
+    "testTitle": "GATE C PROGRAMMING Practice Test",
+    "mode": "subject",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794329836355,
+    "durationMinutes": 15,
+    "totalMarks": 6,
+    "answerKeyMap": {
+      "c-programming-topic-3-m3-q37": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "Running time \n f1(n) makes two recursive calls: f1(n−1) and f1(n−2). \n This is similar to Fibonacci recursion, which grows \nexponentially. \n So running time of f1(n) is Θ(2ⁿ). \n f2(n) uses a single loop from 2 to n. \n Each iteration does constant work. \n So running time of f2(n) is Θ(n). \n Correct answer for running time: \n(B) Θ(2ⁿ) and Θ(n)",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-2-m2-q12": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (1.73)",
+        "explanation": "Solution: \nThe stopping condition is: \n∣x2 −3∣<0.01 \nWe need a value q (to 2 decimal places) that satisfies: \n∣q2 −3∣<0.01 \nThis means q2 must be between 2.99 and 3.01: \n2.99<q2 <3.01 \nTaking the square root gives the range: \n√2.99  < q < √3.01  \n1.72916...< q < 1.73493... \nThe value 3 \n≈1.73205 is in this range. Rounding this to two \ndecimal places gives 1.73. \nVerification: 1.732=2.9929. The absolute difference is \n∣2.9929−3∣=0.0071, which is less than 0.01. \nThe value q is 1.73.",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-2"
+      },
+      "c-programming-c-programming-m1-q4": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(A)",
+        "explanation": "Solution:  \n Given expression: \na = (x > y) ? ((x > z) ? x : z) : ((y > z) ? y : z) \n This nested ternary operator essentially finds the \nmaximum of x, y, and z. \n Case 1: If x > y → a = max(x, z) \nCase 2: Otherwise → a = max(y, z) \n So overall, a = max(x, y, z) \n Checking options: \n A. x = 3, y = 4, z = 2 \nmax = 4 (Correct) \n B. x = 6, y = 5, z = 3 \nmax = 6 (Incorrect) \n C. x = 6, y = 3, z = 5 \nmax = 6(Incorrect) \n D. x = 5, y = 4, z = 5 \nmax = 5 (Incorrect) \n<!-- PAGE 10 -->\nCONTROL FLOW STATEMENT",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "c-programming"
+      }
+    },
+    "questionCount": 3
+  },
+  "wiped-test-uuid-1794329836365": {
+    "testId": "wiped-test-uuid-1794329836365",
+    "testTitle": "GATE C PROGRAMMING Practice Test",
+    "mode": "subject",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794329836422,
+    "durationMinutes": 180,
+    "totalMarks": 6,
+    "answerKeyMap": {
+      "c-programming-topic-3-m3-q37": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "Running time \n f1(n) makes two recursive calls: f1(n−1) and f1(n−2). \n This is similar to Fibonacci recursion, which grows \nexponentially. \n So running time of f1(n) is Θ(2ⁿ). \n f2(n) uses a single loop from 2 to n. \n Each iteration does constant work. \n So running time of f2(n) is Θ(n). \n Correct answer for running time: \n(B) Θ(2ⁿ) and Θ(n)",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-2-m2-q12": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (1.73)",
+        "explanation": "Solution: \nThe stopping condition is: \n∣x2 −3∣<0.01 \nWe need a value q (to 2 decimal places) that satisfies: \n∣q2 −3∣<0.01 \nThis means q2 must be between 2.99 and 3.01: \n2.99<q2 <3.01 \nTaking the square root gives the range: \n√2.99  < q < √3.01  \n1.72916...< q < 1.73493... \nThe value 3 \n≈1.73205 is in this range. Rounding this to two \ndecimal places gives 1.73. \nVerification: 1.732=2.9929. The absolute difference is \n∣2.9929−3∣=0.0071, which is less than 0.01. \nThe value q is 1.73.",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-2"
+      },
+      "c-programming-c-programming-m1-q4": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(A)",
+        "explanation": "Solution:  \n Given expression: \na = (x > y) ? ((x > z) ? x : z) : ((y > z) ? y : z) \n This nested ternary operator essentially finds the \nmaximum of x, y, and z. \n Case 1: If x > y → a = max(x, z) \nCase 2: Otherwise → a = max(y, z) \n So overall, a = max(x, y, z) \n Checking options: \n A. x = 3, y = 4, z = 2 \nmax = 4 (Correct) \n B. x = 6, y = 5, z = 3 \nmax = 6 (Incorrect) \n C. x = 6, y = 3, z = 5 \nmax = 6(Incorrect) \n D. x = 5, y = 4, z = 5 \nmax = 5 (Incorrect) \n<!-- PAGE 10 -->\nCONTROL FLOW STATEMENT",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "c-programming"
+      }
+    },
+    "questionCount": 3
   }
 }
