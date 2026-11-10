@@ -7738,5 +7738,741 @@
       }
     },
     "questionCount": 3
+  },
+  "68879777-78c6-4c27-be50-7322788f80e8": {
+    "testId": "68879777-78c6-4c27-be50-7322788f80e8",
+    "testTitle": "GATE CSE Full-Length Authentic Mock Test",
+    "mode": "full_gate",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794332475269,
+    "durationMinutes": 180,
+    "totalMarks": 130,
+    "answerKeyMap": {
+      "general-aptitude-topic-2-m2-q1": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "- (C)",
+        "explanation": "'When the teacher is in the room, all students stand \nsilently.' \n Negation of this statement: \n A. 'If any student is not standing silently, then the \nteacher is not in the room'. \n So, A is true. \n B. 'When the teacher is in the room, all students \nare silent.' \n This is true as per given statement. So, B true. \n C. 'If all students are standing, then the teacher is \nin the room.' \n This is not necessarily true as per the given \nstatement when teacher is in the room then only \nall students are standing silently. Also when any \none student is not standing silently then it implies \nthat the teacher is not present in the room. So, C' \ndoesn't directly imply from the given statement \nand not necessarily true. \n D. 'When the teacher is in the room, all students \nare standing' \n This is true as it directly implies from given \nstatement. So, D is true.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-2"
+      },
+      "general-aptitude-arrays-and-strings-m1-q82": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "- (C)",
+        "explanation": "Let x = √(12 + √(12 + √(12 + ....))). \n  So x = √(12 + x). \n Squaring both sides, x² = 12 + x.  \n So, x² - x - 12 = 0, giving (x-4)(x+3) = 0. \n Since x is positive, x = 4. \n<!-- PAGE 716 -->\nGENERAL APTITUDE",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "arrays-and-strings"
+      },
+      "general-aptitude-arrays-and-strings-m1-q38": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "From the above graph we obtained following \ninformation-  \n<!-- PAGE 709 -->\nGENERAL APTITUDE  \nYear Cost/Unit Cost Price No. of Units \n1 3 300 100 \n2 2 400 200 \n3 1 300 300 \n Let selling price of year 2 = SP2 and Selling price \nof year3 = SP3 \n Given that- \nTaxes for year 2 = 13% of SP2 = 0.13SP2 \nTaxes for year 3 = 15% of SP3 = 0.15SP3 \nCost per unit of year 3 = 1 \n(Cost per unit of year 2)/2 = 1 \nSo now Cost / unit of year 2 = 2×1 = 2 \n Net profit formula now = Selling Price - (Cost \nPrice + (Tax% × selling price ) \n For year 2 \n=> 296 = SP2- (200×2 + 0.13×SP2) \n => SP2 = 696×100/87 SP2 = 800 \n For year 3 \n=> 210 = SP3 - (300×1+0.15×SP3) \n => SP3 = 510×100/85 SP3 = 600 \n Required Ratio 800/600= 4/3 (Correct Option A)",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "arrays-and-strings"
+      },
+      "general-aptitude-topic-3-m3-q92": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "Circuitous means roundabout, not direct, \ntaking a longer path. \nAmong the options: \n Cyclic = repetitive  \n Indirect = not direct  (closest meaning)  \n Confusing = unclear  \n Crooked = bent/dishonest",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-3"
+      },
+      "general-aptitude-topic-2-m2-q40": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "When y is −1, x is 2 . \n When y is positive x is 0 . \n So, x = −(y − |y|) \n Correct Answer: B",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-2"
+      },
+      "general-aptitude-topic-2-m2-q46": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "\"eradicate\" means \"destroy utterly\" \"distort\" matches \nwith \"misrepresent\" \"saturate\" matches with \"soak \ncompletely\" \"utilize\" matches with \"use\"",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-2"
+      },
+      "general-aptitude-topic-3-m3-q16": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "- (D)",
+        "explanation": "The narrative flows in the logically in this order \n,with mina carry heavy bags after shop, then \npanting as she climbs the stairs and finally ,on the \nterrace, she notices the man is leaning against he \nparapet.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-3"
+      },
+      "general-aptitude-topic-3-m3-q25": {
+        "type": "NAT",
+        "correct_option": 3,
+        "answer_key": "- (D)",
+        "explanation": "The correct answer is \"within, for\" because \n\"within six months\" indicates a time frame in the \nfuture, and \"for the last three weeks\" refers to the \nduration of time he's been practicing.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-3"
+      },
+      "general-aptitude-topic-3-m3-q2": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "Expedite - to make something happen more quickly \n Hasten - to be quick to do or say something. \n Hurry - to do something quickly \n Retard - to delay something \n Out of the given options, Accelerate is the correct \noption. Hence, Answer is A.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-3"
+      },
+      "general-aptitude-topic-2-m2-q43": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- (32)",
+        "explanation": "Total in Electrical = 40 x 9/5 = 72. Total students \n= 72/0.20 = 360. Civil = 360 x 0.30 = 108, \nfemales = 108 x 4/9 = 48. Mechanical = 360 x \n0.10 = 36, females = 36 x 4/9 = 16. Difference = \n48 - 16 = 32.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-2"
+      },
+      "algorithms-topic-3-m3-q11": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "24",
+        "explanation": "For a graph defined by the adjacency matrix \nA[i][j]=1 (if 1≤j≤i≤5), and considering directed \nspanning trees rooted at vertex 5: \nFrom 5, you can directly go to 4 in only 1 way. \nTo each of the next lower vertices, there are \nmultiple possible parents among higher \nnumbered vertices already included in the tree. \nFor 3: Choose parent from (5,4) ⇒⁡2 ways. \nFor 2: Choose parent from (5,4,3) ⇒ 3 ways. \nFor 1: Choose parent from (5,4,3,2) ⇒ 4 ways. \nSo, total count = 1×2×3×4 = 24. \nAlternatively, the tree rooted at 5 is essentially a \npermutation of the 4 remaining vertices, \nresulting in 4!=24 directed spanning trees rooted \nat 5. \nThe number of such directed spanning trees \nrooted at vertex 5 is 24. \n<!-- PAGE 124 -->\nALGORITHMS",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "topic-3"
+      },
+      "algorithms-topic-7-m7-q9": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "C",
+        "explanation": "Let the number of element is \"K\", they can be \nsorted in θ(k log k) time We try \nthe options in decreasing order of complexity \nsince, we need a tight band i.e. \nθ.So if K ∈ (log n) time required for heap sort \nis θ(k log k) i.e. \nθ(log n × loglog n), But this is not in θ(log n)if \nθ(log n / (loglog n)) time \nrequired for heap sort ie. θ( (log n / (loglog n)) \n*log( (log n / (loglog n)) ) ) \n=θ (logn - (log n log log log n)/logn) = θ(logn) \n<!-- PAGE 150 -->\nALGORITHMS",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "topic-7"
+      },
+      "digital-logic-arrays-and-strings-m1-q18": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "(C)",
+        "explanation": "Solution: \nFormat: b7b6b5b4b3b2b1b0 \n  4 bits integer, 4 bits fractional   \n Fraction resolution = 1/16 = 0.0625 \nCheck each number: \n(i) 31.500   \n31 + 0.5 → 0.5 = 8/16 → exact → Representable   \n(ii) 0.875   \n0.875 = 14/16 → exact → Representable   \n(iii) 12.100   \n0.1 not multiple of 1/16 → Not exact   \n(iv) 3.001   \n0.001 not multiple of 1/16 → Not exact   \nTherefore: only (iii) and (iv) cannot be exactly \nrepresented",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "arrays-and-strings"
+      },
+      "compiler-design-topic-4-m4-q3": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "- (C)",
+        "explanation": "Back patching can be used to generate code of both \nboolean expressions and flow -of-control statements \nin one pass. \n<!-- PAGE 287 -->\nCOMPILER DESIGN",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "topic-4"
+      },
+      "algorithms-algorithms-m1-q7": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "A,C.",
+        "explanation": "f(n)∈O(g(n)) iff f(n) asymptotically smaller or \n= 70n − 70n (n \nlog  9  9 \n9 10 \n0.85 \nequal to g(n) \nf(n)∈o(g(n)) iff f(n) asymptotically smaller than g(n) \nf(n)∈Ω(g(n)) iff f(n) asymptotically greater or \n10) = 70n − 63n \n⇒ T(n) ≤ 70n \n⇒ T(n) ∈ O(n)",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "algorithms"
+      },
+      "digital-logic-topic-4-m4-q12": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(A)",
+        "explanation": "Solution: \n Initially Q output of D - FF  = 1 Initially Q output \nof JK - FF  = 0 Now with the help of present state \nand next state table we can see what is happening \nin circuit. \n Toggle: J = K = 1     and     Hold : J = K = 0",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "topic-4"
+      },
+      "digital-logic-topic-2-m2-q1": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "A, C",
+        "explanation": "Solution:  \n We know that 𝑃 ⊕ 𝑄 = 𝑃′𝑄 + 𝑃𝑄′ ,using this \nproperty we solve below: \n𝐹(𝑃, 𝑄) = (𝑃ˉ + 𝑄) ⊕ (𝑃ˉ 𝑄) \n𝐹(𝑃, 𝑄) = (𝑃̅ + 𝑄̅̅̅̅̅̅̅̅). (𝑃ˉ 𝑄) + (𝑃ˉ + 𝑄). (𝑃‾ 𝑄) \n𝐹(𝑃, 𝑄) = 𝑃̅ˉ . 𝑄ˉ . (𝑃ˉ 𝑄) + (𝑃ˉ + 𝑄). (𝑃ˉˉ + 𝑄ˉ ) \n𝐹(𝑃, 𝑄) = 𝑃ˉ 𝑄ˉ + 𝑃𝑄 \n                    ≡ 𝑃 ⊙ 𝑄 ≡ 𝑃ˉ ⊕ 𝑄 = 𝑃 ⊕ 𝑄ˉ ≡ 𝑃 ⊕ 𝑄",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "topic-2"
+      },
+      "theory-of-computation-theory-of-computation-m1-q38": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "2",
+        "explanation": "All strings over {0,1} having length ≥1 \n(0+1)*(0+1)(0+1)*=(0+1)(0+1)*=(0+1)*( \n0+1)=(0+1)+ \nHaving-DFA:",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "theory-of-computation"
+      },
+      "algorithms-topic-6-m6-q4": {
+        "type": "NAT",
+        "correct_option": 3,
+        "answer_key": "D",
+        "explanation": "Worst case is when the element not present in \nthe sorted array \nn elements",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "topic-6"
+      },
+      "digital-logic-arrays-and-strings-m1-q16": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "(C)",
+        "explanation": "Solution: \n(+28)₁₀ = (0000 0000 0001 1100)₂ \n−28 is nothing but 2's complement of +28. \nSo, 2's complement of (0000 0000 0001 1100)₂ is \n(1111 1111 1110 0100)₂ \n(−28)₁₀ = (1111 1111 1110 0100)₂.",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "arrays-and-strings"
+      },
+      "theory-of-computation-theory-of-computation-m1-q60": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "A",
+        "explanation": "Whenever we reach state 00 we get output 1. \nWhenever we reach state 01 we get output 0 and 1.for \n01 state we got two optputs 0 and 1. When we reach \nat state 10, we get output we get output 0. for 11 we \ndon’t know. \nDraw a moore machine. \nMinimum length input 101.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "theory-of-computation"
+      },
+      "c-programming-topic-3-m3-q38": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "(C)",
+        "explanation": "Solution: \nY[i] = 2X[i] \n Z[i] = 3X[i] \nSo \nX[i] = Y[i−1] + Z[i−2] \n= 2X[i−1] + 3X[i−2] \nThis is the same recurrence as f1. \nBase values: \nX[0] = 0 \nX[1] = 1 \nSo both functions compute the same sequence. \nCompute step by step: \n f(0)=0 \n f(1)=1 \n f(2)=2 \n f(3)=7 \n f(4)=20 \n f(5)=61 \n f(6)=182 \n f(7)=547 \n f(8)=1640 \n So both return 1640.",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "compiler-design-topic-2-m2-q4": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C,D",
+        "explanation": "A grammar is not LL(1) iff: \n● It is an ambiguous grammar \n● It is left-recursive \n● It has common prefixes \n Both the grammars G₁ and G₂ have common prefixes \nlike \"if E then S\" and \"if E then\", as well as ambiguity \ndue to the dangling else problem. \n So, the given grammars G₁ and G₂ are not LL(1) and \nambiguous.",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "topic-2"
+      },
+      "algorithms-topic-6-m6-q2": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "(3)",
+        "explanation": "Replace second last 2 with 5 -> 2 2 3 1 4 5 6 \nReplace 1 with first 2 -> 1 2 3 2 4 5 6 \nReplace second 2 with 3 -> 1 2 2 3 4 5 6",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "topic-6"
+      },
+      "algorithms-topic-3-m3-q21": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "D",
+        "explanation": "One graph that has maximum possible weight of \nspanning tree \nAn MST on 4 vertices has 3 edges, and by \nKruskal’s order the two smallest edges 1 and 2 can \nalways be included without forming a cycle. \n To maximize the MST weight, arrange the \ngraph so that edge 3 would create a cycle with \n1 and 2 and hence is skipped; the next feasible \nedge is 4, giving total 1 + 2 + 4 = 7. \n This is the maximum possi ble MST weight \nunder the given multiset of edge weights.",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "topic-3"
+      },
+      "theory-of-computation-theory-of-computation-m1-q70": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "a",
+        "explanation": "",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "theory-of-computation"
+      },
+      "theory-of-computation-topic-2-m2-q17": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "(C)",
+        "explanation": "L1 is regular. y can be expanded and w can also \nexpanded. \n<!-- PAGE 236 -->\nTHEORY OF COMPUTATION \nTHEORY OF COMPUTATION \nL1 = (0+1)+ 0 (0+1)+ 0 + (0+1)+ 1 (0+1)+ 1 \nL2 is CFL since it is equivalent to complement of \nL={ww where w belongs to (a+b)* } U { set of all odd \nlength strings strings }",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "topic-2"
+      },
+      "algorithms-algorithms-m1-q31": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "B",
+        "explanation": "Time complexity of f1 is given by \nT(n) = T(n - 1) + T(n - 2), (multiplication by 2 and \n3 won't affect complexity as it is a constant time \noperation) \nT(0) = T(1) = 1 \nThe solution to this (fibonacci series) is given by \nGolden ratio. Which is O( 2n). (Using theta in \nquestion must be a mistake) \nTime complexity of f2 is O(n) as here all recursive calls are    \navoided by saving the results in an array (dynamic \nprogramming).",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "algorithms"
+      },
+      "algorithms-topic-3-m3-q20": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "4",
+        "explanation": "Edges with weights 1 and 3 will be selected first, \nNow bottom edge with weight 4 will not be selected \nas will cause cycle on MST, both corner vertices \nhave two-two choices to select the vertices, so these \ncorner edges with weights 4 and 5 will resultant 2 * \n2 = 4 MSTs. So, total number of MSTs are 2 * 2 = \n4, which is answer.",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-3-m3-q30": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "Solution: \nY=0 \nfor (i=0; i < size ; i++ ) \nY=Y+E[i] ; // E is an array, this statement calculates \nthe sum of elements of the array E and stores it in Y. \nfor (i=0; i<size; i++) \nfor(j=i; j <size; j++) { \nZ=0; \nfor(k=i; k<=j; k++) \nZ=Z+E[k]; \nif(Z > Y ) \nY=Z; \n} \n// It calculates the sum of all possible subarrays \nstarting from 0 i.e., the loop will iterate for all the \nelements of array E and for every element, calculate \nsum of all sub arrays starting with E[i]. \nStore the current sum in Z. \nIf Z is greater than Y then update Y and return Y. So \nit returns the maximum possible sum of elements in \nany sub array of given array E",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "algorithms-topic-7-m7-q7": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "C",
+        "explanation": "(1) Prim's algo for mst is application of greedy \nwhich give optimal solution as mst . \n(2) Floyd warshall algo for all pair shortest path \nis application of dynamic programming because \nit covers all possibilities from every vertex \n(3) merge sort --divide and conquer \n(4) Hamiltonian circuit is application of \nbacktracking because we have to find cycle \nagain and again until we didn't get cycle of all \nvertices without repetition of vertices except \nsource vertex.",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "topic-7"
+      },
+      "algorithms-topic-2-m2-q4": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "0.08",
+        "explanation": "Given an array of 25 distinct elements, and pivot \nelement is chosen uniformly randomly. So, there \nare only 2 worst case position in the pivot \nelement is either first (or) last. Total elements \n=25 For worst case number of candidates =2 \nTherefore, required probability is, = 2/25 \n= 0.08",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "topic-2"
+      },
+      "theory-of-computation-topic-2-m2-q4": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "D",
+        "explanation": "1. Is L(G1) = L(G2)? \nUndecidable. Determining if two context-free grammars \n(CFGs) generate the same language is undecidable. \nThere is no algorithm that can decide whether two \narbitrary CFGs generate the same language. \n2. Is L(G1) ∩ L(G2) = ∅? \nUndecidable. The intersection of two context -free \nlanguages is not necessarily context-free, and checking if \ntwo context-free languages have an empty intersection is \nundecidable. This is a generalization of the \nundecidability of the equivalence problem for CFGs. \n3. Is L(G1) = L(R)? \nUndecidable. The equivalence of a context-free language \n(generated by a CFG) and a regular language (defined by \na regular expression) is undecidable. Determining \nwhether a CFG generates a language that is exactly the \nsame as a regular language is undecidable. \n4. Is L(G1) = ∅? \nDecidable. It is decidable whether the language \ngenerated by a context -free grammar G1 is empty. This \ncan be determined by analyzing the grammar to check if \nthere exists a derivation for any string. Specifically, this \ncan be done by checking if there is any derivation starting \nfrom the start symbol and reaching a terminal string.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "topic-2"
+      },
+      "theory-of-computation-topic-2-m2-q15": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(A,B,D)",
+        "explanation": "option A is correct \n{wxxᴿwᴿ | w, x ∈ {0, 1}*} is context-free language as it \ncan be done using a stack. here is the way \npush all letters of w in the stack \npush all letters of x in the stack \nif a new letter matches with the top of the stack, pop it \nat the end stack will be empty so, it is context free language \noption B is correct \n{wxwᴿ | w, x ∈ {0, 1}*} is context-free. \npush all the letters before w in the stack, skip x, now pop \nan element from the stack for each new letter, (top of the \nstack will match with each new letter due to wᴿ). So, it is \ncontext-free \noption C is incorrect \n{wxwᴿxᴿ | w, x ∈ {0, 1}*} is Not context-free, we have to \nmatch w with wᴿwᴿ but the top of the stack contains x, so \nnot possible. \noption D is correct \n{wwᴿxxᴿ| w, x ∈ {0, 1}*} is Context-free language, \nfirst match w with wᴿ then match x with xᴿ using a stack. \noption 1,2,4 are correct.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "topic-2"
+      },
+      "theory-of-computation-topic-2-m2-q41": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "(D)",
+        "explanation": "L1 is context-free. We count the number of 1's and check \nif the remaining number of 's followed by 0's count to the \ninitial number of  0's. \nL2 is not context -free. Here the number of 0's and the \nfollowing 1's must be same, which can be checked using \na PDA. But after that we must also ensure that the \nfollowing number of 0's must be less than the previous \ncount of 0's and 1's (otherwise n<0, whi ch violates the \ncondition for acceptance) and we cannot do these two \nchecks using a single PDA. \nL3 is not context -free as it is nothing but equal number of 0's \nfollowed by equal number of  1's followed by equal number of \n0's.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "topic-2"
+      },
+      "theory-of-computation-topic-2-m2-q12": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "(B)",
+        "explanation": "X → am(a+b)bp (m≥0,p≥0) \nAfter replacing X in the first production we get, \nS → aSb / am(a+b)bp. \nFurther reduction we get, \nS → anam(a+b)bpbn \nfurther simplification gives : a∗(a+b)b∗ .",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "topic-2"
+      },
+      "c-programming-topic-3-m3-q6": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(A)",
+        "explanation": "Explanation: \nGiven that function arguments are evaluated from \nright to left: \nStep 1: Function Call \nf(g(10), h(20)); \nFirst evaluated → h(20) → prints 20, returns 20 \nThen evaluated → g(10) → prints 10, returns 10 \nSo far output: 2010 \nStep 2: Inside function f(x, y) \ng(x); \nh(y); \ng(x) → g(10) → prints 10 \nh(y) → h(20) → prints 20 \nFinal Output: \n20 10 10 20 \n<!-- PAGE 30 -->\nC PROGRAMMING",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-3-m3-q5": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "5",
+        "explanation": "1    S[0]! = S[1]: The code looks at two \nneighboring numbers. \n2.     1 + foo( . . . ) : If the neighbors are different, \nit means a block has ended, so it adds 1 to the \ncount. \n3 foo( . . . ) : If the neighbors are the same, it \nmeans we are still inside the same block, so it \nskips adding anything. \n4 if(size == 1) return 1; : When it hits the very last \nelement, it always adds a final 1 to account for the \nlast remaining block. \n Visualizing the Array Blocks \nInstead of tracing the function frames, break \nthe array A into visual blocks of consecutive \nmatching numbers: \n Block 1 → ([0]) \n Block 2 → ([1]) \n Block 3 → ([2,2,2]) \n Block 4 → ([0,0]) \n Block 5 → ([1,1]) \nEvery time the array transitions to a new number, the \ncode records it. \nTransitions \n Transition from 0 to 1 → +1 \n Transition from 1 to 2 → +1 \n Transition from 2 to 0 → +1 \n Transition from 0 to 1 → +1 \n Final element base case → +1 \nTotal Output \n1 + 1 + 1 + 1 + 1 = 5 \nTherefore, the output of the program is 5.",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "theory-of-computation-theory-of-computation-m1-q4": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "D",
+        "explanation": "Explanation \nNFA → DFA conversion:  \nWhen we convert an NFA to an equivalent DFA,  \nthe DFA can have  up to 2ⁿ states , because each  \nDFA state represents a  subset of NFA states.  \nSo, saying “DFA has at most n states” is  wrong. \nComplement of L:  \n1. To take the  complement, we need a  complete \nDFA (because we just flip fin al and non-final s\ntates). \n2. For an NFA, complementing directly    is  not \npossible — you must convert it to DFA first.  \nSo saying “complement can be accepted by an \nNFA with at most n states”    is  wrong. \n3. Regular expression:  \nEvery NFA represents a  regular language, an\nd every regular language can be written as a  re\ngular expression  — that is true. \n4. DFA with 2ⁿ states:  \nThe subset construction guarantees that a DFA \nwith ≤ 2ⁿ states always exists — that is true.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "theory-of-computation"
+      },
+      "theory-of-computation-theory-of-computation-m1-q26": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "D",
+        "explanation": "According to Pumping lemma, there must be repeation \n(DFA then it repeats some states, and regular grammar \nrepeats its nonterminal in derivation.) for all \nacceptable stings. \nTherefore, minimum Pumping Length should be 1 2. \n12 symbols can be taken as first \ntwelve b’s i.e.b12.  When you repeat  b12 Zero or more \ntimes, the resulted string still belongs to the language., \npumping length for given language should greater than \n12, which is 24. \n27. The set is the set of all bijections from to . In \nmathematics, this is the Symmetric Group . \n The elements of S5 are permutations. \n The operation   is function composition \n(permutation multiplication). \n The identity element is id. \n The size of the group is |S5|=5!=120. \nThe language consists of all sequences of permutations \nwhose product (composition) results in the identity \npermutation. \nAccording to the Myhill-Nerode Theorem, the \nnumber of states in a minimal DFA is equal to the \nnumber of equivalence classes of the prefix relation \n≡ₗ. \nTwo strings 𝑥 and 𝑦 are equivalent (𝑥 ≡𝑙 𝑦)if for \nevery string 𝑧 ∈ Σ∗, \n𝑥𝑧 ∈ 𝐿   ⟺   𝑦𝑧 ∈ 𝐿. \n• 𝑥𝑧 ∈ 𝐿 ⇒ 𝜋(𝑥) ∘ 𝜋(𝑧) = 𝑖𝑑 ⇒ 𝜋(𝑧) = (𝜋(𝑥))−1 \n• 𝑦𝑧 ∈ 𝐿 ⇒ 𝜋(𝑦) ∘ 𝜋(𝑧) = 𝑖𝑑 ⇒ 𝜋(𝑧) = (𝜋(𝑦))−1 \nTherefore, 𝑥 ≡𝑙 𝑦if and only if 𝜋(𝑥) = 𝜋(𝑦). \nEach distinct element in the group 𝑆5represents a \nunique state in the minimal DFA because each \nelement 𝑔 ∈ 𝑆5requires a different suffix \n𝑧(specifically 𝑧 = 𝑔−1) to reach the identity. \nSince every possible permutation in can be reached by \ncomposing elements from the alphabet (which \ncontains all permutations including th e generators), \nevery element of the group corresponds to exactly one \nstate in the minimal DFA. \nNumber of states = Order of the group  \nNumber of states =  5! \nNumber of states =  120",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "theory-of-computation"
+      },
+      "theory-of-computation-theory-of-computation-m1-q35": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "C",
+        "explanation": "I. Given NFAs N1 and N2, is L(N1) ∩ L(N2) = ∅? \nThis is decidable. When we convert the NFA into DFA, \nif there is no common final state in it, then this will \nbecome true. \nII. Given a CFG G = (N, Σ, P, S) and a string x ∈ Σ*, does \nx ∈ L(G)? \nMembership property of a context -free grammar is \ndecidable. \nIII. Given CFGs G1 and G2, is L(G1) = L(G2)? \nEquivalence of two context -free grammars is \nundecidable. \nIV. Given a TM M, is L(M) = ∅? \nEmptiness problem of Turing machine is undecidable.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "theory-of-computation"
+      },
+      "theory-of-computation-topic-2-m2-q11": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(A,C,D)",
+        "explanation": "1. True. Regular languages are closed under intersection \n(use product DFA / cross-product construction). \n2. False. CFLs are not closed under intersection in \ngeneral (standard counterexamples exist). \n3 .True. Recursive (decidable) languages are closed \nunder intersection — run both deciders and accept iff \nboth accept. \n<!-- PAGE 235 -->\nTHEORY OF COMPUTATION \nTHEORY OF COMPUTATION \n4. True. Recursively enumerable languages are closed \nunder intersection — dovetail the two \nenumerators/simulators and accept when both \nmachines accept.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "topic-2"
+      },
+      "digital-logic-arrays-and-strings-m1-q31": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "(B)",
+        "explanation": "Solution: \nIn a 2's complement system, overflow occurs \nduring addition if and only if two numbers \nwith the same sign are added together, but the \nresult has the opposite sign.  \nThe problem specifies the following notation: \n 𝒂𝒏−𝟏 and 𝒃𝒏−𝟏 : The sign bits (Most \nSignificant Bits) of the two input numbers. \n 𝒄𝑛−1 : The sign bit (Most Significant Bit) of \nthe resulting sum. \nAn overflow happens under exactly two \nscenarios: \n1. Adding two negative numbers yields a \npositive result: Both input sign bits are 1 , \nbut the output sign bit is 0 . \nCondition 1 = 𝑎𝑛−1 ⋅ 𝑏𝑛−1 ⋅ 𝑐𝑛−1 \n2. Adding two positive numbers yields a \nnegative result: Both input sign bits are 𝜃, but \nthe output sign bit is 1 . \nCondition 2 = 𝑎𝑛−1 ⋅ 𝑏𝑛−1 ⋅ 𝑐𝑛−1 \nCombining both mutually exclusive \nscenarios using an OR operation gives the \ncomplete expression for the overflow flag: \n Overflow = 𝑎𝑛−1𝑏𝑛−1𝑐𝑛−1 + 𝑎𝑛−1𝑏𝑛−1𝑐𝑛−1",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "arrays-and-strings"
+      },
+      "c-programming-topic-2-m2-q11": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "(C)",
+        "explanation": "Solution: \nWe count how many times \nD = D * 3 is  executed. \nConditions from loops: \n1 ≤ i ≤ j < k ≤ n \nThis means we are choosing 3 numbers such that \ni ≤ j < k. \nThe total number of such triples is: \n(n − 1) n (n + 1) / 6 \nThis equals one -sixth of the product of three \nconsecutive integers.",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-2"
+      },
+      "digital-logic-topic-4-m4-q20": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "(C)",
+        "explanation": "Solution: \nControl Signals: \n Load = 0 and Count = 1: This means the \ncounter will ignore any parallel data inputs and \nproceed to count to the Next State. \n Input (0011): The parallel load input is ignored \nbecause the Load signal is disabled (Load = 0). \nState Transition Table: \nDecimal Output(Q3Q2Q1Q0) Status \n0 0 0 0 0 Valid State (Initial) \n1 0 0 0 1 Valid State \n2 0 0 1 0 Valid State \n3 0 0 1 1 Valid State \n4 0 1 0 0 Valid State \n5 ~~0 1 0 1~~ CLEAR (Transient \nState / Resets)",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "topic-4"
+      },
+      "c-programming-topic-3-m3-q2": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (65536)",
+        "explanation": "Solution: \n First understand the functions. \nbar(n): \nIt keeps dividing n by 2 until n becomes 1. \n So it counts how many times we can divide n by 2. \nGATE CSE – 2005 SET – 1 MCQ (1-MARKS) \n<!-- PAGE 28 -->\nC PROGRAMMING \nThus, \n bar(n) = ⌊log₂ n⌋ \n Now look at foo(n): \nIf n = 1 → return 1 \n Else → return 1 + foo(bar(n)) \nSo foo keeps replacing n with ⌊log₂ n⌋ until it \nbecomes 1. \nIt counts how many times this process happens. \n We need foo(n) = 5. \n That means: \n n → ⌊log₂ n⌋ → ⌊log₂ (⌊log₂ n⌋)⌋ → ... → 1 \nThis must take 4 reductions (since base case gives 1). \n Try values: \nn = 16 \n log₂16 = 4 \n log₂4 = 2 \n log₂2 = 1 \n Steps: \n 16 → 4 → 2 → 1 \n Now count: \nfoo(1) = 1 \n foo(2) = 1 + 1 = 2 \n foo(4) = 1 + 2 = 3 \n foo(16) = 1 + 3 = 4 \n So 16 gives 4. \n Try n = 17: \n ⌊log₂17⌋ = 4 \n  Then same chain: 4 → 2 → 1 \n So foo(17) = 1 + foo(4) = 1 + 3 = 4 \n So still 4. \n We need one more level. \n Try n = 65536 (2^16): \n 65536 → 16 → 4 → 2 → 1 \n Now count: \nfoo(1) = 1 \n foo(2) = 2 \n foo(4) = 3 \n foo(16) = 4 \n foo(65536) = 5 \n Now check smaller: \n We need ⌊log₂ n⌋ = 16 \n  Smallest n with ⌊log₂ n⌋ = 16 is: \n n = 2^16 = 65536 \nTherefore, the smallest positive integer n is: 65536.",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-2-m2-q1": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "46",
+        "explanation": "The code peels off the digits one by one from left to \nright: 1, then 4, then 3, then 6, and finally 2. \nThe Switch (turn): The variable turn acts exactly like a \nlight switch alternating between 0 (OFF) and 1 (ON). \n It starts at 0 (OFF). \n Every time a digit is processed, the switch flips: \n0 → 1 → 0 → 1 → 0. \nBy crossing out the skipped positions, the process looks \nlike this:",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-2"
+      },
+      "theory-of-computation-theory-of-computation-m1-q48": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "B",
+        "explanation": "The DFA recognises the phrase \"all strings ending in 1.\" \nAs a result, the regular expression for DFA is (0+1)*1. \nNow, the DFA has another similar regular expression: \n0*1(1+00*1)*, due to the state reduction procedure. \nHowever, the regular expression (0*1*1+11*0*1) is not \ncomparable to DFA . Since, DFA also accepts the string \n“11011,” which this regular expression cannot generate.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "theory-of-computation"
+      },
+      "digital-logic-topic-4-m4-q13": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "(D)",
+        "explanation": "Solution: In a Johnson’s counter next MSB= \ncomplement of LSB and a circular right shift \noperation has to be done to get the next state. The \nstate sequence is  0,8,12,14,15,7,3,1,0.",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "topic-4"
+      },
+      "theory-of-computation-theory-of-computation-m1-q34": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "D",
+        "explanation": "From the given grammar we can draw the DFA,",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "theory-of-computation"
+      },
+      "c-programming-topic-3-m3-q1": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "P1 \n int a = 5; // global \n int main() { \n int a = 7; // local \n } \n Local variable a hides the global a. \n This is allowed in C. \n So P1 compiles. \n P2 \n int main() { \n int a = 5; \n int a = 7; \n } \n Here both declarations are in the same scope. \n You cannot declare the same variable twice in the \nsame block. \n So this gives a compilation error. \n P3 \n int main() { \n int a = 5; \n float a = 7; \n } \n Again, two variables with the same name in the same \nscope. \n This is also a compilation error. \n Therefore, only P1 compiles without error. \n Correct answer:  (A) Only P1 will compile without \nany error",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-3-m3-q15": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (4)",
+        "explanation": "Solution: \ncalc(4, 81) \ncounter++ → counter = 1 \nb = 81 (not 3) → c = calc(4, 27) \ncalc(4, 27) \ncounter++ → counter = 2 \nb = 27 (not 3) → c = calc(4, 9) \ncalc(4, 9) \ncounter++ → counter = 3 \nb = 9 (not 3) → c = calc(4, 3) \ncalc(4, 3) \ncounter++ → counter = 4 \nb = 3 → return 4*4*4 = 64 \nReturn values propagate back but don’t affect counter. \nFinal counter value = 4",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "theory-of-computation-theory-of-computation-m1-q54": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "B",
+        "explanation": "Given that n is a constant. \nSo lets check of n = 2, \n𝐿 = 𝑎2𝑘, 𝑘 > 0 \nSince k > 0 than zero. \nSo L is the language accepting even no. of a's except ' 𝜀 \n'. \nSo DFA will be, \nSo, no. of states required is 2 + 1 = 3. \nSo for 𝑎𝑛𝑘, (𝑛 + 1) states will be required.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "theory-of-computation"
+      },
+      "c-programming-topic-3-m3-q7": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (9)",
+        "explanation": "Solution: \nIn main: \ni = 9, j = 10 \nfunc(i, j) is called → values are passed by value. \n Inside func: \n Outer parameters: \n  i = 9 \n  j = 10 \n Condition: \n  i < j → 9 < 10 → true \n Inside the if block: \n A new local variable is declared: \n  int i = 0; \n This shadows the parameter i. \nNow inside the block: \nThis new i runs from 0 to 9 in the while loop. \nj is increased, but it does not affect anything outside. \n After the loop ends, this inner i goes out of scope. \nOutside the block: \nThe original parameter i (which is 9) is still \nunchanged. \n So: \n printf(\"%d\", i); \n prints 9.",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "digital-logic-topic-2-m2-q3": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "(B)",
+        "explanation": "Solution: \n F(A, B, C, D) = Σm(0, 1, 2, 3, 8, 9, 10, 11) \n So, F = B̅  is correct.",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "topic-2"
+      },
+      "theory-of-computation-topic-3-m3-q2": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(A,B,C)",
+        "explanation": "Option A: It is undecidable to check the equivalence of \n2 RELs. \nOption B: It is a non-trivial property of RELs hence it is \nUndecidable. \nOption C: It is also  a non-trivial property of RELs thus \nit is undecidable. \nOption D: If TM Runs at least 1073 steps on all inputs \nof length upto 1073 then it will behave the same on all \ninputs of all lengths and thus it will run at least 1073 \nsteps on all inputs . Thus it is decidable.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "topic-3"
+      },
+      "algorithms-topic-2-m2-q6": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "C",
+        "explanation": "Since given arrays are not sorted, so the time \ncomplexity to find median is O(n) in an unsorted \narray. You need to apply this algorithm n time to \nfind all medians and again once to find median \nof all these medians, so total time complexity is, \n= O(n)*O(n) + O(n) \n= O(n2) + O(n) \n≈ O(n2)",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "topic-2"
+      },
+      "algorithms-topic-3-m3-q23": {
+        "type": "NAT",
+        "correct_option": 1,
+        "answer_key": "B",
+        "explanation": "Here in below Graph G in (Cycle 3, 4, 5) 3 is the \nlightest edge and still it is not included in MST. \nStatement 2:- True by[ Cycle property of MST] \n: (in above Graph G 1 - 2- 3 is a cycle and 3 is \nthe heaviest edge) If heaviest edge is in cycle then \nwe will always exclude that because cycle is there \nmeans, we can have oth er choice of low cost \nedges. (If edge weights are not distinct even the \nheaviest edge can be part of the MST and here in \nquestion distinct edge weight is clearly \nmentioned)",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "topic-3"
+      },
+      "algorithms-topic-7-m7-q1": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "An",
+        "explanation": "",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "topic-7"
+      },
+      "theory-of-computation-theory-of-computation-m1-q65": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "A",
+        "explanation": "Since in option 2 and 3, is dependent on n m , therefore \na comparison has to be done to evaluate those and hence \nare not regular. \n I and IV are clearly regular sets.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "theory-of-computation"
+      },
+      "c-programming-topic-3-m3-q34": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "(B)",
+        "explanation": "unsigned int foo(unsigned int n, unsigned int r) \n { \n if (n > 0) \n return (n % r + foo(n / r, r)); \n else \n return 0; \n } \nThis computes the sum of digits of n in base r. \nGiven: \n foo(345, 10) \nSo it calculates sum of decimal digits of 345. \nCompute step by step: \n345 % 10 = 5 \n 345 / 10 = 34 \n34 % 10 = 4 \n 34 / 10 = 3 \n3 % 10 = 3 \n 3 / 10 = 0 \nNow add: \n5 + 4 + 3 = 12",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "theory-of-computation-topic-2-m2-q46": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "(C)",
+        "explanation": "For every a we put two X in stack \nAfter that for every b we pop out one X \nAfter that for every c we pop out one X \nIf all X are popped out then reached to final state f , \nmean for every b there is a, for every c there is a. \na was followed by b and b was followed by c. \nmeans sum of no of b's and no of c's= twice of no of \na's",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "topic-2"
+      },
+      "theory-of-computation-theory-of-computation-m1-q24": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "C",
+        "explanation": "If L₁ ∪ L₂ is regular, then neither L₁ nor L₂ needs necessarily \nbe regular. \n Assume L1 = {aⁿbⁿ, n ≥ 0} over the alphabet {a, b} and L2 \nbe the complement of L1. \nNeither L1 nor L2 is regular (both are DCFL) but L1 ∪ L2 = \n{aⁿbⁿ} ∪ {aⁿbⁿ}ᶜ = (a + b)* is regular. \nStatement II: FALSE. The infinite Union of regular \nlanguages is not regular. \nExample: \nGiven alphabet {a, b}. \nL1 = {ε} \nL2 = {ab} \nL3 = {aabb} \nL4 = {aaabbb} \n: \n: \nL = L1 ∪ L2 ∪ L3 ∪ L4  \nEach of the above are regular but their infinite Union \ngives L1 = {aⁿbⁿ, n ≥ 0} which is not regular but DCFL. \n<!-- PAGE 217 -->\nTHEORY OF COMPUTATION",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "theory-of-computation"
+      },
+      "algorithms-topic-3-m3-q12": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "A,B,C",
+        "explanation": "Why A is true? The edge with the smallest \nweight is always included, and the second \nsmallest edge will also be includ ed unless it \ncreates a cycle. For a simple connected graph, it \ncannot form a cycle at the stage where only the \nfirst edge is present, so the second smallest edge \nis always added. \nWhy B is true? By the cut property: for any cut, \nthe unique lightest edge crossing that cut must be \nin every MST; edges ranked third or fourth \nglobally need not be in any MST unless they are \nthe lightest for some cut, so “one or both” being \nin every MST is not guaranteed and thus the \nstatement as written is false if it claims neces sity \nfor those ranks; however, interpreted as “may be \npart” it’s trivial —so the strict cut -property \nguarantee applies only to the single lightest edge \nper cut. Hence option 2, which claims necessity \nfor specific ranks, is false. \nWhy C is true? For any nonempty proper subset \nS of V, the minimum -weight edge with one \nendpoint in S and the other in V \\ S must be in \nevery MST by the cut property, since edge \nweights are distinct and thus the lightest crossing \nedge is unique. \nWhy D is false? With all edge weights \ndistinct, the MST is unique; therefore the \ngraph cannot have multiple minimum \nspanning trees under the given condition.",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "topic-3"
+      },
+      "theory-of-computation-theory-of-computation-m1-q7": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "Option 1: The set of all strings containing an even number \nof 𝑏’s. \nFalse. The DFA accepts \"babb\" string which contains odd \nnumber of b's. \n<!-- PAGE 214 -->\nTHEORY OF COMPUTATION \nOption2: The set of all strings containing the pattern \n𝑏𝑎𝑏. \nFalse. The DFA does not accept \"baba\" string which \ncontain \"bab\" pattern. \nOption3: The set of all strings ending with the pattern \n𝑏𝑎𝑏. \nTrue. This option is true, DFA accepts all the strings \nending with \"bab\" such as \"babab\", \"bbab\", \"abab\" etc. \nOption4: The set of all strings not containing the pattern \n𝑎𝑏𝑎. \nFalse. \"bbab\" does not contain \"aba\" pattern but DFA \nstill accepts it.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "theory-of-computation"
+      }
+    },
+    "questionCount": 65
+  },
+  "96865e4d-e435-4e0b-951d-7045ba9a5253": {
+    "testId": "96865e4d-e435-4e0b-951d-7045ba9a5253",
+    "testTitle": "GATE C PROGRAMMING Practice Test",
+    "mode": "subject",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794332475286,
+    "durationMinutes": 15,
+    "totalMarks": 10,
+    "answerKeyMap": {
+      "c-programming-topic-3-m3-q9": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "(60)",
+        "explanation": "Solution: \nFunction: \nfoo(x, y, q) \nBase case: \n If x ≤ 0 and y ≤ 0 → return q \nIf only x ≤ 0 → reduce y by q \n If only y ≤ 0 → reduce x by q \nOtherwise: \n foo(x, y−q, q) + foo(x−q, y, q) \nGiven: \n foo(15, 15, 10) \nCompute step by step. \nCall: \n foo(15,15) \n= foo(15,5) + foo(5,15)  \nNow compute each. \n1. foo(15,5) \n= foo(15,-5) + foo(5,5) \nA) foo(15,-5) \n y ≤ 0 \n → foo(5,-5) \nNow x > 0 and y ≤ 0 \n  → foo(-5,-5) \nBoth ≤ 0 → return 10 \nSo foo(15,-5) = 10 \n<!-- PAGE 31 -->\nC PROGRAMMING \nB) foo(5,5) \n= foo(5,-5) + foo(-5,5) \nfoo(5,-5) \n  y ≤ 0 → foo(-5,-5) → 10 \nfoo(-5,5) \n x ≤ 0 → foo(-5,-5) → 10 \nSo foo(5,5) = 10 + 10 = 20 \nTherefore: \n foo(15,5) = 10 + 20 = 30 \nNow second branch: \n2. foo(5,15) \n     = foo(5,5) + foo(-5,15) \nWe already computed: \n foo(5,5) = 20 \nNow foo(-5,15) \n x ≤ 0 → foo(-5,5) \nfoo(-5,5) \n x ≤ 0 → foo(-5,-5) → 10 \nSo foo(-5,15) = 10 \nTherefore: \n foo(5,15) = 20 + 10 = 30 \nFinal: \nfoo(15,15) = 30 + 30 = 60",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-2-m2-q2": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "21",
+        "explanation": "Initially, x = 126 and y = 105. The loop continues as \nlong as x ≠ y, and in each iteration, it subtracts the \nsmaller value from the larger one. \n In the first iteration: Since x > y, x = x - y = 126 - 105 \n= 21. \n Now x = 21 and y = 105. In the next iteration: y = y - \nx = 105 - 21 = 84. \n The process continues until both values become equal, \nand at that point, the loop ends. After the loop, both x \nand y will be 21, which is the GCD of 126 and 105",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-2"
+      },
+      "c-programming-topic-3-m3-q17": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (3)",
+        "explanation": "Solution: \nx = \"abc\" → strlen(x) = 3 \ny = \"defgh\" → strlen(y) = 5 \nsize_t is unsigned int \nc = 0 (unsigned) \nInside printlength: \nstrlen(s) - strlen(t) = 3 - 5 = -2 \nBut since strlen returns unsigned int, -2 becomes a \nvery large positive number (wrap-around in unsigned). \nSo: \n(strlen(s) - strlen(t)) > c \n= ( (unsigned)3 - (unsigned)5 ) > 0 \n= (0xFFFFFFFE) > 0 → True \nThus: \nlen = strlen(s) = 3 \nOutput: 3",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-2-m2-q11": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "(C)",
+        "explanation": "Solution: \nWe count how many times \nD = D * 3 is  executed. \nConditions from loops: \n1 ≤ i ≤ j < k ≤ n \nThis means we are choosing 3 numbers such that \ni ≤ j < k. \nThe total number of such triples is: \n(n − 1) n (n + 1) / 6 \nThis equals one -sixth of the product of three \nconsecutive integers.",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-2"
+      },
+      "c-programming-topic-3-m3-q21": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (30)",
+        "explanation": "Solution: \nInitial: \ni = 5, j = 10 \nCall f(&i, j): \np points to i \nm = 10 (local copy) \nm = m + 5 → m = 15 \n*p = *p + m → i = 5 + 15 = 20 \nReturn \n<!-- PAGE 34 -->\nC PROGRAMMING \nAfter call: \ni = 20, j = 10 (unchanged because j was passed by \nvalue) \ni + j = 20 + 10 = 30 \nOutput: 30",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      }
+    },
+    "questionCount": 5
+  },
+  "77240f31-3b5f-497e-904f-7d4abaade092": {
+    "testId": "77240f31-3b5f-497e-904f-7d4abaade092",
+    "testTitle": "GATE C PROGRAMMING Practice Test",
+    "mode": "subject",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794332475307,
+    "durationMinutes": 15,
+    "totalMarks": 6,
+    "answerKeyMap": {
+      "c-programming-topic-4-m4-q25": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "f(100,6) \n ↓ \n12 + f(104,5) → 15 \n               ↓ \n7 - f(108,4) → 3 \n          ↓ \n13 - f(112,3) → 4 \n          ↓ \n4 + f(116,2) → 9 \n          ↓ \n11 - f(120,1) → 5 \n          ↓ \n6 + f(124,0) → 6 \n         ↓ \n So, the final returned value is 12 + (7 – (13 – (4 + (11 \n– (6 + 0))))) = 15",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      },
+      "c-programming-topic-4-m4-q17": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 2",
+        "explanation": "c = \"GATECSIT2017\" \np = c \nWe need: strlen(c + 2[p] - 6[p] - 1) \nStep 1: Compute 2[p] and 6[p] \nIn C, 2[p] means *(2 + p) = p[2] = 3rd character of  \nstring \"GATECSIT2017\". \nIndexing: \n0: 'G', 1: 'A', 2: 'T', 3: 'E', 4: 'C', 5: 'S', 6: 'I', 7: 'T', 8: \n'2', 9: '0', 10: '1', 11: '7' \nSo: \n2[p] = 'T' → ASCII = 84 \n6[p] = 'I' → ASCII = 73 \nStep 2: Compute c + 2[p] - 6[p] - 1 \n= c + 84 - 73 - 1 \n= c + 10 \nStep 3: strlen(c + 10) \nc + 10 → points to the 11th character (0 -based index \n10) of \"GATECSIT2017\". \nIndex 10: '1', then '7', then null terminator. \nString from index 10: \"17\" → length = 2. \nOutput: 2 \n<!-- PAGE 49 -->\nC PROGRAMMING",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      },
+      "c-programming-c-programming-m1-q1": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(A)",
+        "explanation": "Solution: \n char a = ‘P’ \nchar b = ‘x’ \nAs per precedence of operators, () evaluated prior \nto + /- \n Note that &,^ and | are bit wise operators and \nAddition/Subtraction of characters applied on their \nASCII values. \na = ‘P’  ===> a = Ascii value of (‘P’) = 65+15 = 80 \n==> a = (0101 0000)2 \nb = ‘x’  ===> b = Ascii value of (‘x’) = 97+23 = 120 \n==> b = (0111 1000)2 \na & b    = (0101 0000)2  [ apply & logic on \ncorresponding bits ] = (80)10 \n‘*’ = 42 = (0010 1010) 2 \na&b + ‘*’ = (0111 1010)2 = 64+32+16+8+2 = \n122    [ add corresponding bits ], [ simply 80+42 = \n122 ] \nprint character ( 122 ) = small ‘z’ \n a | b    = (0111 1000)2  [ apply | logic on \ncorresponding bits ] = (120)10 ‘-’ = 45 \na|b - ‘-’ = 120-45 = 75 = 65 + 10 \nprint character ( 75 ) = Capital ‘K’ \na ^ b    = (0010 1000)2  [ apply ^ logic on \ncorresponding bits ] = (40)10 \n‘+’ = 43 \na^b + ‘+’ = 40+43 = 83 = 65 + 18 \nprint character ( 83 ) = Capital ‘S’",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "c-programming"
+      }
+    },
+    "questionCount": 3
+  },
+  "wiped-test-uuid-1794332475315": {
+    "testId": "wiped-test-uuid-1794332475315",
+    "testTitle": "GATE C PROGRAMMING Practice Test",
+    "mode": "subject",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794332475331,
+    "durationMinutes": 180,
+    "totalMarks": 6,
+    "answerKeyMap": {
+      "c-programming-topic-4-m4-q25": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "f(100,6) \n ↓ \n12 + f(104,5) → 15 \n               ↓ \n7 - f(108,4) → 3 \n          ↓ \n13 - f(112,3) → 4 \n          ↓ \n4 + f(116,2) → 9 \n          ↓ \n11 - f(120,1) → 5 \n          ↓ \n6 + f(124,0) → 6 \n         ↓ \n So, the final returned value is 12 + (7 – (13 – (4 + (11 \n– (6 + 0))))) = 15",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      },
+      "c-programming-topic-4-m4-q17": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 2",
+        "explanation": "c = \"GATECSIT2017\" \np = c \nWe need: strlen(c + 2[p] - 6[p] - 1) \nStep 1: Compute 2[p] and 6[p] \nIn C, 2[p] means *(2 + p) = p[2] = 3rd character of  \nstring \"GATECSIT2017\". \nIndexing: \n0: 'G', 1: 'A', 2: 'T', 3: 'E', 4: 'C', 5: 'S', 6: 'I', 7: 'T', 8: \n'2', 9: '0', 10: '1', 11: '7' \nSo: \n2[p] = 'T' → ASCII = 84 \n6[p] = 'I' → ASCII = 73 \nStep 2: Compute c + 2[p] - 6[p] - 1 \n= c + 84 - 73 - 1 \n= c + 10 \nStep 3: strlen(c + 10) \nc + 10 → points to the 11th character (0 -based index \n10) of \"GATECSIT2017\". \nIndex 10: '1', then '7', then null terminator. \nString from index 10: \"17\" → length = 2. \nOutput: 2 \n<!-- PAGE 49 -->\nC PROGRAMMING",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      },
+      "c-programming-c-programming-m1-q1": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(A)",
+        "explanation": "Solution: \n char a = ‘P’ \nchar b = ‘x’ \nAs per precedence of operators, () evaluated prior \nto + /- \n Note that &,^ and | are bit wise operators and \nAddition/Subtraction of characters applied on their \nASCII values. \na = ‘P’  ===> a = Ascii value of (‘P’) = 65+15 = 80 \n==> a = (0101 0000)2 \nb = ‘x’  ===> b = Ascii value of (‘x’) = 97+23 = 120 \n==> b = (0111 1000)2 \na & b    = (0101 0000)2  [ apply & logic on \ncorresponding bits ] = (80)10 \n‘*’ = 42 = (0010 1010) 2 \na&b + ‘*’ = (0111 1010)2 = 64+32+16+8+2 = \n122    [ add corresponding bits ], [ simply 80+42 = \n122 ] \nprint character ( 122 ) = small ‘z’ \n a | b    = (0111 1000)2  [ apply | logic on \ncorresponding bits ] = (120)10 ‘-’ = 45 \na|b - ‘-’ = 120-45 = 75 = 65 + 10 \nprint character ( 75 ) = Capital ‘K’ \na ^ b    = (0010 1000)2  [ apply ^ logic on \ncorresponding bits ] = (40)10 \n‘+’ = 43 \na^b + ‘+’ = 40+43 = 83 = 65 + 18 \nprint character ( 83 ) = Capital ‘S’",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "c-programming"
+      }
+    },
+    "questionCount": 3
   }
 }

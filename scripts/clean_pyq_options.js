@@ -2,7 +2,6 @@
 
 const fs = require('fs');
 const path = require('path');
-const Database = require('better-sqlite3');
 
 const subjectNames = [
   'ALGORITHMS?',
@@ -126,6 +125,7 @@ function runCleanPipeline() {
   // Update SQLite Database if it exists
   const dbPath = path.resolve(__dirname, '..', 'db', 'gateprep.sqlite');
   if (fs.existsSync(dbPath)) {
+    const Database = require('better-sqlite3');
     const db = new Database(dbPath);
     const updateStmt = db.prepare(`
       UPDATE questions

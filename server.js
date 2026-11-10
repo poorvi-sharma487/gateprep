@@ -1,8 +1,29 @@
 const path = require('path');
+const crypto = require('crypto');
 
 const express = require('express');
 const { Pool } = require('pg');
-const bcrypt = require('bcrypt');
+let bcrypt;
+try {
+  bcrypt = require('bcrypt');
+} catch (_) {
+  // Native bcrypt unavailable (serverless); use crypto-based fallback
+  bcrypt = {
+    async hash(password, rounds) {
+      const salt = crypto.randomBytes(16).toString('hex');
+      const hash = crypto.scryptSync(password, salt, 64).toString('hex');
+      return `scrypt:${salt}:${hash}`;
+    },
+    async compare(password, stored) {
+      if (stored.startsWith('scrypt:')) {
+        const [, salt, hash] = stored.split(':');
+        const derived = crypto.scryptSync(password, salt, 64).toString('hex');
+        return derived === hash;
+      }
+      return false;
+    }
+  };
+}
 const session = require('express-session');
 const connectPgSimple = require('connect-pg-simple');
 const { createSqlitePool, SqliteSessionStore } = require('./db/sqlite');
