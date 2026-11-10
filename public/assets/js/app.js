@@ -300,12 +300,18 @@ function toggleMobileNav(forceState) {
 
 if (mobileNavToggle) {
   mobileNavToggle.innerHTML = getLucideSvg("menu", 24);
-  mobileNavToggle.addEventListener("click", () => toggleMobileNav());
+  mobileNavToggle.addEventListener("click", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    toggleMobileNav();
+  });
 }
 
 document.addEventListener("click", (e) => {
   if (primaryNav && primaryNav.classList.contains("is-open")) {
-    if (!primaryNav.contains(e.target) && !mobileNavToggle.contains(e.target)) {
+    const isInsideNav = primaryNav.contains(e.target);
+    const isToggleBtn = mobileNavToggle && (mobileNavToggle === e.target || mobileNavToggle.contains(e.target));
+    if (!isInsideNav && !isToggleBtn) {
       toggleMobileNav(false);
     }
   }
@@ -2337,19 +2343,51 @@ if (chatClearBtn) {
 const chatFullscreenBtn = document.getElementById("chatFullscreenBtn");
 const chatContainer = document.getElementById("chatContainer");
 
-if (chatFullscreenBtn && chatContainer) {
-  chatFullscreenBtn.addEventListener("click", () => {
-    const isFull = chatContainer.classList.toggle("is-fullscreen");
-    document.body.classList.toggle("chat-is-fullscreen", isFull);
+function updateFullscreenBtn(isFull) {
+  if (!chatFullscreenBtn) return;
+  chatFullscreenBtn.innerHTML = isFull
+    ? `<svg class="lucide lucide-minimize" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"/></svg> <span id="chatFullscreenLabel">Exit Fullscreen</span>`
+    : `<svg class="lucide lucide-maximize" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg> <span id="chatFullscreenLabel">Full Screen</span>`;
+}
 
-    chatFullscreenBtn.innerHTML = isFull
-      ? `<svg class="lucide lucide-minimize" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"/></svg> <span id="chatFullscreenLabel">Exit Fullscreen</span>`
-      : `<svg class="lucide lucide-maximize" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg> <span id="chatFullscreenLabel">Full Screen</span>`;
+if (chatFullscreenBtn && chatContainer) {
+  chatFullscreenBtn.addEventListener("click", async () => {
+    const isCurrentlyFull = chatContainer.classList.contains("is-fullscreen") || (document.fullscreenElement === chatContainer);
+
+    if (!isCurrentlyFull) {
+      chatContainer.classList.add("is-fullscreen");
+      document.body.classList.add("chat-is-fullscreen");
+      updateFullscreenBtn(true);
+      if (chatContainer.requestFullscreen) {
+        try { await chatContainer.requestFullscreen(); } catch (_) {}
+      }
+    } else {
+      chatContainer.classList.remove("is-fullscreen");
+      document.body.classList.remove("chat-is-fullscreen");
+      updateFullscreenBtn(false);
+      if (document.fullscreenElement && document.exitFullscreen) {
+        try { await document.exitFullscreen(); } catch (_) {}
+      }
+    }
+  });
+
+  document.addEventListener("fullscreenchange", () => {
+    const isNative = document.fullscreenElement === chatContainer;
+    if (!isNative && chatContainer.classList.contains("is-fullscreen")) {
+      chatContainer.classList.remove("is-fullscreen");
+      document.body.classList.remove("chat-is-fullscreen");
+      updateFullscreenBtn(false);
+    }
   });
 
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && chatContainer.classList.contains("is-fullscreen")) {
-      chatFullscreenBtn.click();
+      chatContainer.classList.remove("is-fullscreen");
+      document.body.classList.remove("chat-is-fullscreen");
+      updateFullscreenBtn(false);
+      if (document.fullscreenElement && document.exitFullscreen) {
+        try { document.exitFullscreen(); } catch (_) {}
+      }
     }
   });
 }

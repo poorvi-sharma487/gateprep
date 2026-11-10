@@ -9210,5 +9210,741 @@
       }
     },
     "questionCount": 3
+  },
+  "a26535cf-55b4-4c03-8add-ba5b53a101ae": {
+    "testId": "a26535cf-55b4-4c03-8add-ba5b53a101ae",
+    "testTitle": "GATE CSE Full-Length Authentic Mock Test",
+    "mode": "full_gate",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794334061510,
+    "durationMinutes": 180,
+    "totalMarks": 130,
+    "answerKeyMap": {
+      "general-aptitude-arrays-and-strings-m1-q80": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "At 6:00, the hour hand is at 180°. The minute hand \ngains 5.5° per minute over the hour hand. For a 60° \nangle, we need 180° - 60° = 120°.  \n So 120/5.5 = 21.8 ≈ 22 minutes. Hence 6:22 a.m.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "arrays-and-strings"
+      },
+      "general-aptitude-topic-3-m3-q66": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "- (C)",
+        "explanation": "\"Coherent\" means logical, clear and well-\nstructured. \"Rambling\" means disorganized, \nunclear and wandering without a clear point, \nwhich is the direct opposite of coherent.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-3"
+      },
+      "general-aptitude-topic-2-m2-q41": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "\" U does not want any portfolio if S gets one of the \nfive\" \nSo, S and U cannot come together. Option C \neliminated. \n\" R wants either Home or Finance or no portfolio\" \nSo, options A and D eliminated. \nSo, answer is B. \nJust to confirm: \nQ says that if S gets Power or Telecom, then she \nmust get the other one \nIn B, S gets Power and Q gets Telecom \n\"T insists on a portfolio if P gets one\" \nIn B, T is getting a portfolio.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-2"
+      },
+      "general-aptitude-topic-3-m3-q5": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "- (C)",
+        "explanation": "The correct answer is: \n The pocket-knife is described as the infant of the \nsword. \n In the passage, the author mentions the pocket-\nknife as \"the infant of the sword,\" comparing it to \na basic, early form of a more sophisticated tool \n(the sword).",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-3"
+      },
+      "general-aptitude-topic-3-m3-q2": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "Expedite - to make something happen more quickly \n Hasten - to be quick to do or say something. \n Hurry - to do something quickly \n Retard - to delay something \n Out of the given options, Accelerate is the correct \noption. Hence, Answer is A.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-3"
+      },
+      "general-aptitude-topic-3-m3-q7": {
+        "type": "NAT",
+        "correct_option": 2,
+        "answer_key": "- (C)",
+        "explanation": "This is a relationship analogy where the first word \nis an animal and the second word is its dwelling. \n● A bird lives in a nest. \n● A bee lives in a hive.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-3"
+      },
+      "general-aptitude-topic-3-m3-q57": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "- (C)",
+        "explanation": "\"Took to their heels\" is an idiom meaning to run \naway quickly. \"Took to flight\" means to flee or \nescape, which is the closest alternative meaning. \nThe chain snatchers ran away as soon as the police \narrived.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-3"
+      },
+      "general-aptitude-topic-2-m2-q35": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "All labels are incorrect. So the box labelled \n“Apples and Oranges” cannot contain both. \n Case: \n - If you pick from this box and get an apple → it \nmust be “Apples” \n - If you get an orange → it must be “Oranges” \n Then remaining boxes can be correctly assigned \nusing elimination. \n Hence, open the box labelled “Apples and \nOranges”.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-2"
+      },
+      "general-aptitude-topic-2-m2-q51": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "Given that, \n •H+G> S+I \n • No twins, \n • And either G = S +1 or S = G+1 \n • G is not the oldest and S is not the youngest. \n Lets analyze each case, \n Case 1: \n G=S+1, \n It implies, H > I – 1, Since twins are not possible H \n> I \n Case 2: \n G=S-1, \n It implies H >I+1 \n Therefore, both cases imply H is older than I, also G \nand S must be placed successively. \n Only option B satisfies these implications. \n<!-- PAGE 742 -->\nVERBAL APTITUDE",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-2"
+      },
+      "general-aptitude-topic-3-m3-q82": {
+        "type": "NAT",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "The word \"despite\" indicates a contrast, \nsuggesting that something negative was overcome. \n\"Setbacks\" fits perfectly as it means obstacles or \ndifficulties, making the success of the mission \nmore meaningful. Other options like \"attempts\" or \n\"meetings\" do not create a logical contrast.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-3"
+      },
+      "engineering-mathematics-arrays-and-strings-m1-q31": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "Poisson Probability Mass Function (with mean \n𝜆)=⁡\n𝜆𝑘\n(𝑒𝜆𝑘!), \nWe have to sum the probability mass function for \n𝑘=0,1 and 2 and 𝜆=3 (thus finding the \ncumulative mass function) \n⁡=(1𝑒3)+(3𝑒3)+( 92𝑒3)\n⁡= 17(2𝑒3)",
+        "marks": 2,
+        "subject_slug": "engineering-mathematics",
+        "topic_slug": "arrays-and-strings"
+      },
+      "data-structures-topic-3-m3-q13": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "(C)",
+        "explanation": "Explanation : \nAn Abstract Data Type (ADT) defines: \n• The data \n• The operations allowed on the data \n• But not the implementation details \nIt focuses only on what operations can be performed, \nnot how they are implemented. \nNow check options: \n● Not same as an abstract class \n● Not necessarily a type that cannot be instantiated \n● Correct definition: only the defined operations \ncan be used \n<!-- PAGE 66 -->\nGATE 2026 SET 1 || NAT || 2 MARKS GATE 2026 SET 2 || MSQ || 1 MARK \nGATE 2023 || MCQ || 2 MARK \n4 TREE & HEAP",
+        "marks": 2,
+        "subject_slug": "data-structures",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-3-m3-q1": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "P1 \n int a = 5; // global \n int main() { \n int a = 7; // local \n } \n Local variable a hides the global a. \n This is allowed in C. \n So P1 compiles. \n P2 \n int main() { \n int a = 5; \n int a = 7; \n } \n Here both declarations are in the same scope. \n You cannot declare the same variable twice in the \nsame block. \n So this gives a compilation error. \n P3 \n int main() { \n int a = 5; \n float a = 7; \n } \n Again, two variables with the same name in the same \nscope. \n This is also a compilation error. \n Therefore, only P1 compiles without error. \n Correct answer:  (A) Only P1 will compile without \nany error",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "operating-system-topic-4-m4-q2": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 1536",
+        "explanation": "TLB reach = Number of entries × Page size \n Page size = 4 KB = 2¹² bytes \n Reach = 1 MB = 2²⁰ bytes \n Number of entries = 2²⁰ / 2¹² = 2⁸ = 256 entries \n Virtual page number size: \n Virtual address space = 64 GB = 2³⁶ bytes \n Page size = 2¹² \n Offset bits = 12 \n Virtual page number bits = 36 – 12 = 24 bits \n Frame number size: \n Physical address space = 1 GB = 2³⁰ bytes \n Frame size = 2¹² \n Number of frames = 2³⁰ / 2¹² = 2¹⁸ \n Frame number bits = 18 bits \n Size of one TLB entry: \n Process id = 4 bits \n Page number = 24 bits \n Frame number = 18 bits \n Control field = 2 bits \n Total bits per entry = 4 + 24 + 18 + 2 = 48 bits = 6 \nbytes \n Total TLB size: \n Entries = 256 \n Size per entry = 6 bytes \n Total size = 256 × 6 = 1536 bytes \n Answer: 1536 bytes",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "topic-4"
+      },
+      "operating-system-arrays-and-strings-m1-q4": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "To calculate the average waiting time, we need to \nsimulate the scheduling process step by step based \non the given priorities and CPU bursts for the \nprocesses on processors M1 and M2. \n Given Data: \n● Processor M1 Priority Order: P1 > P3 > P2 > P4 \n● Processor M2 Priority Order: P2 > P3 > P4 > P1 \n● CPU Bursts: \no P1: 20 ms \no P2: 16 ms \no P3: 25 ms \no P4: 10 ms \n Process Scheduling on M1 and M2: \n1. Initial state: Both processors (M1 and M2) are \nfree. \n2. Time 0: The scheduler starts with the highest \npriority processes based on each processor's \npriority list. \n● M1: The highest priority process is  P1 (with a \nburst of 20 ms), so P1 is allocated to M1. \n● M2: The highest priority process is  P2 (with a \nburst of 16 ms), so P2 is allocated to M2. \n1. After P1 finishes (at time 20 ms): \no M1: The next highest priority process \nis P3 (with a burst of 25 ms), so  P3 is allocated \nto M1. \no M2: P2 finishes at 16 ms, and the next \nhighest priority process is  P3, but \nsince M1 has already taken P3, M2 moves to \nthe next highest priority, which is P4 (with a \nburst of 10 ms). \n2. After P2 finishes (at time 16 ms): \no M1: P3 continues execution (since P3 is already \nallocated to M1). \no M2: P4 finishes at time 26 ms, and now the \nremaining process is P3. \n Calculate Waiting Times: \n● Waiting time is calculated as:  Waiting Time = \nStart Time - Arrival Time. \n For Process P1: \n● P1 starts at time 0 and runs for 20 ms, so its \nwaiting time is 0 ms. \n For Process P2: \n● P2 starts at time 0 on M2 and runs for 16 ms. Its \nwaiting time is 0 ms as it started at time 0. \n For Process P3: \n● P3 starts at time 20 on M1 and runs for 25 ms. Its \nwaiting time is  20 ms  (since it waited for  P1 to \nfinish on M1). \n For Process P4: \n● P4 starts at time 16 on M2 and runs for 10 ms. Its \nwaiting ti me is  16 ms  (since it waited for  P2 to \nfinish). \n Average Waiting Time: \n Now, we calculate the average waiting time: \n P1: Waiting time = 0 ms \n P2: Waiting time = 0 ms \n P3: Waiting time = 20 ms \n P4: Waiting time = 16 ms \n Average waiting time = (0 + 0 + 20 + 16) / 4 = 36 / 4 \n= 9.00 ms \n Final Answer: \n The average waiting time of the processes is 9.00 ms.",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "arrays-and-strings"
+      },
+      "operating-system-arrays-and-strings-m1-q9": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "-  B",
+        "explanation": "SRTF CPU Scheduling: \nProces\ns \nArrival \nTime \nBurst \nTime \nCompleti \non Time \nTurn Aroun Time Waiting \nTime \nA 0 10 26 26 16 \nB 2 6 11 9 3 \nC 4 3 7 3 0 \nD 6 7 18 12 5 \nTotal Average Waiting Time [ SRTF ] = (16 + 3 + 0 + 5)/4 \n= 24/4 = 6. \n Non-Preemptive CPU Scheduling: \nTotal Average Waiting Time [ SJF ] = (0 + 11 + 6 + 13)/4 = \n7.5",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "arrays-and-strings"
+      },
+      "c-programming-topic-3-m3-q23": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "A",
+        "explanation": "Explanation: \nThe variable d is declared as static, so it is initialized \nonly once and retains its value across recursive calls. \nExecution trace: \ncount(3) → prints 3 1, then d = 2  \ncount(2) → prints 2 2, then d = 3  \ncount(1) → prints 1 3, then d = 4  \nNow recursion unwinds:  \ncount(1) prints 4  \ncount(2) prints 4  \ncount(3) prints 4  \nFinal output: \n3 1 2 2 1 3 4 4 4",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "compiler-design-topic-4-m4-q21": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "A normal DAG construction will give 8 nodes and \n10 edges as shown below. \n Since, this question asks for minimum possible, we \ncan assume algebraic simplification is allowed. So, d \n= b + c, e = d − b; can be simplified to d = b + c; e = \nc; Similarly, e = d − b; a = e + b; can be simplified to \na = d. This gives the following DAG with 6 nodes and \n6 edges.",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "topic-4"
+      },
+      "c-programming-topic-3-m3-q25": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (230)",
+        "explanation": "Solution: \nGlobal x = 10 \nmain() local x = 1 \nf1() \nlocal x = 25 → x++ → return 26 \nFirst f2() \nstatic x = 50 → x++ → return 51 (static now 51) \nf3() \nglobal x = 10 → x *= 10 → global x = 100 → return \nSecond f2() \nstatic x = 51 → x++ → return 52 (static now 52) \nExpression in main: \nx += f1() + f2() + f3() + f2() \n= x += 26 + 51 + 100 + 52 \n= x += 229 \nLocal x was 1 → now 1 + 229 = 230 \nOutput: 230",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-3-m3-q30": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "Solution: \nY=0 \nfor (i=0; i < size ; i++ ) \nY=Y+E[i] ; // E is an array, this statement calculates \nthe sum of elements of the array E and stores it in Y. \nfor (i=0; i<size; i++) \nfor(j=i; j <size; j++) { \nZ=0; \nfor(k=i; k<=j; k++) \nZ=Z+E[k]; \nif(Z > Y ) \nY=Z; \n} \n// It calculates the sum of all possible subarrays \nstarting from 0 i.e., the loop will iterate for all the \nelements of array E and for every element, calculate \nsum of all sub arrays starting with E[i]. \nStore the current sum in Z. \nIf Z is greater than Y then update Y and return Y. So \nit returns the maximum possible sum of elements in \nany sub array of given array E",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-2-m2-q9": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "- (C)",
+        "explanation": "Solution: \n Consider X=2, y=3, \nAfter 1 iteration, res=2, a=2,b=2 \nOnly C satisfies the values \nXY=res* ab \n23=2*2",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-2"
+      },
+      "data-structures-topic-4-m4-q12": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- D",
+        "explanation": "AVL Tree all operations(insert, delete and search) \nwill take O(logn) time. \nIn question they asked about n2 elements. \nSo, In worst case it will take o(n2logn) time.",
+        "marks": 2,
+        "subject_slug": "data-structures",
+        "topic_slug": "topic-4"
+      },
+      "theory-of-computation-topic-2-m2-q11": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(A,C,D)",
+        "explanation": "1. True. Regular languages are closed under intersection \n(use product DFA / cross-product construction). \n2. False. CFLs are not closed under intersection in \ngeneral (standard counterexamples exist). \n3 .True. Recursive (decidable) languages are closed \nunder intersection — run both deciders and accept iff \nboth accept. \n<!-- PAGE 235 -->\nTHEORY OF COMPUTATION \nTHEORY OF COMPUTATION \n4. True. Recursively enumerable languages are closed \nunder intersection — dovetail the two \nenumerators/simulators and accept when both \nmachines accept.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "topic-2"
+      },
+      "c-programming-topic-3-m3-q13": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (81)",
+        "explanation": "Solution: \nCall pp(3, 4) \narr[20] declared, tot = 1, ex = a = 3. \nlen = tob(4, arr):b = 4 → binary: \n4 % 2 = 0 → arr[0] = 0, b=2 \n2 % 2 = 0 → arr[1] = 0, b=1 \n1 % 2 = 1 → arr[2] = 1, b=0 \nSo arr = [0, 0, 1] (indices 0,1,2), len = 3.Binary of 4 is \n100 (reads arr[2]..arr[0] as MSB..LSB in normal \nwriting, but here arr[0] is LSB). \nLoop i = 0 to len-1: \ni=0: arr[0] = 0 → do not multiply; \nex = ex * ex = 3 * 3 = 9. \ni=1: arr[1] = 0 → do not multiply; \nex = 9 * 9 = 81. \ni=2: arr[2] = 1 → tot = tot * ex = 1 * 81 = 81; \nex = 81 * 81 (not used later). \nReturn tot = 81.",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "compiler-design-topic-2-m2-q32": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "The entries in E1, E2 and E3 are related to S and B, \nso we have to take only those productions which have \nS and B in LHS. \n S→ aAbB | bAaB | ε \n<!-- PAGE 270 -->\nCOMPILER DESIGN \n The production S→ aAbB will go under column \nFIRST (aAbB) = a, so S→ aAbB will be in E1. \n S→ bAaB will go under column FIRST(bAaB) = \nb, so S→ bAaB will be in E2. \n S→ ε will go under FOLLOW (S) = FOLLOW(B) \n= {a, b, $ } , So S→ ε will go in E1, E2 and under \nthe column of $. \n So E1 will have: S→ aAbB and S→ ε. \n E2 will have S→ bAaB and S→ ε. \n Now, B→ S will go under FIRST (S) = {a, b, ε} \n Since FIRST(S) = ε so B→ S will go under \nFOLLOW (B) = {a, b, $} \n So E3 will contain B→ S.",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "topic-2"
+      },
+      "theory-of-computation-theory-of-computation-m1-q13": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "C,D",
+        "explanation": "OptionA- False \n             Take L1 = {a} and L2 = {an | n>=0} , then L2`= \nΦ  \n<!-- PAGE 215 -->\nTHEORY OF COMPUTATION \nNow, L1∩L2 =Φ. But L1≠L2 \nOptionB- False \nL1=(a+b)∗ \nL3 be any non-regular language,    e.g., {an bn ∣n≥0}. \nL1∪L3=(a+b)∗,regular. \nThus, L1∪L3 can be regular even if L3 is regular. \n Option C - True - Regular Languages are closed      \nunder Complementation. \nOption D - True - Regular Languages are closed    \nunder Union .",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "theory-of-computation"
+      },
+      "theory-of-computation-theory-of-computation-m1-q57": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "C",
+        "explanation": "In order to accept any string of length “n” with alphabet \n{0,1}, we require an NFA with “n+1” states. For \nexample, consider a strings of length “3” such as “101”, \nthe NFA with 4 states is given below: \nSince L is set of all substrings of \" w \" (Substring of a \nstring is obtained by deleting any prefix or any suffix \nfrom string), so if we consider \"w\" as \"101\", then the \nsubstrings of 𝑤 are {𝜀, 0,1, 10,01,101}. \nSince the string \" 101 \" is also its substring, so we \nrequire 4 states (i.e. for 𝑛 length string, 𝑛 + 1 states are \nrequired) and the NFA would be: \n<!-- PAGE 222 -->\nTHEORY OF COMPUTATION",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "theory-of-computation"
+      },
+      "c-programming-topic-3-m3-q44": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "- (D)",
+        "explanation": "Solution: \n The function extracts digits from right to left using: \n k = n % 10 \nj = n / 10 \n For n = 2048: \n First call: \n k = 8, j = 204 \n Second call: \nk = 4, j = 20 \n Third call: \nk = 0, j = 2 \n Fourth call: \nk = 2, j = 0 \n When n becomes 0, function returns. \n Printing happens after the recursive call, so digits are \nprinted while returning from recursion:2, 0, 4, 8, \n Now about sum: \n sum is passed by value, not by reference. \nSo changes inside foo do not affect main’s sum. \nThus sum in main remains 0 \n .Final output: 2, 0, 4, 8, 0 \n<!-- PAGE 39 -->\nArray, Pointer And String , Structure",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "compiler-design-topic-3-m3-q10": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- D",
+        "explanation": "In rule 2 for production A→XY  the attribute “i” is \ncalculated from the right sibling Y in \n X.i= A.i + Y.s which is violating the L attribute \ndefinition, as in L attribute calculating attribute value \nfrom RHS sibling is not allowed.",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-4-m4-q20": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "char s1[7] = \"1234\" → s1 contains: '1' '2' '3' '4' '\\0' ... \np = s1 + 2 → p points to s1[2] which is '3' \n*p = '0' → s1[2] becomes '0' \nNow s1 = '1' '2' '0' '4' '\\0' \nprintf(\"%s\", s1) prints 1204 \nAnswer: 1204",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      },
+      "operating-system-arrays-and-strings-m1-q12": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "-  B, C, D",
+        "explanation": "Page table base register:  This register stores the \npage table's base address for the currently executing \nthread. Because all threads in a process share the \nsame page table, this register does not need to be \nsaved. \n Stack pointer: This register points to the top of the \nstack for the thread that is currently running. \nBecause each thread has its own stack, the stack \npointer must be saved and restored when the \ncontext changes to ensure that the new thread uses \nthe correct stack. \n PC: The address of the next instruction to be \nexecuted by the currently executing thread is stored \nin the program counter register. To restart the new \nthread, the saved program counter must be loaded \ninto the program counter register. \n General purpose registers : These registers are \nused to store temporary data and intermediate \nresults during the execution of a thread.",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "arrays-and-strings"
+      },
+      "theory-of-computation-theory-of-computation-m1-q31": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "C",
+        "explanation": "Here, δ̂ (q₂, aba) \nWhen input a is applied on q₂ it will move to q₀, q₁ as \nthere is null transition so it will also get to q₂. \nSimilarly, states after input b ⇒ {q₀, q₂, q₃} \nStates after input a = {q₀, q₁, q₂} \nSo, final answer is {q₀, q₁, q₂} \n<!-- PAGE 218 -->\nTHEORY OF COMPUTATION",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "theory-of-computation"
+      },
+      "data-structures-topic-4-m4-q35": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- B",
+        "explanation": "Explanation: \nCorresponding to each set only 1 binary search \ntree can be formed because in-order is fixed. \nonly 1 tree possible. If Binary trees would be \nasked n! possible corresponding to each distinct \ntree set. Here tree structure is fixed and have \nonly 1 possibility for BST as elements are \ndistinct.",
+        "marks": 2,
+        "subject_slug": "data-structures",
+        "topic_slug": "topic-4"
+      },
+      "theory-of-computation-theory-of-computation-m1-q2": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "; C",
+        "explanation": "(A) L1 is regular — NOT always true \nTake alphabet Σ = {a, b} \nLet \n  L2 = ∅ (regular) \n  L1 = { aⁿbⁿ | n ≥ 0 } (not regular) \nThen \n L1 ∩ L2 = ∅ (regular) \nBut L1 itself is not regular. \nSo (A) is false. \n(B) L1 ∪ L2 is regular — NOT always true \nUsing the same example: \nL2 = ∅ (regular) \n L1 = { aⁿbⁿ | n ≥ 0 } (not regular) \nThen \n L1 ∪ L2 = L1 \nWhich is not regular. \nSo (B) is false. \n(C) L2 is context-free — ALWAYS true \nFact: Every regular language is context-free. \nExample: \n  L2 = a* \nit is regular, and also context-free (since regular ⊆ \nCFL). \nso (C) is true. \n(D) L1 is context-free — NOT always true \n<!-- PAGE 213 -->\nTHEORY OF COMPUTATION \nTake \nL2 = ∅ (regular) \n  L1 = { aⁿbⁿcⁿ | n ≥ 0 } (not context-free) \nThen \n L1 ∩ L2 = ∅ (regular) \nBut L1 is not context-free. \nSo (D) is false.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "theory-of-computation"
+      },
+      "c-programming-topic-3-m3-q42": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "- (C)",
+        "explanation": "Solution: \n S1:False \nThe code is syntactically correct, so no compilation \nerror. \n S2: True \n If invalid pointers (like NULL or uninitialized \npointers) are passed, it may cause a segmentation \nfault. \n S3: False \nIf both pointers point to the same memory location \n(px == py), the logic fails and the value becomes \nzero. So it does not work for all valid inputs. \n S4: True \nIt works correctly for most valid distinct pointers, but \nnot when both pointers refer to the same location. \n S5: False \nIt performs arithmetic on integers, not on pointers.",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "compiler-design-topic-4-m4-q14": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "15. ANSWER:- (8)  \n We will need one temporary variable for storing the \nresult of every binary operation as Static Single \nAssignment implies the variable cannot be repeated \non left hand side of assignment. \n  The given expression: \n q+r/3+s−t∗5+u∗v/w \n t1=r/3; \n t2=t∗5; \n t3=u∗v; \n t4=t3/w; \n t5=q+t1; \n t6=t5+s; \n t7=t6−t2; \n t8=t7+t4; \n So in total we need 8 temporary variables. If it was \nnot mentioned as a static single assignment then the \nanswer would have been 3 because we can re -use \nthe same temporary variable several times.",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "topic-4"
+      },
+      "data-structures-topic-4-m4-q22": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- 3",
+        "explanation": "Explanation: \nArray: [89, 19, 50, 17, 12, 15, 2, 5, 7, 11, 6, 9, 100] \nHeapify from last parent (index 5) to root: \n1. Index 5 (15): children 9, 100 → swap with \n100 → [89, 19, 50, 17, 12, 100, 2, 5, 7, 11, 6, \n9, 15] \n2. Index 2 (50): children 100, 2 → swap with \n100 → [89, 19, 100, 17, 12, 50, 2, 5, 7, 11, 6, \n9, 15] \n3. Index 0 (89): children 19, 100 → swap with \n100 → [100, 19, 89, 17, 12, 50, 2, 5, 7, 11, 6, \n9, 15] \nNo further swaps needed. \nTotal interchanges = 3",
+        "marks": 2,
+        "subject_slug": "data-structures",
+        "topic_slug": "topic-4"
+      },
+      "c-programming-topic-4-m4-q13": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "Initial: \nstr1 = \"Hi\", str2 = \"Bye\" \n<!-- PAGE 48 -->\nC PROGRAMMING \nCall fun1(str1, str2) \nfun1 gets copies of the pointers. Swapping s1 and s2 \nlocally doesn’t change str1 and str2 in main. \nSo after fun1: str1 still points to \"Hi\", str2 still points \nto \"Bye\". \nFirst printf: Hi Bye \nCall fun2(&str1, &str2) \nfun2 r eceives pointers to str1 and str2 (double \npointers). \ntmp = *s1 → tmp points to \"Hi\" \n*s1 = *s2 → str1 now points to \"Bye\" \n*s2 = tmp → str2 now points to \"Hi\" \nSo after fun2: str1 = \"Bye\", str2 = \"Hi\" \nSecond printf: Bye Hi \nFinal output: Hi ByeBye Hi (no space between the two \nprints in the code) \nAnswer: Hi ByeBye Hi",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      },
+      "c-programming-topic-3-m3-q34": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "(B)",
+        "explanation": "unsigned int foo(unsigned int n, unsigned int r) \n { \n if (n > 0) \n return (n % r + foo(n / r, r)); \n else \n return 0; \n } \nThis computes the sum of digits of n in base r. \nGiven: \n foo(345, 10) \nSo it calculates sum of decimal digits of 345. \nCompute step by step: \n345 % 10 = 5 \n 345 / 10 = 34 \n34 % 10 = 4 \n 34 / 10 = 3 \n3 % 10 = 3 \n 3 / 10 = 0 \nNow add: \n5 + 4 + 3 = 12",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "algorithms-algorithms-m1-q35": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "D",
+        "explanation": "Recursive relation for the DoSomething() is \nT(n) = T(√n) + C1 if n > 2 \nWe have ignored the floor() part as it doesn’t \nmatter here if it’s a floor or ceiling. \nLet n = 2m, T(n) = T(2m) \nLet T(2m) = S(m) \nFrom the above two, T(n) = S(m) S(m) = \nS(m/2) + C1 \nS(m) = O(logm) \n= O(loglogn) \nNow, let us go back to the original recursive \nfunction T(n) \nT(n) = S(m) \n= O(LogLogn)",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "algorithms"
+      },
+      "theory-of-computation-theory-of-computation-m1-q74": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(A)",
+        "explanation": "From this table S+ will be A.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "theory-of-computation"
+      },
+      "data-structures-topic-4-m4-q18": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- B",
+        "explanation": "Explanation: \nWhen you delete an arbitrary element at index ii \nin a binary heap: \n1. Swap the element at index ii with the last \nelement in the heap. \n2. Remove the last element (now the original ii-th \nelement). \n3. Heapify from index ii: \n○ May need to bubble up if it's larger than its \nparent (if it's a max-heap) \n○ Or bubble down if it's smaller than one of its \nchildren \n○ But since we don't know whether it's too large \nor too small, we must check both. \nHowever, in practice, we compare with parent: \n● If it's greater than parent (in max-heap), bubble \nup — O(d) \n● Else, bubble down — O(d) \nSo in either case, we do at most one path up or \ndown the tree. \nHeight d = depth = O(log n) \nThus time complexity = O(d)=O(log n) \nFINAL ANSWER = O(d)",
+        "marks": 2,
+        "subject_slug": "data-structures",
+        "topic_slug": "topic-4"
+      },
+      "compiler-design-topic-2-m2-q29": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- D",
+        "explanation": "Statement 1 is false since the two sets in LR(1) \nitems can be combined if they only differ in look \nahead symbols. Because there is no reduced move \nin the specified LR(1) items, there will be no SR \nconflict after merging, and so statements 2 and 3  \nare incorrect. \n Statement 4 is also wrong, because goto is carried \non Non -Terminals symbols, not on terminal \nsymbols, and c is a terminal symbol. \n Hence all statements are false",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "topic-2"
+      },
+      "c-programming-topic-2-m2-q1": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "46",
+        "explanation": "The code peels off the digits one by one from left to \nright: 1, then 4, then 3, then 6, and finally 2. \nThe Switch (turn): The variable turn acts exactly like a \nlight switch alternating between 0 (OFF) and 1 (ON). \n It starts at 0 (OFF). \n Every time a digit is processed, the switch flips: \n0 → 1 → 0 → 1 → 0. \nBy crossing out the skipped positions, the process looks \nlike this:",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-2"
+      },
+      "digital-logic-topic-2-m2-q27": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "(C)",
+        "explanation": "Solution: \na' + c' + d' + a'c + ab + bc \n= a'(c + 1) + c' + d' + ab + bc \n= a' + c' + d' + ab + bc \n= (a' + a)(a' + b) + (c' + c)(c' + b) + d' \n= a' + b + c' + b + d' \n= a' + b + c' + d' \nOption is C.",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "topic-2"
+      },
+      "c-programming-topic-4-m4-q4": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "D",
+        "explanation": "char a[30] = \"Hello world!\"; \nNow you call: \nstrcpy(a, a + 2); \nThis means: \n\"Start copying from the 3rd character (a + 2, \nwhich is 'H') back into the start of the same \narray.\" \nSo the string \"Hello world!\" gets copied over the \nbeginning of the array. \nstrcpy function doesn't copy the null character \n'\\0' that ends the string. So after copying, the \nstring is not properly terminated. \nThat means: \nprintf(\"%s\", a); \ndoesn't know where to stop, and might keep \nprinting garbage from memory after \"Hello \nworld!\" \nOn many systems, the output will be something \nlike: \nHello world!rld! \nBecause it's printing \"Hello world!\" (which was \ncopied), and then continues into the old content \n(\"rld!\") left behind in memory. \nvoid strcpy(char *s, char *t) { while(*s++ = \n*t++); }  // this fixes the issue \nNow the string will be properly null-\nterminated, and the output will be exactly: \nHello world! (option d)",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      },
+      "compiler-design-topic-2-m2-q39": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- B",
+        "explanation": "LALR(1) is formed by merging states of LR(1) ( \nalso called CLR(1)), hence no of states in LALR(1) \nis less than no of states in LR(1), therefore n3 < n2. \nAnd SLR(1) and LALR(1) have the same number \nof states, i.e ( n1 = n3). \n Hence, n1 = n3 < n2",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "topic-2"
+      },
+      "digital-logic-arrays-and-strings-m1-q15": {
+        "type": "NAT",
+        "correct_option": 2,
+        "answer_key": "(C)",
+        "explanation": "Solution: \nLet X and Y represents 31 and −31 respectively in \nbinary sign magnitude form. X and Y will take 6 bits \nas range of sign magnitude form is −(2ⁿ⁻¹ − 1) to 2ⁿ⁻¹ \n− 1, where n is the number of bits. \nNow in question Z = X − Y, \nZ = 31 − (−31) = 62 \nTo represent 62 in sign magnitude form we need 7 \n(6 + 1) bits. \n<!-- PAGE 160 -->\nDIGITAL LOGIC \nHence, n + 1 bits needed.",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "arrays-and-strings"
+      },
+      "digital-logic-topic-2-m2-q7": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "B , C",
+        "explanation": "Solution:  \nx·1 = x → True \nx + 1 = 1 → False \nx·x = x → False \nx + x' = 1 → True",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "topic-2"
+      },
+      "digital-logic-topic-4-m4-q7": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "(B)",
+        "explanation": "Solution : \nGiven Synchronous Sequential circuit (Same clock \npulse applied) has 3-bit T flip flop so using 3 bit we \nhave 2 3=8 combinations. Given P(MSB) and \nR(LSB). Construct Characteristic table. Here \nTP=Rn , TQ=Pn' , TQ=Qn' . \nPrevious \nstate \nNext State  \n𝐏𝐧 𝐐𝐧 𝐑𝐧 𝐏𝐧+1 𝐐𝐧+1 𝐑𝐧+𝟏 TP TQ 𝐓𝐑 \n0 0 0 0 1 1 0 1 1 \n0 0 1 1 1 0 1 1 1 \n0 1 0 0 0 0 0 1 0 \n0 1 1 1 0 1 1 1 0 \n1 0 0 1 0 1 0 0 1 \n1 0 1 0 0 0 1 0 1 \n1 1 0 1 1 0 0 0 0 \n1 1 1 0 1 1 1 0 0 \n Using function table of T flip flop: \n𝐓 𝐐𝑛+1 \n0 𝑄𝑛 \n1 𝑄𝑛 \n We can obtain next state when T=0 previous state \nretains and when T=1 T flip flop toggles the \nprevious state (i.e complement of previous state). \n For example : TP=0 then Pn+1=0 as Pn=0, T=1 \nthen Pn+1=1 as Pn=0. PQR as initial state  \n 000->011->101->000. So next three states (000 as \ninitial state ) will be 011,101,000.",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "topic-4"
+      },
+      "data-structures-topic-4-m4-q24": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- 199",
+        "explanation": "Explanation: \nA binary tree T with n leaf nodes have exactly (n - \n1) nodes that have exactly two children. \nBinary tree property: \nLeaves=Nodes with 2 children + 1 \nGiven leaves = 200: \nN2+1 =200 \nN2. = 199 \n<!-- PAGE 81 -->\nDATA STRUCTURE",
+        "marks": 2,
+        "subject_slug": "data-structures",
+        "topic_slug": "topic-4"
+      },
+      "theory-of-computation-theory-of-computation-m1-q40": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "A",
+        "explanation": "L1: All strings of length 3 or more with same start and \nend symbol, as everything in middle is consumed by x \nas per the definition. \nL2: In this number of a's is dependent on number of \nb's. So PDA is needed. \nL3: Any number of a's followed by any number of b's \nfollowed by any number of c's. Hence Regular.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "theory-of-computation"
+      },
+      "operating-system-arrays-and-strings-m1-q1": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- B",
+        "explanation": "FCFS cannot be pre-emptive",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "arrays-and-strings"
+      },
+      "c-programming-topic-4-m4-q27": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "The declaration is: int (*f)(int *); \n Break it carefully: \n  f is inside parentheses with *, so f is a pointer. \nIt points to something that takes (int *) as argument. \nThat function returns int. \n So it means: \n A pointer to a function that takes an integer pointer as \nargument and returns an integer.",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      },
+      "theory-of-computation-theory-of-computation-m1-q25": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "B",
+        "explanation": "* all options are wrong. \n   take 𝑤 ∈ {𝑎}∗, then 𝑤𝑤𝑅is regular.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "theory-of-computation"
+      },
+      "theory-of-computation-topic-2-m2-q2": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "B,C.",
+        "explanation": "(A) Not ambiguous \n Generates aⁿbⁿ. \n Each string has a unique nested structure. \n Only one parse tree possible. \n(B) Ambiguous \nExpression grammar without precedence. \nGATE IT – 2005 MCQ (1-MARKS) \nGATE IT – 2005 MCQ (1-MARKS) \nGATE IT – 2005 MCQ (2-MARKS) \n<!-- PAGE 233 -->\nTHEORY OF COMPUTATION \nTHEORY OF COMPUTATION \n Example: id + id * id \n Can be parsed as: \n1. (id + id) * id \n2. id + (id * id) \n Two parse trees → ambiguous. \n(C) Ambiguous \n Generates a*. \n Example: \"aa\" \n Can derive using left recursion or right recursion. \n Two different parse trees → ambiguous. \n(D) Not ambiguous \n Right-recursive grammar for a*. \n Each string has exactly one derivation",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "topic-2"
+      },
+      "digital-logic-arrays-and-strings-m1-q8": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "(B)",
+        "explanation": "Solution: \nIt is asked for 5 bits signed value   \nA is having 01010 = 10 in decimal   \nB is having 11010 = −6 in decimal   \nNow A + B is 4 which is 00100, hence no \noverflow   \nNow A − B is 16 which is 010000, see that we \nused 6 bits hence it is overflow   \nNow B − A is −16 which is 10000, hence no \noverflow   \nNow 2 * B is −12 which is 10100, hence no \noverflow   \nhence our correct option will be option B",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "arrays-and-strings"
+      },
+      "digital-logic-topic-3-m3-q15": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "(B)",
+        "explanation": "Solution: \nf = 𝑆1̅ 𝑆0̅̅̅𝑅 + 𝑆1̅ 𝑆0𝑅̅ + 𝑆1𝑆0̅̅̅𝑅 ̅ +  𝑆1𝑆0𝑅 \n  = Q'P'R + Q'PR' + QP'R' + QPR \n  = Q'(P ⊕ R) + Q(P ⊕ R)' \n  = Q ⊕ P ⊕ R = P ⊕ Q ⊕ R",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "topic-3"
+      },
+      "digital-logic-topic-3-m3-q5": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(A)",
+        "explanation": "Solution : \nGiven: \nf(x,y,z) = Σm(0,1,3,4,5,6) \nUsing 4×1 MUX with select lines: \nS1 = y, S0 = z \nEvaluate inputs: \nyz = 00 → m0, m4 → both present → I0 = 1   \nyz = 01 → m1, m5 → both present → I1 = 1   \nyz = 10 → m2 (0), m6 (1) → depends on x → I2 = x   \nyz = 11 → m3 (1), m7 (0) → depends on x' → I3 = x' \nFinal inputs: \n[I0, I1, I2, I3] = [1, 1, x, x']",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "topic-3"
+      },
+      "digital-logic-arrays-and-strings-m1-q34": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(A)",
+        "explanation": "Solution: \nRange of n-bit 2’s complement numbers: \nMinimum = −2ⁿ⁻¹   \nMaximum = 2ⁿ⁻¹ − 1   \nRange = −2ⁿ⁻¹ to (2ⁿ⁻¹ − 1)   \n<!-- PAGE 163 -->\nDIGITAL LOGIC",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "arrays-and-strings"
+      },
+      "digital-logic-topic-4-m4-q23": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "(D)",
+        "explanation": "Solution: \nClearly, Q0 alternates in every clock cycle as Q0' \nis fed as input and it is D flipflop. \nQ1 becomes 1 if its previous value and current Q0 \ndiffers (EXOR). \nSo, the sequence of transitions will be : 00 → 11 \n→ 01 → 10 → 00, \n(D) choice.",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "topic-4"
+      },
+      "algorithms-topic-7-m7-q2": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "B",
+        "explanation": "In a max-heap, the Extract-Max operation removes \nthe root (maximum) element and then \"heapifies\" \ndown to restore the max -heap property. This \nheapify operation takes wo rst-case O(log n) time, \nwhere n is the number of elements. \n• The Insert operation inserts a new element at the \nlast position and then \"bubbles up\" (heapify up) to \nmaintain the max -heap property, which similarly \ntakes O(log n) time in the worst case. \nThus, bo th operations have a worst -case running \ntime of O(log n). This matches the option: \n\"Both Extract -Max(A) and Insert(A, key) run in \nO(log n).\"",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "topic-7"
+      },
+      "algorithms-topic-7-m7-q9": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "C",
+        "explanation": "Let the number of element is \"K\", they can be \nsorted in θ(k log k) time We try \nthe options in decreasing order of complexity \nsince, we need a tight band i.e. \nθ.So if K ∈ (log n) time required for heap sort \nis θ(k log k) i.e. \nθ(log n × loglog n), But this is not in θ(log n)if \nθ(log n / (loglog n)) time \nrequired for heap sort ie. θ( (log n / (loglog n)) \n*log( (log n / (loglog n)) ) ) \n=θ (logn - (log n log log log n)/logn) = θ(logn) \n<!-- PAGE 150 -->\nALGORITHMS",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "topic-7"
+      },
+      "compiler-design-topic-4-m4-q5": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "Uses of live variable analysis: \n1. Used for register allocation: If variable x is live \nin a basic block b, it is a potential candidate for \nregister allocation. \n2. Used for dead code elimination: If variable x is \nnot live after an assignment x = . . ., then the \nassignment is redundant and can be deleted as dead \ncode.",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "topic-4"
+      },
+      "compiler-design-topic-3-m3-q14": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "yacc conflict resoluti on is done using following \nrules: \n shift is preferred over reduce while shift/reduce \nconflict. \n first reduce is preferred over others while \nreduce/reduce conflict. \n You can answer to this question straightforwardly \nby constructing LALR(1) parse table, thou gh its a \ntime taking process. To answer it faster, one can see \nintuitively that this grammar will have a shift -\nreduce conflict for sure. In that case, given this is a \nsingle choice question, (C) option will be the right \nanswer. \n Fool-proof explanation wou ld be to generate \nLALR(1) parse table, which is a lengthy process.  \n Once we have the parse table with us, we can clearly \nsee that \n i. reduce/reduce conflict will not arise in the above \ngiven grammar \n ii. shift/reduce conflict will be resolved by giving \npreference to shift, hence making the expression \ncalculator right associative.\n<!-- PAGE 279 -->\nINTERMEDIATE CODE GENERATION 4",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "topic-3"
+      }
+    },
+    "questionCount": 65
+  },
+  "13f8cdca-cf32-4da6-a47f-634c14a08cbd": {
+    "testId": "13f8cdca-cf32-4da6-a47f-634c14a08cbd",
+    "testTitle": "GATE C PROGRAMMING Practice Test",
+    "mode": "subject",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794334061522,
+    "durationMinutes": 15,
+    "totalMarks": 10,
+    "answerKeyMap": {
+      "c-programming-topic-4-m4-q5": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "25",
+        "explanation": "1. Variable Initialization: \n• a = 20 \n• b = 25 \n• z is a pointer to an integer, which initially \ndoes not point to any variable. \n2. Pointer Assignment: \n• z = &a; \nThe pointer z is now pointing to the address of \nvariable a. \n3. Function Call: \n• The function foo(z, b) is called. Here, z points \nto a, and b is passed as the second argument \n(which is 25). \n• Inside the function foo(int *p, int x), *p = x; \nassigns the value of x (which is 25) to the \nlocation pointed to by p. \n• Since p is pointing to a, a is updated to 25. \n4. Printing the Value of a: \n• After the function call, a has been updated to \n25. \n• The printf(\"%d\", a); statement prints the \nvalue of a, which is now 25. \nFinal Output: \nThe output of the program is 25.",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      },
+      "c-programming-topic-3-m3-q30": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "Solution: \nY=0 \nfor (i=0; i < size ; i++ ) \nY=Y+E[i] ; // E is an array, this statement calculates \nthe sum of elements of the array E and stores it in Y. \nfor (i=0; i<size; i++) \nfor(j=i; j <size; j++) { \nZ=0; \nfor(k=i; k<=j; k++) \nZ=Z+E[k]; \nif(Z > Y ) \nY=Z; \n} \n// It calculates the sum of all possible subarrays \nstarting from 0 i.e., the loop will iterate for all the \nelements of array E and for every element, calculate \nsum of all sub arrays starting with E[i]. \nStore the current sum in Z. \nIf Z is greater than Y then update Y and return Y. So \nit returns the maximum possible sum of elements in \nany sub array of given array E",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-4-m4-q19": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "Given: \nx[4][3] → 4 rows, 3 columns. \nBase address of x = 2000. \nSize of unsigned int = 4 bytes. \n1. x + 3 \nx is of type unsigned int (*)[3] (pointer to array of \n3 ints). \nx + 3 = address of x[3] (4th row). \nRow size = 3 × 4 = 12 bytes. \nSo x + 3 = 2000 + 3 × 12 = 2000 + 36 = 2036. \n2. *(x + 3) \n*(x + 3) = x[3] = address of first element of 4th row \n(x[3][0]). \nAddress of x[3][0] = 2036 (same as x + 3 \nnumerically but type is unsigned int *). \nSo value printed = 2036. \n3. *(x + 2) + 3 \n*(x + 2) = x[2] = address of x[2][0] = 2000 + 2 × \n12 = 2024. \n*(x + 2) + 3 = &x[2][3]? Wait, x[2] has only 3 \ncolumns (0,1,2), so x[2] + 3 = address of x[2][3] is \nout of bounds for row 2, but in C it’s just pointer \narithmetic: \nx[2] + 3 = 2024 + 3 × 4 = 2024 + 12 = 2036. \nSo all three expressions give: \n2036, 2036, 2036 \nOutput: 2036, 2036, 2036",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      },
+      "c-programming-topic-3-m3-q34": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "(B)",
+        "explanation": "unsigned int foo(unsigned int n, unsigned int r) \n { \n if (n > 0) \n return (n % r + foo(n / r, r)); \n else \n return 0; \n } \nThis computes the sum of digits of n in base r. \nGiven: \n foo(345, 10) \nSo it calculates sum of decimal digits of 345. \nCompute step by step: \n345 % 10 = 5 \n 345 / 10 = 34 \n34 % 10 = 4 \n 34 / 10 = 3 \n3 % 10 = 3 \n 3 / 10 = 0 \nNow add: \n5 + 4 + 3 = 12",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-3-m3-q33": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "(D)",
+        "explanation": "Solution: \nFunction: \nunsigned int foo(unsigned int n, unsigned int r) \n { \n if (n > 0) \n return (n % r) + foo(n / r, r); \n else \n return 0; \n } \nThis computes the sum of digits of n in base r. \nGiven: \n  foo(513, 2) \nSo it computes the sum of binary digits (number of \n1s in binary form of 513). \nConvert 513 to binary: \n513 = 512 + 1 \n  512 = 2⁹ \nSo binary representation: \nThere are two 1s. \nTherefore sum of digits = 2(Option D)",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      }
+    },
+    "questionCount": 5
+  },
+  "4e81dc9e-187b-40ea-96bd-158ed56b93c4": {
+    "testId": "4e81dc9e-187b-40ea-96bd-158ed56b93c4",
+    "testTitle": "GATE C PROGRAMMING Practice Test",
+    "mode": "subject",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794334061535,
+    "durationMinutes": 15,
+    "totalMarks": 6,
+    "answerKeyMap": {
+      "c-programming-topic-3-m3-q6": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(A)",
+        "explanation": "Explanation: \nGiven that function arguments are evaluated from \nright to left: \nStep 1: Function Call \nf(g(10), h(20)); \nFirst evaluated → h(20) → prints 20, returns 20 \nThen evaluated → g(10) → prints 10, returns 10 \nSo far output: 2010 \nStep 2: Inside function f(x, y) \ng(x); \nh(y); \ng(x) → g(10) → prints 10 \nh(y) → h(20) → prints 20 \nFinal Output: \n20 10 10 20 \n<!-- PAGE 30 -->\nC PROGRAMMING",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-3-m3-q36": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "The function works like Fibonacci using a pointer to \nstore the previous  value. \n Base case: \n If n ≤ 1, it sets *f_p = 1 and returns 1. \n For n > 1: \n It calls fun(n-1, f_p) and stores the result in t. \n Then it computes f = t + *f_p. \n<!-- PAGE 37 -->\nC PROGRAMMING \n After that, it updates *f_p = t. \n So each step uses the previous two values, similar to \nFibonacci. \n Now compute step by step: \n fun(1) = 1 \n fun(2) = 2 \n fun(3) = 3 \n fun(4) = 5 \n fun(5) = 8 \n So the program prints 8.(option-B)",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-4-m4-q4": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "D",
+        "explanation": "char a[30] = \"Hello world!\"; \nNow you call: \nstrcpy(a, a + 2); \nThis means: \n\"Start copying from the 3rd character (a + 2, \nwhich is 'H') back into the start of the same \narray.\" \nSo the string \"Hello world!\" gets copied over the \nbeginning of the array. \nstrcpy function doesn't copy the null character \n'\\0' that ends the string. So after copying, the \nstring is not properly terminated. \nThat means: \nprintf(\"%s\", a); \ndoesn't know where to stop, and might keep \nprinting garbage from memory after \"Hello \nworld!\" \nOn many systems, the output will be something \nlike: \nHello world!rld! \nBecause it's printing \"Hello world!\" (which was \ncopied), and then continues into the old content \n(\"rld!\") left behind in memory. \nvoid strcpy(char *s, char *t) { while(*s++ = \n*t++); }  // this fixes the issue \nNow the string will be properly null-\nterminated, and the output will be exactly: \nHello world! (option d)",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      }
+    },
+    "questionCount": 3
+  },
+  "wiped-test-uuid-1794334061545": {
+    "testId": "wiped-test-uuid-1794334061545",
+    "testTitle": "GATE C PROGRAMMING Practice Test",
+    "mode": "subject",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794334061566,
+    "durationMinutes": 180,
+    "totalMarks": 6,
+    "answerKeyMap": {
+      "c-programming-topic-3-m3-q6": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(A)",
+        "explanation": "Explanation: \nGiven that function arguments are evaluated from \nright to left: \nStep 1: Function Call \nf(g(10), h(20)); \nFirst evaluated → h(20) → prints 20, returns 20 \nThen evaluated → g(10) → prints 10, returns 10 \nSo far output: 2010 \nStep 2: Inside function f(x, y) \ng(x); \nh(y); \ng(x) → g(10) → prints 10 \nh(y) → h(20) → prints 20 \nFinal Output: \n20 10 10 20 \n<!-- PAGE 30 -->\nC PROGRAMMING",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-3-m3-q36": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "The function works like Fibonacci using a pointer to \nstore the previous  value. \n Base case: \n If n ≤ 1, it sets *f_p = 1 and returns 1. \n For n > 1: \n It calls fun(n-1, f_p) and stores the result in t. \n Then it computes f = t + *f_p. \n<!-- PAGE 37 -->\nC PROGRAMMING \n After that, it updates *f_p = t. \n So each step uses the previous two values, similar to \nFibonacci. \n Now compute step by step: \n fun(1) = 1 \n fun(2) = 2 \n fun(3) = 3 \n fun(4) = 5 \n fun(5) = 8 \n So the program prints 8.(option-B)",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-4-m4-q4": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "D",
+        "explanation": "char a[30] = \"Hello world!\"; \nNow you call: \nstrcpy(a, a + 2); \nThis means: \n\"Start copying from the 3rd character (a + 2, \nwhich is 'H') back into the start of the same \narray.\" \nSo the string \"Hello world!\" gets copied over the \nbeginning of the array. \nstrcpy function doesn't copy the null character \n'\\0' that ends the string. So after copying, the \nstring is not properly terminated. \nThat means: \nprintf(\"%s\", a); \ndoesn't know where to stop, and might keep \nprinting garbage from memory after \"Hello \nworld!\" \nOn many systems, the output will be something \nlike: \nHello world!rld! \nBecause it's printing \"Hello world!\" (which was \ncopied), and then continues into the old content \n(\"rld!\") left behind in memory. \nvoid strcpy(char *s, char *t) { while(*s++ = \n*t++); }  // this fixes the issue \nNow the string will be properly null-\nterminated, and the output will be exactly: \nHello world! (option d)",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      }
+    },
+    "questionCount": 3
   }
 }
