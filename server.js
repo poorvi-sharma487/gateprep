@@ -52,7 +52,7 @@ function createPool(env = process.env) {
 function createApp({
   pool,
   sessionStore,
-  sessionSecret = process.env.SESSION_SECRET,
+  sessionSecret = process.env.SESSION_SECRET || '3EK8_6gvY4QlkwAbt70VKe1zQ1BXxewaiZNuCa4G5rhce5xmjN-5Qnn7lPWdpe_m',
   production = process.env.NODE_ENV === 'production'
 } = {}) {
   if (!pool || typeof pool.query !== 'function') {
