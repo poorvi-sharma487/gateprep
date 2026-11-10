@@ -18,11 +18,17 @@ function createPool(env = process.env) {
   if (
     env.DB_CLIENT === 'sqlite' ||
     (env.DATABASE_URL && env.DATABASE_URL.startsWith('sqlite')) ||
-    (!env.DATABASE_URL && !env.DB_HOST && !env.DB_USER)
+    (!env.DATABASE_URL && !env.DB_HOST && !env.DB_USER) ||
+    process.env.VERCEL
   ) {
-    const rawPath = env.DATABASE_URL
-      ? env.DATABASE_URL.replace(/^sqlite:\/?\/?/, '')
-      : path.join('db', 'gateprep.sqlite');
+    let rawPath;
+    if (process.env.VERCEL) {
+      rawPath = '/tmp/gateprep.sqlite';
+    } else {
+      rawPath = env.DATABASE_URL
+        ? env.DATABASE_URL.replace(/^sqlite:\/?\/?/, '')
+        : path.join('db', 'gateprep.sqlite');
+    }
     return createSqlitePool(path.resolve(process.cwd(), rawPath));
   }
 
@@ -621,15 +627,20 @@ function createApp({
   return app;
 }
 
-function validateEnvironment(env) {
+function validateEnvironment(env = process.env) {
   const missingEnvironment = [];
   if (!env.SESSION_SECRET) {
-    missingEnvironment.push('SESSION_SECRET');
+    if (!process.env.VERCEL) {
+      missingEnvironment.push('SESSION_SECRET');
+    }
   } else if (env.SESSION_SECRET.length < 32) {
     throw new Error('SESSION_SECRET must contain at least 32 characters.');
   }
 
-  const isSqlite = env.DB_CLIENT === 'sqlite' || (env.DATABASE_URL && env.DATABASE_URL.startsWith('sqlite'));
+  const isSqlite =
+    env.DB_CLIENT === 'sqlite' ||
+    (env.DATABASE_URL && env.DATABASE_URL.startsWith('sqlite')) ||
+    (process.env.VERCEL && env.DB_CLIENT !== 'postgres');
   if (!isSqlite && !env.DATABASE_URL && (!env.DB_USER || !env.DB_PASSWORD || !env.DB_NAME)) {
     missingEnvironment.push('DATABASE_URL or DB_USER, DB_PASSWORD, and DB_NAME');
   }

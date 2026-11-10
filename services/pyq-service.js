@@ -73,7 +73,9 @@ function getCatalogStats(pool) {
 
 // Persistent & in-memory test sessions for grading (valid for 7 days)
 const activeTestSessions = new Map();
-const SESSIONS_FILE = path.resolve(__dirname, '..', 'db', 'active_test_sessions.json');
+const SESSIONS_FILE = process.env.VERCEL
+  ? path.resolve('/tmp', 'active_test_sessions.json')
+  : path.resolve(__dirname, '..', 'db', 'active_test_sessions.json');
 
 function loadPersistedSessions() {
   try {

@@ -7002,5 +7002,741 @@
       }
     },
     "questionCount": 3
+  },
+  "b1985a12-3cb9-4cda-b274-c89814c6e99d": {
+    "testId": "b1985a12-3cb9-4cda-b274-c89814c6e99d",
+    "testTitle": "GATE CSE Full-Length Authentic Mock Test",
+    "mode": "full_gate",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794331129336,
+    "durationMinutes": 180,
+    "totalMarks": 130,
+    "answerKeyMap": {
+      "general-aptitude-arrays-and-strings-m1-q81": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "Multiples of 10 from 2 to 198 are 10, 20, 30, ... 190. \nThis is an arithmetic series with first term 10, last \nterm 190. Average = (first + last)/2 = (10 + 190)/2 = \n100.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "arrays-and-strings"
+      },
+      "general-aptitude-arrays-and-strings-m1-q64": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "Because If we multiply the terms of an  AP with a \nconstant, the common difference will get \nmultiplied by the constant  and if we subtract the \nterms of an  AP with a constant, the common \ndifference will be same but if we make square of \nAP  element  then difference will not be same.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "arrays-and-strings"
+      },
+      "general-aptitude-topic-3-m3-q89": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "- (C)",
+        "explanation": "Hyperbolic: Exaggerated or overstated. \n1. Restrained : Controlled or moderate in behavior \nor expression. \n2. Argumentative : Prone to arguing or disputing. \n3. Indifferent : Having no particular interest or \nconcern. \n The most appropriate word to complete the sentence \nis \"restrained\" because being restrained means \nholding back or being moderate, which contrasts \nwith making a strong impression",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-3"
+      },
+      "general-aptitude-topic-3-m3-q22": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "‘worse’, ‘better’ are comparative words which need \nthe word ‘than’ for comparison. \n Out of the remaining two options \"nicest\" is \nsuperlative degree which expresses the highest form \nof an adjective so it is not suitable here. \n But ‘as well as’ expresses equality in doing some \naction or skill so it fits perfectly & is the correct \nanswer. \n Correct Option (A). \n<!-- PAGE 760 -->\nGENERAL APTITUDE",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-3"
+      },
+      "general-aptitude-topic-3-m3-q25": {
+        "type": "NAT",
+        "correct_option": 3,
+        "answer_key": "- (D)",
+        "explanation": "The correct answer is \"within, for\" because \n\"within six months\" indicates a time frame in the \nfuture, and \"for the last three weeks\" refers to the \nduration of time he's been practicing.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-3"
+      },
+      "general-aptitude-topic-3-m3-q30": {
+        "type": "NAT",
+        "correct_option": 2,
+        "answer_key": "- (C)",
+        "explanation": "The subject “expenditure” is singular, so the verb \nmust also be singular. Hence, “breaks down” is \ncorrect.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-3"
+      },
+      "general-aptitude-topic-3-m3-q19": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "- (C)",
+        "explanation": "Sentence (i): This sentence is grammatically correct \nbecause it follows proper subject-verb agreement \nwhere \"Everybody\" (a singular subject) matches the \nsingular verb \"is.\" and there is no ambiguity in this \nsentence. \n Sentence (ii): This sentence is ambiguous because it \nis unclear who \"he\" refers to. It could mean: Babu \nenjoys playing chess, Danish enjoys playing chess. \nThis ambiguity arises from the unclear pronoun \nreference (\"he\").",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-3"
+      },
+      "general-aptitude-topic-3-m3-q11": {
+        "type": "NAT",
+        "correct_option": 2,
+        "answer_key": "- (C)",
+        "explanation": "The appropriate word that fits in this sequence is \nFazed. The meaning of this word is to make \nsomeone nervous.  \n Hence, the correct option is C.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-3"
+      },
+      "general-aptitude-topic-3-m3-q4": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "\"Myopic\" literally means nearsighted (unable to see \nfar). \n Figuratively, it means shortsighted, lacking \nforesight, or focusing only on immediate results \nrather than considering long-term consequences. \n (A) Visionary \n<!-- PAGE 758 -->\nGENERAL APTITUDE  \n Incorrect. Opposite of myopic. A visionary person \nhas long-term foresight. \n (B) Shortsighted \n Correct. It directly means lacking long-term \nperspective, which fits the meaning of \"myopic.\" \n (C) Progressive \n Incorrect. Progressive means forward-thinking and \nfuture-oriented, which is the opposite of myopic. \n (D) Innovative \n Incorrect. Innovative means creative and \nintroducing new ideas, which does not match the \nmeaning of myopic.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-3"
+      },
+      "general-aptitude-topic-3-m3-q40": {
+        "type": "NAT",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "Correct structure: adjective + enough → “bright \nenough”.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "topic-3"
+      },
+      "computer-organization-and-architecture-topic-3-m3-q22": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "C",
+        "explanation": "I:Auto-increment is for sequential access \n(arrays), not specifically for self-relocating \ncode \nII:No extra ALU is required; increment can \nbe handled within existing hardware \nIII:Increment depends on data size (byte, \nword, etc.) \nAnswer: \nIII only (Option C)",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-3"
+      },
+      "digital-logic-arrays-and-strings-m1-q21": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "(-11)",
+        "explanation": "Solution: \n1111 1111 1111 0101 \n2's complement of 1111 1111 1111 0101 = 0000 \n0000 0000 1011 = +11 \n2's complement of −11 = +11, in 2's complement \nrepresentation \n2's complement of +11 = −11, in 2's complement \nrepresentation \nSo −11 it should be.",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "arrays-and-strings"
+      },
+      "digital-logic-topic-4-m4-q16": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "(A)",
+        "explanation": "Solution: \n Let n is the number of flip-flops. \n The max Mod values is 2n. \n So 2n ≥ 258 ⇒ n = 9 \n<!-- PAGE 193 -->\nDIGITAL LOGIC",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "topic-4"
+      },
+      "operating-system-topic-3-m3-q17": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "Deadlock Prevention: \nPrevention works by structurally denying one of the \nfour necessary conditions (mutual exclusion, hold-\nand-wait, no preemption, circular wait). \nIt does not check for safe states dynamically. \nTherefore, a request is not granted based on a safety \ncheck — it follows strict rules regardless of safety. \n So statement (A) is false. \n Deadlock Avoidance: \nAvoidance (e.g., Banker's Algorithm) checks \nwhether granting a request keeps the system in a safe \nstate. \nIf the resulting state is safe → request is granted. \nHence, (B) is true. \n Avoidance is less restrictive than prevention because \nit allows more flexibility → (C) is true. \n Avoidance requires advance knowledge of maximum \nresource needs → (D) is true. \n Therefore, the statement that is NOT true is (A). \n<!-- PAGE 339 -->\nOPERATING SYSTEMS",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-3-m3-q13": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (81)",
+        "explanation": "Solution: \nCall pp(3, 4) \narr[20] declared, tot = 1, ex = a = 3. \nlen = tob(4, arr):b = 4 → binary: \n4 % 2 = 0 → arr[0] = 0, b=2 \n2 % 2 = 0 → arr[1] = 0, b=1 \n1 % 2 = 1 → arr[2] = 1, b=0 \nSo arr = [0, 0, 1] (indices 0,1,2), len = 3.Binary of 4 is \n100 (reads arr[2]..arr[0] as MSB..LSB in normal \nwriting, but here arr[0] is LSB). \nLoop i = 0 to len-1: \ni=0: arr[0] = 0 → do not multiply; \nex = ex * ex = 3 * 3 = 9. \ni=1: arr[1] = 0 → do not multiply; \nex = 9 * 9 = 81. \ni=2: arr[2] = 1 → tot = tot * ex = 1 * 81 = 81; \nex = 81 * 81 (not used later). \nReturn tot = 81.",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "operating-system-topic-2-m2-q2": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- B,C",
+        "explanation": "If T1 starts: \n T1 takes s1 → prints 1 → waits on s2 → \nblocked \n T2 cannot start (s1 not released) → deadlock \nIf T2 starts: \n T2 takes s1 → prints 1 → signals s2 → signals \ns1 \n T1 runs → prints 2",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "topic-2"
+      },
+      "c-programming-topic-3-m3-q35": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "- (D)",
+        "explanation": "Step 1: \nf(&i, &j) call: \np points to i, q points to j. \np = q → p now points to j. \n*p = 2 → changes j to 2. \nStep 2: \ni remains 0, j becomes 2. \nOutput: 0 2(option -D)",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "data-structures-topic-4-m4-q33": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "Explanation: \nThe box B1 gets executed when left sub tree of n is \nNULL & right subtree is not NULL. \nIn such case, height of n will be the height of the right \nsubtree +1. \nThe box B2 gets executed when both left & right \nsubtrees of n are not NULL. \nIn such case, height of n will be max of heights of left \n& right subtrees of n+1. \n<!-- PAGE 84 -->\nDATA STRUCTURE",
+        "marks": 2,
+        "subject_slug": "data-structures",
+        "topic_slug": "topic-4"
+      },
+      "operating-system-topic-4-m4-q2": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 1536",
+        "explanation": "TLB reach = Number of entries × Page size \n Page size = 4 KB = 2¹² bytes \n Reach = 1 MB = 2²⁰ bytes \n Number of entries = 2²⁰ / 2¹² = 2⁸ = 256 entries \n Virtual page number size: \n Virtual address space = 64 GB = 2³⁶ bytes \n Page size = 2¹² \n Offset bits = 12 \n Virtual page number bits = 36 – 12 = 24 bits \n Frame number size: \n Physical address space = 1 GB = 2³⁰ bytes \n Frame size = 2¹² \n Number of frames = 2³⁰ / 2¹² = 2¹⁸ \n Frame number bits = 18 bits \n Size of one TLB entry: \n Process id = 4 bits \n Page number = 24 bits \n Frame number = 18 bits \n Control field = 2 bits \n Total bits per entry = 4 + 24 + 18 + 2 = 48 bits = 6 \nbytes \n Total TLB size: \n Entries = 256 \n Size per entry = 6 bytes \n Total size = 256 × 6 = 1536 bytes \n Answer: 1536 bytes",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "topic-4"
+      },
+      "compiler-design-topic-4-m4-q4": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (6)",
+        "explanation": "Basic block is a sequence of consecutive statements \nin which the control enters at the beginning and \nleaves only at the end without any branching (or) \nhalting except at the end.. \n 1. Identify leader (1st statement of a basic block) \n●     First statement of a program is a leader. \n●     Target of goto is a leader. \n●     Next statement after goto is a leader. \n 2. Group a leader statement with all the consecutive \nstatements upto but not inclu eding the next leader \nof a basic block. \nBasic Block Instructions \nB1 1001 \nB2 1002 \nB3 1003 →1004 →1005→ \n1006→ 1007 →1008 \n→1009 \nB4 1010→ 1011 \nB5 1012 \nB6 1013→ 1014→ 1015→ \n1016→ 1017",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "topic-4"
+      },
+      "theory-of-computation-topic-2-m2-q9": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "(179)",
+        "explanation": "For CNF, number of steps required is 2|w| - 1 \nExample: if \nS -> AA \nA -> a \nfor string 'aa' we will need  \nS -> AA -> Aa -> aa          \nHere the |w| = 90 \nThus the number of derivations will be 2*90 - 1 = 179",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "topic-2"
+      },
+      "data-structures-topic-4-m4-q21": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- - C",
+        "explanation": "Explanation: \nNew Order strategy: Root, Right, Left. \nGiven Reverse Polish Notation as: \n3 4 * 5 - 2 ^ 6 7 * 1 + - \nWe know Reverse Polish Notation takes Left, \nRight, Root. \nFrom the tree, we can write the New Order traversal \nas: Root, Right, Left. \n– + 1 * 7 6 ^ 2 – 5 * 4 3",
+        "marks": 2,
+        "subject_slug": "data-structures",
+        "topic_slug": "topic-4"
+      },
+      "data-structures-topic-4-m4-q13": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- B",
+        "explanation": "Explanation: \nPreorder of BST is: 15, 10, 12, 11, 20, 18, 16, 19. \nIn a Binary Search Tree, left subtree contains values \nsmaller than root and right subtree contains values \ngreater than root. \nFirst element of preorder is the root. So root = 15. \nElements smaller than 15 form the left subtree: 10, \n12, 11. \nElements greater than 15 form the right subtree: 20, \n18, 16, 19. \nLeft subtree: \nRoot = 10. \n12 is greater than 10, so it is right child of 10. \n11 is less than 12 but greater than 10, so it becomes \nleft child of 12. \nPostorder of left subtree (Left, Right, Root): \n11, 12, 10 \nRight subtree: \nRoot = 20. \n18 is less than 20, so it is left child of 20. \n<!-- PAGE 78 -->\nDATA STRUCTURE \n16 is less than 18, so it is left child of 18. \n19 is greater than 18 but less than 20, so it is right \nchild of 18. \nPostorder of right subtree: \n16, 19, 18, 20 \nFinal postorder (Left, Right, Root): \n11, 12, 10, 16, 19, 18, 20, 15",
+        "marks": 2,
+        "subject_slug": "data-structures",
+        "topic_slug": "topic-4"
+      },
+      "compiler-design-topic-2-m2-q31": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "FIRST (P): is the set of terminals that begin the \nstrings derivable from non - terminal P. If P derives \nepsilon then we include epsilon in FIRST(P). \n FOLLOW(P): is the set of  terminals that can appear \nimmediately to the right of P in some sentential form. \n FIRST(A) = FIRST (S) \n FIRST (S) = FIRST (aAbB) and FIRST (bAaB) and \nFIRST (ϵ) \n FIRST(S) = {a, b, ϵ} \n FIRST (B) = FIRST (S) = {a, b, ϵ}= FIRST (A) \n FOLLOW(A) = {b} // because of production S→a A \nb B \n FOLLOW(A) = {a} // because of production S→ b A \na B \n So FOLLOW (A) = {a, b} \n FOLLOW (B) = FOLLOW (S) // because of \nproduction S→ aA b B \n FOLLOW (S) = FOLLOW (A) // because of \nproduction A → S \n So FOLLOW (S) = {$, a, b}= FOLLOW(B)",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "topic-2"
+      },
+      "compiler-design-topic-2-m2-q4": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C,D",
+        "explanation": "A grammar is not LL(1) iff: \n● It is an ambiguous grammar \n● It is left-recursive \n● It has common prefixes \n Both the grammars G₁ and G₂ have common prefixes \nlike \"if E then S\" and \"if E then\", as well as ambiguity \ndue to the dangling else problem. \n So, the given grammars G₁ and G₂ are not LL(1) and \nambiguous.",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "topic-2"
+      },
+      "digital-logic-topic-2-m2-q11": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "(D)",
+        "explanation": "Solution :  \n (𝑃 ⊕ 𝑄) = 𝑃 ∘ 𝑄 \n Correct. By definition, XNOR (O) is the \nexact complement of XOR ( ⊕ ). \n(b) 𝑃‾ ⊕ 𝑄 = 𝑃 ∘ 𝑄 \n Correct. Inverting exactly one input of an \nXOR gate turns the operation into an XNOR \ngate. \n(c) 𝑃‾ ⊕ 𝑄‾ = 𝑃 ⊕ 𝑄 \n Correct. Inverting both inputs of an XOR gate \ncancels out the changes. leaving the output \nidentical to the original XOR. \n(d) 𝑃 ⊕ 𝑃‾ ⊕ 𝑄 = (𝑃 ⊙ 𝑃‾ ⊙ 𝑄‾) \n INCORRECT. * LHS: (𝑃 ⊕ 𝑃‾) ⊕ 𝑄 = 1 ⊕\n𝑄 = 𝑄‾ \n RHS: (𝑃 ∘ 𝑃‾) ∘ 𝑄‾ = 0 ∘ 𝑄‾ = 𝑄 \n<!-- PAGE 171 -->\nDIGITAL LOGIC \n Since 𝑄‾ ≠ 𝑄, this identity fails.",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "topic-2"
+      },
+      "digital-logic-topic-2-m2-q14": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(a)",
+        "explanation": "Solution: \n𝑥 𝑦 # \n0 0 0 \n0 1 1 \n1 0 1 \n1 1 0 \nSo, according to this # function results in XOR \noperation on x and y . 𝑥#𝑦 equivalent to 𝑥. 𝑦‾ +\n𝑥‾. 𝑦",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "topic-2"
+      },
+      "theory-of-computation-topic-2-m2-q10": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(A)",
+        "explanation": "Note that Empty String ϵ is Not accepted by the given PDA, \nSo options B, C, D are eliminated. \nEmpty String ϵ is Not accepted because from initial state, on \nempty tape, we cannot empty our stack since stack bottom \nsymbol ⟂ can be removed only in state q But on empty tape, \nwe can not reach to state q from state s. \nMethod 2: \nNote that to empty our stack, the stack bottom symbol ⟂ can \nbe removed only in state q. To reach state q, from s or from \np, we need symbol A on Top-of-the-stack (TOS). Symbol A \nis pushed in the stack by symbol a in the input string. So, \nour input string must have at least one a. \nIn the initial state s, for every a in the input string, we push \none A in the stack. Now, for every b in the input string, we \npop one A from the stack. When all the b′s are over in the \ninput string, we can move to state q if our TOS is A, so, to \nempty our stack at the end of any input string w, we must \nhave more a′s than b′s in w. In the state q we can empty the \nstack & w is accepted. \nAlso, our PDA accepts a+strings.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "topic-2"
+      },
+      "operating-system-topic-5-m5-q14": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 346",
+        "explanation": "I/O to blocks on cylinders 47, 38, 121, 191, 87, 11, \n92, 10. \n The head is initially at cylinder number 63. \n C-LOOK scheduling algorithm is used. \n Firstly, we start from 63 and move further. \n 63 → 87 → 92 → 121 → 191 = 24 + 5 + 29 + 70 \nmovements = 128 \n 191 → 10 movements = 181 \n 10 → 11 → 38 → 47 = 1 + 27 + 9 movements = 37 \n Total = 128 + 181 + 37 = 346",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "topic-5"
+      },
+      "dbms-arrays-and-strings-m1-q9": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "(50)",
+        "explanation": "(I) for One – three attribute \n No. of  \nFDs \nFunctional Dependencies \nA B, C, D 7 A→B, A→C, A→D, A→BC, \nA→BD, A→CD, \nA→BCD \nB A, C, D 7 B→A, B→C, B→D, B→AC, \nB→AD, B→CD, \nB→ACD \nC A, B, D 7 C→A, C→B, C→D, C→AB, \nC→AD, C→BD, \nC→ABD \nDA, B, C 7 D→A, D→B, D→C, D→AB, \nD→AC, D→BC, \nD→ABC \nTotal FDs = 28 \n(ii) for Two - Two Attributes \n𝐴𝐵 → 𝐶𝐷 [22 − 1] = 3   {𝐴𝐵 → 𝐶, \n𝐴𝐵 → 𝐷, 𝐴𝐵 → 𝐶𝐷} \n𝐴𝐶 → 𝐵𝐷 [22 − 1] \n= 3  {𝐴𝐶 → 𝐵, \n         𝐴𝐶 → 𝐷, 𝐴𝐶 → 𝐵𝐷} \n𝐴𝐷 → 𝐵𝐶 [22 − 1] = 3 {𝐴𝐷 → 𝐵, \n𝐴𝐷 → 𝐶, 𝐴𝐷 → 𝐵𝐶} \n𝐵𝐶 → 𝐴𝐷 [22 − 1] = 3 {𝐵𝐶 → 𝐴, \n           𝐵𝐶 → 𝐷, 𝐵𝐶 → 𝐴𝐷} \n𝐵𝐷 → 𝐴𝐶 [22 − 1] = 3 {𝐵𝐷 → 𝐴, \n        𝐵𝐷 → 𝐶, 𝐵𝐶 → 𝐴𝐶} \n𝐶𝐷 → 𝐴𝐵 [22 − 1] = 3 {𝐶𝐷 → 𝐴, \n         𝐶𝐷 → 𝐵, 𝐶𝐷 → 𝐴𝐵} \n Total FDs = 18 FD's \n (iii) for Three Attributes \n𝐴𝐵𝐶 → 𝐷\n𝐴𝐵𝐷 → 𝐶\n𝐵𝐶𝐷 → 𝐴\n𝐶𝐷𝐴 → B\n Total FDs = 4 FD \n So Total Useful FDs = 28 + 18 + 4 = 50 Ans \nOR \n 𝑥 → 𝑦  Useful 𝐹𝐷 with 4 Attribute \n Case I: for a Single-single Attributes \n X -> Y   4C1    *  [23-1] \n A->BCD [23-1] \n B->ACD \n C->ABD \n D->ABC  4 * 7 =28  \n CASE II : for a Two - Two Attributes \n𝑥 → 𝑦 \n 2Attribute → 2Attribute 4𝐶2 ∗ (22 − 1) \n                                                   6 ∗ 3 =  (18)  \n CASE III:- for Three-Three Attributes \n𝑥 → 𝑦 \n3-ttribute attribute \n         4𝐶3 ∗ (21 − 1) \n4 ∗ 1 =  (4)  \n Total useful FD = 28 + 18 + 4 = 50 Ans",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "arrays-and-strings"
+      },
+      "computer-networks-topic-3-m3-q67": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- 256",
+        "explanation": "Each host needs to generate 1000 unique identifiers \nper second which requires \n ⌈log2 1000⌉=10 bits \n Now, these 10 bits along with 32-bit globally unique \nIP address will give a globally unique 42 -bit ID’s \nwhich stays constant. Since we are allowed 50 bits, \nwe can use the next 8 bits using the clock which \n<!-- PAGE 573 -->\nCOMPUTER NETWORK \nchanges every second. Thus, our IDs will wrap \naround once in 28=256 seconds.",
+        "marks": 2,
+        "subject_slug": "computer-networks",
+        "topic_slug": "topic-3"
+      },
+      "data-structures-topic-4-m4-q30": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- D",
+        "explanation": "Explanation: \nIn leftMostChild–rightSibling representation: \nleftMostChild → first child \nrightSibling → next node at same level \nNow analyze the function. \nIf tree == NULL → return 0. \nIf tree is not NULL: \nIf tree->leftMostChild == NULL \nthat means the node has no children. \nSo it is a leaf node. \nvalue = 1 \nElse \nvalue=DoSomething(tree->leftMostChild) \nThis recursively processes all children of the node. \n`After that: \nvalue = value + DoSomething(tree->rightSibling) \nThis processes all siblings of the current node. \nSo the function counts: \n1 for every node that has no leftMostChild (i.e., \nevery leaf node). \nAnd by recursive calls through rightSibling, it \ncovers the entire tree. \nTherefore, the function returns the total number of \nleaf nodes in the tree. \nCorrect answer: (d) number of leaf nodes in the tree",
+        "marks": 2,
+        "subject_slug": "data-structures",
+        "topic_slug": "topic-4"
+      },
+      "data-structures-topic-4-m4-q1": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- 11",
+        "explanation": "Explanation: \nIn a full binary tree, every internal node has \nexactly 2 children. \nLet \nI = number of internal nodes \nL = number of leaves \nFor a full binary tree: \nL = I + 1 \nTotal nodes: \nN = I + L \nN = I + (I + 1) \nN = 2I + 1 \nGiven N = 23: \n2I + 1 = 23 \n2I = 22 \nI = 11 \nNow, to get maximum height, the tree must be as \nskewed as possible while still being full. \nIn a full binary tree, maximum height occurs when \nat each level, only one subtree continues \ndownward and the other is a leaf. \nFor a full binary tree: \nMaximum height = I \nSince I = 11, \nMaximum possible height = 11",
+        "marks": 2,
+        "subject_slug": "data-structures",
+        "topic_slug": "topic-4"
+      },
+      "c-programming-topic-2-m2-q10": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(10)",
+        "explanation": "Solution:  \nArithmetic Evaluation \nIn C, integer division truncates decimals, and prefix \noperators update variables immediately. \nj calculation: 2 * 3 / 4 (integer) is 1. 2.0 / 5 (float) is \n0.4. 8 / 5 (integer) is 1. The sum is 2.4, which truncates \nto 2 for the integer j. \nk calculation: k -= --j first decrements j to 1. Then k \n= 0 - 1, resulting in k = -1. \n2. Switch Trace with Fall-through \nThe loop runs for i = 0 to 4. Because there are no break \nstatements, once a case matches, every subsequent \nprintf in the block executes. \ni = 0 (i+k = -1): Matches default. (1 execution) \ni = 1 (i+k = 0): Matches default. (1 execution) \ni = 2 (i+k = 1): Matches case 1, falls through case 2, \ncase 3, and default. (3 executions) \ni = 3 (i+k = 2): Matches case 2, falls through case 3, \nand default. (3 executions) \ni = 4 (i+k = 3): Matches case 3, falls through default. \n(2 executions) \nFinal Total \nAdding the executions per iteration: 1 + 1 + 3 + 3 + 2 \n= 10. \nThe total number of times printf is executed is 10. \n<!-- PAGE 16 -->\nC PROGRAMMING",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-2"
+      },
+      "operating-system-topic-5-m5-q1": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 77.3",
+        "explanation": "Rotational speed = 15000 rpm \nTracks movement time = 1 ms per track \nSectors per track = 400 \nTracks accessed = 5 → 12 → 7 \n10 sectors read from each track \n Rotation time: \n15000 rpm ⇒ 1 rotation = 60/15000 = 0.004 s = 4 \nms \n Average rotational latency = 4/2 = 2 ms \n Total sector accesses = 10 × 3 = 30 \n Total rotational delay = 30 × 2 = 60 ms \n Transfer time: \nTime per sector = 4/400 = 0.01 ms \n Transfer for 30 sectors = 30 × 0.01 = 0.3 ms \n Seek time: \n0 → 5 = 5 tracks \n5 → 12 = 7 tracks \n12 → 7 = 5 tracks \n Total movement = 17 tracks \n Seek time = 17 × 1 = 17 ms \n Total time: \n17 + 60 + 0.3 = 77.3 ms",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "topic-5"
+      },
+      "computer-organization-and-architecture-topic-2-m2-q4": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (261.04)",
+        "explanation": "First, determine the clock cycle time of the pipeline. \nIn an ideal pipeline, the clock cycle time is given by \nthe delay of the slowest stage plus the inter-stage latch \ndelay. \nStage delays: \nStage 1 = 180 ns \nStage 2 = 250 ns \nStage 3 = 150 ns \nStage 4 = 170 ns \nStage 5 = 250 ns \nMaximum stage delay = 250 ns \nIncluding  the  latch  delay  (10  ns): \nClock cycle time (t_cycle) = 250 ns + 10 ns = 260 ns \nNext, consider the execution of 1000 instructions. For \na pipeline with 5 stages, the first instruction requires \n5 cycles to complete, and each subsequent instruction \ncompletes in one additional cycle. \nTotal number of cycles = n + (k − 1) \n= 1000 + (5 − 1) \n= 1000 + 4 \n= 1004 cycles \nNow, calculate the total execution time: \nTotal time = 1004 × 260 ns = 261040 ns \nConvert nanoseconds to microseconds: \n261040 ns = 261040 / 1000 = 261.04 μs \nTherefore, the total time required to process 1000 \ninstructions. is 261.04 microseconds.",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-2"
+      },
+      "digital-logic-topic-2-m2-q26": {
+        "type": "NAT",
+        "correct_option": 3,
+        "answer_key": "(D)",
+        "explanation": "Solution: \nLet w = 1, x = 1, y = 1, z = 1, then the value of f is \n1. \nConsider each statement: \nx'y'z' + w'x'y' + w'y'z + xz \n= 0·0·0 + 0·1·0 + 1·0·1 + 1·1 \n= 1 \nw'y'z' + wx'z'y' + xz \n= 0·0·0 + 1·0·0 + 1·1 \n= 1 \nw'y'z' + wx'y' + xyz + xy'z \n= 0·0·0 + 1·0·0 + 1·1·1 + 1·0·1 \n= 1 \nx'y'z' + wx'y' + w'y \n= 0·0·0 + 1·0·0 + 0·1 \n= 0 \nSo statement (d) is false because when w = 1, x = \n1, y = 1, z = 1 the value of f is 0. \n(d) does not contain the essential min-terms.",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "topic-2"
+      },
+      "operating-system-topic-2-m2-q14": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "Both processes can set their respective flags (varP and \nvarQ) to true and enter the critical section \nsimultaneously because each only checks the other’s \nflag before entering. This means  mutual exclusion is \nnot ensured, as both could be inside the critical \nsection at the same time. However, deadlock does not \noccur because neither process gets stuck  waiting \nindefinitely; at least one will always proceed.",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "topic-2"
+      },
+      "theory-of-computation-topic-2-m2-q32": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "(D)",
+        "explanation": "NDPA is more powerful than DPDA, so they are not \nequivalent. Actually, DPDA is a proper subset of NDPA.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "topic-2"
+      },
+      "computer-organization-and-architecture-topic-3-m3-q6": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- B",
+        "explanation": "we need 6 bits to represent registers \nwe need 6 bits to represent opcode (we have 50 \ndistinct types of instructions) \nwe have 32 bits instruction \nOPCODE REGISTER VALUE \n6 6 32-(6+6) \nVALUE = 32 - 12 = 20 \nMaximum 20 bits can be used to store immediate \noperand.",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-3"
+      },
+      "operating-system-arrays-and-strings-m1-q34": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "-  D",
+        "explanation": "Code segments can be shared by the threads. They \nhave only separate stacks and registers. \n User level threads are scheduled by the thread library \nand the kernel knows nothing about it. So,  A is \nTRUE.  \n When a user level thread is blocked, all other threads \nof its process are blocked. So,  B is TRUE. (With a \nmulti-threaded kernel, user level threads can make \nnon-blocking system calls without getting blocked. \nBut in this option, it is explicitly said 'a thread is \nblocked'.) \n Context switching between user level threads is faster \nas they actually have no context -switch- nothing is \nsaved and restored while for kernel level thread, \nRegisters, PC and SP must be saved and restored. \nSo, C is also TRUE.  \n Kernel level thr eads cannot share code segments, \nfalse. Kernel level threads within the same process \nshare data section, code section and other  operating \nsystem resources such as open files and signals.",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "arrays-and-strings"
+      },
+      "computer-organization-and-architecture-topic-6-m6-q10": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (6.1)",
+        "explanation": "𝐴𝑣𝑒𝑟𝑎𝑔𝑒 𝐷𝑖𝑠𝑘 𝑎𝑐𝑐𝑒𝑠𝑠 𝑡𝑖𝑚𝑒 𝑂𝑟 𝐴𝑣𝑔 𝑟𝑒𝑎𝑑/ \n𝑤𝑟𝑖𝑡𝑒 𝑡𝑖𝑚𝑒 = 𝐴𝑣𝑔 𝑆𝑒𝑒𝑘 𝑇𝑖𝑚𝑒(𝑆𝑇) + \n𝐴𝑣𝑔 𝑅𝑜𝑡𝑎𝑡𝑖𝑜𝑛 𝑇𝑖𝑚𝑒(𝑅) + \n𝐷𝑖𝑠𝑘 𝑇𝑟𝑎𝑛𝑓𝑒𝑟 𝑇𝑖𝑚𝑒(𝐷𝑇𝑇) + \n𝑂𝑣𝑒𝑟ℎ𝑒𝑎𝑑 (𝑖𝑓 𝑎𝑛𝑦 𝑔𝑖𝑣𝑒𝑛) \nGiven, \nDisk RPM = 15000 \ni.e. 15000 Rotation in 60 sec. \nIn 1 Rotation = 60 / 15000 sec × 1000 / 1000 \n1 Rotation = 4 msec \nAvg ST = 2 × Avg RT \n⇒ 2 × 2 = 4 msec \n<!-- PAGE 527 -->\nComputer Organization and Architecture \nAvg ST = 4 msec \nAvg Rotational Latency = 1/2 Rotation time \n⇒ 1/2 × 4 msec \nAvg Rotational Latency = 2 msec \nTransfer Rate = 50 × 106 Bytes/sec \n50 × 106 Byte — 1 sec \n1 Byte transfer time = 1 / (50 × 106) sec \nGiven 1 sector = 512 Bytes \n512 Byte transfer time = 512 / (50 × 10^6) \n= 10.24 × 10-6 \n= 0.01024 msec \nD.T.T = 0.01024 msec \nController time = 10 × 0.01024 msec \n= 0.1024 msec \nST + RL + DTT + overhead \n= 4 + 2 + 0.01024 + 0.1024 \n= 6.11264 msec ≈ 6.1 msec (Ans) \nTotal Time Required to 2000 sector = 2000 * \n7.01ms \n=14020 msec",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-6"
+      },
+      "c-programming-topic-3-m3-q30": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "Solution: \nY=0 \nfor (i=0; i < size ; i++ ) \nY=Y+E[i] ; // E is an array, this statement calculates \nthe sum of elements of the array E and stores it in Y. \nfor (i=0; i<size; i++) \nfor(j=i; j <size; j++) { \nZ=0; \nfor(k=i; k<=j; k++) \nZ=Z+E[k]; \nif(Z > Y ) \nY=Z; \n} \n// It calculates the sum of all possible subarrays \nstarting from 0 i.e., the loop will iterate for all the \nelements of array E and for every element, calculate \nsum of all sub arrays starting with E[i]. \nStore the current sum in Z. \nIf Z is greater than Y then update Y and return Y. So \nit returns the maximum possible sum of elements in \nany sub array of given array E",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "computer-organization-and-architecture-topic-2-m2-q18": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- (33 to 34)",
+        "explanation": "In an ideal pipeline, CPI = 1 \nSo, 1 instruction is completed in 1 cycle. \nThroughput = number of instructions completed \nper unit time. \nFor Pipeline 1: \nCycle time = maximum stage delay = 800 psec \nIn 800 psec, 1 instruction is completed \nTherefore, throughput of Pipeline 1 = 1/800 \ninstructions per psec \nFor Pipeline 2: \nCycle time = 600 psec \nThroughput of Pipeline 2 = 1/600 instructions per \npsec \nPercentage increase in throughput: \n= (New − Old / Old × 100 \n= (1/600 − 1/800) / (1/800) × 100 \n= (800 − 600) / 600 × 100 \n= 200/600 × 100 \n= 33.33%",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-2"
+      },
+      "operating-system-topic-2-m2-q21": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "I: True \nTest-and-set spinlock ensures that some process \nalways enters CS → deadlock-free. \nII: False \nSpinlock has no fairness → starvation possible. \nIII: False \nNo FIFO guarantee. \nIV: False \nTest-and-set ensures mutual exclusion.",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "topic-2"
+      },
+      "computer-organization-and-architecture-topic-3-m3-q1": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- D",
+        "explanation": "In load-store architecture, ALU operations work \nonly on registers, not directly on memory. \nSo: \nFirst load X and Y into registers \nPerform addition in registers \nStore result back to memory \nOption (d) follows this exactly: \nLOAD R0, X \nLOAD R1, Y \nADD R2, R0, R1 \nSTORE Z, R2",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-3"
+      },
+      "dbms-topic-2-m2-q4": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "A",
+        "explanation": "Explantion:-  Since it is a many to one relationship from \nE1 to E2, therefore: \n1. No entity in E1 can be related to more than one entity \nin E2. ( hence B is incorrect) \n2. An entity in E2 can be related to more than one entity \nin E1.(hence C and D are incorrect). \n Every entity in E1 is associated with exactly one entity in \nE2.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-2"
+      },
+      "c-programming-topic-3-m3-q36": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "The function works like Fibonacci using a pointer to \nstore the previous  value. \n Base case: \n If n ≤ 1, it sets *f_p = 1 and returns 1. \n For n > 1: \n It calls fun(n-1, f_p) and stores the result in t. \n Then it computes f = t + *f_p. \n<!-- PAGE 37 -->\nC PROGRAMMING \n After that, it updates *f_p = t. \n So each step uses the previous two values, similar to \nFibonacci. \n Now compute step by step: \n fun(1) = 1 \n fun(2) = 2 \n fun(3) = 3 \n fun(4) = 5 \n fun(5) = 8 \n So the program prints 8.(option-B)",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "algorithms-topic-6-m6-q3": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "(A)",
+        "explanation": "The objective of the algorithm is to check \nwhether the array is sorted or not, and it does so \nby making a single pass through the array. \nFor this the worst case will be when the array is \nalready sorted. \nSo, for this worst case, the algorithm has to \ntraverse the whole array and in doing so it will \ntake 𝑂(𝑛) time when specified in 𝑂(. ) notation \nor Ω(𝑛) time when specified in Ω(. ) notation.",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "topic-6"
+      },
+      "computer-organization-and-architecture-topic-5-m5-q50": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(A)",
+        "explanation": "Given address \n= 0C795H \nHex → Binary: \n0 = 0000 \nC = 1100 \n7 = 0111 \n9 = 1001 \n5 = 0101 \nSo, \n0C795H = 0000 1100 0111 1001 0101 (20 bits) \nStep 2: Split into TAG | SET | WORD \nStructure: \nTAG = first 9 bits \nSET = next 4 bits \nWORD = last 7 bits \nBinary: \n000011000 | 1111 | 0010101 \nStep 3: Extract TAG \nTAG = 000011000",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-5"
+      },
+      "theory-of-computation-topic-2-m2-q17": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "(C)",
+        "explanation": "L1 is regular. y can be expanded and w can also \nexpanded. \n<!-- PAGE 236 -->\nTHEORY OF COMPUTATION \nTHEORY OF COMPUTATION \nL1 = (0+1)+ 0 (0+1)+ 0 + (0+1)+ 1 (0+1)+ 1 \nL2 is CFL since it is equivalent to complement of \nL={ww where w belongs to (a+b)* } U { set of all odd \nlength strings strings }",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "topic-2"
+      },
+      "dbms-arrays-and-strings-m1-q39": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "Explanation :- \nA. True — BCNF is stricter than 3NF. \nB. True — A lossless and dependency-preserving \ndecomposition into 3NF is always possible. \nC. False — BCNF decomposition is always lossless, \nbut may not preserve dependencies. \nD. True — Any two-attribute relation is in BCNF. \nCorrect Answer: C",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "arrays-and-strings"
+      },
+      "operating-system-topic-2-m2-q16": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "The solution is using a binary semaphore. X and Y \nare two different processes, whatever the values \ninserted by the processes in the array that will be used \nby process Y afterwards. \n A. X is waiting on R and Y is waiting on X. So, both \ncannot proceed. \n B. Process  X is doing Signal  operation \non R and S without any wait and hence multiple \nsignal operations can happen on the binary semaphore \nso Process Y won't be able to get exactly n successful \nwait operations. i.e., Process  Y may not be able to \ncomplete all the iterations.  \n<!-- PAGE 328 -->\nOPERATING SYSTEMS \n C. Process X does Wait(S) followed by Signal(R) \nwhile Process  Y does Signal(S) followed by \nWait(R). So, this ensures that no two iterations of \neither XX or YY can proceed without an iteration \nof the other being executed in between. i.e., this \nensures that all  n iterations of  X and Y succeeds \nand hence the answer.  \n D. Process X does Signal(R) followed by Wait(S) \nwhile Process  Y does Signal(S) followed by \nWait(R). There is a problem here that X can do two \nSignal(R) operation without a Wait(R) being done \nin between by Y. This happens in the following \nscenario: \n Process Y: Does Signal (S); Wait(R) fails; goes to \nsleep. \n Process X: does Signal(R); Wait(S) succeeds; In \nnext iteration Signal(R) again happens; \n So, this can result in some Signal operations getting \nlost as  the semaphore is a binary one and thus \nProcess Y may not be able to complete all the \niterations. If we change the order of Signal(S) and \nWait(R) in EntryY, then (D) option also can work.",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "topic-2"
+      },
+      "theory-of-computation-topic-2-m2-q42": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "(B)",
+        "explanation": "S generate equal number of a and b, and one A which can \ngenerate zero or more number of b's",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "topic-2"
+      },
+      "dbms-arrays-and-strings-m1-q15": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "-D",
+        "explanation": "Explanation \nConsider a relation R(ABCD) and the functional \ndependencies as \nFDs:  \nAB → C \nBC → A \n(BD)+ = BD ✖ \n(ABD)+ = ABDC ✔ \n(CBD)+ = CBDA ✔ \nCandidate keys = {ABD, CBD} \n• The relation R is in 3NF, as there are no transitive \ndependencies. \n• The relation R is not in BCNF, because the left hand \nside of both the FD’s are not the Super keys. \n• In R, BC → A is a non -trivial FD and in which BC is \nnot a Super key and A is a prime attribute. \n       So, D is the correct answer.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "arrays-and-strings"
+      },
+      "algorithms-topic-7-m7-q9": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "C",
+        "explanation": "Let the number of element is \"K\", they can be \nsorted in θ(k log k) time We try \nthe options in decreasing order of complexity \nsince, we need a tight band i.e. \nθ.So if K ∈ (log n) time required for heap sort \nis θ(k log k) i.e. \nθ(log n × loglog n), But this is not in θ(log n)if \nθ(log n / (loglog n)) time \nrequired for heap sort ie. θ( (log n / (loglog n)) \n*log( (log n / (loglog n)) ) ) \n=θ (logn - (log n log log log n)/logn) = θ(logn) \n<!-- PAGE 150 -->\nALGORITHMS",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "topic-7"
+      },
+      "dbms-topic-2-m2-q1": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "A",
+        "explanation": "",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "topic-2"
+      },
+      "c-programming-topic-4-m4-q14": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "Static char var: \n⇾ A variable located in Data Section of memory \nm=malloc(10) \nm=Null \n⇾ A lost memory which cannot be freed (Free (m) is \nmission here) \nchar *ptr[10]; ⇾ Sequence of memory locations to \nstore address. \n(10 memory locations) \nregister int var1; ⇾ A Request to allocate a CPU \nregister to store data  \n(Register variable storage class). \nP→(ii), Q→(iv), R→(i), S→(iii)",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      },
+      "dbms-arrays-and-strings-m1-q40": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "-A",
+        "explanation": "Explanation :-First Normal Form \nA relation is in first normal form if every attribute in \nthat relation is singled valued attribute. \nSecond Normal Form \nA relation is in 2NF if it has No Partial Dependency, \ni.e., no non-prime attribute (attributes which are not \npart of any candidate key) is dependent on any proper \nsubset of any candidate key of the table. \nThis table has Partial Dependency f1->f3, f2-> f4 \ngiven (F1,F2) is Key \nSo answer is A",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "arrays-and-strings"
+      },
+      "theory-of-computation-topic-2-m2-q24": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "(D)",
+        "explanation": "Option 1: \nL₁ = {aᵖ | p is a prime number} \nPrime numbers do not have fixed pattern. So, it is not \npossible to solve it using pushdown automaton. So, L₁ \nis not context-free language. \nOption 2: \nL₂ = {aⁿbᵐc²ᵐ | n ≥ 0, m ≥ 0} \nIt can be solved easily using single stack. Comparison \nis done between b and c. We can make a pushdown \nautomaton for this. So, L₂ is context-free language. \nOption 3: \nL₃ = {aⁿbⁿc²ⁿ | n ≥ 0} \nFirst comparison is between a and b, then between b and \nc, therefore two stacks are required. \nSo, it is context -sensitive language. L₃ is recursive \nlanguage. \nOption 4: \nL₄ = {aⁿbⁿ | n ≥ 1} \nFirst push a into a stack then pop a for each b from the \nstack. The given language is accepted by DPDA",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "topic-2"
+      },
+      "operating-system-topic-2-m2-q5": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A,B, D",
+        "explanation": "A. Assume the processes execute sequentially with no \ninterleaving then after each process ends the counter \nvalue increments by 1, hence after 5 process 5 \nincrements to zero hence a counter value of \n5. Possible. \n B. Let’s assume that a process used 2 waits and reads \nthe counter value and didn’t update the value yet, all \nthe other process let’s say the other processes \nexecuted sequentially incremented and stored the \nvalue as 4 but since the value isn’t written the first \nprocess yet the current value is overwritten by the first \nprocess as 1. Possible \n C. There exists no pattern of execution in which the \nprocess increments the current value and completes \nwhile maintaining 0 as the counter value. Not possible \n D. Assume that all the process use up the first wait \noperation, the semaphore value will now become zero \nand deadlock would’ve occurred. Possibl \n<!-- PAGE 326 -->\nOPERATING SYSTEMS",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "topic-2"
+      },
+      "computer-organization-and-architecture-topic-5-m5-q35": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 20",
+        "explanation": "Number of sets = cache size / size of a set \nSize of a set = block size × number of blocks in a set \n= 8 words × 4 (4-way set-associative) \n= 8 × 4 × 4 (since a word is 32 bits = 4 bytes) \n= 128 bytes \nSo, number of sets = 16 KB / 128 B = 128 \nNow, we can divide the physical address space \nequally between these 128 sets. \nSo, the number of bytes each set can access = 4 GB \n/ 128 \n= 32 MB \n= 32 / 4 = 8 M words = 1 M blocks (220 blocks) \nSo, we need 20 tag bits to identify these 220 blocks.",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "topic-5"
+      },
+      "data-structures-topic-4-m4-q26": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- B",
+        "explanation": "Explanation: \nLet’s insert step-by-step into an empty BST. \nInsert 71 → root: 71 \nInsert 65 → 65 < 71 → left child of 71 \nInsert 84 → 84 > 71 → right child of 71 \nInsert 69 → 69 < 71, 69 > 65 → right child of 65 \nInsert 67 → 67 < 71, 67 < 65? Wait, 67 > 65, 67 < \n69 → left child of 69 \nInsert 83 → 83 > 71, 83 < 84 → left child of 84 \nTree : \nLevels: \nLevel 0: 71 \nLevel 1: 65, 84 \nLevel 2: 69, 83 \nLevel 3: 67 \nLowest level (level 3) has 67.",
+        "marks": 2,
+        "subject_slug": "data-structures",
+        "topic_slug": "topic-4"
+      },
+      "c-programming-topic-3-m3-q19": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "23",
+        "explanation": "Solution: \nThe function total(v) counts the number of set bits (1s) \nin the binary representation of v.  \nThe variable count is declared as static, so its value \npersists across multiple function calls. \nLoop runs for i = 5 to 1: \ntotal(5) → binary 101 → 2 set bits → count = 2  \ntotal(4) → binary 100 → 1 set bit → count = 3  \ntotal(3) → binary 011 → 2 set bits → count = 5  \ntotal(2) → binary 010 → 1 set bit → count = 6  \ntotal(1) → binary 001 → 1 set bit → count = 7  \nSince count is static, each call returns the cumulative \nvalue: \nReturns: 2, 3, 5, 6, 7  \nNow summing in main: \n𝑥 = 2 + 3 + 5 + 6 + 7 = 23",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "theory-of-computation-topic-3-m3-q10": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(A)",
+        "explanation": "The correct option is (a) 𝑓 is computable if and only if 𝐿𝑓 is \nrecursive. \nHere is the step by step mathematical proof for both \ndirections of the \"if and only if\" statement: \nDirection 1: If 𝑓 is computable, then 𝐿𝑓 is recursive ( ⇌ ) \nIf 𝑓 is a computable total function, there exists a Tu ring \nmachine 𝑀𝑓 that, when given an input 𝑥, is guaranteed to halt \nand leave 𝑓(𝑥) on its tape. We can construct a new decider \nTuring machine 𝑀𝐿 to decide the language 𝐿𝑓 = {𝑥# ∫  (𝑥) ∣\n𝑥 ∈ 𝐴∗} as follows: \n1. Parse the input: Given an arbitrary input string 𝑤, \ncheck if it contains exactly one # symbol. If it \ndoesn't, reject. \n2. Split the components: If it matches the format, \nsplit the string into the portion before the delimiter \n( 𝑥 ) and the portion after the delimiter ( 𝑦 ). So, \n𝑤 = 𝑥#𝑦. \n3. Simulate the funct ion: Run the computable \nmachine 𝑀𝑓 on the input substring 𝑥. Because 𝑓 is \na total computable function, 𝑀𝑓 is guaranteed to \nhalt and output 𝑓(𝑥). \n4. Compare results: Compare the output 𝑓(𝑥) with \nthe string 𝑦 from the input tape. \n If 𝑓(𝑥) == 𝑦, then accept. \n If 𝑓(𝑥) ≠ 𝑦, then reject. \nSince 𝑀𝑓 always halts, 𝑀𝐿 is guaranteed to always halt and \nmake a definitive decision for any input string. Therefore, 𝐿𝑓 \nis a recursive (decidable) language. \nDirection 2: If 𝐿𝑓 is recursive, then 𝑓 is computable ( ⇐ ) \nIf 𝐿𝑓 is recursive, there exists a decider Turing machine 𝑀𝐿 \nthat can always determine whether a string of the form 𝑥#𝑦 \nbelongs to 𝐿𝑓 or not. We can construct a Turing machine \n𝑀𝑓 to compute the function 𝑓(𝑥) for any given i nput 𝑥 ∈\n𝐴∗ : \n1. Generate candidate strings: Since the alphabet 𝐵 is finite, we \ncan systematically generate all possible strings over 𝐵∗ \nin lexicographical order: 𝜖, 𝑏1, 𝑏2, … \n2. Test each candidate: For each generated string 𝑦 ∈ 𝐵∗, \nconstruct the combined string 𝑥#𝑦. \n3. Run the decider: Feed the string 𝑥#𝑦 into the decider 𝑀𝐿. \n Since 𝑀𝐿 is a decider, it will always halt and either accept \nor reject. \n If 𝑀𝐿 rejects, move to the next lexicographical string in 𝐵∗. \n If 𝑀𝐿 accepts, it means 𝑦 = 𝑓(𝑥). Stop the search, clear \nthe tape, leave 𝑦 on the tape, and halt. \nBecause 𝑓 is a total function, a valid output string 𝑦 = 𝑓(𝑥) is \nguaranteed to exist somewhere in the lexicographical \nenumeration. Thus, 𝑀𝑓 will eventually find it, output it, and halt. \nThis proves that 𝑓 is computable.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "topic-3"
+      }
+    },
+    "questionCount": 65
+  },
+  "9e3774e1-d9bb-4644-872e-39204d1c26c6": {
+    "testId": "9e3774e1-d9bb-4644-872e-39204d1c26c6",
+    "testTitle": "GATE C PROGRAMMING Practice Test",
+    "mode": "subject",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794331129363,
+    "durationMinutes": 15,
+    "totalMarks": 10,
+    "answerKeyMap": {
+      "c-programming-topic-4-m4-q13": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "Initial: \nstr1 = \"Hi\", str2 = \"Bye\" \n<!-- PAGE 48 -->\nC PROGRAMMING \nCall fun1(str1, str2) \nfun1 gets copies of the pointers. Swapping s1 and s2 \nlocally doesn’t change str1 and str2 in main. \nSo after fun1: str1 still points to \"Hi\", str2 still points \nto \"Bye\". \nFirst printf: Hi Bye \nCall fun2(&str1, &str2) \nfun2 r eceives pointers to str1 and str2 (double \npointers). \ntmp = *s1 → tmp points to \"Hi\" \n*s1 = *s2 → str1 now points to \"Bye\" \n*s2 = tmp → str2 now points to \"Hi\" \nSo after fun2: str1 = \"Bye\", str2 = \"Hi\" \nSecond printf: Bye Hi \nFinal output: Hi ByeBye Hi (no space between the two \nprints in the code) \nAnswer: Hi ByeBye Hi",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      },
+      "c-programming-c-programming-m1-q2": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "(0 to 0)",
+        "explanation": "Solution: \n1. int m = 10; \no m = 10 \n2. 𝑛 = + + 𝑚; \n Pre-increment ( ++m ): m is incremented first, \nchanging from 10 to 11 . \n The updated value ( 11 ) is then assigned to 𝑛. \n Current State: m = 11, n = 11 \n3. n1 = m + +; \n Post-increment ( m + + ): The current value of \nm(11) is assigned to n 1 first. \n After assignment, m is incremented from 11 to 12 . \n Current State: m = 12, n = 11, n1 = 11 \n4. n--; \n n is decremented by 1 . \n Current State: 𝑛 = 10 \n5. --n1; \n n1 is decremented by 1 . \n Current State: n1 = 10 \n6. n -= n1; \n This is equivalent to 𝑛 = 𝑛 − 𝑛1. \n 𝑛 = 10 − 10 = 0 \n Current State: n = 0 \n7. printf(\"%d\", n); \n Prints the final value of 𝑛, which is 𝟎.",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "c-programming"
+      },
+      "c-programming-topic-3-m3-q27": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "- (D)",
+        "explanation": "Solution: \nStep-by-step: \nfoo(\"ABCD EFGH\") → *a = 'A' → call foo(\"BCD \nEFGH\") \nfoo(\"BCD EFGH\") → *a = 'B' → call foo(\"CD \nEFGH\") \nfoo(\"CD EFGH\") → *a = 'C' → call foo(\"D EFGH\") \nfoo(\"D EFGH\") → *a = 'D' → call foo(\" EFGH\") \nfoo(\" EFGH\") → *a = ' ' → condition fails → return \nNow unwinding: \nStep 4: putchar('D') → prints D \nStep 3: putchar('C') → prints C \nStep 2: putchar('B') → prints B \nStep 1: putchar('A') → prints A \nOutput: DCBA \nAnswer: DCBA",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-4-m4-q24": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "p is the starting address of array. \nLet consider p address is 100 and p[3] point to A in \narray and ASCII value of A is 65 and E is 69 so \ndifference of there is 4. \np[3] - p[1] = 4, and p+4 will be pointing to the fifth \nposition in the array 'c'. So printf starts printing from 2 \nand prints 2011",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      },
+      "c-programming-topic-3-m3-q35": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "- (D)",
+        "explanation": "Step 1: \nf(&i, &j) call: \np points to i, q points to j. \np = q → p now points to j. \n*p = 2 → changes j to 2. \nStep 2: \ni remains 0, j becomes 2. \nOutput: 0 2(option -D)",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      }
+    },
+    "questionCount": 5
+  },
+  "1ac693eb-0ca7-4e8a-ab3a-eab2a8581209": {
+    "testId": "1ac693eb-0ca7-4e8a-ab3a-eab2a8581209",
+    "testTitle": "GATE C PROGRAMMING Practice Test",
+    "mode": "subject",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794331129383,
+    "durationMinutes": 15,
+    "totalMarks": 6,
+    "answerKeyMap": {
+      "c-programming-topic-4-m4-q21": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 140",
+        "explanation": "Initial arrays: \na[] = {10, 20, 30, 40, 50} \np[] = {a, a+3, a+4, a+1, a+2} \nThat means: \np[0] = &a[0] → 10 \np[1] = &a[3] → 40 \np[2] = &a[4] → 50 \np[3] = &a[1] → 20 \np[4] = &a[2] → 30 \nptr = p → ptr points to p[0] \nStep: ptr++ \nptr now points to p[1] \nptr - p \n= (address of p[1] - address of p[0]) in units of int* \n= 1 \n**ptr \n*ptr = p[1] = a+3 → points to a[3] = 40 \nSo **ptr = 40 \nOutput: 1 and 40 → 140",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      },
+      "c-programming-topic-3-m3-q1": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "P1 \n int a = 5; // global \n int main() { \n int a = 7; // local \n } \n Local variable a hides the global a. \n This is allowed in C. \n So P1 compiles. \n P2 \n int main() { \n int a = 5; \n int a = 7; \n } \n Here both declarations are in the same scope. \n You cannot declare the same variable twice in the \nsame block. \n So this gives a compilation error. \n P3 \n int main() { \n int a = 5; \n float a = 7; \n } \n Again, two variables with the same name in the same \nscope. \n This is also a compilation error. \n Therefore, only P1 compiles without error. \n Correct answer:  (A) Only P1 will compile without \nany error",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-3-m3-q5": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "5",
+        "explanation": "1    S[0]! = S[1]: The code looks at two \nneighboring numbers. \n2.     1 + foo( . . . ) : If the neighbors are different, \nit means a block has ended, so it adds 1 to the \ncount. \n3 foo( . . . ) : If the neighbors are the same, it \nmeans we are still inside the same block, so it \nskips adding anything. \n4 if(size == 1) return 1; : When it hits the very last \nelement, it always adds a final 1 to account for the \nlast remaining block. \n Visualizing the Array Blocks \nInstead of tracing the function frames, break \nthe array A into visual blocks of consecutive \nmatching numbers: \n Block 1 → ([0]) \n Block 2 → ([1]) \n Block 3 → ([2,2,2]) \n Block 4 → ([0,0]) \n Block 5 → ([1,1]) \nEvery time the array transitions to a new number, the \ncode records it. \nTransitions \n Transition from 0 to 1 → +1 \n Transition from 1 to 2 → +1 \n Transition from 2 to 0 → +1 \n Transition from 0 to 1 → +1 \n Final element base case → +1 \nTotal Output \n1 + 1 + 1 + 1 + 1 = 5 \nTherefore, the output of the program is 5.",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      }
+    },
+    "questionCount": 3
+  },
+  "wiped-test-uuid-1794331129396": {
+    "testId": "wiped-test-uuid-1794331129396",
+    "testTitle": "GATE C PROGRAMMING Practice Test",
+    "mode": "subject",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794331129467,
+    "durationMinutes": 180,
+    "totalMarks": 6,
+    "answerKeyMap": {
+      "c-programming-topic-4-m4-q21": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 140",
+        "explanation": "Initial arrays: \na[] = {10, 20, 30, 40, 50} \np[] = {a, a+3, a+4, a+1, a+2} \nThat means: \np[0] = &a[0] → 10 \np[1] = &a[3] → 40 \np[2] = &a[4] → 50 \np[3] = &a[1] → 20 \np[4] = &a[2] → 30 \nptr = p → ptr points to p[0] \nStep: ptr++ \nptr now points to p[1] \nptr - p \n= (address of p[1] - address of p[0]) in units of int* \n= 1 \n**ptr \n*ptr = p[1] = a+3 → points to a[3] = 40 \nSo **ptr = 40 \nOutput: 1 and 40 → 140",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-4"
+      },
+      "c-programming-topic-3-m3-q1": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "P1 \n int a = 5; // global \n int main() { \n int a = 7; // local \n } \n Local variable a hides the global a. \n This is allowed in C. \n So P1 compiles. \n P2 \n int main() { \n int a = 5; \n int a = 7; \n } \n Here both declarations are in the same scope. \n You cannot declare the same variable twice in the \nsame block. \n So this gives a compilation error. \n P3 \n int main() { \n int a = 5; \n float a = 7; \n } \n Again, two variables with the same name in the same \nscope. \n This is also a compilation error. \n Therefore, only P1 compiles without error. \n Correct answer:  (A) Only P1 will compile without \nany error",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      },
+      "c-programming-topic-3-m3-q5": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "5",
+        "explanation": "1    S[0]! = S[1]: The code looks at two \nneighboring numbers. \n2.     1 + foo( . . . ) : If the neighbors are different, \nit means a block has ended, so it adds 1 to the \ncount. \n3 foo( . . . ) : If the neighbors are the same, it \nmeans we are still inside the same block, so it \nskips adding anything. \n4 if(size == 1) return 1; : When it hits the very last \nelement, it always adds a final 1 to account for the \nlast remaining block. \n Visualizing the Array Blocks \nInstead of tracing the function frames, break \nthe array A into visual blocks of consecutive \nmatching numbers: \n Block 1 → ([0]) \n Block 2 → ([1]) \n Block 3 → ([2,2,2]) \n Block 4 → ([0,0]) \n Block 5 → ([1,1]) \nEvery time the array transitions to a new number, the \ncode records it. \nTransitions \n Transition from 0 to 1 → +1 \n Transition from 1 to 2 → +1 \n Transition from 2 to 0 → +1 \n Transition from 0 to 1 → +1 \n Final element base case → +1 \nTotal Output \n1 + 1 + 1 + 1 + 1 = 5 \nTherefore, the output of the program is 5.",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "topic-3"
+      }
+    },
+    "questionCount": 3
   }
 }
