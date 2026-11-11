@@ -7,6 +7,29 @@ const { cleanText, cleanOption } = require('../scripts/clean_pyq_options');
 
 let cachedPyqs = null;
 
+/**
+ * Robustly determines whether a question is MCQ or NAT.
+ *
+ * Rules (in priority order):
+ *  1. If options array has ≥ 2 entries → always MCQ (options are definitive).
+ *  2. If answer_key contains a letter pattern like (A)/(B)/(C)/(D) → MCQ.
+ *  3. If the stored type field is explicitly "MCQ" or "NAT" → trust it.
+ *  4. Fall back to NAT (genuine numerical answer).
+ */
+function resolveQuestionType(q) {
+  // Rule 1: has options → MCQ
+  if (Array.isArray(q.options) && q.options.length >= 2) return 'MCQ';
+
+  // Rule 2: answer_key is letter-based → MCQ
+  if (q.answer_key && /\(\s*[A-D]\s*\)/.test(q.answer_key)) return 'MCQ';
+
+  // Rule 3: trust explicit type tag
+  if (q.type === 'MCQ' || q.type === 'NAT') return q.type;
+
+  // Rule 4: default NAT
+  return 'NAT';
+}
+
 function loadPyqs() {
   if (cachedPyqs) return cachedPyqs;
   const jsonPath = path.resolve(__dirname, '..', 'pyqs', 'gate_pyqs_database.json');
@@ -206,7 +229,7 @@ function generateMockTest({
     const marks = Number(q.marks) || 2;
     totalMarks += marks;
     const qKey = q.id || `q-${idx}`;
-    const qType = q.type || (Array.isArray(q.options) && q.options.length >= 2 ? "MCQ" : "NAT");
+    const qType = resolveQuestionType(q);
 
     answerKeyMap[qKey] = {
       type: qType,
@@ -288,7 +311,7 @@ function submitMockTest({ testId, answers = {}, questionIds = [], mode: fallback
           validCount++;
           const marks = Number(q.marks) || 2;
           totalMarks += marks;
-          const qType = q.type || (Array.isArray(q.options) && q.options.length >= 2 ? "MCQ" : "NAT");
+          const qType = resolveQuestionType(q);
           answerKeyMap[qId] = {
             type: qType,
             correct_option: q.correct_option,
@@ -335,7 +358,7 @@ function submitMockTest({ testId, answers = {}, questionIds = [], mode: fallback
 
   for (const [qId, keyInfo] of Object.entries(answerKeyMap)) {
     const userAnswer = answers[qId];
-    const isNat = keyInfo.type === 'NAT' || (!keyInfo.correct_option && keyInfo.answer_key);
+    const isNat = keyInfo.type === 'NAT';
     const marks = keyInfo.marks || 2;
     let marksAwarded = 0;
     let isAttempted = false;

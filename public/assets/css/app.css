@@ -1,6 +1,6 @@
 /* ==========================================================================
    GATEPrep - World-Class Professional UI/UX Design System
-   Theme: Executive Multi-Color SaaS Palette (Indigo, Sky Blue, Violet, Amber & Rose)
+   Theme: Executive Multi-Color SaaS Palette (Indigo, Red, Violet, Amber & Rose)
    Modern Multi-Color Plates & High-Performance Typography
    Optimized for Desktop, Tablet & Mobile (Android/iOS)
    Includes NVIDIA AI PYQ Generator & 24/7 AI Doubt Solver
@@ -22,9 +22,9 @@
   --brand-gradient: linear-gradient(135deg, #312e81 0%, #4f46e5 50%, #6366f1 100%);
 
   /* Multi-Color Professional SaaS Palette */
-  --palette-blue: #0284c7;
-  --palette-blue-light: #f0f9ff;
-  --palette-blue-border: #bae6fd;
+  --palette-blue: #e53935;
+  --palette-blue-light: #fff5f5;
+  --palette-blue-border: #ffcdd2;
   
   --palette-indigo: #4f46e5;
   --palette-indigo-light: #eef2ff;
@@ -58,7 +58,7 @@
   --ai-amber-light: #fffbeb;
   --ai-amber-border: #fde68a;
 
-  --ai-gradient: linear-gradient(135deg, #4f46e5 0%, #7c3aed 55%, #0284c7 100%);
+  --ai-gradient: linear-gradient(135deg, #4f46e5 0%, #7c3aed 55%, #e53935 100%);
   --ai-gradient-warm: linear-gradient(135deg, #312e81 0%, #4f46e5 50%, #d97706 100%);
   --ai-glow: rgba(79, 70, 229, 0.25);
 
@@ -90,10 +90,10 @@
   --warning-border: #fde68a;
   --warning-text: #78350f;
 
-  --info: #0284c7;
-  --info-light: #f0f9ff;
-  --info-border: #bae6fd;
-  --info-text: #0369a1;
+  --info: #e53935;
+  --info-light: #fff5f5;
+  --info-border: #ffcdd2;
+  --info-text: #b71c1c;
 
   /* Multi-Layer High-End Elevations & Shadows */
   --shadow-xs: 0 1px 2px 0 rgba(15, 23, 42, 0.04);
@@ -383,7 +383,7 @@ button {
   font-size: 20px;
   font-weight: 800;
   letter-spacing: -0.025em;
-  background: linear-gradient(135deg, #312e81 0%, #4f46e5 60%, #0284c7 100%);
+  background: linear-gradient(135deg, #312e81 0%, #4f46e5 60%, #e53935 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -4789,10 +4789,10 @@ tbody tr:hover td {
   display: flex;
   align-items: center;
   gap: 6px;
-  background: #f0f9ff;
+  background: #fff5f5;
   padding: 7px 12px;
   border-radius: 6px;
-  border-left: 3.5px solid #0284c7;
+  border-left: 3.5px solid #e53935;
 }
 
 .solution-body ul {
