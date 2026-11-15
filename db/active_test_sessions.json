@@ -7680,5 +7680,741 @@
       }
     },
     "questionCount": 3
+  },
+  "c14bc955-8875-4703-869f-4955c5413340": {
+    "testId": "c14bc955-8875-4703-869f-4955c5413340",
+    "testTitle": "GATE CSE Full-Length Authentic Mock Test",
+    "mode": "full_gate",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794760137211,
+    "durationMinutes": 180,
+    "totalMarks": 130,
+    "answerKeyMap": {
+      "general-aptitude-topic-3-m3-q33": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "The passage states that begging is a symptom caused \nby failure of the state’s social security system. This \nimplies lack of welfare schemes leads to begging.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "reading-comprehension"
+      },
+      "general-aptitude-arrays-and-strings-m1-q59": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "αn + βn\nα−n + β−n\n= αn + βn\n( 1αn + 1βn)\n= αn + βn\n(αn + βnαnβn )\n= (αβ)n\n=4n\n as product of roots, αβ = 4 \nCorrect Answer: B",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "numerical-calculation"
+      },
+      "general-aptitude-arrays-and-strings-m1-q3": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "HK(S)=max(S−K,0) → starts from S=K, slope = 1 \n From Graph: \n● N(S)=0 for S<10 \n● Linear increase from 10 to 20 \n● Constant (=10) after S=20 \n So it behaves like: \n● Starts at 10 → use H10(S) \n● Stops increasing after 20 → subtract H20(S) \n Final Expression:N(S)=H10(S)−H20(S)",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "numerical-calculation"
+      },
+      "general-aptitude-arrays-and-strings-m1-q39": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "- (C)",
+        "explanation": "Total expenditure during each year = 500 \nmillion rupees \nTotal expenditure for 5 years = 500 × 5 =\n2500 million rupees \n Revenue in 2014 = 500 million rupees \n Revenue in 2015 = 700 million rupees \n Revenue in 2016 = 800 million rupees \n Revenue in 2017 = 600 million rupees \n Revenue in 2018 = 400 million rupees \nTotal revenue = 500 + 700 + 800 + 600 +\n400 = 3000 million rupees \nProfit = 3000 − 2500 = 500 million rupees \nProfit percentage = (\n2500) × 100 = 20%.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "percentages-and-ratios"
+      },
+      "general-aptitude-topic-2-m2-q17": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "The following statements can be easily understood \nwith the Venn diagram \n Statement 1:  All students are inquisitive. \n Statement 2: Some students are inquisitive. \n Statement 3: No student is inquisitive. \n Statement 4: Some students are not inquisitive. \n From the above diagram, it is clear that Statement 1 \nand Statement 3 are conflicting statements and both \ncannot be true at a time.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "numerical-calculation"
+      },
+      "general-aptitude-arrays-and-strings-m1-q53": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "Check x = 1: \n f(1) = 2 + 3 − 5 = 0   \n<!-- PAGE 712 -->\nGENERAL APTITUDE  \n Hence (x − 1) is a factor.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "numerical-calculation"
+      },
+      "general-aptitude-arrays-and-strings-m1-q14": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "Let's consider p1=2 and p2=3 as two prime \nnumbers \n p1+p2=5 is a prime number. Hence, Option (A) is \nincorrect. \n p1p2=6 is not a prime number. Hence, Option (B) \nis correct. \n p1+p2+1=6 is not a prime number. Hence, Option \n(C) is incorrect. \n p1p2+1=7 is a prime number in this case but it not \nvalid for all prime numbers. Take, p1=5 and p2=7 \nthen, p1p2+1=36 which is not prime. Hence, \nOption (D) is incorrect.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "numerical-calculation"
+      },
+      "general-aptitude-arrays-and-strings-m1-q90": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "Given Data \n● Current Cost (C): Rs. 13,200 \n● Wage Increase: 1/5 of current wages. \n● Working Hours Decrease: 1/24 of the current \nperiod. \n<!-- PAGE 717 -->\nGENERAL APTITUDE  \n 1. Define the Relationship \n The total cost of erection is generally the product \nof the wage rate and the time (duration) spent on \nthe project: \n Cost = Wage X Time \n 2. Determine the New Scaling Factors \n Let the original wage be W and the original time \nperiod be T. \n● New Wage (W_new): \nW_new = W + 1/5W = 6/5W \n● New Time (T_new): \nT_new = T - 1/24T = 23/24T \n 3. Calculate the New Cost (C_2) \n We can express the new cost as a ratio of the old \ncost: \nC2 = Wnew × Tnew \nC2 = (65 W) × (2324 T)\nC2 = (65 × 2324) × (W × T)\n Since the original cost (W  X T) = 13,200 \n C_2 = 6/5 X 23/24 X 13,200 \n 4. Simplify and Solve \nFirst, simplify the fraction \n24 to \n4 : \nC2 = 15 × 234 × 13,200\nC2 = 2320 × 13,200  \nDivide 13, 200 by 20 : \nC2 = 23 × 660\nC2 = 15,180  \n Final Result \n The new cost of erection is Rs. 15,180.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "time-and-work"
+      },
+      "general-aptitude-arrays-and-strings-m1-q9": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "- (C)",
+        "explanation": "The difference in average is 31.4 − 30.8 = 0.6 \n The total correction was 42 − 24 = 18 \n So, number of students = 18 ÷ 0.6 = 30 \n So, the correct answer is C.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "averages"
+      },
+      "general-aptitude-arrays-and-strings-m1-q92": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "To find maximum height, differentiate  \n y = 2x − 0.1x² and set dy/dx = 0. \n So 2 − 0.2x = 0, giving x = 10.  \n Substituting back, y = 2(10) − 0.1(100) = 20 − 10 = \n10 meters.",
+        "marks": 2,
+        "subject_slug": "general-aptitude",
+        "topic_slug": "numerical-calculation"
+      },
+      "digital-logic-topic-4-m4-q15": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "(C)",
+        "explanation": "Solution:",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "flip-flops"
+      },
+      "theory-of-computation-theory-of-computation-m1-q22": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "6",
+        "explanation": "6 \nDFA 1 : No. of a’s divisible by 2. \n  \n \n \n DFA 2: No. of a’s not divisible by 3. \n \n  \n \nUsing product automata",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "finite-automata"
+      },
+      "engineering-mathematics-topic-2-m2-q10": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "-  A",
+        "explanation": "g(h(x)) = g(x/(x-1)) = 1 - x/(x-1) = -1/(x-1) \nh(g(x)) = h(1-x) = (1-x)/((1-x) - 1) = -(1-x)/x \ng(h(x)) / h(g(x))  = [-1/(x-1)] / [-(1-x)/x] \n                  = -x/(x-1)2 \nTherefore: -x/(x-1)2 is same as h(x) / g(x).",
+        "marks": 2,
+        "subject_slug": "engineering-mathematics",
+        "topic_slug": "linear-algebra"
+      },
+      "theory-of-computation-topic-2-m2-q32": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "(D)",
+        "explanation": "NDPA is more powerful than DPDA, so they are not \nequivalent. Actually, DPDA is a proper subset of NDPA.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "finite-automata"
+      },
+      "operating-system-topic-4-m4-q48": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "1.  Multi-user support requires isolation: \n Virtual memory ensures process isolation, \npreventing one user/process from accessing \nanother's memory \n Without virtual memory, mernory isolation \nmust rely entirely on physical address \nsegmentation, which is less flexible and error-\nprone. \n2. Security Risks: \n No virtual memory = no memory protection \nmechanisms (like page permissions or \nprotected address spaces) \nOther Options Analysis: \n Option B: Cache efficiency doesn't inherently \ndepend on the presence/absence of virtual \nmemory. \n Option C: Hardware support is still required \n(e.g., for segmentation or direct memory \naccess). \n Option D: CPU scheduling is unrelated to \nvirtual memory",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "memory-management"
+      },
+      "compiler-design-topic-2-m2-q27": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- D",
+        "explanation": "< is not possible to read from the given set of items, \nso no conflict. \n so, we need (n − 1) reductions in total.",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "compiler-phases"
+      },
+      "theory-of-computation-topic-2-m2-q39": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(A)",
+        "explanation": "Regular expression for G1: (x+z)++(x+z)*y(y+z)+ \nRegular expression for G2: (y+z+xy)+",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "finite-automata"
+      },
+      "compiler-design-topic-4-m4-q4": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (6)",
+        "explanation": "Basic block is a sequence of consecutive statements \nin which the control enters at the beginning and \nleaves only at the end without any branching (or) \nhalting except at the end.. \n 1. Identify leader (1st statement of a basic block) \n●     First statement of a program is a leader. \n●     Target of goto is a leader. \n●     Next statement after goto is a leader. \n 2. Group a leader statement with all the consecutive \nstatements upto but not inclu eding the next leader \nof a basic block. \nBasic Block Instructions \nB1 1001 \nB2 1002 \nB3 1003 →1004 →1005→ \n1006→ 1007 →1008 \n→1009 \nB4 1010→ 1011 \nB5 1012 \nB6 1013→ 1014→ 1015→ \n1016→ 1017",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "compiler-phases"
+      },
+      "compiler-design-topic-4-m4-q14": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "15. ANSWER:- (8)  \n We will need one temporary variable for storing the \nresult of every binary operation as Static Single \nAssignment implies the variable cannot be repeated \non left hand side of assignment. \n  The given expression: \n q+r/3+s−t∗5+u∗v/w \n t1=r/3; \n t2=t∗5; \n t3=u∗v; \n t4=t3/w; \n t5=q+t1; \n t6=t5+s; \n t7=t6−t2; \n t8=t7+t4; \n So in total we need 8 temporary variables. If it was \nnot mentioned as a static single assignment then the \nanswer would have been 3 because we can re -use \nthe same temporary variable several times.",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "intermediate-code-generation"
+      },
+      "compiler-design-topic-2-m2-q4": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C,D",
+        "explanation": "A grammar is not LL(1) iff: \n● It is an ambiguous grammar \n● It is left-recursive \n● It has common prefixes \n Both the grammars G₁ and G₂ have common prefixes \nlike \"if E then S\" and \"if E then\", as well as ambiguity \ndue to the dangling else problem. \n So, the given grammars G₁ and G₂ are not LL(1) and \nambiguous.",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "compiler-phases"
+      },
+      "compiler-design-topic-2-m2-q33": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- B",
+        "explanation": "7 ↓ 3 ↑ 4 ↑ 3 ↓ 2 \n ⇒ 7 ↓ (3 ↑ (4 ↑ 3)) ↓ 2 \n ⇒ 7 ↓ (3 ↑ (4 ↑ 3))) ↓ 2 as ↓ is left associative",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "compiler-phases"
+      },
+      "compiler-design-topic-2-m2-q13": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 7",
+        "explanation": "14. ANSWER:- 5 \n I0 = CLOSURE ({[S' → ·S]}) \n Hence, the set GOTO (I0 , 〈 ) has 5 items",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "syntax-analysis-and-parsing"
+      },
+      "digital-logic-topic-4-m4-q8": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "(2)",
+        "explanation": "Solution: State Table     \nQ1 Q0 in D1 D0 Q1N Q0N \n0 0 0 0 0 0 0 \n0 0 1 0 1 0 1 \n0 1 0 1 0 1 0 \n0 1 1 1 1 1 1 \n1 0 0 0 0 0 0 \n1 0 1 0 1 0 1 \n1 1 0 1 0 1 0 \n1 1 1 1 1 1 1",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "boolean-algebra"
+      },
+      "compiler-design-topic-4-m4-q15": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "8",
+        "explanation": "",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "compiler-phases"
+      },
+      "compiler-design-topic-4-m4-q19": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "Consider a 3-D array: arr[i][j][k] \n Arr[0][1][2], this 3-D array contains \n One 2- dimensional array as i value is zero  ( if i =1 \nthen it has 2, two D array ), & the two dimension array \nhas 2 rows and 3 columns. \n So, In a 3 -D array, I represent the number of 2D \narrays, j represents the number of rows and k \nrepresents the number of columns. \n Number of 2 D array (M)=1 \n Number of rows (R)=2 \n Number of Columns (C)=3 \n As arrays are stored in row major order, so this 2 \ndimension array will be stored as: \n<!-- PAGE 290 -->\nCOMPILER DESIGN \n Assume the base address of Arr is 1000. The \naddress of required position is calculated as: \n Arr[i][j][k]= Arr+ [i*(R*C)+(j*C)+k]*4 // \nmultiplication to 4 is due to int taking 4 Bytes. \n Arr[0][1][1] = 1000 + [0*(2*3) + (1*3) + 1]*4 \n = 1000 + [0 + 3 + 1 ] * 4 \n = 1000 + 4 * 4 = 1016 \n As you can see, in the given example of row order \nstoring the array also has the address of \nArr[0][1][1] is 1016. \n Now coming to the question: \n X [ i ][ j ][ k ] is calculated by 3 address code X[t4] \n X [ i ][ j ][ k ] = X [ t4 ] // by substituting in reverse \n =X [ t3 + t2] \n =X [ t1 + t0 + k*4] \n =X [ t0 + t1 + k*4] // t0 and t1 swapped as swapping \ndoesn't have any impact \n =X [ i*1024 + j*32 + k*4] \n =X [ i*256 + j*8 +k] *4 // taking 4 (common) \noutside \n = X [ i*(32*8)+ (j*8) +k] *4 \n By comparing the above line with ....... \nArr[i][j][k]= Arr+ [i*(R*C)+(j*C)+k]*4 \n We get R=32, C=8 \n It means that the declared array has 32 rows and 8 \ncolumns and since multiplication by 4 (common \noutside) so it was declared as INT. \n But how many 2D arrays in this 3D array, we don't \nknow.",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "intermediate-code-generation"
+      },
+      "compiler-design-topic-2-m2-q28": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- B",
+        "explanation": "In production: T ⟶ T * U, since T is left recursive, \nhence * is left associative. \n          P ⟶ Q + P, here P is right recursive, so + is right \nassociative.",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "compiler-phases"
+      },
+      "compiler-design-topic-3-m3-q4": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- B,D",
+        "explanation": "A. An attribute grammar is an SDD in which the \nfunctions in the semantic rules have no side \neffects (TRUE) \nBy definition, an Attribute Grammar is a \nformal way to define attributes for the \nsymbols of a grammar. It is a subset of Syntax-\nDirected Definitions (SDDs) where the rules \nare purely functional and do not produce side \neffects (like printing a value or updating a \nglobal table) outside of calculating the \nattribute values. \nB. The attributes in an L -attributed definition \ncannot always be evaluated in a depth -first \norder (FALSE) \nL-attributed definitions are specifically \ndesigned so that they can always be evaluated \nin a depth-first, left-to-right manner. In an L -\nattributed SDD, an attribute of a node can \ndepend on: \nAttributes of its parent node (Inherited). \nAttributes of its siblings to its left (Inherited). \nIts own attributes (Synthesized). Because of \nthis \"left-to-right\" dependency, a standard \ndepth-first traversal (specifically a pre -order \nor post -order traversal depending on the \nattribute type) always works. \nC.  Synthesized attributes can be evaluated by a \nbottom-up parser as the input is parsed \n(TRUE) \nSynthesized attributes (like in S -attributed \ndefinitions) depend only on the children of a \nnode. Since a bottom -up parser (like LR) \nworks by \"reducing\" children into a parent, it \ncan calculate these attributes exactly at the \nmoment of reduction. This is why S-attributed \ndefinitions are highly compatible with \nYacc/Bison tools. \nD. All L -attributed definitions based on LR(1) \ngrammar can be evaluated using a bottom -up \nparsing strategy (FALSE) \n This is a common trap. While all L -\nattributed definitions can be evaluated in a \n<!-- PAGE 277 -->\nCOMPILER DESIGN \ntop-down (LL) parser, they cannot all be \nevaluated during bottom -up parsing. \nBottom-up parsers struggle with inherited \nattributes because the parent or left-siblings \nmight not be fully \"reduced\" or known when \na specific action needs to be taken. Only a \nspecific subset of SDDs (like S-attributed or \nspecialized L-attributed translations) can be \nhandled easily in a single -pass bottom -up \nparse.",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "compiler-phases"
+      },
+      "compiler-design-topic-4-m4-q21": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "A normal DAG construction will give 8 nodes and \n10 edges as shown below. \n Since, this question asks for minimum possible, we \ncan assume algebraic simplification is allowed. So, d \n= b + c, e = d − b; can be simplified to d = b + c; e = \nc; Similarly, e = d − b; a = e + b; can be simplified to \na = d. This gives the following DAG with 6 nodes and \n6 edges.",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "intermediate-code-generation"
+      },
+      "theory-of-computation-topic-2-m2-q36": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "(C)",
+        "explanation": "h- strings generated by this grammar satisfies the \ndefinition of an even length palindrome string. \nE-R is true because R is the only grammar that checks: \nwhat (w) has occurred earlier is present afterwards. \nThis equals the definition of E",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "finite-automata"
+      },
+      "data-structures-topic-4-m4-q14": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- 4.24 - 4.26",
+        "explanation": "Explanation: \nTwo leaf nodes can be selected in 8*8 = 64 ways \nNo. of pairs with path length 08. (When a = b ) \nNo. of pairs with path length 28. (For each of the 8 \nleaf nodes, we have a pair and since the selection is \nindependent order of the pair is also significant) \nNo. of pairs with path length 416. (For each leaf \nnode we have to go two levels up and while coming \ndown we have 2 choices. So, we get 8 * 2 = 16 \npairs) \nNo. of pairs with path length 632. (For  each leaf \nnode we have to go till the root, and from there \nwhile coming down it has 2 * 2 = 4 choices. Thus \nwe get 8 * 4 = 32 pairs. \nTotal number of possible pairs = 8 * 8 = 64 \nSo, expected path length \n= 0 × 8 + 2 × 8  + 4 × 16 + 6 × 32 = 272 = 4.25 \n● Root 16 \n● Left of 16: 15 \n● Right of 16: 19, 17, 20 \nPostorder (Left, Right, Root): \n● Left subtree postorder: 2, 7, 6, 10, 9, 8 \n● Right subtree postorder: 15, 17, 20, 19, 16 \n● Root: 12 \nFinal postorder: 2, 7, 6, 10, 9, 8, 15, 17, 20, 19, \n16, 12",
+        "marks": 2,
+        "subject_slug": "data-structures",
+        "topic_slug": "trees-and-binary-search-trees"
+      },
+      "c-programming-topic-2-m2-q1": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "46",
+        "explanation": "The code peels off the digits one by one from left to \nright: 1, then 4, then 3, then 6, and finally 2. \nThe Switch (turn): The variable turn acts exactly like a \nlight switch alternating between 0 (OFF) and 1 (ON). \n It starts at 0 (OFF). \n Every time a digit is processed, the switch flips: \n0 → 1 → 0 → 1 → 0. \nBy crossing out the skipped positions, the process looks \nlike this:",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "conditional-statements-and-loops"
+      },
+      "compiler-design-compiler-design-m1-q7": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "1. Lexical analysis is related with FA and Regular \nexpressions. \n 2. Expression can be evaluated with postfix \ntraversals. \n 3. Register allocation can be done by graph \ncolouring. \n 4. The parser constructs a production tree.",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "lexical-analysis"
+      },
+      "compiler-design-topic-3-m3-q2": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "‘i’ is inherited attribute and is evaluated from the \nright subtree for the rule A. i = B.i, Therefore it is \nnot ‘L’ attributed. \n Rule 2: In D.i = C.i+2; i is inherited attributed, so \nit is not ‘S’ attributed, but it is evaluated from the \nleft subtree therefore it is ‘L’ attributed. \n Rule 3: In Q.i = E. i + F.i, ‘i’ is a synthesized \nattribute, therefore it is both ‘S’ and ‘L’ attributed.",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "compiler-phases"
+      },
+      "algorithms-topic-3-m3-q36": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "C",
+        "explanation": "Prim's algorithm starts with from any vertex \n𝑖−1",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "minimum-spanning-trees"
+      },
+      "algorithms-topic-5-m5-q14": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "B",
+        "explanation": "Answer: B After f is visited, c or g should be \nvisited next. So, the traversal is incorrect. After c \nis visited, e or f should be visited next. So, the \ntraversal is incorrect. 2 and 3 are correct.",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "graph-algorithms"
+      },
+      "data-structures-topic-4-m4-q42": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- 5",
+        "explanation": "The number of binary trees that can be formed with \nn unlabeled nodes is given by the Catalan number: \nNumber of binary trees = Cₙ = (1 / (n+1)) × (2n \nchoose n) \nFor n = 3: \nNumber of binary trees= Cn=2nCn/(n+1) \nFor n=3, \nC3=6C3/4=20/4=5",
+        "marks": 2,
+        "subject_slug": "data-structures",
+        "topic_slug": "trees-and-binary-search-trees"
+      },
+      "theory-of-computation-theory-of-computation-m1-q4": {
+        "type": "MCQ",
+        "correct_option": 3,
+        "answer_key": "D",
+        "explanation": "D \nExplanation \nNFA → DFA conversion: \nWhen we convert an NFA to an equivalent DFA, \nthe DFA can have up to 2ⁿ states, because each  \nDFA state represents a subset of NFA states. \nSo, saying “DFA has at most n states” is wrong. \nComplement of L: \n1. To take the complement, we need a complete \nDFA (because we just flip final and non-final s\ntates). \n2. For an NFA, complementing directly    is not \npossible — you must convert it to DFA first. \nSo saying “complement can be accepted by an \nNFA with at most n states”    is wrong. \n3. Regular expression: \nEvery NFA represents a regular language, an\nd every regular language can be written as a re\ngular expression — that is true. \n4. DFA with 2ⁿ states: \nThe subset construction guarantees that a DFA \nwith ≤ 2ⁿ states always exists — that is true.",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "finite-automata"
+      },
+      "compiler-design-topic-3-m3-q3": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "So the output of the given SDT is 45.",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "compiler-phases"
+      },
+      "data-structures-topic-4-m4-q20": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "Explanation: \nHeight = 6 means maximum possible height for 7 \nnodes. \nSo the BST must be completely skewed (a chain of \n7 nodes). \nNow think carefully. \nFor height to be 6, at every step after choosing the \nroot, all remaining elements must go only to one \nside (either all smaller or all greater). \nFirst, choose the root. \nIf root is 1, then all remaining 6 elements (2–7) must \ngo to the right side. \nIf root is 7, then all remaining 6 elements (1–6) \nmust go to the left side. \nIf root is anything between 2 and 6, then some \nelements will go left and some right, so height will \nbe less than 6. So only 1 or 7 can be the root. \nAfter fixing the root (say 1), the remaining 6 \nelements must again form a skewed BST of height 5. \nSo the problem reduces recursively. \nFor 7 nodes to form a chain, at each step we must \nchoose either the smallest or the largest element \namong the remaining elements. \nAt first step: 2 choices (1 or 7). \nAt second step: again 2 choices (smallest or largest \nof remaining 6). \nAt third step: again 2 choices. \nThis continues for 6 steps. \nTotal ways = 2 × 2 × 2 × 2 × 2 × 2 \n= 2⁶ \n= 64 \n<!-- PAGE 80 -->\nDATA STRUCTURE",
+        "marks": 2,
+        "subject_slug": "data-structures",
+        "topic_slug": "trees-and-binary-search-trees"
+      },
+      "digital-logic-arrays-and-strings-m1-q32": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "(C)",
+        "explanation": "This is Modified Booth (bit-pair / radix-4) \nrecording. \nStandard radix-4 Booth table: \nxᵢ₊₁ xᵢ xᵢ₋₁ Operation \n000 → 0 \n001 → +Y \n010 → +Y \n011 → +2Y \n100 → −2Y \n101 → −Y \n110 → −Y \n111 → 0 \nNow match rows: \nRow 5: 100 → −2Y \nRow 8: 111 → 0",
+        "marks": 2,
+        "subject_slug": "digital-logic",
+        "topic_slug": "number-systems-and-codes"
+      },
+      "algorithms-algorithms-m1-q31": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "B",
+        "explanation": "Time complexity of f1 is given by \nT(n) = T(n - 1) + T(n - 2), (multiplication by 2 and \n3 won't affect complexity as it is a constant time \noperation) \nT(0) = T(1) = 1 \nThe solution to this (fibonacci series) is given by \nGolden ratio. Which is O( 2n). (Using theta in \nquestion must be a mistake) \nTime complexity of f2 is O(n) as here all recursive calls are    \navoided by saving the results in an array (dynamic \nprogramming).",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "greedy-algorithms"
+      },
+      "compiler-design-topic-2-m2-q29": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- D",
+        "explanation": "Statement 1 is false since the two sets in LR(1) \nitems can be combined if they only differ in look \nahead symbols. Because there is no reduced move \nin the specified LR(1) items, there will be no SR \nconflict after merging, and so statements 2 and 3  \nare incorrect. \n Statement 4 is also wrong, because goto is carried \non Non -Terminals symbols, not on terminal \nsymbols, and c is a terminal symbol. \n Hence all statements are false",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "syntax-analysis-and-parsing"
+      },
+      "algorithms-topic-2-m2-q1": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "3",
+        "explanation": "2. Answer : C \nPair elements, compare within each pair,  then \ncompare winners for max and losers for min, giving \nat most 3n/2 - 2 comparisons, which equals 3 ⌈n/2⌉ - 2 in \ngeneral. \nAny comparison -based algorithm needs at least \n3n/2 - 2 comparisons in the worst case by \nadversary/charging arguments, so this is opt imal; \ntrivially, at least n comparisons are needed overall, \nyielding n < t <= 3 ⌈n/2⌉⁡.",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "searching-and-sorting"
+      },
+      "compiler-design-topic-2-m2-q36": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- D",
+        "explanation": "(a)“It is the position in a sentential form where the \nnext shift or reduce operation will occur”  \n→ Only talks about position, but a handle must \ninclude both position + production. So incomplete. \n (b)“It is non-terminal whose production will be used \nfor reduction in the next step” \n→ A handle is not just a non-terminal; it is a \nsubstring (RHS) + corresponding production. \nIncorrect. \n(c)“It is a production that may be used for reduction \nin a future step along with a position...” \n→ Handle is about next step (immediate \nreduction), not some future possibility. Hence \nwrong. \n (d)“It is the production p that will be used for \nreduction in the next step along with a position...” \n→ Exactly matches definition: RHS occurrence + \nproduction used for immediate reduction. \n Therefore, (d) is correct.",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "bottom-up-parsing"
+      },
+      "data-structures-topic-4-m4-q19": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- 8",
+        "explanation": "Explanation: \nHere node with integer 1 has to be at root only. Now \nfor maximum depth of the tree the following \narrangement can be taken. Take root as level 1. \nmake node 2 at level 2 as a child node of node 1. \nmake node 3 at level 3 as the child node of node 2. \n.. \n.. and so on for nodes 4,5,6,7 \n.. \nmake node 8 at level 8 as the child node of node 7. \nmake node 9 at level 9 as the child node of node 8. \nPutting other nodes properly, this arrangement of the \ncomplete binary tree will follow the property of min \nheap. \nSo total levels are 9. node 9 is at level 9 and depth of \nnode 9 is 8 from the root.",
+        "marks": 2,
+        "subject_slug": "data-structures",
+        "topic_slug": "linked-lists"
+      },
+      "theory-of-computation-topic-2-m2-q35": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "(B)",
+        "explanation": "B→0B00∣1 generates \n{ 0n102n } \nS→AA, \nA→0A∣A0∣1 generates 0A0A →00A0A→00101 , \nwhich is there in only B and D choices. \nD is not the answer as \" 00 \" is not generated by the \ngiven grammar. So, only option left is B .",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "context-free-grammar"
+      },
+      "dbms-arrays-and-strings-m1-q9": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "(50)",
+        "explanation": "(I) for One – three attribute \n No. of  \nFDs \nFunctional Dependencies \nA B, C, D 7 A→B, A→C, A→D, A→BC, \nA→BD, A→CD, \nA→BCD \nB A, C, D 7 B→A, B→C, B→D, B→AC, \nB→AD, B→CD, \nB→ACD \nC A, B, D 7 C→A, C→B, C→D, C→AB, \nC→AD, C→BD, \nC→ABD \nDA, B, C 7 D→A, D→B, D→C, D→AB, \nD→AC, D→BC, \nD→ABC \nTotal FDs = 28 \n(ii) for Two - Two Attributes \n𝐴𝐵 → 𝐶𝐷 [22 − 1] = 3   {𝐴𝐵 → 𝐶, \n𝐴𝐵 → 𝐷, 𝐴𝐵 → 𝐶𝐷} \n𝐴𝐶 → 𝐵𝐷 [22 − 1] \n= 3  {𝐴𝐶 → 𝐵, \n         𝐴𝐶 → 𝐷, 𝐴𝐶 → 𝐵𝐷} \n𝐴𝐷 → 𝐵𝐶 [22 − 1] = 3 {𝐴𝐷 → 𝐵, \n𝐴𝐷 → 𝐶, 𝐴𝐷 → 𝐵𝐶} \n𝐵𝐶 → 𝐴𝐷 [22 − 1] = 3 {𝐵𝐶 → 𝐴, \n           𝐵𝐶 → 𝐷, 𝐵𝐶 → 𝐴𝐷} \n𝐵𝐷 → 𝐴𝐶 [22 − 1] = 3 {𝐵𝐷 → 𝐴, \n        𝐵𝐷 → 𝐶, 𝐵𝐶 → 𝐴𝐶} \n𝐶𝐷 → 𝐴𝐵 [22 − 1] = 3 {𝐶𝐷 → 𝐴, \n         𝐶𝐷 → 𝐵, 𝐶𝐷 → 𝐴𝐵} \n Total FDs = 18 FD's \n (iii) for Three Attributes \n𝐴𝐵𝐶 → 𝐷\n𝐴𝐵𝐷 → 𝐶\n𝐵𝐶𝐷 → 𝐴\n𝐶𝐷𝐴 → B\n Total FDs = 4 FD \n So Total Useful FDs = 28 + 18 + 4 = 50 Ans \nOR \n 𝑥 → 𝑦  Useful 𝐹𝐷 with 4 Attribute \n Case I: for a Single-single Attributes \n X -> Y   4C1    *  [23-1] \n A->BCD [23-1] \n B->ACD \n C->ABD \n D->ABC  4 * 7 =28  \n CASE II : for a Two - Two Attributes \n𝑥 → 𝑦 \n 2Attribute → 2Attribute 4𝐶2 ∗ (22 − 1) \n                                                   6 ∗ 3 =  (18)  \n CASE III:- for Three-Three Attributes \n𝑥 → 𝑦 \n3-ttribute attribute \n         4𝐶3 ∗ (21 − 1) \n4 ∗ 1 =  (4)  \n Total useful FD = 28 + 18 + 4 = 50 Ans",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "functional-dependencies"
+      },
+      "computer-organization-and-architecture-topic-3-m3-q17": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- 500",
+        "explanation": "64 Register, \nInstruction set size = 12 \n5 Fields = Opcode, Source Reg1, S Reg2, D Reg2, \n12-bit Immediate field \n64 Register → Reg. AF = 6bit \nInstruction size = 4 + 6 + 6 + 6 +12 = 34 bits = 5 Byte \nProgram having = 100 Inst. Program size = \n100 × 5 = 500 byte.",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "instruction-set-architecture"
+      },
+      "computer-organization-and-architecture-topic-2-m2-q2": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- (95)",
+        "explanation": "Pipeline clock cycle = 1 ns When EX-stage takes \nmore than 1 ns then  it takes more than 1 pipeline \ncycle. \nInstruction \nExecution \ntime \nNumber of cycle \nrequired \nLOAD \n1.8 ns \n2 ⇒ stalls (2 − 1) \n= 1 \nIMUL \n1.5 ns \n2 ⇒ (2 − 1) = 1 \nIDIV \n2.5 ns \n3 ⇒ (3 − 1) = 2 \nFADD \n1.7 ns \n2 ⇒ (2 − 1) = 1 \nFSUB \n1.7 ns \n2 ⇒ (2 − 1) = 1 \nFMUL \n2.8 ns \n3 ⇒ (3 − 1) = 2 \nFDIV \n3.2 ns \n4 ⇒ (4 − 1) = 3 \nOther \ninstruction \nLess than \n1 ns \n1 ⇒ (1 − 1) = 0 \nHINTS & SOLUTIONS \n<!-- PAGE 464 -->\nComputer Organization and Architecture",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "pipelining"
+      },
+      "compiler-design-topic-2-m2-q6": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "Option (C, D) is incorrect as if we substitute T → cT in \n(2) it gives FIRST(T) = a, b, c which is wrong because \nin question it is given that FIRST(T) = a, b, ϵ \nOption (B) is incorrect as if we substitute S → fR in \n(1) it gives FIRST(S) = f, d which is wrong because \nterminal c is missing. \nSo correct Option is (A). \n FIRST FOLLOW \n𝑆 → 𝑑𝑎𝑇 ∣ 𝑅𝑓 {𝑐, 𝑑, 𝑓} {$, 𝑐, 𝑓} \n𝑇 → 𝑎𝑆|𝑏𝑆|𝜀 {𝑎, 𝑏, 𝜀} {$, 𝑐, 𝑓} \n𝑅 → 𝑐𝑇𝑅 ∣ 𝜀 {𝑐, 𝜀} {𝑓} \n<!-- PAGE 266 -->\nCOMPILER DESIGN",
+        "marks": 2,
+        "subject_slug": "compiler-design",
+        "topic_slug": "compiler-phases"
+      },
+      "dbms-topic-4-m4-q4": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 2",
+        "explanation": "Explantion:- The output of the given SQL query is \nsimply to return the female students whose marks is >65. \n<!-- PAGE 413 -->\nDATABASE MANAGEMENT  SYSTEM \nwe can also solve by first we retrieve all the female \nstudents then we can select marks >65. \nROll Name Marks Gender \n2 Aliya 70 Female \n3 Aliya 80 Female \n3 Swati 65 Female \n output is as follows: \nRoll Name Marks Gender \n2 Aliya 70 Female \n3 Aliya 80 Female \n So the output of the given query is 2.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "sql-queries"
+      },
+      "operating-system-topic-5-m5-q11": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "Execution flow: \n Finish current instruction → Q \nSave state → P \nLoad ISR address → T \nExecute ISR → R \nRestore state → S",
+        "marks": 2,
+        "subject_slug": "operating-system",
+        "topic_slug": "process-and-threads"
+      },
+      "algorithms-topic-3-m3-q25": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "225",
+        "explanation": "In Huffman coding, we pick the least two frequent \n(or probable) character, combine them and create \na new node. \nLooking at above tree structure, Number of bits \nrequired by each: P – 2,Q – 2,R – \n3,S – 2,T – 3 \nTherefore, excepted length of the encoded \nmessage: \n= 3*0.8 + 3*0.17 + 2*0.19 + 2 *0.22 + 2*0.34 \n= 2.25 \nFor 100 characters, 2.25*100 = 225",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "asymptotic-notations"
+      },
+      "dbms-arrays-and-strings-m1-q7": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "-A,C",
+        "explanation": "R cannot have a foreign key ,R cannot have more than \none candidate key are straight forward false because we \ncan have a foreign key in 1NF and also we can have more \nthan one candidate key. \n The correct answer is R can have a multi-attribute key and \nR cannot have a composite attribute",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "normalization"
+      },
+      "computer-organization-and-architecture-topic-5-m5-q25": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- 14",
+        "explanation": "In set-associative 1 set = 16 lines. So the number \nof index bits will be 4 less than the direct mapped \ncase. \nSo, Tag bits increased to 14 bits.",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "cache-memory"
+      },
+      "computer-organization-and-architecture-topic-2-m2-q30": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "- (B)",
+        "explanation": "It is given that there is operand forwarding. In the case \nof operand forwarding the update value from previous \ninstruction’s PO stage is forwarded to the present \ninstruction’s PO stage. Here there’s RAW \ndependency between I1-I2 for R5 and between I2 -I3 \nfor R2. These dependencies are resolved by using \noperand forwarding as shown in the below timeline \ndiagram. The total number of clock cycles needed is \n15. \nAlternate Approach: \nInstruction Operation PO \nStage \nExtra Cycle \n(Stalls) \nI₀ MUL 3 2 \nI₁ DIV 6 5 \nI₂ ADD 1 -- \nI₃ SUB 1 -- \n<!-- PAGE 472 -->\nComputer Organization and Architecture \nTotal: 7 Extra Cycles \n(Stalls) Given Variables: \n n = 4\n Number of \nStages (k) = 5 Execution \nTime (ET) Calculation:\nET = [k + (n - 1)] × tp + tstalls (Extra Cycle Due to \nHazards) \nET = [5 + (4 - 1)] × 1 + 7 \nET = 8 + 7 \nAns: 15 cycles",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "pipelining"
+      },
+      "dbms-topic-5-m5-q5": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A,B",
+        "explanation": "Explanation : - A sorted file organizati on ensures that \nrecords are stored in a sequential order, which is optimal \nfor scan operations since the data can be accessed \nsequentially with minimal I/O overhead. \n In a heap file organization, records are stored without \nany specific order. Although not as efficient as sorted \nfiles, a heap file still allows sequential scans across \nall records with moderate I/O efficiency. \n Options C (Unclustered tree index) and D \n(Unclustered hash index) are not I/O efficient for \nscans because they involve random access to data \nblocks, leading to higher I/O costs. \n Hence, the correct answer is A and B.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "er-model"
+      },
+      "computer-organization-and-architecture-topic-2-m2-q15": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "(1.50 to 1.51)",
+        "explanation": "NP (5-stage): \nStage times = 5, 4, 20, 10, 3 ns \nBuffer delay = 2 ns \nClock cycle = max stage + buffer = 20 + 2 = \n22ns \nTime for 20 instructions = \n(𝑘 + 𝑛 − 1) × 𝑇 = (5 + 20 − 1) × 22 = 24 × \n22 = 528ns \nEP (6-stage): \nStages = 5, 4, 12, 8, 10, 3 \nMax = 12 ns \nClock = 12 + 2 = 14ns \nTime = (6 + 20 − 1) × 14 = 25 × 14 = 350ns \nSpeedup: \n528 ≈ 1.508 \nAnswer: \n1.508",
+        "marks": 2,
+        "subject_slug": "computer-organization-and-architecture",
+        "topic_slug": "pipelining"
+      },
+      "theory-of-computation-topic-3-m3-q28": {
+        "type": "MCQ",
+        "correct_option": 2,
+        "answer_key": "(C)",
+        "explanation": "A. If P1 is reducible to P3, then P3 is at least as hard \nas P1. So, no guarantee if P3 is decidable. \nB. If P3 is reducible to P2, then P3 cannot be harder than \nP2. But P2 being undecidable, this can't say P3 is \nundecidable. \nC. If P2 is reducible to P3, then P3 is at least as hard as \nP2. Since P2 is undecidable, this means P3 is also \nundecidable -hence the answer. \nD. Complement of an undecidable problem is \nundecidable. Now, redu cing to an undecidable problem \ncan't prove P3 is decidable. \n<!-- PAGE 249 -->\nCOMPLIER DESIGN \n<!-- PAGE 251 -->\nLEXICAL ANALYSIS \nQ1. A lexical analyzer uses the following token \ndefinitions  \n𝑙𝑒𝑡𝑡𝑒𝑟 → [𝐴 – 𝑍 𝑎 − 𝑧]   \n𝑑𝑖𝑔𝑖𝑡 → [0 − 9]   \n𝑖𝑑 → 𝑙𝑒𝑡𝑡𝑒𝑟 (𝑙𝑒𝑡𝑡𝑒𝑟 | 𝑑𝑖𝑔𝑖𝑡)*   \n𝑛𝑢𝑚𝑏𝑒𝑟 → 𝑑𝑖𝑔𝑖𝑡 +   \n𝑤𝑠 → (𝑏𝑙𝑎𝑛𝑘 | 𝑡𝑎𝑏 | 𝑛𝑒𝑤𝑙𝑖𝑛𝑒) +  \n For the string given below,  \n            𝑥1 23𝑚𝑚  78 𝑦  7𝑧  𝑧𝑧5  14𝐴  8𝐻   𝐴𝑎𝑌𝑐𝐷  \n the number of tokens (excluding 𝑤𝑠) that will be \nproduced by the lexical analyzer is __________. \n(answer in integer)          \nQ2. Which ONE of the following statements is FALSE \nregarding the symbol table? \n       (a) Symbol table is responsible for keeping track \nof  the scope of variables. \n (b) Symbol tables can be implemented using a \nbinary search tree. \n (c) Symbol table is not required after the parsing \nphase. \n (d) Symbol table is created during the lexical \nanalysis phase.       \nQ3. Consider the following two sets: \nP. Lexical Analyzer 1. Abstract Syntax Tree  \nQ. Syntax Analyzer 2. Token \nR.Intermediate code \nGenerator \n3. Parse Tree \nS. Code Optimizer 4. Constant Folding \n Which one of the following options is the CORRECT \nmatch from Set X to Set Y? \n (a) P-4; Q-1; R-3; S-2 \n (b) P-2; Q-3; R-1; S-4 \n (c) P-2; Q-1; R-3; S-4 \n (d) P-4; Q-3; R-2; S-1         \nQ4. A lexical analyzer uses the following patterns to \nrecognize three tokens T 1, T 2, and T 3 over the \nalphabet {a,b,c}. \n T1 : a?(b|c)*a \n T2 : b?(a|c)*b  \n T3 : c?(b|a)*c \n Note that ‘x?’ means 0 or 1 occurrence of the symbol \nx. Note also that the analyzer outputs the token that \nmatches the longest possible prefix. If the string \nbbaacabc is processed by the analyzer, which one of \nthe following is the sequence of tokens it outputs?     \n (a) T1T2T3 \n (b) T1T1T3 \n (c) T2T1T3 \n (d) T3T3   \nQ5. Match the following according to input (from the left \ncolumn) to the compiler phase (in the right column) \nthat processes it:    \n(P) Syntax Tree (i) Code Generator \n(Q) Character Stream (ii) Syntax Analyzer \n(R)Intermediate \nRepresentation \n(iii)Semantic \nAnalyzer \n(S) Token Stream (iv) Lexical Analyzer \nGATE CSE - 2025 MCQ SET - 1(1-MARKS) \nGATE CSE - 2024 MCQ SET - 2(1-MARKS) \nGATE CSE - 2018 MCQ (2-MARKS) \nGATE CSE - 2017 MCQ SET – 2 (2-MARKS) \nGATE CSE - 2026 NAT SET - 2(1-MARKS)",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "decidability"
+      },
+      "theory-of-computation-topic-2-m2-q42": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "(B)",
+        "explanation": "S generate equal number of a and b, and one A which can \ngenerate zero or more number of b's",
+        "marks": 2,
+        "subject_slug": "theory-of-computation",
+        "topic_slug": "finite-automata"
+      },
+      "dbms-arrays-and-strings-m1-q22": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "Explanation \n     X→Y is trivial if Y⊆ X. \nSo, PS → S is the trivial FD as S ⊆ PS.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "functional-dependencies"
+      },
+      "dbms-arrays-and-strings-m1-q34": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- A",
+        "explanation": "Explanation :-  \n(A, B), (B, C) — common attribute is B and due to B \n→ C, B is a key for (B, C) and hence ABC can be \nlosslessly decomposed into (A, B) and (B, C). \n(A, B, C), (B, D), common attribute is B and B → D is \na FD (via B → C, C → D), and hence, B is a key for (B, \nD). So, decomposition of (A, B, C, D) into (A, B, C) \nand (B, D) is lossless. \nThus the given decomposition is lossless. \nThe given decomposition is also dependency preserving \nas the dependencies A → B is present in (A, B), B → C \nis present in (B, C), D → B is present in (B, D) and C \n→ D is indirectly present via C → B in (B, C) and B → \nD in (B, D).",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "er-model"
+      },
+      "algorithms-algorithms-m1-q12": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "A",
+        "explanation": "",
+        "marks": 2,
+        "subject_slug": "algorithms",
+        "topic_slug": "asymptotic-notations"
+      },
+      "dbms-topic-3-m3-q15": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "-A",
+        "explanation": "Explantion :- The join relation between r(R) and s(S) \nwhich is using nested loop will be as follows: \n For each tuple r in R do \n For each tuple s in S do \n If r and s satisfy the join condition then \n output the tuple. \n The above algorithm involves (nr*bs+br) \n block transfer and (nr+br) seeks. \n where, \n br → no. of blocks in R \n bs → no. of blocks in S \n hr → no. of tuples in R \n To have less block accesses, nr should be less as in question \nit is given that size(r(R)) < size(s(S)). \nSo, to have fewer no. of disk block accesses the relation \nr(R) should be in outer loop.",
+        "marks": 2,
+        "subject_slug": "dbms",
+        "topic_slug": "sql-queries"
+      },
+      "computer-networks-topic-2-m2-q32": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "1. Timing Parameters \n Transmission Delay of Data Frame (𝑇𝑡) : \n𝑇𝑡 = 1000bits106bps = 1 ms \n Round Trip Time (RTT): Since \nacknowledgments are piggybacked onto \nfull-sized reverse data frames, the \nacknowledgment transmission delay is also \n1 ms . \nRTT = 𝑇𝑡( Data ) + 𝑇𝑝 + 𝑇𝑡(ACK) + 𝑇𝑝\n         RTT = 1 ms + 25 ms + 1 ms + 25 ms = 52 ms \n2.  Sender Activity and Idle Window \n Window Size ( 𝑊 ): Given as 25 = 32 frames. \n Sender Busy Time: The time taken to transmit the \nentire window continuously without stopping: \nBusy Time = 32 frames × 1 ms/ frame = 32 ms \n Sender Waiting Time: The idle time spent waiting \nfor the first acknowledgment to arrive after the \ntransmission of the window finishes: \nWaiting Time = RTT - Busy Time \nWaiting Time = 52 ms − 32 ms = 20 ms",
+        "marks": 2,
+        "subject_slug": "computer-networks",
+        "topic_slug": "data-link-layer"
+      }
+    },
+    "questionCount": 65
+  },
+  "02b0bd20-51fe-474d-b490-2875b82d5a9f": {
+    "testId": "02b0bd20-51fe-474d-b490-2875b82d5a9f",
+    "testTitle": "GATE C PROGRAMMING Practice Test",
+    "mode": "subject",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794760137218,
+    "durationMinutes": 15,
+    "totalMarks": 10,
+    "answerKeyMap": {
+      "c-programming-topic-4-m4-q2": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- C",
+        "explanation": "(A) Static variable declared inside a function → \nstored in data/static segment, not heap. \n(B) Array declared inside a function → stored on \nstack. \n(C) Dynamically allocated array using malloc() → \nstored in heap. \n(D Return address of a function → stored on \nstack. \n Correct answer:   C",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "data-types-and-operators"
+      },
+      "c-programming-topic-2-m2-q10": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "(10)",
+        "explanation": "Solution:  \nArithmetic Evaluation \nIn C, integer division truncates decimals, and prefix \noperators update variables immediately. \nj calculation: 2 * 3 / 4 (integer) is 1. 2.0 / 5 (float) is \n0.4. 8 / 5 (integer) is 1. The sum is 2.4, which truncates \nto 2 for the integer j. \nk calculation: k -= --j first decrements j to 1. Then k \n= 0 - 1, resulting in k = -1. \n2. Switch Trace with Fall-through \nThe loop runs for i = 0 to 4. Because there are no break \nstatements, once a case matches, every subsequent \nprintf in the block executes. \ni = 0 (i+k = -1): Matches default. (1 execution) \ni = 1 (i+k = 0): Matches default. (1 execution) \ni = 2 (i+k = 1): Matches case 1, falls through case 2, \ncase 3, and default. (3 executions) \ni = 3 (i+k = 2): Matches case 2, falls through case 3, \nand default. (3 executions) \ni = 4 (i+k = 3): Matches case 3, falls through default. \n(2 executions) \nFinal Total \nAdding the executions per iteration: 1 + 1 + 3 + 3 + 2 \n= 10. \nThe total number of times printf is executed is 10. \n<!-- PAGE 16 -->\nC PROGRAMMING",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "conditional-statements-and-loops"
+      },
+      "c-programming-topic-3-m3-q7": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (9)",
+        "explanation": "Solution: \nIn main: \ni = 9, j = 10 \nfunc(i, j) is called → values are passed by value. \n Inside func: \n Outer parameters: \n  i = 9 \n  j = 10 \n Condition: \n  i < j → 9 < 10 → true \n Inside the if block: \n A new local variable is declared: \n  int i = 0; \n This shadows the parameter i. \nNow inside the block: \nThis new i runs from 0 to 9 in the while loop. \nj is increased, but it does not affect anything outside. \n After the loop ends, this inner i goes out of scope. \nOutside the block: \nThe original parameter i (which is 9) is still \nunchanged. \n So: \n printf(\"%d\", i); \n prints 9.",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "c-output-and-tracing"
+      },
+      "c-programming-topic-2-m2-q4": {
+        "type": "MCQ",
+        "correct_option": 0,
+        "answer_key": "- (A)",
+        "explanation": "Solution: \n Initial values \ni = 0 \ncount = 0 \nLoop runs from j = −3 to 3. \nCondition: \n(j >= 0) && (i++) \nImportant point: \n&& is short-circuit operator. \nIf first condition is false, second part (i++) is NOT \nexecuted. \nNow check each j: \nj = -3 → (j >= 0) is false → i++ not executed \nj = -2 → false → i still 0 \nj = -1 → false → i still 0 \nj = 0 → true && (i++) \ni++ returns 0 (old value), then i becomes 1 \nSo condition = true && 0 → false \ncount not updated. \nj = 1 → true && (i++) \ni++ returns 1, then i becomes 2 \nCondition = true && 1 → true \ncount = count + 1 → count = 1 \nj = 2 → true && (i++) \ni++ returns 2, then i becomes 3 \nCondition true \ncount = 1 + 2 = 3 \nj = 3 → true && (i++) \ni++ returns 3, then i becomes 4 \nCondition true \ncount = 3 + 3 = 6 \nAfter loop: \ncount = count + i \ncount = 6 + 4 = 10 \nFinal output:",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "data-types-and-operators"
+      },
+      "c-programming-topic-3-m3-q16": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "(10230)",
+        "explanation": "Solution: \nThe function works in two phases: \n1. When x ≠ 1: \nEach call prints \"*\" and recursively calls \nCount(x/2, y). \nStarting from x = 1024, it keeps halving until \nx = 1. \nSince 1024 = 210, this happens 10 times, so \n10 prints per cycle.  \n<!-- PAGE 33 -->\nC PROGRAMMING \n2. When x = 1: \ny is decremented by 1 and x is reset to 1024 \n→ next cycle begins.  \nThis process repeats until y = 1, where recursion \nstops. \n● Initial 𝑦 = 1024 \n● Final stop at 𝑦 = 1 \n⇒ Total cycles = 1024 − 1 = 1023 \nEach cycle produces 10 prints, so: \nTotal prints = 1023 × 10 = 10230",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "data-types-and-operators"
+      }
+    },
+    "questionCount": 5
+  },
+  "c836bb5a-f7ce-4431-a8fa-6dad747a19a3": {
+    "testId": "c836bb5a-f7ce-4431-a8fa-6dad747a19a3",
+    "testTitle": "GATE C PROGRAMMING Practice Test",
+    "mode": "subject",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794760137226,
+    "durationMinutes": 15,
+    "totalMarks": 6,
+    "answerKeyMap": {
+      "c-programming-c-programming-m1-q3": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "(b)",
+        "explanation": "Solution: \n We need to set 𝑝 = 𝑛𝐶3 where 𝑛𝐶3 = 𝑛(𝑛 − 1) ( \n𝑛 − 2)/6. \n𝑛 and 𝑝 are unsigned int. If 𝑛 is large, overflow can \nhappen during multiplication before division. \n Check options: \n(a) 𝑝 = 𝑛∗(𝑛 − 1)(𝑛 − 2)/6; \n Here multiplication happens first. For large 𝑛, 𝑛(𝑛 −\n1)∗(𝑛 − 2) becomes very large and may overflow \nbefore dividing by 6 . So result may be wrong. \n(b) 𝑝 = 𝑛∗(𝑛 − 1)/2∗(𝑛 − 2)/3; \n Here division is done early. Since 6 = 2 × 3, we \ndivide step by step. This reduces intermediate values \nand avoids overflow. This is most safe and correct. \n (c) 𝑝 = 𝑛∗(𝑛 − 1)/3∗(𝑛 − 2)/2; \n Division by 3 first may not divide exactly at that \nstage, so integer truncation can happen. This may \ngive wrong result. \n(d) 𝑝 = 𝑛∗(𝑛 − 1)∗(𝑛 − 2)/6.0; \n6.0 is double. Expression becomes floating point, \nthen converted back to unsigned int. This is not safe \nand may lose precision. \n<!-- PAGE 9 -->\nC PROGRAMMING",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "data-types-and-operators"
+      },
+      "c-programming-topic-4-m4-q9": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 10",
+        "explanation": "a = {2, 4, 6, 8, 10} \nb = a + 4 → a[4] = 10 \nFor i = 0 to 4: \ni=0 → sum = 0 + (10−0)−10 = 0 \ni=1 → sum = 0 + (10−1)−8 = 1 \ni=2 → sum = 1 + (10−2)−6 = 3 \ni=3 → sum = 3 + (10−3)−4 = 6 \ni=4 → sum = 6 + (10−4)−2 = 10 \nFinal Output:10",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "data-types-and-operators"
+      },
+      "c-programming-topic-3-m3-q31": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (9)",
+        "explanation": "Solution: \nThis code is to find the number of set bits(1) in \nbinary representation of the number \nStep 1: Binary of 435 \n435 in binary is 110110011 (9 bits). \nStep 2: Loop working \nwhile(num) runs until num becomes 0. \nEach iteration: \ncount increments by 1 \nnum >>= 1 shifts right by 1 bit \nStep 3: Counting shifts \nStart: num = 435 (binary 110110011) \nAfter 1 shift: 217 \nAfter 2 shifts: 108 \nAfter 3 shifts: 54 \nAfter 4 shifts: 27 \nAfter 5 shifts: 13 \nAfter 6 shifts: 6 \nAfter 7 shifts: 3 \nAfter 8 shifts: 1 \nAfter 9 shifts: 0 → stop \nTotal shifts = 9 → count = 9 \nFinal answer: 9 \n<!-- PAGE 36 -->\nC PROGRAMMING",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "functions-and-recursion"
+      }
+    },
+    "questionCount": 3
+  },
+  "wiped-test-uuid-1794760137236": {
+    "testId": "wiped-test-uuid-1794760137236",
+    "testTitle": "GATE C PROGRAMMING Practice Test",
+    "mode": "subject",
+    "subject": "c-programming",
+    "topic": "",
+    "createdAt": 1794760137243,
+    "durationMinutes": 180,
+    "totalMarks": 6,
+    "answerKeyMap": {
+      "c-programming-c-programming-m1-q3": {
+        "type": "MCQ",
+        "correct_option": 1,
+        "answer_key": "(b)",
+        "explanation": "Solution: \n We need to set 𝑝 = 𝑛𝐶3 where 𝑛𝐶3 = 𝑛(𝑛 − 1) ( \n𝑛 − 2)/6. \n𝑛 and 𝑝 are unsigned int. If 𝑛 is large, overflow can \nhappen during multiplication before division. \n Check options: \n(a) 𝑝 = 𝑛∗(𝑛 − 1)(𝑛 − 2)/6; \n Here multiplication happens first. For large 𝑛, 𝑛(𝑛 −\n1)∗(𝑛 − 2) becomes very large and may overflow \nbefore dividing by 6 . So result may be wrong. \n(b) 𝑝 = 𝑛∗(𝑛 − 1)/2∗(𝑛 − 2)/3; \n Here division is done early. Since 6 = 2 × 3, we \ndivide step by step. This reduces intermediate values \nand avoids overflow. This is most safe and correct. \n (c) 𝑝 = 𝑛∗(𝑛 − 1)/3∗(𝑛 − 2)/2; \n Division by 3 first may not divide exactly at that \nstage, so integer truncation can happen. This may \ngive wrong result. \n(d) 𝑝 = 𝑛∗(𝑛 − 1)∗(𝑛 − 2)/6.0; \n6.0 is double. Expression becomes floating point, \nthen converted back to unsigned int. This is not safe \nand may lose precision. \n<!-- PAGE 9 -->\nC PROGRAMMING",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "data-types-and-operators"
+      },
+      "c-programming-topic-4-m4-q9": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- 10",
+        "explanation": "a = {2, 4, 6, 8, 10} \nb = a + 4 → a[4] = 10 \nFor i = 0 to 4: \ni=0 → sum = 0 + (10−0)−10 = 0 \ni=1 → sum = 0 + (10−1)−8 = 1 \ni=2 → sum = 1 + (10−2)−6 = 3 \ni=3 → sum = 3 + (10−3)−4 = 6 \ni=4 → sum = 6 + (10−4)−2 = 10 \nFinal Output:10",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "data-types-and-operators"
+      },
+      "c-programming-topic-3-m3-q31": {
+        "type": "NAT",
+        "correct_option": 0,
+        "answer_key": "- (9)",
+        "explanation": "Solution: \nThis code is to find the number of set bits(1) in \nbinary representation of the number \nStep 1: Binary of 435 \n435 in binary is 110110011 (9 bits). \nStep 2: Loop working \nwhile(num) runs until num becomes 0. \nEach iteration: \ncount increments by 1 \nnum >>= 1 shifts right by 1 bit \nStep 3: Counting shifts \nStart: num = 435 (binary 110110011) \nAfter 1 shift: 217 \nAfter 2 shifts: 108 \nAfter 3 shifts: 54 \nAfter 4 shifts: 27 \nAfter 5 shifts: 13 \nAfter 6 shifts: 6 \nAfter 7 shifts: 3 \nAfter 8 shifts: 1 \nAfter 9 shifts: 0 → stop \nTotal shifts = 9 → count = 9 \nFinal answer: 9 \n<!-- PAGE 36 -->\nC PROGRAMMING",
+        "marks": 2,
+        "subject_slug": "c-programming",
+        "topic_slug": "functions-and-recursion"
+      }
+    },
+    "questionCount": 3
   }
 }

@@ -9430,43 +9430,43 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 1,
     "gate_year": "GATE CSE",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "Let M be a nondeterministic finite automaton (NFA) \nwith 6 states over a finite alphabet. Which of the \nfollowing options CANNOT be the number of states in \nthe minimal deterministic finite automaton (DFA) that is \nequivalent to M?",
     "options": [
-      "The set of all strings containing an even number of 𝑏’s.",
-      "The set of all strings containing the pattern 𝑏𝑎𝑏.",
-      "The set of all strings ending with the pattern 𝑏𝑎𝑏.",
-      "The set of all strings not containing the pattern 𝑎𝑏𝑎."
+      "32",
+      "65",
+      "1",
+      "128"
     ],
     "correct_option": 1,
-    "answer_key": "B,D",
-    "explanation": "n = 6 \nMaximum possible DFA states = 2⁶ = 64 \nB,D not allowed.",
-    "type": "MCQ"
+    "answer_key": "B, D",
+    "explanation": "B,D \nn = 6 \nMaximum possible DFA states = 2⁶ = 64 \nB,D not allowed.",
+    "type": "MSQ"
   },
   {
     "id": "theory-of-computation-theory-of-computation-m1-q2",
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
-    "topic_slug": "regular-expressions",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_slug": "finite-automata",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 2,
     "gate_year": "GATE CSE",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "Let L1 and L2 be two languages over a finite alphabet, \nsuch that L1∩L2 and L2 are regular languages. Which of \nthe following statements is/are always true?",
     "options": [
-      "The set of all strings containing an even number of 𝑏’s.",
-      "The set of all strings containing the pattern 𝑏𝑎𝑏.",
-      "The set of all strings ending with the pattern 𝑏𝑎𝑏.",
-      "The set of all strings not containing the pattern 𝑎𝑏𝑎."
+      "L1 is regular",
+      "L1 ∪ L2 is regular",
+      "L2 is context-free",
+      "L1 is context-free"
     ],
-    "correct_option": 0,
-    "answer_key": "; C",
-    "explanation": "(A) L1 is regular — NOT always true \nTake alphabet Σ = {a, b} \nLet \n  L2 = ∅ (regular) \n  L1 = { aⁿbⁿ | n ≥ 0 } (not regular) \nThen \n L1 ∩ L2 = ∅ (regular) \nBut L1 itself is not regular. \nSo (A) is false. \n(B) L1 ∪ L2 is regular — NOT always true \nUsing the same example: \nL2 = ∅ (regular) \n L1 = { aⁿbⁿ | n ≥ 0 } (not regular) \nThen \n L1 ∪ L2 = L1 \nWhich is not regular. \nSo (B) is false. \n(C) L2 is context-free — ALWAYS true \nFact: Every regular language is context-free. \nExample: \n  L2 = a* \nit is regular, and also context-free (since regular ⊆ \nCFL). \nso (C) is true. \n(D) L1 is context-free — NOT always true \n<!-- PAGE 213 -->\nTHEORY OF COMPUTATION \nTake \nL2 = ∅ (regular) \n  L1 = { aⁿbⁿcⁿ | n ≥ 0 } (not context-free) \nThen \n L1 ∩ L2 = ∅ (regular) \nBut L1 is not context-free. \nSo (D) is false.",
+    "correct_option": 2,
+    "answer_key": "C",
+    "explanation": "C \n(A) L1 is regular — NOT always true \nTake alphabet Σ = {a, b} \nLet \n  L2 = ∅ (regular) \n  L1 = { aⁿbⁿ | n ≥ 0 } (not regular) \nThen \n L1 ∩ L2 = ∅ (regular) \nBut L1 itself is not regular. \nSo (A) is false. \n(B) L1 ∪ L2 is regular — NOT always true \nUsing the same example: \nL2 = ∅ (regular) \n L1 = { aⁿbⁿ | n ≥ 0 } (not regular) \nThen \n L1 ∪ L2 = L1 \nWhich is not regular. \nSo (B) is false. \n(C) L2 is context-free — ALWAYS true \nFact: Every regular language is context-free. \nExample: \n  L2 = a* \nit is regular, and also context-free (since regular ⊆ \nCFL). \nso (C) is true. \n(D) L1 is context-free — NOT always true \n\n \nTake \nL2 = ∅ (regular) \n  L1 = { aⁿbⁿcⁿ | n ≥ 0 } (not context-free) \nThen \n L1 ∩ L2 = ∅ (regular) \nBut L1 is not context-free. \nSo (D) is false.",
     "type": "MCQ"
   },
   {
@@ -9474,43 +9474,43 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 3,
     "gate_year": "GATE CSE",
     "marks": 2,
     "difficulty": "medium",
-    "question_text": "Consider the following two finite automata D1  and \nD2  (as shown in the figure). \nWhich of the following statements is/are true?",
+    "question_text": "Consider the following two finite automata $D_1$ and $D_2$ (as shown in the figure).\n\n<div style=\"text-align:center;margin:18px 0;\">\n  <img src=\"/assets/images/questions/toc_q3_automata.png\" alt=\"Finite Automata D1 and D2\" style=\"max-width:520px;width:100%;height:auto;border-radius:10px;box-shadow:0 3px 12px rgba(0,0,0,0.12);background:#fff;padding:8px;border:1px solid #e2e8f0;display:inline-block;\">\n</div>\n\nWhich of the following statements is/are true?",
     "options": [
-      "The set of all strings containing an even number of 𝑏’s.",
-      "The set of all strings containing the pattern 𝑏𝑎𝑏.",
-      "The set of all strings ending with the pattern 𝑏𝑎𝑏.",
-      "The set of all strings not containing the pattern 𝑎𝑏𝑎."
+      "L(D1) = L(D2)",
+      "L(D1) is a proper subset of L(D2)",
+      "L(D1) ∩ L(D2) = {ε}",
+      "(L(D1) ∪ L(D2))* consists of all strings in {0,1}* whose length is divisible by 3"
     ],
     "correct_option": 2,
-    "answer_key": "C,D",
-    "explanation": "A: 101 accepted by D1 but not by D2. \nB: wrong , working of both is completely different \nC: true. \nD.) D1 accept length divisible by 3  : \n000,001,010,101 \n D2 accept length divisible by 3  :  011,100,110,111 \nCombinedly they will cover all length is divisible by 3 \ncases.",
-    "type": "MCQ"
+    "answer_key": "C, D",
+    "explanation": "C,D \nA: 101 accepted by D1 but not by D2. \nB: wrong , working of both is completely different \nC: true. \nD.) D1 accept length divisible by 3  : \n000,001,010,101 \n D2 accept length divisible by 3  :  011,100,110,111 \nCombinedly they will cover all length is divisible by 3 \ncases.",
+    "type": "MSQ"
   },
   {
     "id": "theory-of-computation-theory-of-computation-m1-q4",
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 4,
     "gate_year": "GATE CSE",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "A regular language 𝐿 is accepted by a non -deterministic \nfinite automaton (NFA) with 𝑛 states. Which of the \nfollowing statement(s) is/are FALSE?",
     "options": [
-      ". 𝐿 may have an accepting NFA with < 𝑛 states.",
-      ". 𝐿 may have an accepting DFA with < 𝑛 states.",
-      ". There exists a DFA with ≤ 2𝑛 states that accepts 𝐿.",
-      ". Every DFA that accepts 𝐿 has > 2𝑛 states."
+      "𝐿 may have an accepting NFA with < 𝑛 states.",
+      "𝐿 may have an accepting DFA with < 𝑛 states.",
+      "There exists a DFA with ≤ 2ⁿ states that accepts 𝐿.",
+      "Every DFA that accepts 𝐿 has > 2ⁿ states."
     ],
     "correct_option": 3,
     "answer_key": "D",
-    "explanation": "Explanation \nNFA → DFA conversion:  \nWhen we convert an NFA to an equivalent DFA,  \nthe DFA can have  up to 2ⁿ states , because each  \nDFA state represents a  subset of NFA states.  \nSo, saying “DFA has at most n states” is  wrong. \nComplement of L:  \n1. To take the  complement, we need a  complete \nDFA (because we just flip fin al and non-final s\ntates). \n2. For an NFA, complementing directly    is  not \npossible — you must convert it to DFA first.  \nSo saying “complement can be accepted by an \nNFA with at most n states”    is  wrong. \n3. Regular expression:  \nEvery NFA represents a  regular language, an\nd every regular language can be written as a  re\ngular expression  — that is true. \n4. DFA with 2ⁿ states:  \nThe subset construction guarantees that a DFA \nwith ≤ 2ⁿ states always exists — that is true.",
+    "explanation": "D \nExplanation \nNFA → DFA conversion: \nWhen we convert an NFA to an equivalent DFA, \nthe DFA can have up to 2ⁿ states, because each  \nDFA state represents a subset of NFA states. \nSo, saying “DFA has at most n states” is wrong. \nComplement of L: \n1. To take the complement, we need a complete \nDFA (because we just flip final and non-final s\ntates). \n2. For an NFA, complementing directly    is not \npossible — you must convert it to DFA first. \nSo saying “complement can be accepted by an \nNFA with at most n states”    is wrong. \n3. Regular expression: \nEvery NFA represents a regular language, an\nd every regular language can be written as a re\ngular expression — that is true. \n4. DFA with 2ⁿ states: \nThe subset construction guarantees that a DFA \nwith ≤ 2ⁿ states always exists — that is true.",
     "type": "MCQ"
   },
   {
@@ -9518,7 +9518,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 5,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -9527,7 +9527,7 @@
     "options": [],
     "correct_option": 0,
     "answer_key": "195",
-    "explanation": "To solve this problem, we need to count the num\nber of ternary strings of length 5  over the alphabet {a,b\n,c} that contain at least one occurrence of two consecu\ntive  symbols (i.e., \"aa\", \"bb\", or \"cc\").  \nWe will use the  complementary  counting approach: \n1. Total number of ternary strings of length 5 \nEach position in the string can be filled with a, b, \nor c. \n          Total strings = 3 5 = 243. \n2. Number of ternary strings of length 5 with no \ntwo consecutive symbols:  \nFor the first position, there are 3 choice (a, b, o\nr c). \nFor each subsequent position, there are 2 choic\nes (any symbol except the one   used in the pre\nvious position).  \nTotal strings with no two consecutive    symbo\nls = 3 × 2 4 = 3 × 16 = 48.  \n3. Number of ternary strings of length 5 with at l\neast one occurrence of two consecutive symbol\ns: \nThis is the complement of the above case.  \nTotal strings with at least one  occurrence of tw\no consecutive symbols = Total strings - Strings \nwith no two consecutive symbols.  \n Total = 243 − 48 = 195.  \nThe number of such strings of length 5 is: 195",
+    "explanation": "195 \nTo solve this problem, we need to count the num\nber of ternary strings of length 5 over the alphabet {a,b\n,c} that contain at least one occurrence of two consecu\ntive  symbols (i.e., \"aa\", \"bb\", or \"cc\").  \nWe will use the complementary counting approach: \n1. Total number of ternary strings of length 5 \nEach position in the string can be filled with a, b, \nor c. \n          Total strings = 35 = 243. \n2. Number of ternary strings of length 5 with no \ntwo consecutive symbols: \nFor the first position, there are 3 choice (a, b, o\nr c). \nFor each subsequent position, there are 2 choic\nes (any symbol except the one   used in the pre\nvious position). \nTotal strings with no two consecutive    symbo\nls = 3 × 24 = 3 × 16 = 48. \n3. Number of ternary strings of length 5 with at l\neast one occurrence of two consecutive symbol\ns: \nThis is the complement of the above case. \nTotal strings with at least one occurrence of tw\no consecutive symbols = Total strings - Strings \nwith no two consecutive symbols. \n Total = 243 − 48 = 195. \nThe number of such strings of length 5 is: 195",
     "type": "NAT"
   },
   {
@@ -9535,21 +9535,21 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 6,
     "gate_year": "GATE CSE",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "Consider the following two languages over the alphabet {𝑎, \n𝑏}: \n𝐿1 = { 𝛼𝛽𝛼 | 𝛼 ∈ {𝑎, 𝑏}+ AND 𝛽 ∈ {𝑎, 𝑏}+ } \n𝐿2 = { 𝛼𝛽𝛼 | 𝛼 ∈ {𝑎}+ AND 𝛽 ∈ {𝑎, 𝑏}+ } \nWhich ONE of the following statements is CORRECT?",
     "options": [
-      "The set of all strings containing an even number of 𝑏’s.",
-      "The set of all strings containing the pattern 𝑏𝑎𝑏.",
-      "The set of all strings ending with the pattern 𝑏𝑎𝑏.",
-      "The set of all strings not containing the pattern 𝑎𝑏𝑎."
+      "Both 𝐿1 and 𝐿2 are regular languages.",
+      "𝐿1 is a regular language but 𝐿2 is not a regular language.",
+      "𝐿1 is not a regular language but 𝐿2 is a regular language.",
+      "Neither 𝐿1 nor 𝐿2 is a regular language."
     ],
-    "correct_option": 0,
-    "answer_key": "- C",
-    "explanation": "L1 = { αβα | α ∈ {a, b}+ AND β ∈ {a, b}+ } \nHere, α appears twice in the string, meaning the language \nrequires matching substrings.This kind of pattern cannot be \nexpressed using a finite -state automaton (DFA/NFA), as \nregular languages cannot enforce co nstraints on repeated \nsubstrings.  \nL1 is NOT regular. \nL2 = { αβα | α ∈ {a}+ AND β ∈ {a, b}+ } \nFor this Language we can create regular expression \na+.(a,b)+.a+ that's mean starting and ending with a. \nL2 is  regular",
+    "correct_option": 2,
+    "answer_key": "C",
+    "explanation": "- C \nL1 = { αβα | α ∈ {a, b}+ AND β ∈ {a, b}+ } \nHere, α appears twice in the string, meaning the language \nrequires matching substrings.This kind of pattern cannot be \nexpressed using a finite-state automaton (DFA/NFA), as \nregular languages cannot enforce constraints on repeated \nsubstrings.  \nL1 is NOT regular. \nL2 = { αβα | α ∈ {a}+ AND β ∈ {a, b}+ } \nFor this Language we can create regular expression \na+.(a,b)+.a+ that's mean starting and ending with a. \nL2 is  regular",
     "type": "MCQ"
   },
   {
@@ -9557,21 +9557,21 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 7,
     "gate_year": "GATE CSE – 2025 SET- 1 NAT (1-MARKS",
     "marks": 2,
     "difficulty": "medium",
-    "question_text": "Consider the following deterministic finite automaton \n(DFA) defined over the alphabet, Σ = {𝑎, 𝑏}. Identify which \nof the following language(s) is/are accepted by the given \nDFA.",
+    "question_text": "Consider the following deterministic finite automaton (DFA) defined over the alphabet $\\Sigma = \\{a, b\\}$.\n\n<div style=\"text-align:center;margin:18px 0;\">\n  <img src=\"/assets/images/questions/toc_q7_dfa.png\" alt=\"DFA Diagram\" style=\"max-width:440px;width:100%;height:auto;border-radius:10px;box-shadow:0 3px 12px rgba(0,0,0,0.12);background:#fff;padding:8px;border:1px solid #e2e8f0;display:inline-block;\">\n</div>\n\nIdentify which of the following language(s) is/are accepted by the given DFA:",
     "options": [
-      "The set of all strings containing an even number of 𝑏’s.",
-      "The set of all strings containing the pattern 𝑏𝑎𝑏.",
-      "The set of all strings ending with the pattern 𝑏𝑎𝑏.",
-      "The set of all strings not containing the pattern 𝑎𝑏𝑎."
+      "The set of all strings containing an even number of $b$'s.",
+      "The set of all strings containing the pattern $bab$.",
+      "The set of all strings ending with the pattern $bab$.",
+      "The set of all strings not containing the pattern $aba$."
     ],
-    "correct_option": 0,
-    "answer_key": "- C",
-    "explanation": "Option 1: The set of all strings containing an even number \nof 𝑏’s. \nFalse. The DFA accepts \"babb\" string which contains odd \nnumber of b's. \n<!-- PAGE 214 -->\nTHEORY OF COMPUTATION \nOption2: The set of all strings containing the pattern \n𝑏𝑎𝑏. \nFalse. The DFA does not accept \"baba\" string which \ncontain \"bab\" pattern. \nOption3: The set of all strings ending with the pattern \n𝑏𝑎𝑏. \nTrue. This option is true, DFA accepts all the strings \nending with \"bab\" such as \"babab\", \"bbab\", \"abab\" etc. \nOption4: The set of all strings not containing the pattern \n𝑎𝑏𝑎. \nFalse. \"bbab\" does not contain \"aba\" pattern but DFA \nstill accepts it.",
+    "correct_option": 2,
+    "answer_key": "C",
+    "explanation": "- C \nOption 1: The set of all strings containing an even number \nof 𝑏’s. \nFalse. The DFA accepts \"babb\" string which contains odd \nnumber of b's. \n\n \n \nOption2: The set of all strings containing the pattern \n𝑏𝑎𝑏. \nFalse. The DFA does not accept \"baba\" string which \ncontain \"bab\" pattern. \n \nOption3: The set of all strings ending with the pattern \n𝑏𝑎𝑏. \nTrue. This option is true, DFA accepts all the strings \nending with \"bab\" such as \"babab\", \"bbab\", \"abab\" etc. \n \nOption4: The set of all strings not containing the pattern \n𝑎𝑏𝑎. \nFalse. \"bbab\" does not contain \"aba\" pattern but DFA \nstill accepts it.",
     "type": "MCQ"
   },
   {
@@ -9579,24 +9579,24 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 8,
     "gate_year": "GATE CSE",
     "marks": 2,
     "difficulty": "medium",
-    "question_text": "Consider a finite state machine (FSM) with one input 𝑋 \nand one output 𝑓, represented by the given state transition \ntable. The minimum number of states required to realize \nthis FSM is ________. (Answer in integer)",
+    "question_text": "Consider a finite state machine (FSM) with one input $X$ and one output $f$, represented by the given state transition table.\n\n<div style=\"text-align:center;margin:18px 0;\">\n  <img src=\"/assets/images/questions/toc_q8_fsm_table.png\" alt=\"FSM Transition Table\" style=\"max-width:340px;width:100%;height:auto;border-radius:10px;box-shadow:0 3px 12px rgba(0,0,0,0.12);background:#fff;padding:8px;border:1px solid #e2e8f0;display:inline-block;\">\n</div>\n\nThe minimum number of states required to realize this FSM is _______.",
     "options": [],
     "correct_option": 0,
-    "answer_key": "-5",
-    "explanation": "1. {A, C} (Represented as one state) \n2. {B, E} (Represented as one state) \n3. {D, H} (Represented as one state) \n4. {F} (Unique output) \n5. {G} (Unique output) \nThe reduced states are 5.",
+    "answer_key": "5",
+    "explanation": "-5 \n1. {A, C} (Represented as one state) \n2. {B, E} (Represented as one state) \n3. {D, H} (Represented as one state) \n4. {F} (Unique output) \n5. {G} (Unique output) \nThe reduced states are 5.",
     "type": "NAT"
   },
   {
     "id": "theory-of-computation-theory-of-computation-m1-q9",
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
-    "topic_slug": "regular-expressions",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_slug": "finite-automata",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 9,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -9608,17 +9608,17 @@
       "(i) – (b), (ii) – (c), and (iii) – (a)",
       "(i) – (a), (ii) – (c), and (iii) – (b)"
     ],
-    "correct_option": 0,
-    "answer_key": "(B,C)",
-    "explanation": "Context Free Languages (i):   \n(b) Not closed under complementation: Context -free \nlanguages (CFLs) are not closed under \ncomplementation, meaning the complement of a \ncontext-free language might not be context-free. \nRecursive Languages (ii): \n(a) Closed under union: Recursive languages (also \ncalled decidable languages) are closed under union, \nmeaning the union of two recursive languages is also \nrecursive. \nRegular Languages (iii): \n(c) Closed under intersection: Regular languag es are \nclosed under intersection, meaning the intersection of \ntwo regular languages is always regular. \n(B): (i) → (b), (ii) → (a), and (iii) → (c) is correct. \n(C): (i) → (b), (ii) → (c), and (iii) → (a) is correct.",
-    "type": "MCQ"
+    "correct_option": 1,
+    "answer_key": "B, C",
+    "explanation": "(B,C) \nContext Free Languages (i):   \n  \n(b) Not closed under complementation: Context-free \nlanguages (CFLs) are not closed under \ncomplementation, meaning the complement of a \ncontext-free language might not be context-free. \n  \nRecursive Languages (ii): \n \n(a) Closed under union: Recursive languages (also \ncalled decidable languages) are closed under union, \nmeaning the union of two recursive languages is also \nrecursive. \n \nRegular Languages (iii): \n \n(c) Closed under intersection: Regular languages are \nclosed under intersection, meaning the intersection of \ntwo regular languages is always regular. \n \n(B): (i) → (b), (ii) → (a), and (iii) → (c) is correct. \n(C): (i) → (b), (ii) → (c), and (iii) → (a) is correct.",
+    "type": "MSQ"
   },
   {
     "id": "theory-of-computation-theory-of-computation-m1-q10",
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
-    "topic_slug": "regular-expressions",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_slug": "finite-automata",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 10,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -9627,20 +9627,20 @@
     "options": [
       "{𝑎𝑚𝑏𝑛 | 𝑚, 𝑛 ≥ 0}",
       "{𝑎, 𝑏}* ∩ {𝑎𝑚𝑏𝑛 𝑐m - n | 𝑚 ≥ 𝑛 ≥ 0}",
-      "{𝑤 | 𝑤 ∈ {𝑎, 𝑏}* , #𝑎 (𝑤) ≡ 2 (mod 7), and # 𝑏 (𝑤) ≡ 3 \n(mod 9)}",
+      "{𝑤 | 𝑤 ∈ {𝑎, 𝑏}* , #𝑎 (𝑤) ≡ 2 (mod 7), and #𝑏 (𝑤) ≡ 3 (mod 9)}",
       "{𝑤 | 𝑤 ∈ {𝑎, 𝑏}* , #𝑎 (𝑤) ≡ 2 (mod 7), and #a (𝑤) ≡ #b(w)}"
     ],
     "correct_option": 0,
-    "answer_key": "(A,C)",
-    "explanation": "{am bn | m, n ≥ 0}  is a regular language because it \ndescribes strings where there are any number of a's \nfollowed by any number of b's. This can be represented \nby the regular expression a*b*, which is regular. \n{w | w ∈ {a, b}*, #a(w) ≡ 2 (mod 7), and #b(w) ≡ 3 (mod \n9)} defines a language where the number of a's is \ncongruent to 2 mod 7 and the number of b's is congruent \nto 3 mod 9. Regular languages can count occurrences of \nsymbols with fixed remainders modulo some number, so \nthis is a regular language. It can be represented using \nregular expressions with modular arithmetic for the \ncounts of a and b.",
-    "type": "MCQ"
+    "answer_key": "a,c",
+    "explanation": "(A,C) \n \n{am bn | m, n ≥ 0} is a regular language because it \ndescribes strings where there are any number of a's \nfollowed by any number of b's. This can be represented \nby the regular expression a*b*, which is regular. \n \n{w | w ∈ {a, b}*, #a(w) ≡ 2 (mod 7), and #b(w) ≡ 3 (mod \n9)} defines a language where the number of a's is \ncongruent to 2 mod 7 and the number of b's is congruent \nto 3 mod 9. Regular languages can count occurrences of \nsymbols with fixed remainders modulo some number, so \nthis is a regular language. It can be represented using \nregular expressions with modular arithmetic for the \ncounts of a and b.",
+    "type": "MSQ"
   },
   {
     "id": "theory-of-computation-theory-of-computation-m1-q11",
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 11,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -9649,7 +9649,7 @@
     "options": [],
     "correct_option": 0,
     "answer_key": "6",
-    "explanation": "The DFA needs to track the product of input symbols \nmodulo 7, with possible remainders being 0, 1, 2, 3, 4, 5, \n6. Therefore, the DFA requires 7 states. By this prod (x) \nwe can’t generate remainder 0 , so we need 6 states to \ntrack the product modulo 7. \nThus, the number of states in the minimum DFA for L is",
+    "explanation": "6 \n \nThe DFA needs to track the product of input symbols \nmodulo 7, with possible remainders being 0, 1, 2, 3, 4, 5, \n6. Therefore, the DFA requires 7 states. By this prod (x) \nwe can’t generate remainder 0 , so we need 6 states to \ntrack the product modulo 7. \n \nThus, the number of states in the minimum DFA for L is \n6",
     "type": "NAT"
   },
   {
@@ -9657,51 +9657,51 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 12,
     "gate_year": "GATE CSE",
     "marks": 2,
     "difficulty": "medium",
-    "question_text": "Consider the 5-state DFA 𝑀 accepting the language 𝐿(𝑀) ⊂ \n(0 + 1) ∗ shown below. For any string 𝑤 ∈ (0 + 1) ∗ let 𝑛0(𝑤) \nbe the number of 0 ′ 𝑠 in 𝑤 and 𝑛1(𝑤) be the number of 1′𝑠 \nin 𝑤. \nWhich of the following statements is/are FALSE?",
+    "question_text": "Consider the 5-state DFA $M$ accepting the language $L(M) \\subset (0 + 1)^*$ shown below.\n\n<div style=\"text-align:center;margin:18px 0;\">\n  <img src=\"/assets/images/questions/toc_q12_dfa.png\" alt=\"5-State DFA M\" style=\"max-width:240px;width:100%;height:auto;border-radius:10px;box-shadow:0 3px 12px rgba(0,0,0,0.12);background:#fff;padding:8px;border:1px solid #e2e8f0;display:inline-block;\">\n</div>\n\nFor any string $w \\in (0 + 1)^*$, let $n_0(w)$ be the number of 0's in $w$. Which of the following statements is/are true?",
     "options": [
       "States 2 and 4 are distinguishable in 𝑀",
       "States 3 and 4 are distinguishable in 𝑀",
       "States 2 and 5 are distinguishable in 𝑀",
       "Any string 𝑤 with 𝑛0 (𝑤) = 𝑛1(𝑤) is in 𝐿(𝑀)."
     ],
-    "correct_option": 0,
-    "answer_key": "(B,C)",
-    "explanation": "When we try to minimize the DFA give n we can notice \nthat states 3 and 4 have same inward and outward \ntransitions and are indistinguishable, same for the states \n2, 5.  \nStates 2 and 4 are distinguishable, because they have \ndifferent transitions from state 1.  \nIn the final minimised DFA, we can clearly see that there \nare three states 1 , 2 , 4. For any given string with equal \nnumber of 1s and 0s, it will be accepted by the DFA:",
-    "type": "MCQ"
+    "correct_option": 1,
+    "answer_key": "b,c",
+    "explanation": "(B,C) \nWhen we try to minimize the DFA given we can notice \nthat states 3 and 4 have same inward and outward \ntransitions and are indistinguishable, same for the states \n2, 5.  \nStates 2 and 4 are distinguishable, because they have \ndifferent transitions from state 1.  \nIn the final minimised DFA, we can clearly see that there \nare three states 1 , 2 , 4. For any given string with equal \nnumber of 1s and 0s, it will be accepted by the DFA: \n \n \n \n                    \n \n \n \n \n13 Answer:C,D \nOptionA- False \n             Take L1 = {a} and L2 = {an | n>=0} , then L2`= \nΦ  \n\n \nNow, L1∩L2 =Φ. But L1≠L2 \nOptionB- False \nL1=(a+b)∗ \nL3 be any non-regular language,    e.g., {an bn ∣n≥0}. \nL1∪L3=(a+b)∗,regular. \nThus, L1∪L3 can be regular even if L3 is regular. \n Option C - True - Regular Languages are closed      \nunder Complementation. \nOption D - True - Regular Languages are closed    \nunder Union .",
+    "type": "MSQ"
   },
   {
     "id": "theory-of-computation-theory-of-computation-m1-q13",
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
-    "topic_slug": "regular-expressions",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_slug": "finite-automata",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 13,
     "gate_year": "GATE CSE – 2025 SET - 1 NAT (2-MARKS",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "Let 𝐿1, 𝐿2 be two regular languages and 𝐿3 a language \nwhich is not regular. Which of the following statements \nis/are always TRUE?",
     "options": [
-      ". 𝐿1 = 𝐿2 if and only if 𝐿1 ∩ 𝐿2 = 𝜙",
-      ". 𝐿1 ∪ 𝐿3 is not regular",
-      ". 𝐿3 is not regular",
-      ". 𝐿1 ∪ 𝐿2 is regular"
+      "𝐿1 = 𝐿2 if and only if 𝐿1 ∩ 𝐿2 = 𝜙",
+      "𝐿1 ∪ 𝐿3 is not regular",
+      "𝐿3 is not regular",
+      "𝐿1 ∪ 𝐿2 is regular"
     ],
     "correct_option": 2,
-    "answer_key": "C,D",
+    "answer_key": "c,d",
     "explanation": "OptionA- False \n             Take L1 = {a} and L2 = {an | n>=0} , then L2`= \nΦ  \n<!-- PAGE 215 -->\nTHEORY OF COMPUTATION \nNow, L1∩L2 =Φ. But L1≠L2 \nOptionB- False \nL1=(a+b)∗ \nL3 be any non-regular language,    e.g., {an bn ∣n≥0}. \nL1∪L3=(a+b)∗,regular. \nThus, L1∪L3 can be regular even if L3 is regular. \n Option C - True - Regular Languages are closed      \nunder Complementation. \nOption D - True - Regular Languages are closed    \nunder Union .",
-    "type": "MCQ"
+    "type": "MSQ"
   },
   {
     "id": "theory-of-computation-theory-of-computation-m1-q14",
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
-    "topic_slug": "regular-expressions",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_slug": "finite-automata",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 14,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -9710,7 +9710,7 @@
     "options": [],
     "correct_option": 0,
     "answer_key": "44",
-    "explanation": "For strings of length 2 : \n     {00, 11} are in r (all zeros or all ones). \n{01, 10} are in s (start with 0 followed by 1 or start \nwith 1 followed by 0). \nFor strings of length 3 : \n{000, 111} are in r (all zeros or all ones). \n{011, 100} are in s (start with 0 followed by ones or \nstart with 1 followed by zeros). \nFor strings of length 4 : \n{0000, 1111} are in r (all zeros or all ones). \n{0111, 1000} are in s (start with 0 followed by ones or \nstart with 1 followed by zeros). \nFor strings of length 5 : \n{00000, 11111} are in r (all zeros or all ones). \n{01111, 10000} are in s (start with 0 followed by ones \nor start with 1 followed by zeros). \nNext, we calculate the number of s trings not in r and \nnot in s for each string length and sum them. \n= (2² − 4) + (2³ − 4) + (2⁴ − 4) + (2⁵ − 4) \n= (4 − 4) + (8 − 4) + (16 − 4) + (32 − 4) \n= 0 + 4 + 12 + 28 = 44 \nThus, the total number of strings of length less than or \nequal to 5, which are neither in r nor in s, is 44.",
+    "explanation": "44 \n     \n  For strings of length 2 : \n     {00, 11} are in r (all zeros or all ones). \n \n{01, 10} are in s (start with 0 followed by 1 or start \nwith 1 followed by 0). \n \nFor strings of length 3 : \n{000, 111} are in r (all zeros or all ones). \n \n{011, 100} are in s (start with 0 followed by ones or \nstart with 1 followed by zeros). \n \nFor strings of length 4 : \n{0000, 1111} are in r (all zeros or all ones). \n \n{0111, 1000} are in s (start with 0 followed by ones or \nstart with 1 followed by zeros). \n \nFor strings of length 5 : \n{00000, 11111} are in r (all zeros or all ones). \n \n{01111, 10000} are in s (start with 0 followed by ones \nor start with 1 followed by zeros). \n \nNext, we calculate the number of strings not in r and \nnot in s for each string length and sum them. \n \n= (2² − 4) + (2³ − 4) + (2⁴ − 4) + (2⁵ − 4) \n= (4 − 4) + (8 − 4) + (16 − 4) + (32 − 4) \n= 0 + 4 + 12 + 28 = 44 \n \nThus, the total number of strings of length less than or \nequal to 5, which are neither in r nor in s, is 44. \n \n \n15 Answer:A \nState Elimination Method: \n \nThe easiest way through which we can reach to final \nstate is through 1, which is not mentioned in options B \nand D. Hence, these two options are excluded. \nNow, as we can see 111 is also a correct language \naccording to given DFA, which is not matched by \noption C. Hence, it is also a wrong option. \n \nTherefore, the correct option is A.",
     "type": "NAT"
   },
   {
@@ -9718,17 +9718,17 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 15,
     "gate_year": "GATE CSE",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "Which one of the following regular expressions is \nequivalent to the language accepted by the DFA given \nbelow?",
     "options": [
-      "1(0*11)*",
-      "0(0 + 1)*",
-      "1(0 + 11)*",
-      "1(110*)*"
+      "0∗1(0 + 10∗1)∗",
+      "0∗ (10∗11) ∗ 0 ∗",
+      "0 ∗1(010∗1)∗ 0∗",
+      "0(1 + 0∗10∗1)∗0 ∗"
     ],
     "correct_option": 0,
     "answer_key": "A",
@@ -9740,29 +9740,29 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 16,
     "gate_year": "GATE CSE",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "Let 𝑀 be the 5-state NFA with 𝜖-transitions shown in the \ndiagram below     \nWhich one of the following regular expressions \nrepresents the language accepted by 𝑀 ?",
     "options": [
-      ". (00)∗ + 1(11)∗",
-      ". 0∗ + (1 + 0(00)∗ )(11)∗",
-      ". (00)∗ + (1 + (00)∗ )(11)∗",
-      ". 0+ + 1(11)∗ + 0(11)∗"
+      "(00)∗ + 1(11)∗",
+      "0∗ + (1 + 0(00)∗ )(11)∗",
+      "(00)∗ + (1 + (00)∗ )(11)∗",
+      "0+ + 1(11)∗ + 0(11)∗"
     ],
     "correct_option": 1,
     "answer_key": "B",
-    "explanation": "Option A : \nRegular Expression: (00)* + 1(11)* \nCounter example: The string 011 is not generated by this \nregular expression. \nOption C : \nRegular Expression : (00)* + (1 + (00)*)(11)* \nCounter example : The string 000 is not generated by this \nregular expression. \nOption D : \nRegular Expression : 0+ + 1(11)* + 0(11)* \nCounter example : The empty  string is not generated by \nthis regular expression.",
+    "explanation": "B   \n Option A : \n \nRegular Expression: (00)* + 1(11)* \n \nCounter example: The string 011 is not generated by this \nregular expression. \n  \nOption C : \n \nRegular Expression : (00)* + (1 + (00)*)(11)* \n \nCounter example : The string 000 is not generated by this \nregular expression. \n \nOption D : \n \nRegular Expression : 0+ + 1(11)* + 0(11)* \n \nCounter example : The empty string is not generated by \nthis regular expression.",
     "type": "MCQ"
   },
   {
     "id": "theory-of-computation-theory-of-computation-m1-q17",
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
-    "topic_slug": "regular-expressions",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_slug": "finite-automata",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 17,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -9771,7 +9771,7 @@
     "options": [],
     "correct_option": 0,
     "answer_key": "15",
-    "explanation": "L₁ is exactly the strings with an odd number of a’s (at \nleast one). \nFor length n ≥ 1, half of the 2ⁿ binary strings have an odd \nnumber of a’s, i.e. 2n-1 \nSo for lengths 1 to 4: 2 0 + 2¹ + 2² + 2³ = 1 + 2 + 4 + 8 = \n15.",
+    "explanation": "15 \nL₁ is exactly the strings with an odd number of a’s (at \nleast one). \n \nFor length n ≥ 1, half of the 2ⁿ binary strings have an odd \nnumber of a’s, i.e. 2n-1 \n \nSo for lengths 1 to 4: 20 + 2¹ + 2² + 2³ = 1 + 2 + 4 + 8 = \n15.",
     "type": "NAT"
   },
   {
@@ -9779,21 +9779,19 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 18,
     "gate_year": "GATE CSE",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "Consider the following definition of a lexical token id for an \nidentifier in a programming language, using extended \nregular expressions: \nletter→[A-Za-z] \ndigit→[0-9] \nid→letter(letter|digit)∗ \nWhich one of the following Non-deterministic \nFinite-state Automata with - transitions accepts the \nset of valid identifiers? (A double -circle denotes a \nfinal state)",
     "options": [
-      "1(0*11)*",
-      "0(0 + 1)*",
-      "1(0 + 11)*",
-      "1(110*)*"
+      "b).",
+      "(d)."
     ],
     "correct_option": 2,
-    "answer_key": "C",
-    "explanation": "The regular expression is given as letter(letter+digit)*. \nOption a is wrong as it also accepts empty string. \nOption b is wrong as it will not accepts the strings like \n(letter.digit.letter). \nOption d is w rong as it will not accepts strings like \n(letter.letter),(letter.digit) etc.",
+    "answer_key": "c",
+    "explanation": "C \nThe regular expression is given as letter(letter+digit)*. \nOption a is wrong as it also accepts empty string. \nOption b is wrong as it will not accepts the strings like \n(letter.digit.letter). \nOption d is wrong as it will not accepts strings like \n(letter.letter),(letter.digit) etc.",
     "type": "MCQ"
   },
   {
@@ -9801,7 +9799,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 19,
     "gate_year": "GATE CSE – 2024 SET - 1 MCQ (1-MARKS",
     "marks": 2,
@@ -9810,7 +9808,7 @@
     "options": [],
     "correct_option": 0,
     "answer_key": "4",
-    "explanation": ". \n<!-- PAGE 216 -->\nTHEORY OF COMPUTATION",
+    "explanation": "4 \n \n. \n",
     "type": "NAT"
   },
   {
@@ -9818,7 +9816,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 20,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -9832,7 +9830,7 @@
     ],
     "correct_option": 2,
     "answer_key": "C",
-    "explanation": "1(0*11)*: it is wrong because it will not generate \nstrings like 10 \n0(0 + 1)*: it is wrong because it will generate 0 which \nis rejected in the given DFA. \n1(110*)*: it is wrong because it will not generate \nstrings like 10 , 100. \nThe most generic regular expression will be 1(0+11)*",
+    "explanation": "C \n1(0*11)*: it is wrong because it will not generate \nstrings like 10 \n \n0(0 + 1)*: it is wrong because it will generate 0 which \nis rejected in the given DFA. \n \n1(110*)*: it is wrong because it will not generate \nstrings like 10 , 100. \n \nThe most generic regular expression will be 1(0+11)*",
     "type": "MCQ"
   },
   {
@@ -9840,21 +9838,21 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 21,
     "gate_year": "GATE CSE",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "Which one of the following regular expression correctly \nrepresents the language of the finite automata given \nbelow?",
     "options": [
-      "1(0*11)*",
-      "0(0 + 1)*",
-      "1(0 + 11)*",
-      "1(110*)*"
+      "ab*bab*+ba*aba*",
+      "(ab*b)*ab* + (ba*a)* ba*",
+      "(ab*b+ba*a)(a*+b*)",
+      "(ba*a+ab*b)*(ab*+ba*)"
     ],
     "correct_option": 3,
-    "answer_key": "D",
-    "explanation": "The given automata accept the strings like, {a, b, ab, \nba, abb, aba, baa, bab, abbb, abab, baba, baaa, …} \n1. ab*bab*+ba*aba* \nFalse, The strings like {'a', 'b' } accepted by given \nautomata but the given regular expression can not \naccept those strings. Hence it is false. \n2. (ab*b)*ab* + (ba*a)* ba* \nFalse, The string \"abbbbaa\" is accepted by given \nautomata but the given regular expression can not \naccept the string. Hence it is false. \n3. (ab*b+ba*a)(a*+b*) \nFalse, The given regular expression accepts the empty \nstring like epsilon {Ɛ} but the given automata can not \naccept that empty string. Hence it is false. \n4. (ba*a+ab*b)*(ab*+ba*) \nTrue, The given regular expression accepts the strings \n{a, b, ab, ba, abb, aba, baa, bab, abbb, abab, baba, baaa, \n…} which are accepted by given automata hence it is \ntrue.",
+    "answer_key": "d",
+    "explanation": "D \n \nThe given automata accept the strings like, {a, b, ab, \nba, abb, aba, baa, bab, abbb, abab, baba, baaa, …} \n \n1. ab*bab*+ba*aba* \n \nFalse, The strings like {'a', 'b' } accepted by given \nautomata but the given regular expression can not \naccept those strings. Hence it is false. \n \n2. (ab*b)*ab* + (ba*a)* ba* \n \nFalse, The string \"abbbbaa\" is accepted by given \nautomata but the given regular expression can not \naccept the string. Hence it is false. \n \n3. (ab*b+ba*a)(a*+b*) \n \nFalse, The given regular expression accepts the empty \nstring like epsilon {Ɛ} but the given automata can not \naccept that empty string. Hence it is false. \n \n4. (ba*a+ab*b)*(ab*+ba*) \n \nTrue, The given regular expression accepts the strings \n{a, b, ab, ba, abb, aba, baa, bab, abbb, abab, baba, baaa, \n…} which are accepted by given automata hence it is \ntrue.",
     "type": "MCQ"
   },
   {
@@ -9862,7 +9860,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 22,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -9871,37 +9869,37 @@
     "options": [],
     "correct_option": 0,
     "answer_key": "6",
-    "explanation": "DFA 1 : No. of a’s divisible by 2. \n DFA 2: No. of a’s not divisible by 3. \nUsing product automata",
+    "explanation": "6 \nDFA 1 : No. of a’s divisible by 2. \n  \n \n \n DFA 2: No. of a’s not divisible by 3. \n \n  \n \nUsing product automata",
     "type": "NAT"
   },
   {
     "id": "theory-of-computation-theory-of-computation-m1-q23",
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
-    "topic_slug": "regular-expressions",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_slug": "finite-automata",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 23,
     "gate_year": "GATE CSE",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "Which one of the following regular expressions represents \nthe set of all binary strings with an odd number of 1’s?",
     "options": [
-      "1(0*11)*",
-      "0(0 + 1)*",
-      "1(0 + 11)*",
-      "1(110*)*"
+      "10*(0*10*10*)*",
+      "((0 + 1)*1(0 + 1)*1)*10*",
+      "(0*10*10*)*10*",
+      "(0*10*10*)*0*1"
     ],
     "correct_option": 0,
-    "answer_key": "MTA",
-    "explanation": "* Wrong Question marks were given to all. \nOption :10*(0*10*10*)* \nIt will generate string only starting with ‘1’. \nOption 2: ((0 + 1)*1(0 + 1)*1)*10* \nIt can generate strings with even number of 1’s also. \nOption 3: (0*10*10*)*10* \nIt will generate binary strings with odd number of 1’s and \ndoesn’t generate the other strings.but all strings having odd \nnumber of 1’s is not possible. \nEx. “01”. \nOption 4: (0*10*10*)*0*1 \nIt will generate string only ending with ‘1’.",
+    "answer_key": "mta",
+    "explanation": "MTA \n * Wrong Question marks were given to all. \nOption :10*(0*10*10*)* \n \nIt will generate string only starting with ‘1’. \n \nOption 2: ((0 + 1)*1(0 + 1)*1)*10* \nIt can generate strings with even number of 1’s also. \n \nOption 3: (0*10*10*)*10* \nIt will generate binary strings with odd number of 1’s and \ndoesn’t generate the other strings.but all strings having odd \nnumber of 1’s is not possible. \nEx. “01”. \nOption 4: (0*10*10*)*0*1 \nIt will generate string only ending with ‘1’.",
     "type": "MCQ"
   },
   {
     "id": "theory-of-computation-theory-of-computation-m1-q24",
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
-    "topic_slug": "regular-expressions",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_slug": "finite-automata",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 24,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -9914,16 +9912,16 @@
       "I only"
     ],
     "correct_option": 2,
-    "answer_key": "C",
-    "explanation": "If L₁ ∪ L₂ is regular, then neither L₁ nor L₂ needs necessarily \nbe regular. \n Assume L1 = {aⁿbⁿ, n ≥ 0} over the alphabet {a, b} and L2 \nbe the complement of L1. \nNeither L1 nor L2 is regular (both are DCFL) but L1 ∪ L2 = \n{aⁿbⁿ} ∪ {aⁿbⁿ}ᶜ = (a + b)* is regular. \nStatement II: FALSE. The infinite Union of regular \nlanguages is not regular. \nExample: \nGiven alphabet {a, b}. \nL1 = {ε} \nL2 = {ab} \nL3 = {aabb} \nL4 = {aaabbb} \n: \n: \nL = L1 ∪ L2 ∪ L3 ∪ L4  \nEach of the above are regular but their infinite Union \ngives L1 = {aⁿbⁿ, n ≥ 0} which is not regular but DCFL. \n<!-- PAGE 217 -->\nTHEORY OF COMPUTATION",
+    "answer_key": "c",
+    "explanation": "C  \nIf L₁ ∪ L₂ is regular, then neither L₁ nor L₂ needs necessarily \nbe regular. \n Assume L1 = {aⁿbⁿ, n ≥ 0} over the alphabet {a, b} and L2 \nbe the complement of L1. \n \nNeither L1 nor L2 is regular (both are DCFL) but L1 ∪ L2 = \n{aⁿbⁿ} ∪ {aⁿbⁿ}ᶜ = (a + b)* is regular. \n \nStatement II: FALSE. The infinite Union of regular \nlanguages is not regular. \n \nExample: \nGiven alphabet {a, b}. \n \nL1 = {ε} \nL2 = {ab} \nL3 = {aabb} \nL4 = {aaabbb} \n: \n: \nL = L1 ∪ L2 ∪ L3 ∪ L4  \nEach of the above are regular but their infinite Union \ngives L1 = {aⁿbⁿ, n ≥ 0} which is not regular but DCFL. \n",
     "type": "MCQ"
   },
   {
     "id": "theory-of-computation-theory-of-computation-m1-q25",
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
-    "topic_slug": "regular-expressions",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_slug": "finite-automata",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 25,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -9936,16 +9934,16 @@
       "L.L R = {xy | x ϵ L, yR ϵ L}"
     ],
     "correct_option": 1,
-    "answer_key": "B",
-    "explanation": "* all options are wrong. \n   take 𝑤 ∈ {𝑎}∗, then 𝑤𝑤𝑅is regular.",
+    "answer_key": "b",
+    "explanation": "B \n  \n* all options are wrong. \n   take 𝑤 ∈ {𝑎}∗, then 𝑤𝑤𝑅is regular.",
     "type": "MCQ"
   },
   {
     "id": "theory-of-computation-theory-of-computation-m1-q26",
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
-    "topic_slug": "regular-expressions",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_slug": "finite-automata",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 26,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -9958,8 +9956,8 @@
       "24"
     ],
     "correct_option": 3,
-    "answer_key": "D",
-    "explanation": "According to Pumping lemma, there must be repeation \n(DFA then it repeats some states, and regular grammar \nrepeats its nonterminal in derivation.) for all \nacceptable stings. \nTherefore, minimum Pumping Length should be 1 2. \n12 symbols can be taken as first \ntwelve b’s i.e.b12.  When you repeat  b12 Zero or more \ntimes, the resulted string still belongs to the language., \npumping length for given language should greater than \n12, which is 24. \n27. The set is the set of all bijections from to . In \nmathematics, this is the Symmetric Group . \n The elements of S5 are permutations. \n The operation   is function composition \n(permutation multiplication). \n The identity element is id. \n The size of the group is |S5|=5!=120. \nThe language consists of all sequences of permutations \nwhose product (composition) results in the identity \npermutation. \nAccording to the Myhill-Nerode Theorem, the \nnumber of states in a minimal DFA is equal to the \nnumber of equivalence classes of the prefix relation \n≡ₗ. \nTwo strings 𝑥 and 𝑦 are equivalent (𝑥 ≡𝑙 𝑦)if for \nevery string 𝑧 ∈ Σ∗, \n𝑥𝑧 ∈ 𝐿   ⟺   𝑦𝑧 ∈ 𝐿. \n• 𝑥𝑧 ∈ 𝐿 ⇒ 𝜋(𝑥) ∘ 𝜋(𝑧) = 𝑖𝑑 ⇒ 𝜋(𝑧) = (𝜋(𝑥))−1 \n• 𝑦𝑧 ∈ 𝐿 ⇒ 𝜋(𝑦) ∘ 𝜋(𝑧) = 𝑖𝑑 ⇒ 𝜋(𝑧) = (𝜋(𝑦))−1 \nTherefore, 𝑥 ≡𝑙 𝑦if and only if 𝜋(𝑥) = 𝜋(𝑦). \nEach distinct element in the group 𝑆5represents a \nunique state in the minimal DFA because each \nelement 𝑔 ∈ 𝑆5requires a different suffix \n𝑧(specifically 𝑧 = 𝑔−1) to reach the identity. \nSince every possible permutation in can be reached by \ncomposing elements from the alphabet (which \ncontains all permutations including th e generators), \nevery element of the group corresponds to exactly one \nstate in the minimal DFA. \nNumber of states = Order of the group  \nNumber of states =  5! \nNumber of states =  120",
+    "answer_key": "d",
+    "explanation": "D \nAccording to Pumping lemma, there must be repeation \n(DFA then it repeats some states, and regular grammar \nrepeats its nonterminal in derivation.) for all \nacceptable stings. \nTherefore, minimum Pumping Length should be 12. \n12 symbols can be taken as first \ntwelve b’s i.e.b12.  When you repeat b12 Zero or more \ntimes, the resulted string still belongs to the language., \npumping length for given language should greater than \n12, which is 24. \n \n27. The set is the set of all bijections from to . In \nmathematics, this is the Symmetric Group . \n The elements of S5 are permutations. \n The operation  is function composition \n(permutation multiplication). \n The identity element is id. \n The size of the group is |S5|=5!=120. \nThe language consists of all sequences of permutations \nwhose product (composition) results in the identity \npermutation. \nAccording to the Myhill-Nerode Theorem, the \nnumber of states in a minimal DFA is equal to the \nnumber of equivalence classes of the prefix relation \n≡ₗ. \nTwo strings 𝑥 and 𝑦 are equivalent (𝑥 ≡𝑙 𝑦)if for \nevery string 𝑧 ∈ Σ∗, \n𝑥𝑧 ∈ 𝐿   ⟺   𝑦𝑧 ∈ 𝐿. \n• 𝑥𝑧 ∈ 𝐿 ⇒ 𝜋(𝑥) ∘ 𝜋(𝑧) = 𝑖𝑑 ⇒ 𝜋(𝑧) = (𝜋(𝑥))−1 \n• 𝑦𝑧 ∈ 𝐿 ⇒ 𝜋(𝑦) ∘ 𝜋(𝑧) = 𝑖𝑑 ⇒ 𝜋(𝑧) = (𝜋(𝑦))−1 \nTherefore, 𝑥 ≡𝑙 𝑦if and only if 𝜋(𝑥) = 𝜋(𝑦). \nEach distinct element in the group 𝑆5represents a \nunique state in the minimal DFA because each \nelement 𝑔 ∈ 𝑆5requires a different suffix \n𝑧(specifically 𝑧 = 𝑔−1) to reach the identity. \nSince every possible permutation in can be reached by \ncomposing elements from the alphabet (which \ncontains all permutations including the generators), \nevery element of the group corresponds to exactly one \nstate in the minimal DFA. \nNumber of states = Order of the group  \nNumber of states =  5! \nNumber of states =  120",
     "type": "MCQ"
   },
   {
@@ -9967,7 +9965,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 27,
     "gate_year": "GATE CSE – 2023  MCQ (1-MARKS",
     "marks": 2,
@@ -9984,7 +9982,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 28,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -9993,7 +9991,7 @@
     "options": [],
     "correct_option": 0,
     "answer_key": "2",
-    "explanation": "The regular expression for L₁ : ε + 0(00)* \nNow L₁⁰ = ε and L₁¹ = ε + 0(00)* = \nε + 0(00)* = L₁. \nNow L₂ = L₁ · L₁¹ \nL₂ = L₁ · L₁   \n= (ε + 0(00)) (ε + 0(00)) \n= ε + 0(00)* + 0(00)* + 0(00)(0(00)) \n= (ε + 0(00)) (0(00)) = 0* \nAs it will contain epsilon + odd number of zero + even \nnumber of zero, hence it is 0* \nNow L₃ = L₂ · L₁ \nL₃ = 0* (ε + 0(00)) = 0 + 0*(0(00)) = 0* \nHence L₃ = L₂ = L₁* \nOr L₁² = L₁³ = L₁*, \nhence the smallest k value is 2.",
+    "explanation": "2 \n The regular expression for L₁ : ε + 0(00)* \n \nNow L₁⁰ = ε and L₁¹ = ε + 0(00)* = \nε + 0(00)* = L₁. \n \nNow L₂ = L₁ · L₁¹ \nL₂ = L₁ · L₁   \n= (ε + 0(00)) (ε + 0(00)) \n= ε + 0(00)* + 0(00)* + 0(00)(0(00)) \n= (ε + 0(00)) (0(00)) = 0* \n \nAs it will contain epsilon + odd number of zero + even \nnumber of zero, hence it is 0* \n \nNow L₃ = L₂ · L₁ \nL₃ = 0* (ε + 0(00)) = 0 + 0*(0(00)) = 0* \n \nHence L₃ = L₂ = L₁* \nOr L₁² = L₁³ = L₁*, \nhence the smallest k value is 2.",
     "type": "NAT"
   },
   {
@@ -10001,7 +9999,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 29,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10014,8 +10012,8 @@
       "k ≤ 2n"
     ],
     "correct_option": 3,
-    "answer_key": "D",
-    "explanation": "The number of states in DFA is always less than equal to \n2(no. of states in NFA ) . In other words, if number of states  in \nNFA is “n” then the corresponding DFA have at most 2 n \nstates. Hence k ≤ 2n is necessarily true.",
+    "answer_key": "d",
+    "explanation": "D \nThe number of states in DFA is always less than equal to \n2(no. of states in NFA) . In other words, if number of states in \nNFA is “n” then the corresponding DFA have at most 2n \nstates. Hence k ≤ 2n is necessarily true.",
     "type": "MCQ"
   },
   {
@@ -10023,7 +10021,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 30,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10036,8 +10034,8 @@
       "11"
     ],
     "correct_option": 0,
-    "answer_key": "A",
-    "explanation": "Answer is 8 states included one trap state (8) and final \nstate (7).",
+    "answer_key": "a",
+    "explanation": "A \nAnswer is 8 states included one trap state (8) and final \nstate (7).",
     "type": "MCQ"
   },
   {
@@ -10045,7 +10043,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 31,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10058,8 +10056,8 @@
       "{q0,q2,q3}"
     ],
     "correct_option": 2,
-    "answer_key": "C",
-    "explanation": "Here, δ̂ (q₂, aba) \nWhen input a is applied on q₂ it will move to q₀, q₁ as \nthere is null transition so it will also get to q₂. \nSimilarly, states after input b ⇒ {q₀, q₂, q₃} \nStates after input a = {q₀, q₁, q₂} \nSo, final answer is {q₀, q₁, q₂} \n<!-- PAGE 218 -->\nTHEORY OF COMPUTATION",
+    "answer_key": "c",
+    "explanation": "C         \n \n \nHere, δ̂ (q₂, aba) \n \nWhen input a is applied on q₂ it will move to q₀, q₁ as \nthere is null transition so it will also get to q₂. \n \nSimilarly, states after input b ⇒ {q₀, q₂, q₃} \n \nStates after input a = {q₀, q₁, q₂} \n \nSo, final answer is {q₀, q₁, q₂} \n",
     "type": "MCQ"
   },
   {
@@ -10067,7 +10065,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 32,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10080,8 +10078,8 @@
       "babba"
     ],
     "correct_option": 3,
-    "answer_key": "D",
-    "explanation": "The following grammar can yield the  strings \"abab,\" \n\"aaab,\" and \"abbaa.\" \nHowever, the given grammar is unable to construct the \nstring \"babba.\" The rationale for this is that whereas \nproduction S-> SaS can generate any number of a's, we \nonly need to generate one \"b\" because the producti on \nthat generates \"b\" also generates \"a\" (S ->aSb and S -> \nbSa). \no in string “babba” the first and last “ba” can be \ngenerated by S→ bSa, but we can’t generate a single “b” \nin middle. In other words we can say that any string in \nwhich number of “b’s” is more  than number of “a’s” \ncan’t be generated by the given grammar.",
+    "answer_key": "d",
+    "explanation": "D  \nThe following grammar can yield the strings \"abab,\" \n\"aaab,\" and \"abbaa.\" \n \n \n \n \nHowever, the given grammar is unable to construct the \nstring \"babba.\" The rationale for this is that whereas \nproduction S-> SaS can generate any number of a's, we \nonly need to generate one \"b\" because the production \nthat generates \"b\" also generates \"a\" (S ->aSb and S-> \nbSa). \no in string “babba” the first and last “ba” can be \ngenerated by S→ bSa, but we can’t generate a single “b” \nin middle. In other words we can say that any string in \nwhich number of “b’s” is more than number of “a’s” \ncan’t be generated by the given grammar.",
     "type": "MCQ"
   },
   {
@@ -10089,7 +10087,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 33,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10098,7 +10096,7 @@
     "options": [],
     "correct_option": 0,
     "answer_key": "4",
-    "explanation": "The NFA for regular expression: (a+b)*b(a+b)",
+    "explanation": "4 \nThe NFA for regular expression: (a+b)*b(a+b)",
     "type": "NAT"
   },
   {
@@ -10106,7 +10104,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 34,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10119,16 +10117,16 @@
       "{a,b}*"
     ],
     "correct_option": 3,
-    "answer_key": "D",
-    "explanation": "From the given grammar we can draw the DFA,",
+    "answer_key": "d",
+    "explanation": "D \nFrom the given grammar we can draw the DFA,",
     "type": "MCQ"
   },
   {
     "id": "theory-of-computation-theory-of-computation-m1-q35",
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
-    "topic_slug": "decidability",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_slug": "finite-automata",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 35,
     "gate_year": "GATE CSE – 2018   NAT (2-MARKS",
     "marks": 2,
@@ -10141,30 +10139,30 @@
       "II and IV only"
     ],
     "correct_option": 2,
-    "answer_key": "C",
-    "explanation": "I. Given NFAs N1 and N2, is L(N1) ∩ L(N2) = ∅? \nThis is decidable. When we convert the NFA into DFA, \nif there is no common final state in it, then this will \nbecome true. \nII. Given a CFG G = (N, Σ, P, S) and a string x ∈ Σ*, does \nx ∈ L(G)? \nMembership property of a context -free grammar is \ndecidable. \nIII. Given CFGs G1 and G2, is L(G1) = L(G2)? \nEquivalence of two context -free grammars is \nundecidable. \nIV. Given a TM M, is L(M) = ∅? \nEmptiness problem of Turing machine is undecidable.",
+    "answer_key": "c",
+    "explanation": "C \nI. Given NFAs N1 and N2, is L(N1) ∩ L(N2) = ∅? \nThis is decidable. When we convert the NFA into DFA, \nif there is no common final state in it, then this will \nbecome true. \n \nII. Given a CFG G = (N, Σ, P, S) and a string x ∈ Σ*, does \nx ∈ L(G)? \nMembership property of a context-free grammar is \ndecidable. \n \nIII. Given CFGs G1 and G2, is L(G1) = L(G2)? \nEquivalence of two context-free grammars is \nundecidable. \n \nIV. Given a TM M, is L(M) = ∅? \nEmptiness problem of Turing machine is undecidable.",
     "type": "MCQ"
   },
   {
     "id": "theory-of-computation-theory-of-computation-m1-q36",
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
-    "topic_slug": "regular-expressions",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_slug": "finite-automata",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 36,
     "gate_year": "GATE CSE",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "Which one of the following regular expressions \nrepresents the language: the set of all binary strings \nhaving two consecutive 0s and two consecutive 1s?",
     "options": [
-      "1(0*11)*",
-      "0(0 + 1)*",
-      "1(0 + 11)*",
-      "1(110*)*"
+      "(0 + 1)* 0011(0 + 1)* + (0 + 1)* 1100(0 + 1)*",
+      "(0 + 1)* (00(0 + 1)* 11 + 11(0 + 1)* 00)(0 + 1)*",
+      "(0 + 1)* 00(0 + 1)* + (0 + 1)* 11(0 + 1)*",
+      "00(0 + 1)* 11 + 11(0 + 1)* 00"
     ],
     "correct_option": 1,
-    "answer_key": "B",
-    "explanation": "1. (0 + 1)* 0011(0 + 1)* + (0 + 1)* 1100(0 + 1)* \nIt considers only those strings which have either 0011 or \n1100 as a substring. So, it is wrong. \n2. (0 + 1)* (00(0 + 1)* 11 + 11(0 + 1)* 00)(0 + 1)* \nIt contains the set of all the binary strings that contain \ntwo consecutive 0’s and 1’s. \n3. (0 + 1)* 00(0 + 1)* + (0 + 1)* 11(0 + 1)* \nThis set contains only those strings which have either 00 \nor 11 as a substring but does not contain all the strings \nthat contain two consecutive 0’s and 1’s. \n4. 00(0 + 1)* 11 + 11(0 + 1)* 00 \nIt represents those strings which start with 00 or  11 and \nend with 11 or 00 respectively. So, it is wrong.",
+    "answer_key": "b",
+    "explanation": "B \n1. (0 + 1)* 0011(0 + 1)* + (0 + 1)* 1100(0 + 1)* \n \nIt considers only those strings which have either 0011 or \n1100 as a substring. So, it is wrong. \n \n2. (0 + 1)* (00(0 + 1)* 11 + 11(0 + 1)* 00)(0 + 1)* \n \nIt contains the set of all the binary strings that contain \ntwo consecutive 0’s and 1’s. \n \n3. (0 + 1)* 00(0 + 1)* + (0 + 1)* 11(0 + 1)* \n \nThis set contains only those strings which have either 00 \nor 11 as a substring but does not contain all the strings \nthat contain two consecutive 0’s and 1’s. \n \n4. 00(0 + 1)* 11 + 11(0 + 1)* 00 \n \nIt represents those strings which start with 00 or 11 and \nend with 11 or 00 respectively. So, it is wrong.",
     "type": "MCQ"
   },
   {
@@ -10172,21 +10170,21 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 37,
     "gate_year": "GATE CSE",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "Consider the following two statements:  \nI. If all states of an NFA are accepting states then the \nlanguage accepted by the NFA is Σ*.  \nII. There exists a regular language A such that for all \nlanguages B, A ∩𝐵 is regular. \nWhich one of the following is CORRECT?",
     "options": [
-      "S 1 is true and S 2 is false.",
-      "S 1 is false and S 2 is true.",
-      "Both S 1 and S 2 are true.",
-      "Both S 1 and S 2 are false."
+      "Only I is true",
+      "Only II is true",
+      "Both I and II are true",
+      "Both I and II are false"
     ],
     "correct_option": 1,
-    "answer_key": "B",
-    "explanation": "Statement I is false: As in NFA, it is not necessary that \nall states have transitions for all symbols. \nFor ex: Consider L = a*b* \nThe NFA would be: \n<!-- PAGE 219 -->\nTHEORY OF COMPUTATION \nEven though all states are final states in above NFA, \nbut it doesn’t accept string “aba”. \nHence its language can’t be ∑*. \nStatement II is true: There exists a regular language \nA={}, such that for all languages B, A∩B={} is \nregular",
+    "answer_key": "b",
+    "explanation": "B \nStatement I is false: As in NFA, it is not necessary that \nall states have transitions for all symbols. \nFor ex: Consider L = a*b* \nThe NFA would be: \n\n \n \n \nEven though all states are final states in above NFA, \nbut it doesn’t accept string “aba”. \nHence its language can’t be ∑*. \nStatement II is true: There exists a regular language \nA={}, such that for all languages B, A∩B={} is \nregular",
     "type": "MCQ"
   },
   {
@@ -10194,7 +10192,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 38,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10203,7 +10201,7 @@
     "options": [],
     "correct_option": 0,
     "answer_key": "2",
-    "explanation": "All strings over {0,1} having length ≥1 \n(0+1)*(0+1)(0+1)*=(0+1)(0+1)*=(0+1)*( \n0+1)=(0+1)+ \nHaving-DFA:",
+    "explanation": "2 \nAll strings over {0,1} having length ≥1 \n(0+1)*(0+1)(0+1)*=(0+1)(0+1)*=(0+1)*( \n0+1)=(0+1)+ \nHaving-DFA:",
     "type": "NAT"
   },
   {
@@ -10211,21 +10209,21 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 39,
     "gate_year": "GATE CSE",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "Consider the DFAs M and N given above. The number of \nstates in a minimal DFA that accepts the language \n L(M) ∩ L(N) is __________.",
     "options": [
-      "L1 and L3 only",
-      "L2 only",
-      "L2 and L3 only",
-      "L3 only"
+      "1",
+      "2",
+      "3",
+      "4"
     ],
     "correct_option": 0,
-    "answer_key": "A",
-    "explanation": "M accepts the strings which end with a and N accepts \nthe strings which end with B. Their intersection should \naccept empty language.",
+    "answer_key": "a",
+    "explanation": "A \nM accepts the strings which end with a and N accepts \nthe strings which end with B. Their intersection should \naccept empty language.",
     "type": "MCQ"
   },
   {
@@ -10233,34 +10231,12 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 40,
     "gate_year": "GATE CSE",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "Which of the following language is/are regular \nlanguages? \nL1 : {wxwR|w,x ϵ {a, b}* and |w|, |x| > 0}, wR is the \nreverse of string w \nL2 : {anbm | m != n and m, n >= 0} \nL3 : {apbqcr | p, q, r >= 0}",
-    "options": [
-      "{anbm | n, m >= 0}",
-      "{w ϵ {a,b}*| w has equal number of a’s and b’s}",
-      "{an | n >= 0} U {bn | n >= 0} U {anbn | n >= 0}",
-      "{a,b}*"
-    ],
-    "correct_option": 0,
-    "answer_key": "A",
-    "explanation": "L1: All strings of length 3 or more with same start and \nend symbol, as everything in middle is consumed by x \nas per the definition. \nL2: In this number of a's is dependent on number of \nb's. So PDA is needed. \nL3: Any number of a's followed by any number of b's \nfollowed by any number of c's. Hence Regular.",
-    "type": "MCQ"
-  },
-  {
-    "id": "theory-of-computation-theory-of-computation-m1-q41",
-    "subject_slug": "theory-of-computation",
-    "subject_name": "Theory of Computation",
-    "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
-    "question_number": 41,
-    "gate_year": "GATE CSE",
-    "marks": 2,
-    "difficulty": "medium",
-    "question_text": "The number of states in the minimal deterministic finite \nautomaton corresponding to the regular expression \n (0 + 1) * (10) is __________",
     "options": [
       "L1 and L3 only",
       "L2 only",
@@ -10268,8 +10244,30 @@
       "L3 only"
     ],
     "correct_option": 0,
-    "answer_key": "A",
-    "explanation": "42. Answer:C \nConvert the given transitions to a state diagram. \nFrom the given diagram we can write, X0 = 1(0+10)* 1",
+    "answer_key": "a",
+    "explanation": "A \nL1: All strings of length 3 or more with same start and \nend symbol, as everything in middle is consumed by x \nas per the definition. \nL2: In this number of a's is dependent on number of \nb's. So PDA is needed. \nL3: Any number of a's followed by any number of b's \nfollowed by any number of c's. Hence Regular.",
+    "type": "MCQ"
+  },
+  {
+    "id": "theory-of-computation-theory-of-computation-m1-q41",
+    "subject_slug": "theory-of-computation",
+    "subject_name": "Theory of Computation",
+    "topic_slug": "finite-automata",
+    "topic_name": "Regular Language and Finite Automata",
+    "question_number": 41,
+    "gate_year": "GATE CSE",
+    "marks": 2,
+    "difficulty": "medium",
+    "question_text": "The number of states in the minimal deterministic finite \nautomaton corresponding to the regular expression \n (0 + 1) * (10) is __________",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_option": 0,
+    "answer_key": "a",
+    "explanation": "A",
     "type": "MCQ"
   },
   {
@@ -10277,7 +10275,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 42,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10291,15 +10289,15 @@
     ],
     "correct_option": 2,
     "answer_key": "c",
-    "explanation": "",
+    "explanation": "C \nConvert the given transitions to a state diagram. \n  \n     \n \n \n  \nFrom the given diagram we can write, X0 = 1(0+10)* 1",
     "type": "MCQ"
   },
   {
     "id": "theory-of-computation-theory-of-computation-m1-q43",
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
-    "topic_slug": "regular-expressions",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_slug": "finite-automata",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 43,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10312,8 +10310,8 @@
       "6"
     ],
     "correct_option": 0,
-    "answer_key": "A",
-    "explanation": "The regular expression generate all the strings of length \n0 , 1 and 2 {ϵ, a, b, aa, ab, ba, bb} \nLet’s check all the string of length 3. The given regular \nexpression generates {aaa, aab, aba, abb, baa, bba, bbb} \nBut it doesn’t generate the string “bab”, hence the \nshortest string not generated by regular expression has \nlength 3 (string “bab”).",
+    "answer_key": "a",
+    "explanation": "A \n The regular expression generate all the strings of length \n0 , 1 and 2 {ϵ, a, b, aa, ab, ba, bb} \nLet’s check all the string of length 3. The given regular \nexpression generates {aaa, aab, aba, abb, baa, bba, bbb} \nBut it doesn’t generate the string “bab”, hence the \nshortest string not generated by regular expression has \nlength 3 (string “bab”).",
     "type": "MCQ"
   },
   {
@@ -10321,7 +10319,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 44,
     "gate_year": "GATE CSE – 2016 SET-2 MCQ (2-MARKS",
     "marks": 2,
@@ -10334,8 +10332,8 @@
       "Neither L1 nor L2 are regular"
     ],
     "correct_option": 0,
-    "answer_key": "A",
-    "explanation": "For L1 : \n{Number of occurrences of (110)} ≥ {Number of \noccurrences of (011)} \nLet's look at the language. Consider a string with more \nthan one occurrence of (110). The following are some \noptions: \n{1100110, 1101110, 110110, ….} \nPlease note that anytime strings begin with \"11,\" the \nstring will never break the requirement no matter what \nhappens after \"11.\" As a result, 11(0+1)* strings will \nalways satisfy the requirement. Consider a string in \nwhich (011) appears more than once. \nThe following possibilities are: {011011, 0111011, \n0110011, ….} \nIn the following possibilities please observe that \nnumber of occurrence “011” is two but number of \noccurrence of (110) is one, which violate the conditions. \n<!-- PAGE 220 -->\nTHEORY OF COMPUTATION \nIf we add “0” in every string mentioned above, i.e. \n{0110110, 01110110, 01100110, ….} Now, observe \nthat number of occurrence “011” and the number of \noccurrence of (110) both are equal, which satisfies \nthe conditions. \nWith these analysis, we can make the DFA , which is \nmentioned below. \nBut language L2 requires infinite comparison to \ncount the occurrences of (000’s) and (111’s), hence it \nis not regular",
+    "answer_key": "a",
+    "explanation": "A \nFor L1 : \n{Number of occurrences of (110)} ≥ {Number of \noccurrences of (011)} \nLet's look at the language. Consider a string with more \nthan one occurrence of (110). The following are some \noptions: \n{1100110, 1101110, 110110, ….} \nPlease note that anytime strings begin with \"11,\" the \nstring will never break the requirement no matter what \nhappens after \"11.\" As a result, 11(0+1)* strings will \nalways satisfy the requirement. Consider a string in \nwhich (011) appears more than once. \nThe following possibilities are: {011011, 0111011, \n0110011, ….} \n \nIn the following possibilities please observe that \nnumber of occurrence “011” is two but number of \noccurrence of (110) is one, which violate the conditions. \n\n \nIf we add “0” in every string mentioned above, i.e. \n{0110110, 01110110, 01100110, ….} Now, observe \nthat number of occurrence “011” and the number of \noccurrence of (110) both are equal, which satisfies \nthe conditions. \nWith these analysis, we can make the DFA , which is \nmentioned below. \n \n \n \nBut language L2 requires infinite comparison to \ncount the occurrences of (000’s) and (111’s), hence it \nis not regular",
     "type": "MCQ"
   },
   {
@@ -10343,7 +10341,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 45,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10356,8 +10354,8 @@
       "{ q3}"
     ],
     "correct_option": 0,
-    "answer_key": "A",
-    "explanation": "{q0 , 0 → q0} , { q0 , 0 → q0 }, {q0 , 1 → q0},  \n{q0 , 1 →q0} .  \nHence δ (q0, 0011) = q0 \n{q0 , 0 → q0} , { q0 , 0 → q0 }, {q0 , 1 → q0},  \n{q0 , 1 → q1,} .  \nHence δ        (q0, 0011) = q1 \n{q0 , 0 → q0} , { q0, 0 → q0 }, {q0 , 1 →q1,},  \n{q1, , 1 → q2} .  \nHence δ       (q0, 0011) = q2 \nHence δ (q0, 0011) = {q0, q1,q2}",
+    "answer_key": "a",
+    "explanation": "A \n{q0 , 0 → q0} , { q0 , 0 → q0 }, {q0 , 1 → q0},  \n{q0 , 1 →q0} .  \nHence δ (q0, 0011) = q0 \n{q0 , 0 → q0} , { q0 , 0 → q0 }, {q0 , 1 → q0},  \n{q0 , 1 → q1,} .  \nHence δ        (q0, 0011) = q1 \n{q0 , 0 → q0} , { q0, 0 → q0 }, {q0 , 1 →q1,},  \n{q1, , 1 → q2} .  \nHence δ       (q0, 0011) = q2 \nHence δ (q0, 0011) = {q0, q1,q2}",
     "type": "MCQ"
   },
   {
@@ -10365,29 +10363,29 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 46,
     "gate_year": "GATE CSE",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "Which one of the following is TRUE?",
     "options": [
-      "The function returns 0 for all values of j.",
-      "The function prints the string something for all values of j",
-      "The function returns 0 when j = 50.",
-      "The function will exhaust the runtime stack or run into an infinite loop when j = 50."
+      "The language L = {anbn | n >= 0} is regular.",
+      "The language L = {an | n is prime} is regular.",
+      "The language L = {w | w has 3k + 1b’s for some k ϵ N with Σ = {a, b} } is regular.",
+      "The language L = (ww| wϵΣ* with Σ = {0, 1} } is regular."
     ],
     "correct_option": 2,
-    "answer_key": "C",
-    "explanation": "The Language L= { 𝑎𝑛𝑏𝑛 | n>=0} is CFL but not \nregular, as it requires comparison between a’s and b’s. \nL = { 𝑎𝑛 | n is prime} is CSL, as calculation of “n is \nprime” can be done by LBA (Turing machine) \nL = {ww | w ∈ ∑*} is CSL. But L = { w | w has 3k+1 \nb’s for some k ∈ natural number} is regular. \nLets take values of k={1,2,3,….} \nSo number of b’s will be {4, 7, 10,……….} and \nnumber of a’s can be anything. \nThe DFA will be:",
+    "answer_key": "c",
+    "explanation": "C \nThe Language L= { 𝑎𝑛𝑏𝑛 | n>=0} is CFL but not \nregular, as it requires comparison between a’s and b’s. \nL = { 𝑎𝑛 | n is prime} is CSL, as calculation of “n is \nprime” can be done by LBA (Turing machine) \nL = {ww | w ∈ ∑*} is CSL. But L = { w | w has 3k+1 \nb’s for some k ∈ natural number} is regular. \nLets take values of k={1,2,3,….} \nSo number of b’s will be {4, 7, 10,……….} and \nnumber of a’s can be anything. \nThe DFA will be:",
     "type": "MCQ"
   },
   {
     "id": "theory-of-computation-theory-of-computation-m1-q47",
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
-    "topic_slug": "regular-expressions",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_slug": "finite-automata",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 47,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10400,8 +10398,8 @@
       "Neither (I) nor (II)"
     ],
     "correct_option": 0,
-    "answer_key": "A",
-    "explanation": "The regular expression equivalent to L1 and L2 are a* \nand b* respectively. \nSince L1 and L2 both are regular languages and regular \nlanguages are closed under concatenation. So their \nconcatenation (i.e., L1 ⋅ L2) must also be a regular \nlanguage. \nSo, L1⋅L2 = { anbm | n,m ≥ 0}",
+    "answer_key": "a",
+    "explanation": "A \nThe regular expression equivalent to L1 and L2 are a* \nand b* respectively. \nSince L1 and L2 both are regular languages and regular \nlanguages are closed under concatenation. So their \nconcatenation (i.e., L1⋅ L2) must also be a regular \nlanguage. \nSo, L1⋅L2 = { anbm | n,m ≥ 0}",
     "type": "MCQ"
   },
   {
@@ -10409,7 +10407,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 48,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10422,8 +10420,8 @@
       "I, II, and III"
     ],
     "correct_option": 1,
-    "answer_key": "B",
-    "explanation": "The DFA recognises the phrase \"all strings ending in 1.\" \nAs a result, the regular expression for DFA is (0+1)*1. \nNow, the DFA has another similar regular expression: \n0*1(1+00*1)*, due to the state reduction procedure. \nHowever, the regular expression (0*1*1+11*0*1) is not \ncomparable to DFA . Since, DFA also accepts the string \n“11011,” which this regular expression cannot generate.",
+    "answer_key": "b",
+    "explanation": "B \nThe DFA recognises the phrase \"all strings ending in 1.\" \n \nAs a result, the regular expression for DFA is (0+1)*1. \n \nNow, the DFA has another similar regular expression: \n0*1(1+00*1)*, due to the state reduction procedure. \n \nHowever, the regular expression (0*1*1+11*0*1) is not \ncomparable to DFA . Since, DFA also accepts the string \n“11011,” which this regular expression cannot generate.",
     "type": "MCQ"
   },
   {
@@ -10431,7 +10429,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 49,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10444,8 +10442,8 @@
       "3 and 4 only"
     ],
     "correct_option": 3,
-    "answer_key": "D",
-    "explanation": "L(A) and its complement are both regular (due to the \nclosure property), and every regular is also a CFL. As a \nresult, LA Complement is context -free. The appropriate \nregular expression for the given FA is \n Hence we have regular expression: (11*0 +0) \n(0+1)*Because we have (0+1)* at the end, writing 0*1* \nafter this will have no effect; the reason fo r this is that if \na string ends with terminals other than 1*0*, we can \nassume 1*0* as epsilon. So it is equivalent to (11*0 +0) \n(0+1)*0*1*.The given DFA can be minimised, since the \nnon-final states are equivalent and can be merged and the \nmin DFA will have two states which is given below: \n<!-- PAGE 221 -->\nTHEORY OF COMPUTATION",
+    "answer_key": "d",
+    "explanation": "D \nL(A) and its complement are both regular (due to the \nclosure property), and every regular is also a CFL. As a \nresult, LA Complement is context-free. The appropriate \nregular expression for the given FA is \n  \n  \n \n Hence we have regular expression: (11*0 +0) \n(0+1)*Because we have (0+1)* at the end, writing 0*1* \nafter this will have no effect; the reason for this is that if \na string ends with terminals other than 1*0*, we can \nassume 1*0* as epsilon. So it is equivalent to (11*0 +0) \n(0+1)*0*1*.The given DFA can be minimised, since the \nnon-final states are equivalent and can be merged and the \nmin DFA will have two states which is given below: \n",
     "type": "MCQ"
   },
   {
@@ -10453,7 +10451,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 50,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10466,8 +10464,8 @@
       "{a ,ε}"
     ],
     "correct_option": 1,
-    "answer_key": "B",
-    "explanation": "The complement of a DFA can be obtained by making \nthe non-final states as final states and vice-versa. \nThe Σ= {a} and the given NFA accepts the strings {a, \naa, aaa, aaaa, ……….} i.e. the language accepted by \nthe NFA can be represented by the regular expression: \n{a+} \nHence the complement of language is: {a* − a +} = \n{ϵ}",
+    "answer_key": "b",
+    "explanation": "B \nThe complement of a DFA can be obtained by making \nthe non-final states as final states and vice-versa. \nThe Σ= {a} and the given NFA accepts the strings {a, \naa, aaa, aaaa, ……….} i.e. the language accepted by \nthe NFA can be represented by the regular expression: \n{a+} \nHence the complement of language is: {a* − a +} = \n{ϵ}",
     "type": "MCQ"
   },
   {
@@ -10475,21 +10473,19 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 51,
     "gate_year": "GATE CSE – 2014 SET-1 MCQ (1-MARKS",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "Consider the set of strings on {0,1} in which, every \nsubstring of 3 symbols has at most two zeros. For example, \n001110 and 011001 are in the language, but 100010 is not. \nAll strings of length less than 3 are also in the language. A \npartially completed DFA that accepts this language is \nshown below.",
     "options": [
-      "1, 2 and 3",
-      "2, 3 and 4",
-      "1, 2 and 4",
-      "1, 3 and 4"
+      "(b).",
+      "(d)."
     ],
     "correct_option": 3,
-    "answer_key": "D",
-    "explanation": "Except for “q,” which is a trap state, all states are final. \nLanguage strings are constructed in such a way that \nevery substring  of three symbols contains no more \nthan two zeros. It  signifies that there can't be three \nzeros in a row anywhere in the string. Total four \ntransitions are missing in the given DFA, thus we must \ndesign them while keeping in mind the requirement \nthat \"three  consecutive zeros\" will lead to trap state \n\"q.\" \nFrom the state “00” it is clear that if another “0” comes \nthen the string is going to be rejected, so from state \n“00” the transition with input “0” will lead to state “q”. \nSo option A and B are eliminated. \nOption C now includes a self loop of \"0\" on state \"10,\" \nwhich accepts any number of zeros (including more \nthan three zeros), therefore it is likewise incorrect. We \nwere only left with option D, which is the correct \nchoice.",
+    "answer_key": "d",
+    "explanation": "D \nExcept for “q,” which is a trap state, all states are final. \nLanguage strings are constructed in such a way that \nevery substring of three symbols contains no more \nthan two zeros. It signifies that there can't be three \nzeros in a row anywhere in the string. Total four \ntransitions are missing in the given DFA, thus we must \ndesign them while keeping in mind the requirement \nthat \"three consecutive zeros\" will lead to trap state \n\"q.\" \nFrom the state “00” it is clear that if another “0” comes \nthen the string is going to be rejected, so from state \n“00” the transition with input “0” will lead to state “q”. \nSo option A and B are eliminated. \nOption C now includes a self loop of \"0\" on state \"10,\" \nwhich accepts any number of zeros (including more \nthan three zeros), therefore it is likewise incorrect. We \nwere only left with option D, which is the correct \nchoice.",
     "type": "MCQ"
   },
   {
@@ -10497,7 +10493,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 52,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10510,8 +10506,8 @@
       "1, 3 and 4"
     ],
     "correct_option": 2,
-    "answer_key": "C",
-    "explanation": "L* will contain all those strings which can be obtained \nby any combination (and repetition) of the strings in \nlanguage i,e, from L= {ab, aa, baa} \nString 1: abaabaaabaa : abaa baa abaa \nString 2: aaaabaaaa : aaaa baa aa \nString 3: baaaaabaaaab: baa aaabaaaa b, because of the \nlast “b” the string cannot belong to L*. \nString 4: baaaaabaa : baa aaabaa",
+    "answer_key": "c",
+    "explanation": "C \nL* will contain all those strings which can be obtained \nby any combination (and repetition) of the strings in \nlanguage i,e, from L= {ab, aa, baa} \nString 1: abaabaaabaa : abaa baa abaa \nString 2: aaaabaaaa : aaaa baa aa \nString 3: baaaaabaaaab: baa aaabaaaa b, because of the \nlast “b” the string cannot belong to L*. \nString 4: baaaaabaa : baa aaabaa",
     "type": "MCQ"
   },
   {
@@ -10519,21 +10515,19 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 53,
     "gate_year": "GATE CSE – 2012  MCQ (1-MARKS",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "A deterministic finite automation (DFA) D with alphabet \nΣ = {a, b} is given below. \n Which of the following finite state machines is a valid \nminimal DFA which accepts the same language as D? \n(a).",
     "options": [
-      "k+1",
-      "n+1",
-      "2 n+1",
-      "2 𝑘+1"
+      "(b).",
+      "(d)."
     ],
     "correct_option": 0,
-    "answer_key": "A",
-    "explanation": "In (B) and (C) when the first letter of input is 'b' we \nreach final state, while in the given DFA first letter 'b' \nis not a final state. So, (B) and (C) are not accepting  \nsame language as the given DFA. \nIn (D) we can reach final state when the last letter is \n'a', whatever be the previous transitions. But in the \ngiven DFA, when the first 2 letters are 'b' we can never \nreach the final state. So, (D) is also accepting a \ndifferent language than the given DFA.",
+    "answer_key": "a",
+    "explanation": "A \nIn (B) and (C) when the first letter of input is 'b' we \nreach final state, while in the given DFA first letter 'b' \nis not a final state. So, (B) and (C) are not accepting \nsame language as the given DFA. \n \nIn (D) we can reach final state when the last letter is \n'a', whatever be the previous transitions. But in the \ngiven DFA, when the first 2 letters are 'b' we can never \nreach the final state. So, (D) is also accepting a \ndifferent language than the given DFA.",
     "type": "MCQ"
   },
   {
@@ -10541,7 +10535,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 54,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10554,8 +10548,8 @@
       "2 𝑘+1"
     ],
     "correct_option": 1,
-    "answer_key": "B",
-    "explanation": "Given that n is a constant. \nSo lets check of n = 2, \n𝐿 = 𝑎2𝑘, 𝑘 > 0 \nSince k > 0 than zero. \nSo L is the language accepting even no. of a's except ' 𝜀 \n'. \nSo DFA will be, \nSo, no. of states required is 2 + 1 = 3. \nSo for 𝑎𝑛𝑘, (𝑛 + 1) states will be required.",
+    "answer_key": "b",
+    "explanation": "B \nGiven that n is a constant. \nSo lets check of n = 2, \n𝐿 = 𝑎2𝑘, 𝑘 > 0 \nSince k > 0 than zero. \nSo L is the language accepting even no. of a's except ' 𝜀 \n'. \nSo DFA will be, \n \n \nSo, no. of states required is 2 + 1 = 3. \nSo for 𝑎𝑛𝑘, (𝑛 + 1) states will be required.",
     "type": "MCQ"
   },
   {
@@ -10563,29 +10557,29 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 55,
     "gate_year": "GATE CSE",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "Which of the following pairs have DIFFERENT \nexpressive power?",
     "options": [
-      "Deterministic finite automata (DFA) and Non - deterministic finite automata (NFA)",
-      "P – Q",
-      "Σ* – P",
-      "Σ* – Q"
+      "Deterministic finite automata (DFA) and Non- deterministic finite automata (NFA)",
+      "Deterministic push down automata (DPDA) and Non-deterministic push down automata (NPDA)",
+      "Deterministic single-tape Turning machine and Non-deterministic single tape Turning machine",
+      "Single-tape Turning machine and multi-tape Turning machine"
     ],
     "correct_option": 1,
-    "answer_key": "B",
-    "explanation": "NPDA is more powerful than DPDA. \nExpressive power: \nFA<DPDA<NPDA<LBA<TM",
+    "answer_key": "b",
+    "explanation": "B \nNPDA is more powerful than DPDA. \n \nExpressive power: \n \nFA<DPDA<NPDA<LBA<TM",
     "type": "MCQ"
   },
   {
     "id": "theory-of-computation-theory-of-computation-m1-q56",
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
-    "topic_slug": "regular-expressions",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_slug": "finite-automata",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 56,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10598,8 +10592,8 @@
       "Σ* – Q"
     ],
     "correct_option": 2,
-    "answer_key": "C",
-    "explanation": "Exp: Σ* - P is the complement of P so it is always regular, \nsince regular languages are closed under \ncomplementation.",
+    "answer_key": "c",
+    "explanation": "C \n Exp: Σ* - P is the complement of P so it is always regular, \nsince regular languages are closed under \ncomplementation.",
     "type": "MCQ"
   },
   {
@@ -10607,7 +10601,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 57,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10620,16 +10614,16 @@
       "2n-1"
     ],
     "correct_option": 2,
-    "answer_key": "C",
-    "explanation": "In order to accept any string of length “n” with alphabet \n{0,1}, we require an NFA with “n+1” states. For \nexample, consider a strings of length “3” such as “101”, \nthe NFA with 4 states is given below: \nSince L is set of all substrings of \" w \" (Substring of a \nstring is obtained by deleting any prefix or any suffix \nfrom string), so if we consider \"w\" as \"101\", then the \nsubstrings of 𝑤 are {𝜀, 0,1, 10,01,101}. \nSince the string \" 101 \" is also its substring, so we \nrequire 4 states (i.e. for 𝑛 length string, 𝑛 + 1 states are \nrequired) and the NFA would be: \n<!-- PAGE 222 -->\nTHEORY OF COMPUTATION",
+    "answer_key": "c",
+    "explanation": "C \nIn order to accept any string of length “n” with alphabet \n{0,1}, we require an NFA with “n+1” states. For \nexample, consider a strings of length “3” such as “101”, \nthe NFA with 4 states is given below: \n  \n  \n  \nSince L is set of all substrings of \" w \" (Substring of a \nstring is obtained by deleting any prefix or any suffix \nfrom string), so if we consider \"w\" as \"101\", then the \nsubstrings of 𝑤 are {𝜀, 0,1, 10,01,101}. \nSince the string \" 101 \" is also its substring, so we \nrequire 4 states (i.e. for 𝑛 length string, 𝑛 + 1 states are \nrequired) and the NFA would be: \n",
     "type": "MCQ"
   },
   {
     "id": "theory-of-computation-theory-of-computation-m1-q58",
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
-    "topic_slug": "regular-expressions",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_slug": "finite-automata",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 58,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10642,8 +10636,8 @@
       "0 *1(10 * 1)*10*"
     ],
     "correct_option": 1,
-    "answer_key": "B",
-    "explanation": "L = {w ∈ (0 + 1)*| w has even number of 1s}* \nThis grammar accepts the strings like {ε, 11, 011, 101, \n110, …} \nOption : (0 * 10 * 1)* \nFalse, This grammar cannot accept the string \"010101\" \nand \"010101\" accepted by L. \nOption : 0 * (10 * 10*)* \nTrue, This accepts all strings of L. \nOption : 0*(10 * 1*)*0* \nFalse, This grammar cannot accept the string \n\"1010101\" and \"1010101\" accepted by L. \nOption 4:0 *1(10 * 1)*10* \nFalse, This grammar accepts the string \"111\" and \n\"111\" cannot be accepted by L.",
+    "answer_key": "b",
+    "explanation": "B \nL = {w ∈ (0 + 1)*| w has even number of 1s}* \n \nThis grammar accepts the strings like {ε, 11, 011, 101, \n110, …} \n \nOption : (0 * 10 * 1)* \nFalse, This grammar cannot accept the string \"010101\" \nand \"010101\" accepted by L. \nOption : 0 * (10 * 10*)* \nTrue, This accepts all strings of L. \n \nOption : 0*(10 * 1*)*0* \nFalse, This grammar cannot accept the string \n\"1010101\" and \"1010101\" accepted by L. \n \nOption 4:0 *1(10 * 1)*10* \nFalse, This grammar accepts the string \"111\" and \n\"111\" cannot be accepted by L.",
     "type": "MCQ"
   },
   {
@@ -10651,7 +10645,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 59,
     "gate_year": "GATE CSE – 2011  MCQ (2-MARKS",
     "marks": 2,
@@ -10664,8 +10658,8 @@
       "contain the substring 00"
     ],
     "correct_option": 2,
-    "answer_key": "C",
-    "explanation": "Atlest two 0’s at last.",
+    "answer_key": "c",
+    "explanation": "C \nAtlest two 0’s at last.",
     "type": "MCQ"
   },
   {
@@ -10673,7 +10667,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 60,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10686,8 +10680,8 @@
       "6"
     ],
     "correct_option": 0,
-    "answer_key": "A",
-    "explanation": "Whenever we reach state 00 we get output 1. \nWhenever we reach state 01 we get output 0 and 1.for \n01 state we got two optputs 0 and 1. When we reach \nat state 10, we get output we get output 0. for 11 we \ndon’t know. \nDraw a moore machine. \nMinimum length input 101.",
+    "answer_key": "a",
+    "explanation": "A \nWhenever we reach state 00 we get output 1. \nWhenever we reach state 01 we get output 0 and 1.for \n01 state we got two optputs 0 and 1. When we reach \nat state 10, we get output we get output 0. for 11 we \ndon’t know. \nDraw a moore machine. \nMinimum length input 101.",
     "type": "MCQ"
   },
   {
@@ -10695,21 +10689,21 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 61,
     "gate_year": "GATE CSE – 2009  MCQ (2-MARKS",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "Given below are two finite state automata (-> indicates \nthe start state and F indicates a final state) \nAutomaton Y                                                                                          \n a b \n→1 1 2 \n2(F) 2 1 \nAutomaton Z \n a b \n→1 2 2 \n2(F) 1 1 \nWhich of the following represents the product \nautomaton Z × Y?",
     "options": [
-      "P – 2, Q – 1, R – 3, S – 4",
+      "a b →p S R Q R S R(F) Q P S Q P",
       "a b →p S Q Q R S R(F) Q P S P Q",
       "a b →p Q S Q R S R(F) Q P S Q P",
       "a b →p S Q Q S R R(F) Q P S Q P"
     ],
     "correct_option": 0,
-    "answer_key": "A",
-    "explanation": "11 is P and 22 is R in choice. So, the answer should \nbe (A) but in the row for S, it should be P and Q and Q \nnot  and P.",
+    "answer_key": "a",
+    "explanation": "A \n \n11 is P and 22 is R in choice. So, the answer should \nbe (A) but in the row for S, it should be P and Q and Q \nnot  and P.",
     "type": "MCQ"
   },
   {
@@ -10717,7 +10711,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 62,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10730,8 +10724,8 @@
       "P – 3, Q – 2, R – 1, S – 4"
     ],
     "correct_option": 2,
-    "answer_key": "C",
-    "explanation": "S – 4 is true,R– 3 is true because everything it accepts \nends with 1; this is made mandatory only by 3 \nThis rules out option B and option D. \nUse string 01010 and compare P vs Q; this makes Q – 2 \nas confirmed. \nHence, option C is correct.",
+    "answer_key": "c",
+    "explanation": "C \nS – 4 is true,R– 3 is true because everything it accepts \nends with 1; this is made mandatory only by 3 \nThis rules out option B and option D. \nUse string 01010 and compare P vs Q; this makes Q – 2 \nas confirmed. \nHence, option C is correct.",
     "type": "MCQ"
   },
   {
@@ -10739,7 +10733,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 63,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10748,12 +10742,12 @@
     "options": [
       "Set of all strings that do not end with ab",
       "Set of all strings that begin with either an a or a b",
-      "Set of all strings that do not contain the  \nsubstring ab",
-      "The set described by the regular expression \nb*aa*(ba)*b*"
+      "Set of all strings that do not contain the substring ab",
+      "The set described by the regular expression b*aa*(ba)*b*"
     ],
     "correct_option": 0,
-    "answer_key": "A",
-    "explanation": "B. String begin with either a or b. \n ab (string start with a) doesn't accept in it reach to \nnonfinal state q2. \n bab (string start with b) doesn't accept in it reach to \nnonfinal state q2. \nC. Set of strings that do not contain the substring ab \n aba (have substring ab) does accept in it reach to final \nstate q1. \nD. The set described by the regular expression baa(ba)b \nb is string accepted by DFA(L') but above regular \nexpression cannot derive it. \nOption A is correct. \nDFA (L') accepts all strings that doesn't end with ab. \n64. L1 : (0 + 10)*11(0 + 1)* \nL2 : (0 + 1)*11(0 + 1)* \nIt is quite clear that L1 = L2. \nAs both languages L1 and L2 are equal So Complement \nof Language L2 will be the complement of Language \nL1 also. For a given language L, L ∩ Lc = ∅. \nHence, both options (A) and (C) are correct.",
+    "answer_key": "a",
+    "explanation": "A \nB. String begin with either a or b. \n ab (string start with a) doesn't accept in it reach to \nnonfinal state q2. \n bab (string start with b) doesn't accept in it reach to \nnonfinal state q2. \nC. Set of strings that do not contain the substring ab \n aba (have substring ab) does accept in it reach to final \nstate q1. \nD. The set described by the regular expression baa(ba)b \nb is string accepted by DFA(L') but above regular \nexpression cannot derive it. \nOption A is correct. \nDFA (L') accepts all strings that doesn't end with ab. \n64. L1 : (0 + 10)*11(0 + 1)* \nL2 : (0 + 1)*11(0 + 1)* \nIt is quite clear that L1 = L2. \nAs both languages L1 and L2 are equal So Complement \nof Language L2 will be the complement of Language \nL1 also. For a given language L, L ∩ Lc = ∅. \nHence, both options (A) and (C) are correct.",
     "type": "MCQ"
   },
   {
@@ -10761,29 +10755,29 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 64,
     "gate_year": "GATE CSE",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "Consider the following two finite automata. M1 accepts L1 \nand M2 accepts L2 \nWhich one of the following is TRUE?",
     "options": [
-      "The set of all strings containing an even number of 𝑏’s.",
-      "The set of all strings containing the pattern 𝑏𝑎𝑏.",
-      "The set of all strings ending with the pattern 𝑏𝑎𝑏.",
-      "The set of all strings not containing the pattern 𝑎𝑏𝑎."
+      "L1 = L2",
+      "L1 ⊂ L2",
+      "L1 ∩ L2c = ∅",
+      "L1 ∪ L2 ≠ L1"
     ],
     "correct_option": 0,
     "answer_key": "a,c",
     "explanation": "",
-    "type": "MCQ"
+    "type": "MSQ"
   },
   {
     "id": "theory-of-computation-theory-of-computation-m1-q65",
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 65,
     "gate_year": "GATE CSE – 2008  MCQ (2-MARKS",
     "marks": 2,
@@ -10796,16 +10790,16 @@
       "IV only M1"
     ],
     "correct_option": 0,
-    "answer_key": "A",
-    "explanation": "Since in option 2 and 3, is dependent on n m , therefore \na comparison has to be done to evaluate those and hence \nare not regular. \n I and IV are clearly regular sets.",
+    "answer_key": "a",
+    "explanation": "A \nSince in option 2 and 3, is dependent on n m , therefore \na comparison has to be done to evaluate those and hence \nare not regular. \n I and IV are clearly regular sets.",
     "type": "MCQ"
   },
   {
     "id": "theory-of-computation-theory-of-computation-m1-q66",
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
-    "topic_slug": "regular-expressions",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_slug": "finite-automata",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 66,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10818,8 +10812,8 @@
       "b*ab*ab*"
     ],
     "correct_option": 2,
-    "answer_key": "C",
-    "explanation": "1. q3 is unreachable state, hence it can be removed.  \n2. States q1 and q2 are indistinguishable, so, they can be \nmerged. \n<!-- PAGE 223 -->\nTHEORY OF COMPUTATION",
+    "answer_key": "c",
+    "explanation": "C \n1. q3 is unreachable state, hence it can be removed.  \n2. States q1 and q2 are indistinguishable, so, they can be \nmerged. \n",
     "type": "MCQ"
   },
   {
@@ -10827,7 +10821,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 67,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10840,8 +10834,8 @@
       "All strings of x and y with either even number of x and odd number of y or odd number of x and even number of y"
     ],
     "correct_option": 3,
-    "answer_key": "D",
-    "explanation": "String x is accepted and string xx is rejected. \nFrom this knowledge option A,B,C  are eliminated.",
+    "answer_key": "d",
+    "explanation": "D \nString x is accepted and string xx is rejected. \nFrom this knowledge option A,B,C  are eliminated.",
     "type": "MCQ"
   },
   {
@@ -10849,21 +10843,19 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 68,
     "gate_year": "GATE CSE – 2007  MCQ (2-MARKS",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "Consider the following finite automata P and Q over the \nalphabet {a, b, c}. The start states are indicated by a \ndouble arrow and final states are indicated by a double \ncircle. Let the languages recognized by them be denoted \nby L(P) and L(Q) respectively. \nThe automata which recognizes the language L(P) ∩ \nL(Q) is:",
     "options": [
-      "{ wwR | w ∈ {0,1}+ }",
-      "(c).",
-      "{ wxwR | x, w ∈ {0,1}+ }",
-      "{ xwwR | x, w ∈ {0,1}+ }"
+      "(b).",
+      "(d)."
     ],
     "correct_option": 0,
-    "answer_key": "A",
-    "explanation": "the languages being accepted by P and Q. In P before \na 'c' there must be either 'b' or 'aa'. In Q, before 'c' \nthere must be 'aa'. So, obviously, in their intersection \nbefore 'c' there must be 'aa' which is satisfied only by \noption A.",
+    "answer_key": "a",
+    "explanation": "A \nthe languages being accepted by P and Q. In P before \na 'c' there must be either 'b' or 'aa'. In Q, before 'c' \nthere must be 'aa'. So, obviously, in their intersection \nbefore 'c' there must be 'aa' which is satisfied only by \noption A.",
     "type": "MCQ"
   },
   {
@@ -10871,39 +10863,35 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 69,
     "gate_year": "GATE CSE",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "Consider the regular expression \n R = (a + b)*(aa + bb)(a + b)* \nWhich of the following non -deterministic finite \nautomata recognizes the language defined by the \nregular expression R? \nEdges labelled λ denote transitions on the empty \nstring.",
     "options": [
-      "{ wwR | w ∈ {0,1}+ }",
-      "(c).",
-      "{ wxwR | x, w ∈ {0,1}+ }",
-      "{ xwwR | x, w ∈ {0,1}+ }"
+      "(b)",
+      "(d)."
     ],
     "correct_option": 0,
-    "answer_key": "A",
-    "explanation": "When we say non-deterministic finite automata \nrecognizes the language defined by the regular \nexpression R then it means that it won't accept any \nother string that does not fall under the R and it will \nonly accept all strings that fall under R. R says the \nstring should contain either aa or bb. \nSo, we see B accepts aba, C accepts aba and D \naccepts a. Just find some examples that do not follow \nthe rule. A accepts any string containing either aa or \nbb and it does not accept any other string. \n70, Answer : A \nB. ab is accepted \nC: abb is not accepted \nD. ab is accepted",
+    "answer_key": "a",
+    "explanation": "A \nWhen we say non-deterministic finite automata \nrecognizes the language defined by the regular \nexpression R then it means that it won't accept any \nother string that does not fall under the R and it will \nonly accept all strings that fall under R. R says the \nstring should contain either aa or bb. \nSo, we see B accepts aba, C accepts aba and D \naccepts a. Just find some examples that do not follow \nthe rule. A accepts any string containing either aa or \nbb and it does not accept any other string. \n70, Answer : A \nB. ab is accepted \nC: abb is not accepted \nD. ab is accepted",
     "type": "MCQ"
   },
   {
     "id": "theory-of-computation-theory-of-computation-m1-q70",
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
-    "topic_slug": "regular-expressions",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_slug": "finite-automata",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 70,
     "gate_year": "GATE CSE – 2007  MCQ (2-MARKS",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "Consider the regular expression R = (a + b)*(aa + bb)(a + b)*  \nWhich deterministic finite automaton accepts the \nlanguage represented by the regular expression R ?",
     "options": [
-      "{ wwR | w ∈ {0,1}+ }",
-      "(c).",
-      "{ wxwR | x, w ∈ {0,1}+ }",
-      "{ xwwR | x, w ∈ {0,1}+ }"
+      "(b)",
+      "(d)."
     ],
     "correct_option": 0,
     "answer_key": "a",
@@ -10915,21 +10903,21 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 71,
     "gate_year": "GATE CSE",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "Which of the following languages is regular?",
     "options": [
-      "{anbm | n, m >= 0}",
-      "{w ϵ {a,b}*| w has equal number of a’s and b’s}",
-      "{an | n >= 0} U {bn | n >= 0} U {anbn | n >= 0}",
-      "{a,b}*"
+      "{ wwR | w ∈ {0,1}+ }",
+      "{ wwRx | x, w ∈ {0,1}+ }",
+      "{ wxwR | x, w ∈ {0,1}+ }",
+      "{ xwwR | x, w ∈ {0,1}+ }"
     ],
     "correct_option": 2,
-    "answer_key": "C",
-    "explanation": "A.CFL  \nB. CFL  \nC. Regular, language is string starting and ending \nwith the same symbol and having length at least 3. \ne.g. 0x0,1x1  \nD. CFL",
+    "answer_key": "c",
+    "explanation": "C \nA.CFL  \nB. CFL  \nC. Regular, language is string starting and ending \nwith the same symbol and having length at least 3. \ne.g. 0x0,1x1  \nD. CFL",
     "type": "MCQ"
   },
   {
@@ -10937,21 +10925,21 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 72,
     "gate_year": "GATE CSE",
     "marks": 2,
     "difficulty": "medium",
     "question_text": "Which of the following is TRUE?",
     "options": [
-      "T(n)=O(√𝑛 ) and T(n)=Ω(√𝑛 )",
-      "T(n)=O(n) and T(n)=Ω(√𝑛 )",
-      "T(n)=O(√𝑛 ) and T(n)=Ω(1)",
-      "None of the above"
+      "Every subset of a regular set is regular",
+      "Every finite subset of a non-regular set is regular",
+      "The union of two non-regular sets is not regular",
+      "Infinite union of finite sets is regular"
     ],
     "correct_option": 1,
-    "answer_key": "(B)",
-    "explanation": "Every finite subset of a non-regular set is regular.  \nAny finite set is always regular. \nΣ * being regular any non regular language is a subset \nof this, and hence (A) is false. \nIf we take a CFL which is not regular, and takes union \nwith its complement (complement of a CFL which is \nnot regular won't be regular as regular is closed under \ncomplement), we get Σ* which is regular. So, (C) is \nfalse. \nRegular set is not closed under infinite union. Example: \n Let Li = {0i 1i}, i ∈ N \nNow, if we take infinite union over all i, we get \nL = {0i 1i | i ∈ N}, which is not regular.",
+    "answer_key": "b",
+    "explanation": "(B) \nEvery finite subset of a non-regular set is regular.  \nAny finite set is always regular. \nΣ * being regular any non regular language is a subset \nof this, and hence (A) is false. \nIf we take a CFL which is not regular, and takes union \nwith its complement (complement of a CFL which is \nnot regular won't be regular as regular is closed under \ncomplement), we get Σ* which is regular. So, (C) is \nfalse. \nRegular set is not closed under infinite union. Example: \n Let Li = {0i 1i}, i ∈ N \nNow, if we take infinite union over all i, we get \nL = {0i 1i | i ∈ N}, which is not regular.",
     "type": "MCQ"
   },
   {
@@ -10959,7 +10947,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 73,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10972,8 +10960,8 @@
       "The automaton accepts u but rejects v and w"
     ],
     "correct_option": 3,
-    "answer_key": "D",
-    "explanation": "u = abbaba \n Ends in accepting state t → Accepted \nv = bab \n Ends in non-accepting state S → Rejected \nw = aabb \n Ends in non-accepting state S → Rejected",
+    "answer_key": "d",
+    "explanation": "D \nu = abbaba \n Ends in accepting state t → Accepted \nv = bab \n Ends in non-accepting state S → Rejected \nw = aabb \n Ends in non-accepting state S → Rejected",
     "type": "MCQ"
   },
   {
@@ -10981,7 +10969,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 74,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -10994,8 +10982,8 @@
       "S+=S'.y+S.x’"
     ],
     "correct_option": 0,
-    "answer_key": "(A)",
-    "explanation": "From this table S+ will be A.",
+    "answer_key": "a",
+    "explanation": "(A) \n \nFrom this table S+ will be A.",
     "type": "MCQ"
   },
   {
@@ -11003,7 +10991,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 75,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -11011,13 +10999,13 @@
     "question_text": "If s is a string over (0 + 1)* then let n₀(s) denote the \nnumber of 0’s in s and n₁(s) the number of 1’s in s. Which \none of the following languages is not regular?",
     "options": [
       "L = { s ∈ (0 + 1)* | n₀(s) is a 3-digit prime }",
-      "L = {s ∈ (0 + 1)* | for every prefix s′ of s, |    n₀(s′) \n− n₁(s′) | ≤ 2 }",
+      "L = {s ∈ (0 + 1)* | for every prefix s′ of s, | n₀(s′) − n₁(s′) | ≤ 2 }",
       "L = { s ∈ (0 + 1)* | | n₀(s) − n₁(s) | ≤ 4 }",
       "L = {s ∈ (0 + 1)* | n₀(s) mod 7= n₁(s) mod 5= 0 }"
     ],
     "correct_option": 2,
-    "answer_key": "C",
-    "explanation": "A. There are only finite 3 digit primes. Let the largest of \nthem be X. Now we need X + 2 states in our DFA \n(including one for count = 0 and one for count > X). We \ndo not need a change of state for any 1. \nB. Here we need just 6 states to recognise L. \n1. #0 − #1 = 0 \n2. #0 − #1 = 1 \n3. #0 − #1 = 2 \n4. #0 − #1 = −1 \n5. #0 − #1 = −2 \n<!-- PAGE 224 -->\nTHEORY OF COMPUTATION \nIf the difference goes above 2 or below −2, we go to a \ndead state. All other states are accepting. This \ntransition to dead state is possible because of the \nwords \"for every prefix s′ of s\" in L and that is what \nmakes this language regular. \nC. L is not regular \n#0 − #1 = 1 \n #0 − #1 = 2 \n #0 − #1 = 3 \n #0 − #1 = 4 \n#0 − #1 = 5 \n . \n . \n #0 − #1 = 100 \n . \n . \nAll these form distinct equivalent classes under \nMyhill-Nerode theorem meaning from the strings in \neach of these sets, we can append a string which will \ntake the new string to L, while the same string \nappended to string in any other set would not reach L. \nFor example, for 000000, we append 11, for \n0000000, we append 111 etc. So, in short we need to \nmaintain the count of 1’s and 0’s and the count here \nis not finite. \nD. This is regular. We need a finite automata with 5 × \n7 = 35 states for maintaining the counts of 0’s mod 7 \nand 1’s mod 5 and there cannot be more than 35 \npossibilities for this. With each input symbol, the \ntransition must be going to one among these.",
+    "answer_key": "c",
+    "explanation": "C \nA. There are only finite 3 digit primes. Let the largest of \nthem be X. Now we need X + 2 states in our DFA \n(including one for count = 0 and one for count > X). We \ndo not need a change of state for any 1. \nB. Here we need just 6 states to recognise L. \n1. #0 − #1 = 0 \n2. #0 − #1 = 1 \n3. #0 − #1 = 2 \n4. #0 − #1 = −1 \n5. #0 − #1 = −2 \n\n \nIf the difference goes above 2 or below −2, we go to a \ndead state. All other states are accepting. This \ntransition to dead state is possible because of the \nwords \"for every prefix s′ of s\" in L and that is what \nmakes this language regular. \nC. L is not regular \n#0 − #1 = 1 \n #0 − #1 = 2 \n #0 − #1 = 3 \n #0 − #1 = 4 \n#0 − #1 = 5 \n . \n . \n #0 − #1 = 100 \n . \n . \nAll these form distinct equivalent classes under \nMyhill-Nerode theorem meaning from the strings in \neach of these sets, we can append a string which will \ntake the new string to L, while the same string \nappended to string in any other set would not reach L. \nFor example, for 000000, we append 11, for \n0000000, we append 111 etc. So, in short we need to \nmaintain the count of 1’s and 0’s and the count here \nis not finite. \nD. This is regular. We need a finite automata with 5 × \n7 = 35 states for maintaining the counts of 0’s mod 7 \nand 1’s mod 5 and there cannot be more than 35 \npossibilities for this. With each input symbol, the \ntransition must be going to one among these.",
     "type": "MCQ"
   },
   {
@@ -11025,7 +11013,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 76,
     "gate_year": "GATE CSE – 2005  MCQ (2-MARKS",
     "marks": 2,
@@ -11038,8 +11026,8 @@
       "{ w ∈ {a, b}* | w does not contain ‘aa’ as a substring }"
     ],
     "correct_option": 0,
-    "answer_key": "None of theabove",
-    "explanation": "A is Wrong, since abbb is accepted. \nB is Wrong. take ∈,b,bb,bbb,.. is not accepted. \nC is Wrong, since abba contains abb as substring, but \nis still not accepted.  \nD is Wrong, since ab does not contain aa as substring, \nbut is still not accepted.",
+    "answer_key": "N/A",
+    "explanation": "None of theabove \nA is Wrong, since abbb is accepted. \nB is Wrong. take ∈,b,bb,bbb,.. is not accepted. \nC is Wrong, since abba contains abb as substring, but \nis still not accepted.  \nD is Wrong, since ab does not contain aa as substring, \nbut is still not accepted.",
     "type": "MCQ"
   },
   {
@@ -11047,7 +11035,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 77,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -11060,8 +11048,8 @@
       "It decrements the input number"
     ],
     "correct_option": 1,
-    "answer_key": "B",
-    "explanation": "(It computes 2’s complement of the input number) \nThe FSM reads the binary number from the least \nsignificant bit (LSB). It copies all bits unchanged up to \nand including the first ‘1’. After the first ‘1’ is \nencountered, it complements all remaining higher bits \n(0 becomes 1 and 1 becomes 0). \nThis procedure is exactly how 2’s complement is \ncomputed: keep bits unchanged until the first 1 from \nLSB, then flip all remaining bits.",
+    "answer_key": "b",
+    "explanation": "B  \n(It computes 2’s complement of the input number) \nThe FSM reads the binary number from the least \nsignificant bit (LSB). It copies all bits unchanged up to \nand including the first ‘1’. After the first ‘1’ is \nencountered, it complements all remaining higher bits \n(0 becomes 1 and 1 becomes 0). \nThis procedure is exactly how 2’s complement is \ncomputed: keep bits unchanged until the first 1 from \nLSB, then flip all remaining bits.",
     "type": "MCQ"
   },
   {
@@ -11069,7 +11057,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 78,
     "gate_year": "GATE CSE",
     "marks": 2,
@@ -11082,8 +11070,8 @@
       "None of the above"
     ],
     "correct_option": 0,
-    "answer_key": "(A).",
-    "explanation": "Writing Y and Z in terms of incoming arrows (Arden's \nmethod) : \n Y =X0+Y0+Z1  \nZ =X0+Z1+Y0 ,so Y=Z.",
+    "answer_key": "a",
+    "explanation": "(A). \nWriting Y and Z in terms of incoming arrows (Arden's \nmethod) : \n Y =X0+Y0+Z1  \nZ =X0+Z1+Y0 ,so Y=Z.",
     "type": "MCQ"
   },
   {
@@ -11091,7 +11079,7 @@
     "subject_slug": "theory-of-computation",
     "subject_name": "Theory of Computation",
     "topic_slug": "finite-automata",
-    "topic_name": "THEORY OF COMPUTATION",
+    "topic_name": "Regular Language and Finite Automata",
     "question_number": 79,
     "gate_year": "GATE CSE – 2005  MCQ (2-MARKS",
     "marks": 2,
@@ -11104,8 +11092,8 @@
       "5"
     ],
     "correct_option": 1,
-    "answer_key": "B",
-    "explanation": "Minimum number of states required for the DFA = 3    \n.L={w: (w) mod 3=2, w belongs to {a,b }} \nS ⇒ Ya ⇒ Waa ⇒ Saaa  (Mod 3) \nS ⇒ Xa ⇒ Zaa ⇒ aa    (remainder 2) \nS ⇒ Xa ⇒ Zaa ⇒ Saaa  (Mod 3) \nEach cycle through S adds three a’s.  \n<!-- PAGE 225 -->\nCONTEXT FREE LANGUAGE AND \nCONTEXT FREE GRAMMAR",
+    "answer_key": "b",
+    "explanation": "B \nMinimum number of states required for the DFA = 3    \n.L={w: (w) mod 3=2, w belongs to {a,b }} \nS ⇒ Ya ⇒ Waa ⇒ Saaa  (Mod 3) \nS ⇒ Xa ⇒ Zaa ⇒ aa    (remainder 2) \nS ⇒ Xa ⇒ Zaa ⇒ Saaa  (Mod 3) \nEach cycle through S adds three a’s.",
     "type": "MCQ"
   },
   {
