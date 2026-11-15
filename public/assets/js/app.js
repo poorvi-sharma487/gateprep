@@ -1870,7 +1870,7 @@ function renderInlineContent(rawText) {
   if (typeof rawText !== "string" || !rawText.trim()) return "";
 
   let text = cleanOptionText(String(rawText)).trim();
-  text = text.replace(/^(?:\(?[A-Da-d]\)?[\.\:]?)\s*/, "").trim();
+  text = text.replace(/^(?:(?:\([A-Da-d]\)|\[[A-Da-d]\])[\.\:\-]?[ \t]+|[A-Da-d][\.\:\)][ \t]+|[A-Da-d][ \t]*[–—-][ \t]+)/, "").trim();
   if (!text && rawText.trim()) text = cleanOptionText(rawText).trim();
 
   const mathInlines = [];

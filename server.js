@@ -292,22 +292,15 @@ function createApp({
         [subject, topic]
       );
 
-      // If fewer than 10 questions for this specific subtopic, supplement with authentic subject questions
-      if (result.rows.length < 10) {
-        const existingIds = result.rows.map(r => r.id);
-        const placeholders = existingIds.map((_, i) => `$${i + 2}`).join(',');
-        const supplementQuery = existingIds.length > 0
-          ? `SELECT id, subject_slug, topic_slug, question_text, options, correct_option, explanation, difficulty, gate_year, marks, type, answer_key
-             FROM questions
-             WHERE subject_slug = $1 AND id NOT IN (${placeholders})
-             ORDER BY id LIMIT ${20 - existingIds.length}`
-          : `SELECT id, subject_slug, topic_slug, question_text, options, correct_option, explanation, difficulty, gate_year, marks, type, answer_key
-             FROM questions
-             WHERE subject_slug = $1
-             ORDER BY id LIMIT 25`;
-        const supplementParams = existingIds.length > 0 ? [subject, ...existingIds] : [subject];
-        const supplement = await pool.query(supplementQuery, supplementParams);
-        result.rows = result.rows.concat(supplement.rows);
+      // If no questions found under this specific subtopic, return all questions from this subject
+      if (result.rows.length === 0) {
+        result = await pool.query(
+          `SELECT id, subject_slug, topic_slug, question_text, options, correct_option, explanation, difficulty, gate_year, marks, type, answer_key
+           FROM questions
+           WHERE subject_slug = $1
+           ORDER BY id`,
+          [subject]
+        );
       }
 
       res.json(result.rows);
